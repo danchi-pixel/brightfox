@@ -91,7 +91,7 @@ Write-Host "`n== HTTPS, headers and robots"
 $redir = & curl.exe -s -o NUL -w "%{http_code} %{redirect_url}" "http://$HostName/l/1"
 Ok "http -> https redirect" ($redir -match ("^30[18] https://" + [regex]::Escape($HostName) + "/l/1")) $redir
 $home_ = Hit GET "/"
-Ok "app loads" ($home_.Status -eq 200 -and $home_.Body.Contains("<title>U" + [char]0x010D + "ilnica</title>"))
+Ok "app loads" ($home_.Status -eq 200 -and $home_.Body.Contains("<title>BrightFox</title>"))
 $health = Hit GET "/api/health"
 $hj = J $health
 Ok "health" ($health.Status -eq 200 -and $hj.status -eq "ok") "version $($hj.version)"
