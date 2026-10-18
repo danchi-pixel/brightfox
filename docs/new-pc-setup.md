@@ -27,6 +27,9 @@ collaborator). Done on 18 Oct 2026, so the next section is only a record of how 
 
 ## Once: set up Daniela's PC
 
+Shortcut: install Codex first, then paste the prompt from [codex-setup-prompt.md](codex-setup-prompt.md)
+and Codex does the steps below with her.
+
 1. Install Git (`winget install Git.Git`), Node.js LTS (https://nodejs.org) and Python 3.12
    (`winget install Python.Python.3.12`, or python.org; it must land in `%LOCALAPPDATA%\Programs\Python\Python312`).
 2. Clone the repository in a new terminal, from the Desktop: `git clone https://github.com/danchi-pixel/brightfox.git BrightFox`.
