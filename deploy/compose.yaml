@@ -1,0 +1,43 @@
+# Učilnica production stack (lives in /opt/ucilnica on the PitchDriven server).
+#
+# No published ports: PitchDriven's Caddy (pitchdriven stack, /opt/football7676) serves
+# https://brightfox.si (and www.brightfox.si, which redirects there) and reaches this container over the shared Docker network "edge"
+# under the name "ucilnica" (site block: deploy/caddy-site.txt). The service is deliberately NOT called
+# "app": on PitchDriven's network that name means the PitchDriven container.
+name: ucilnica
+
+# The public address(es), comma-separated. For the future own domain add it here AND to the Caddy site
+# block, then deploy both (deploy/DEPLOYMENT.md, "Own domain later").
+x-hosts: &hosts "brightfox.si,www.brightfox.si"
+
+services:
+  ucilnica:
+    build:
+      context: ./src
+      dockerfile: deploy/Dockerfile
+    image: ucilnica-app:latest
+    restart: unless-stopped
+    # Run as the server's footballadmin user so data files belong to that account.
+    user: "${APP_UID:?set in .env}:${APP_GID:?set in .env}"
+    # ANTHROPIC_API_KEY lives here (mode 600), written by scripts/set-anthropic-key.sh.
+    # Empty = Foxy shows "not set up yet" and nothing is sent anywhere.
+    env_file: [secrets.env]
+    environment:
+      UCILNICA_ALLOWED_HOSTS: *hosts
+      TZ: Europe/Ljubljana
+    volumes:
+      - ./data:/data
+    networks:
+      edge:
+        aliases: [ucilnica]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+    mem_limit: 512m
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "5" }
+
+networks:
+  # Shared with PitchDriven's Caddy and MerchFocus (update.sh creates it if missing).
+  edge:
+    external: true

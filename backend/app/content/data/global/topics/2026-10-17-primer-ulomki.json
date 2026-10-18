@@ -1,0 +1,124 @@
+{
+  "id": "2026-10-17-primer-ulomki",
+  "version": 1,
+  "subject": "math",
+  "grade": 4,
+  "title": "Ulomki: deli celote",
+  "intro": "Primer vaje. Najprej se spomni, kaj je ulomek, potem reši naloge – od lažjih do težjih.",
+  "source": "Example set written by Claude to show how practice works (not from a textbook).",
+  "learn": [
+    {
+      "title": "Kaj je ulomek?",
+      "text": "Ulomek pove, koliko enakih delov celote imamo. Celoto vedno razdelimo na enake dele.",
+      "example": "Pico razrežemo na 4 enake kose. En kos je 1/4 (ena četrtina) pice."
+    },
+    {
+      "title": "Števec in imenovalec",
+      "text": "Spodnje število je imenovalec: pove, na koliko enakih delov smo razdelili celoto. Zgornje število je števec: pove, koliko teh delov vzamemo.",
+      "example": "3/4: celoto razdelimo na 4 enake dele in vzamemo 3."
+    },
+    {
+      "title": "Ulomek od števila",
+      "text": "Ko iščemo 1/3 od 12, število 12 razdelimo na 3 enake dele. Za 2/3 vzamemo dva taka dela.",
+      "example": "2/3 od 12: najprej 12 : 3 = 4, potem 4 · 2 = 8."
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Torto razrežemo na 8 enakih kosov. Kateri ulomek pove, koliko je en kos?",
+      "options": ["1/8", "8/1", "1/4"],
+      "answer": 0,
+      "hints": ["En kos od koliko kosov?", "Spodaj je število vseh kosov."],
+      "solution": "Torta ima 8 enakih kosov, en kos je 1/8 (ena osmina)."
+    },
+    {
+      "id": "t2",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Pri ulomku 3/5 je imenovalec …",
+      "options": ["3", "5", "8"],
+      "answer": 1,
+      "hints": ["Imenovalec je spodnje število."],
+      "solution": "Imenovalec je spodaj: 5. Pove, da smo celoto razdelili na 5 enakih delov."
+    },
+    {
+      "id": "t3",
+      "level": 1,
+      "kind": "number",
+      "prompt": "Na igrišču je 10 otrok, 3 imajo rdeče drese. Kolikšen del otrok ima rdeče drese? Zapiši ulomek.",
+      "answer": "3/10",
+      "hints": ["Koliko je vseh otrok?", "Vseh je 10 (to gre spodaj), rdečih je 3 (to gre zgoraj)."],
+      "solution": "Vseh otrok je 10, rdeče drese imajo 3. Ulomek je 3/10."
+    },
+    {
+      "id": "t4",
+      "level": 2,
+      "kind": "number",
+      "prompt": "Koliko je 1/4 od 20?",
+      "answer": 5,
+      "hints": ["Razdeli 20 na 4 enake dele.", "20 : 4 = ?"],
+      "solution": "20 : 4 = 5. Ena četrtina od 20 je 5."
+    },
+    {
+      "id": "t5",
+      "level": 2,
+      "kind": "number",
+      "prompt": "Koliko je 1/3 od 18 €?",
+      "answer": 6,
+      "unit": "€",
+      "hints": ["Razdeli 18 na 3 enake dele."],
+      "solution": "18 : 3 = 6. Ena tretjina od 18 € je 6 €."
+    },
+    {
+      "id": "t6",
+      "level": 2,
+      "kind": "number",
+      "prompt": "Ekipa ima 24 žog. 3/4 žog je napihnjenih. Koliko žog je napihnjenih?",
+      "answer": 18,
+      "hints": ["Najprej poišči 1/4 od 24.", "1/4 od 24 je 6. Koliko je potem 3/4?"],
+      "solution": "1/4 od 24: 24 : 4 = 6. 3/4 je trikrat toliko: 6 · 3 = 18. Napihnjenih je 18 žog."
+    },
+    {
+      "id": "t7",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kateri ulomek je večji?",
+      "options": ["1/2", "1/5", "Enaka sta"],
+      "answer": 0,
+      "hints": ["Pomisli na pico: je kos večji, če jo razrežeš na 2 ali na 5 kosov?"],
+      "solution": "Če celoto razrežemo na manj delov, je vsak del večji. 1/2 je večja od 1/5."
+    },
+    {
+      "id": "t8",
+      "level": 3,
+      "kind": "number",
+      "prompt": "Tekma traja 60 minut. Luka je igral 2/3 tekme. Koliko minut je igral?",
+      "answer": 40,
+      "unit": "min",
+      "hints": ["Najprej izračunaj 1/3 od 60.", "1/3 od 60 je 20. Koliko je 2/3?"],
+      "solution": "60 : 3 = 20, potem 20 · 2 = 40. Luka je igral 40 minut."
+    },
+    {
+      "id": "t9",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Nariši pravokotnik in ga razdeli na 4 enake dele. Pobarvaj 3/4. Kolikšen del je ostal nepobarvan? Zapiši ulomek.",
+      "hints": ["Pravokotnik razdeli s črtami na 4 enake dele.", "Pobarvaj 3 dele. Koliko delov ostane?"],
+      "solution": "Pobarvani so 3 deli od 4, nepobarvan je 1 del. To je 1/4. Skupaj: 3/4 in 1/4 je 4/4, cel pravokotnik."
+    },
+    {
+      "id": "t10",
+      "level": 2,
+      "kind": "text",
+      "extra": true,
+      "prompt": "Bonus: Kako z besedo rečemo ulomku 1/2?",
+      "answer": "polovica",
+      "accept": ["ena polovica", "pol"],
+      "hints": ["Ko torto razdeliš na dva enaka dela, dobiš dve …"],
+      "solution": "1/2 je polovica (rečemo tudi pol)."
+    }
+  ]
+}

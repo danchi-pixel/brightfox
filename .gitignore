@@ -1,0 +1,24 @@
+# Personal data (database, photos, backups, export bundles) - never commit
+/data/
+backend/data/
+*.zip
+
+# Local secrets and per-PC settings
+.env.local
+.env.*.local
+*.pem
+*.key
+.claude/settings.local.json
+*.log
+
+# Dependencies & builds
+backend/.venv/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.tsbuildinfo
+
+# Eval runs (cost money; the summary report is committed by hand)
+backend/evals/results/*/raw/

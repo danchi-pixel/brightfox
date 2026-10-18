@@ -1,0 +1,6 @@
+{
+  "_note": "Models a parent may choose per AI job besides the default. A model is added here only after it passed backend/evals for that job (see backend/evals/README.md).",
+  "tutor_chat": [],
+  "oral_grading": [],
+  "open_feedback": []
+}

@@ -1,0 +1,241 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/nunito";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Design tokens. Light is the default (BrightFox: fox orange on warm cream, gold for trophies); dark is opt-in. */
+:root {
+  --background: #fdf8f3;
+  --foreground: #2a1d14;
+  --card: #ffffff;
+  --card-2: #fbf1e7;
+  --muted: #f5e9dc;
+  --muted-foreground: #6e5f53;
+  --border: #eedfce;
+  --input: #e4cfb8;
+  --primary: #e8590c;
+  --primary-hover: #c2410c;
+  --primary-foreground: #ffffff;
+  --primary-soft: #ffedd5;
+  --accent: #0d9488;
+  --success: #16a34a;
+  --danger: #dc2626;
+  --warning: #ca8a04;
+  --info: #0284c7;
+  --ring: #f97316;
+  --overlay: rgba(42, 29, 20, 0.5);
+  --shadow: 0 1px 2px rgba(90, 50, 20, 0.05), 0 8px 24px rgba(90, 50, 20, 0.07);
+}
+
+.dark {
+  --background: #16110d;
+  --foreground: #f3ebe3;
+  --card: #1f1813;
+  --card-2: #261d17;
+  --muted: #2e241c;
+  --muted-foreground: #a8998c;
+  --border: #3a2e25;
+  --input: #46372b;
+  --primary: #fb923c;
+  --primary-hover: #fdba74;
+  --primary-foreground: #1c0f05;
+  --primary-soft: rgba(251, 146, 60, 0.14);
+  --accent: #2dd4bf;
+  --success: #34d399;
+  --danger: #f05252;
+  --warning: #facc15;
+  --info: #38bdf8;
+  --ring: #fb923c;
+  --overlay: rgba(0, 0, 0, 0.7);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-2: var(--card-2);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-soft: var(--primary-soft);
+  --color-accent: var(--accent);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+  --color-warning: var(--warning);
+  --color-info: var(--info);
+  --color-ring: var(--ring);
+  --font-sans: "Inter Variable", "Segoe UI Variable", "Segoe UI", system-ui, sans-serif;
+  --font-display: "Nunito Variable", "Inter Variable", "Segoe UI", system-ui, sans-serif;
+  --shadow-card: var(--shadow);
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    font-feature-settings: "cv11", "ss01";
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--primary) 30%, transparent);
+  }
+  button,
+  [role="button"] {
+    cursor: pointer;
+  }
+  button:disabled {
+    cursor: not-allowed;
+  }
+  input[type="number"]::-webkit-inner-spin-button {
+    opacity: 0.5;
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: var(--font-display);
+    font-weight: 800;
+    letter-spacing: -0.01em;
+  }
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: var(--input) transparent;
+  }
+  .soft-gradient {
+    background:
+      radial-gradient(1100px 380px at 8% -12%, color-mix(in srgb, var(--primary) 13%, transparent), transparent 60%),
+      radial-gradient(700px 280px at 100% 0%, color-mix(in srgb, var(--accent) 10%, transparent), transparent 60%);
+  }
+}
+/* Safe-area padding for phones/tablets in standalone mode */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Flip cards, trophies and celebrations: CSS animations only (no frame loop), still when motion is reduced. */
+.sticker-flip {
+  perspective: 900px;
+}
+.sticker-inner {
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+}
+.sticker-flip[aria-pressed="true"] .sticker-inner {
+  transform: rotateY(180deg);
+}
+.sticker-face {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.sticker-back {
+  transform: rotateY(180deg);
+}
+.sticker-shine::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(115deg, transparent 35%, rgba(255, 255, 255, 0.4) 48%, transparent 60%);
+  background-size: 260% 100%;
+  animation: sticker-shine 3s ease-in-out infinite;
+}
+@keyframes sticker-shine {
+  0%,
+  55% {
+    background-position: 160% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+.sticker-pop {
+  animation: sticker-pop 0.9s cubic-bezier(0.2, 1.4, 0.4, 1) both;
+}
+@keyframes sticker-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.4) rotateY(180deg);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.08) rotateY(0deg);
+  }
+  100% {
+    transform: scale(1) rotateY(0deg);
+  }
+}
+.confetti {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+.confetti > span {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 8px;
+  height: 12px;
+  border-radius: 2px;
+  opacity: 0;
+  animation: confetti-burst 1.2s ease-out forwards;
+}
+@keyframes confetti-burst {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) rotate(var(--rot));
+  }
+}
+/* A short pop for feedback words. */
+.say-pop {
+  animation: say-pop 0.45s cubic-bezier(0.2, 1.4, 0.4, 1) both;
+}
+@keyframes say-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sticker-inner {
+    transition: none;
+  }
+  .sticker-pop,
+  .sticker-shine::after,
+  .say-pop {
+    animation: none;
+  }
+  .confetti {
+    display: none;
+  }
+}

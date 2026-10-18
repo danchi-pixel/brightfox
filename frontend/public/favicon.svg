@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#e8590c"/>
+  <!-- ears -->
+  <path d="M12 10 L24 22 L13 27 Z" fill="#fff4ea"/>
+  <path d="M52 10 L40 22 L51 27 Z" fill="#fff4ea"/>
+  <path d="M15 15 L21 21 L15.5 23.5 Z" fill="#2a1d14"/>
+  <path d="M49 15 L43 21 L48.5 23.5 Z" fill="#2a1d14"/>
+  <!-- face -->
+  <path d="M10 26 Q32 14 54 26 L44 44 Q32 56 20 44 Z" fill="#fff4ea"/>
+  <path d="M10 26 Q20 24 27 31 Q29 40 32 49 Q24 49 20 44 Z" fill="#fdba74"/>
+  <path d="M54 26 Q44 24 37 31 Q35 40 32 49 Q40 49 44 44 Z" fill="#fdba74"/>
+  <!-- eyes and nose -->
+  <ellipse cx="24" cy="32" rx="2.6" ry="3.2" fill="#2a1d14"/>
+  <ellipse cx="40" cy="32" rx="2.6" ry="3.2" fill="#2a1d14"/>
+  <circle cx="24.9" cy="31" r="0.9" fill="#fff"/>
+  <circle cx="40.9" cy="31" r="0.9" fill="#fff"/>
+  <path d="M28.5 43 Q32 40.5 35.5 43 Q32 47.5 28.5 43 Z" fill="#2a1d14"/>
+</svg>

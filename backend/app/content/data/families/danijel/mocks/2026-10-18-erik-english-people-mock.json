@@ -1,0 +1,83 @@
+{
+  "id": "2026-10-18-erik-english-people-mock",
+  "version": 1,
+  "subject": "english",
+  "grade": 6,
+  "title": "Poskusni test: People are people (Unit 1)",
+  "intro": "Kot pravi test: 30 minut, brez namigov. Reši vse, kar znaš, potem se vrni k težjim nalogam. Rešitve vidiš na koncu.",
+  "source": "Written by Claude from the Unit 1 topic (Wider World 1), in the usual test layout: vocabulary, grammar, translation, writing, listening.",
+  "for": ["Erik"],
+  "minutes": 30,
+  "topics": ["2026-10-17-erik-english-people"],
+  "sections": [
+    {
+      "title": "A. Besedišče (Vocabulary)",
+      "tasks": [
+        {"id": "m-uncle", "topic": "2026-10-17-erik-english-people", "skill": "fam", "points": 1, "kind": "text",
+         "prompt": "My mum's brother is my ______.", "answer": "uncle", "solution": "Mamin brat je stric: uncle."},
+        {"id": "m-cousin", "topic": "2026-10-17-erik-english-people", "skill": "fam", "points": 1, "kind": "text",
+         "prompt": "My aunt's son is my ______.", "answer": "cousin", "solution": "Tetin sin je bratranec: cousin."},
+        {"id": "m-spanish", "topic": "2026-10-17-erik-english-people", "skill": "nat", "points": 1, "kind": "text",
+         "prompt": "Država → narodnost. Spain → ______", "answer": "Spanish", "solution": "Spain → Spanish.",
+         "traps": [{"answer": "Spain", "why": "Spain je država; iščemo narodnost: Spanish."}]},
+        {"id": "m-german", "topic": "2026-10-17-erik-english-people", "skill": "nat", "points": 1, "kind": "text",
+         "prompt": "Država → narodnost. Germany → ______", "answer": "German", "solution": "Germany → German."},
+        {"id": "m-scottish", "topic": "2026-10-17-erik-english-people", "skill": "nat", "points": 1, "kind": "text",
+         "prompt": "Država → narodnost. Scotland → ______", "answer": "Scottish", "solution": "Scotland → Scottish."},
+        {"id": "m-trainers", "topic": "2026-10-17-erik-english-people", "skill": "desc", "points": 1, "kind": "choice",
+         "prompt": "You wear them on your feet when you play football.", "options": ["trainers", "sunglasses", "sweater", "skirt"],
+         "answer": 0, "solution": "Trainers (superge) nosimo na nogah."}
+      ]
+    },
+    {
+      "title": "B. Slovnica (Grammar)",
+      "tasks": [
+        {"id": "m-sister-has", "topic": "2026-10-17-erik-english-people", "skill": "hasgot", "points": 1, "kind": "text",
+         "prompt": "Dopolni s pravo obliko (have got): My sister ______ a new phone.", "answer": "has got", "accept": ["'s got"],
+         "solution": "My sister = she, zato has got: My sister has got a new phone."},
+        {"id": "m-we-havent", "topic": "2026-10-17-erik-english-people", "skill": "hasgot", "points": 2, "kind": "text",
+         "prompt": "Dopolni z zanikano obliko (have got): We ______ a cat.", "answer": "haven't got", "accept": ["have not got"],
+         "solution": "We → have got, zanikano: haven't got. We haven't got a cat."},
+        {"id": "m-question-bike", "topic": "2026-10-17-erik-english-people", "skill": "hasgot", "points": 2, "kind": "text",
+         "prompt": "Sestavi vprašanje: your brother / a bike / has / got / ?", "answer": "Has your brother got a bike?",
+         "solution": "Vprašanje začne Has, nato oseba, nato got: Has your brother got a bike?"},
+        {"id": "m-her", "topic": "2026-10-17-erik-english-people", "skill": "poss", "points": 1, "kind": "choice",
+         "prompt": "Ana is my friend. ___ dad is a teacher.", "options": ["Her", "His", "She's", "Hers"], "answer": 0,
+         "solution": "Anin oče = njen oče: Her dad."},
+        {"id": "m-hes", "topic": "2026-10-17-erik-english-people", "skill": "poss", "points": 1, "kind": "choice",
+         "prompt": "Luka is twelve. ___ from Koper.", "options": ["He's", "His", "He", "Him"], "answer": 0,
+         "solution": "On je iz Kopra = He is from Koper = He's from Koper."},
+        {"id": "m-yes-he-can", "topic": "2026-10-17-erik-english-people", "skill": "can", "points": 1, "kind": "text",
+         "prompt": "Dopolni kratek odgovor. »Can your dad cook?« »Yes, ______.«", "answer": "he can",
+         "solution": "Kratek odgovor: Yes, he can."}
+      ]
+    },
+    {
+      "title": "C. Prevodi in pisanje",
+      "tasks": [
+        {"id": "m-tr-granny", "topic": "2026-10-17-erik-english-people", "skill": "nat", "points": 2, "kind": "text",
+         "prompt": "Prevedi v angleščino: Moja babica je Italijanka.", "answer": "My grandmother is Italian.",
+         "accept": ["My granny is Italian.", "My grandma is Italian.", "My grandmother's Italian."],
+         "solution": "My grandmother is Italian. (Narodnost z veliko: Italian.)"},
+        {"id": "m-tr-swim", "topic": "2026-10-17-erik-english-people", "skill": "can", "points": 2, "kind": "text",
+         "prompt": "Prevedi: Moj brat ne zna plavati.", "answer": "My brother can't swim.", "accept": ["My brother cannot swim."],
+         "solution": "ne zna = can't: My brother can't swim."},
+        {"id": "m-tr-eyes", "topic": "2026-10-17-erik-english-people", "skill": "hasgot", "points": 2, "kind": "text",
+         "prompt": "Prevedi: Ali ima tvoja sestra modre oči?", "answer": "Has your sister got blue eyes?",
+         "solution": "Has your sister got blue eyes?"},
+        {"id": "m-write", "topic": "2026-10-17-erik-english-people", "skill": "desc", "points": 5, "kind": "open",
+         "prompt": "V zvezek napiši 5 povedi o članu svoje družine: kdo je, od kod je, kako izgleda, kaj ima in kaj zna.",
+         "solution": "Primer: My uncle is Marko. He's Slovenian. He's tall and he has got short brown hair. He has got a red car. He can play the guitar but he can't swim. (Za 5 točk: 5 pravilnih povedi; has got pri he/she, narodnost z veliko.)"}
+      ]
+    },
+    {
+      "title": "D. Poslušanje (Listening)",
+      "tasks": [
+        {"id": "m-listen", "topic": "2026-10-17-erik-english-people", "skill": "nat", "points": 3, "kind": "text",
+         "prompt": "Poslušaj in zapiši celo poved.", "say": "My uncle is Scottish and he has got red hair.",
+         "answer": "My uncle is Scottish and he has got red hair.", "accept": ["My uncle is Scottish and he's got red hair."],
+         "solution": "My uncle is Scottish and he has got red hair."}
+      ]
+    }
+  ]
+}

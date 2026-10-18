@@ -1,0 +1,41 @@
+# BrightFox (code name ucilnica) - the site block for PitchDriven's Caddy.
+#
+# It lives at the end of deploy\Caddyfile in the Football App 7676 folder (keep the pitchdriven.com and
+# merchfocus.com blocks); PitchDriven's deploy\deploy.ps1 writes the Caddyfile in place and reloads Caddy
+# (PitchDriven restarts briefly). Deploy it only once brightfox.si and www.brightfox.si point to
+# 152.53.191.32: failed certificate attempts count against Let's Encrypt's rate limits. Caddy reaches the
+# app as "ucilnica:8000" over the shared "edge" network.
+# ---------------------------------------------------------------------------------------------------------
+
+# BrightFox (code name ucilnica: separate stack in /opt/ucilnica, its own sign-in), over the "edge" network.
+brightfox.si {
+	encode zstd gzip
+
+	header {
+		Strict-Transport-Security "max-age=31536000"
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "no-referrer"
+		Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+		X-Robots-Tag "noindex, nofollow, noarchive"
+		Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; font-src 'self' data:; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'"
+		-Server
+	}
+
+	# Homework photos for Foxy (up to 4 per message; the app enforces its own limits too).
+	request_body {
+		max_size 25MB
+	}
+
+	handle /robots.txt {
+		respond "User-agent: *
+Disallow: /
+" 200
+	}
+
+	reverse_proxy ucilnica:8000
+}
+
+www.brightfox.si {
+	redir https://brightfox.si{uri} permanent
+}

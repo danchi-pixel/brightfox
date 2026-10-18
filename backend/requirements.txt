@@ -1,0 +1,13 @@
+# Učilnica backend dependencies (Python 3.12)
+fastapi==0.143.0
+uvicorn==0.54.0
+sqlalchemy==2.1.4
+alembic==1.20.0
+pydantic==2.14.0
+httpx==0.28.1
+tzdata==2026.5
+# Sova, the homework tutor (Claude API; the key comes from ANTHROPIC_API_KEY).
+anthropic==1.11.0
+
+# Tests
+pytest==9.1.1

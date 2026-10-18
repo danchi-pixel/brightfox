@@ -1,0 +1,14 @@
+# The server runs Linux: shell scripts, the Dockerfile and compose files break with Windows line endings
+# (CRLF). Keep every text file LF on every PC; only Windows batch files need CRLF.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.zip binary
