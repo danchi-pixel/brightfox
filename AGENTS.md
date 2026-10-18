@@ -206,6 +206,7 @@ The parent approves it in the app.
 
 - `docs/roadmap.md`: the plan and the decisions made with the parents (October 2026).
 - `docs/content-format.md`, `docs/readiness.md`, `docs/import.md`, `deploy/DEPLOYMENT.md`, `backend/evals/README.md`.
-- `docs/new-pc-setup.md`: setting up a second PC (Git, GitHub, Codex, SSH key).
+- `docs/new-pc-setup.md`: setting up a second PC (Git, GitHub, Codex, SSH key). The repository is
+  https://github.com/danchi-pixel/brightfox (private).
 - **The parents' own guide is in the app:** Guide (parents only), `frontend/src/features/parent/GuidePage.tsx`.
   Keep it in step when features change.

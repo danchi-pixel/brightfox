@@ -4,6 +4,9 @@ BrightFox's code lives in this folder. When two people change it from two PCs, t
 copy of the code, or one person's deploy silently overwrites the other's work. That shared copy is a
 **private GitHub repository**.
 
+The repository is **https://github.com/danchi-pixel/brightfox** (private, owned by Danijel; Daniela is a
+collaborator). Done on 18 Oct 2026, so the next section is only a record of how it was set up.
+
 ## Once: put the code on GitHub (on Danijel's PC)
 
 1. Install Git: `winget install Git.Git`, then open a new terminal.
@@ -26,7 +29,9 @@ copy of the code, or one person's deploy silently overwrites the other's work. T
 
 1. Install Git (`winget install Git.Git`), Node.js LTS (https://nodejs.org) and Python 3.12
    (`winget install Python.Python.3.12`, or python.org; it must land in `%LOCALAPPDATA%\Programs\Python\Python312`).
-2. Clone the repository: `git clone https://github.com/<account>/brightfox.git` (into e.g. `Desktop\BrightFox`).
+2. Clone the repository in a new terminal, from the Desktop: `git clone https://github.com/danchi-pixel/brightfox.git BrightFox`.
+   The first time, a "Connect to GitHub" window opens. Choose "Sign in with your browser" and sign in with
+   **her own** GitHub account.
 3. Run `setup.bat` once. Then `start.bat` opens a local copy at http://localhost:7686, with an empty local
    database that has nothing to do with the real site.
 4. Make a local test family to sign in with. In a terminal in the `backend` folder:
