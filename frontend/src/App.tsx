@@ -13,6 +13,7 @@ import LearnPage from "@/features/learner/LearnPage";
 import MockPage from "@/features/learner/MockPage";
 import OralPage from "@/features/learner/OralPage";
 import PracticePage from "@/features/learner/PracticePage";
+import VideoPage from "@/features/learner/VideoPage";
 import FamilyPage from "@/features/parent/FamilyPage";
 import OverviewPage from "@/features/parent/OverviewPage";
 import FoxyPage from "@/features/parent/FoxyPage";
@@ -63,6 +64,8 @@ const router = createBrowserRouter([
   { path: "/l/:lid/review", element: <ReviewPage /> },
   { path: "/l/:lid/mock/:mid", element: <MockPage /> },
   { path: "/l/:lid/oral/:tid", element: <OralPage /> },
+  { path: "/l/:lid/video/:tid", element: <VideoPage /> },
+  { path: "/preview/:tid/video", element: <ParentOnly><VideoPage /></ParentOnly> },
   { path: "/preview-mock/:mid", element: <ParentOnly><MockPage /></ParentOnly> },
   { path: "/preview/:tid", element: <ParentOnly><PracticePage /></ParentOnly> },
   { path: "/preview/:tid/learn", element: <ParentOnly><LearnPage /></ParentOnly> },

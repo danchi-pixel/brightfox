@@ -332,9 +332,71 @@ def _check_oral(c: _Checker, items: list[dict], w: str, skills: set[str], seen: 
         c.text(q, "model_answer", qw, limit=800)
 
 
+VIDEO_SCENES = ("intro", "rule", "pairs", "quiz", "recap")
+
+
+def _check_video(c: _Checker, v: Any, w: str, skills: set[str]) -> None:
+    """The video lesson (🎬): animated scenes Foxy narrates. Slovene lines ("foxy", "sl") are shown as captions,
+    English ones ("en", the "say" columns of pairs, a quiz's "say") are read aloud. "{name}" becomes the
+    learner's first name. Scenes: intro (title card), rule (steps), pairs (a flip board), quiz (tap an answer
+    before the countdown ends), recap (the final whistle)."""
+    if not isinstance(v, dict):
+        c.bad(w, "\"video\" must be {title, scenes}")
+        return
+    c.only(v, {"title", "scenes"}, w)
+    c.text(v, "title", w, limit=80)
+    for i, sc in enumerate(c.objects(v, "scenes", w, 3, 30)):
+        sw = f"{w}.scenes[{i}]"
+        kind = sc.get("type")
+        if kind not in VIDEO_SCENES:
+            c.bad(sw, f"\"type\" must be one of {', '.join(VIDEO_SCENES)}")
+            continue
+        c.skill(sc, sw, skills)
+        c.text(sc, "foxy", sw, optional=True, limit=300)
+        if kind == "intro":
+            c.only(sc, {"type", "skill", "foxy", "title", "sub", "emoji"}, sw)
+            c.text(sc, "title", sw, limit=60)
+            c.text(sc, "sub", sw, optional=True, limit=120)
+            c.text(sc, "emoji", sw, optional=True, limit=8)
+        elif kind == "rule":
+            c.only(sc, {"type", "skill", "foxy", "title", "steps"}, sw)
+            c.text(sc, "title", sw, limit=60)
+            for j, st in enumerate(c.objects(sc, "steps", sw, 1, 8)):
+                stw = f"{sw}.steps[{j}]"
+                c.only(st, {"sl", "en"}, stw)
+                c.text(st, "sl", stw, optional=True, limit=200)
+                c.text(st, "en", stw, optional=True, limit=160)
+                if "sl" not in st and "en" not in st:
+                    c.bad(stw, "a step needs \"sl\" (caption) or \"en\" (read aloud)")
+        elif kind == "pairs":
+            c.only(sc, {"type", "skill", "foxy", "title", "pairs", "say"}, sw)
+            c.text(sc, "title", sw, limit=60)
+            pairs = sc.get("pairs")
+            if (not isinstance(pairs, list) or not 2 <= len(pairs) <= 12
+                    or not all(isinstance(p, list) and len(p) == 2 and all(isinstance(x, str) and x.strip() and len(x) <= 40 for x in p) for p in pairs)):
+                c.bad(sw, "\"pairs\" must list 2–12 pairs of short texts")
+            say = sc.get("say", [])
+            if not isinstance(say, list) or not all(i in (0, 1) and not isinstance(i, bool) for i in say):
+                c.bad(sw, "\"say\" lists the sides read aloud: 0, 1 or both")
+        elif kind == "quiz":
+            c.only(sc, {"type", "skill", "foxy", "question", "say", "options", "answer", "explain"}, sw)
+            c.text(sc, "question", sw, limit=160)
+            c.text(sc, "say", sw, optional=True, limit=160)
+            c.text(sc, "explain", sw, optional=True, limit=200)
+            c.texts(sc, "options", sw, 2, 4, 60)
+            opts = sc.get("options") if isinstance(sc.get("options"), list) else []
+            a = sc.get("answer")
+            if not isinstance(a, int) or isinstance(a, bool) or not 0 <= a < len(opts):
+                c.bad(sw, "\"answer\" must be the number of the right option, counted from 0")
+        else:
+            c.only(sc, {"type", "skill", "foxy", "title", "points"}, sw)
+            c.text(sc, "title", sw, limit=60)
+            c.texts(sc, "points", sw, 1, 6, 120)
+
+
 def check_topic(c: _Checker, s: dict, w: str) -> None:
     c.only(s, {"id", "version", "format", "subject", "grade", "title", "intro", "source", "for", "skills", "learn",
-               "study", "tasks", "challenge", "parent", "oral", "terms"}, w)
+               "study", "tasks", "challenge", "parent", "oral", "terms", "video"}, w)
     if s.get("format", 1) not in (1, 2):
         c.bad(w, "\"format\" must be 1 or 2")
     skills: set[str] = set()
@@ -429,9 +491,11 @@ def check_topic(c: _Checker, s: dict, w: str) -> None:
 
     if "oral" in s:
         _check_oral(c, c.objects(s, "oral", w, 1, 20), w, skills, set())
+    if "video" in s:
+        _check_video(c, s["video"], f"{w}.video", skills)
 
     # Kid-facing Slovene addresses the child without gendered forms.
-    kid_parts = {k: s[k] for k in ("intro", "learn", "study", "tasks", "challenge", "oral") if k in s}
+    kid_parts = {k: s[k] for k in ("intro", "learn", "study", "tasks", "challenge", "oral", "video") if k in s}
     for text in _kid_texts(kid_parts):
         if m := _GENDERED_YOU.search(text):
             c.bad(w, f"gendered \"you\" ({m.group(0)!r}): use the imperative or present tense instead")

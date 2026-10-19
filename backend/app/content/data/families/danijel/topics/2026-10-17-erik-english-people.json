@@ -1,6 +1,6 @@
 {
   "id": "2026-10-17-erik-english-people",
-  "version": 5,
+  "version": 6,
   "format": 2,
   "for": [
     "Erik"
@@ -1532,5 +1532,379 @@
       ],
       "model_answer": "He's tall and he has got short black hair. He's brave and friendly."
     }
-  ]
+  ],
+  "video": {
+    "title": "⚽ Tekma: People are people",
+    "scenes": [
+      {
+        "type": "intro",
+        "emoji": "🏟️",
+        "title": "People are people",
+        "sub": "Unit 1 · tekma v dveh polčasih",
+        "foxy": "Živjo, {name}! Jaz sem Foxy, tvoj komentator. 🦊 Danes na igrišču: države, narodnosti, družina in zvezdniki. Sodnik že piska – gremo!"
+      },
+      {
+        "type": "rule",
+        "skill": "nat",
+        "title": "Država ali narodnost?",
+        "foxy": "Prva akcija! Pazljivo poslušaj razliko.",
+        "steps": [
+          {
+            "sl": "Država (country) je kraj na zemljevidu.",
+            "en": "Slovenia"
+          },
+          {
+            "sl": "Narodnost (nationality) pove, kdo je od tam.",
+            "en": "Slovenian"
+          },
+          {
+            "sl": "Narodnosti pišemo VEDNO z veliko začetnico.",
+            "en": "Jan Oblak is from Slovenia. He's Slovenian."
+          },
+          {
+            "sl": "Pri državi rečemo from, pri narodnosti pa ne.",
+            "en": "Messi is from Argentina. He's Argentinian."
+          }
+        ]
+      },
+      {
+        "type": "pairs",
+        "skill": "nat",
+        "title": "Prestopni rok: država → narodnost",
+        "say": [
+          0,
+          1
+        ],
+        "foxy": "Poslušaj končnice: -ian, -ish, -ese … in dva posebneža na koncu!",
+        "pairs": [
+          [
+            "Slovenia",
+            "Slovenian"
+          ],
+          [
+            "Italy",
+            "Italian"
+          ],
+          [
+            "Argentina",
+            "Argentinian"
+          ],
+          [
+            "Spain",
+            "Spanish"
+          ],
+          [
+            "Poland",
+            "Polish"
+          ],
+          [
+            "Scotland",
+            "Scottish"
+          ],
+          [
+            "Japan",
+            "Japanese"
+          ],
+          [
+            "the USA",
+            "American"
+          ],
+          [
+            "France",
+            "French"
+          ],
+          [
+            "Holland",
+            "Dutch"
+          ]
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "nat",
+        "question": "Kylian Mbappé is from France. He's …",
+        "say": "Kylian Mbappé is from France.",
+        "options": [
+          "France",
+          "French",
+          "Francish"
+        ],
+        "answer": 1,
+        "explain": "France je država, French je narodnost: Mbappé is French."
+      },
+      {
+        "type": "quiz",
+        "skill": "nat",
+        "question": "Holland → ?",
+        "options": [
+          "Hollish",
+          "Dutch",
+          "Hollandian"
+        ],
+        "answer": 1,
+        "explain": "Holland → Dutch. Posebnež: zapomni si ga! Virgil van Dijk is Dutch."
+      },
+      {
+        "type": "quiz",
+        "skill": "nat",
+        "question": "Kateri zapis je pravilen?",
+        "options": [
+          "We are english students.",
+          "We are English students."
+        ],
+        "answer": 1,
+        "explain": "Narodnosti in jeziki imajo vedno veliko začetnico: English, Slovenian."
+      },
+      {
+        "type": "rule",
+        "skill": "fam",
+        "title": "Družina na tribuni",
+        "foxy": "Na tribuni navija cela družina. Kdo je kdo?",
+        "steps": [
+          {
+            "sl": "Osnovna postava:",
+            "en": "mum, dad, brother, sister"
+          },
+          {
+            "sl": "S 's povemo, čigav je kdo.",
+            "en": "My mum's sister is my aunt."
+          },
+          {
+            "sl": "Cousin je ena beseda za bratranca IN sestrično.",
+            "en": "My uncle's son is my cousin."
+          },
+          {
+            "sl": "Koliko nas je? Uporabi There are … in ne prevajaj »imamo« dobesedno.",
+            "en": "There are four people in my family."
+          },
+          {
+            "sl": "Prav tako na igrišču:",
+            "en": "There are eleven players in a football team."
+          }
+        ]
+      },
+      {
+        "type": "pairs",
+        "skill": "fam",
+        "title": "Družinska postava",
+        "say": [
+          1
+        ],
+        "foxy": "Najprej preberi slovensko, potem poslušaj angleško.",
+        "pairs": [
+          [
+            "mama",
+            "mum"
+          ],
+          [
+            "oče",
+            "dad"
+          ],
+          [
+            "starši",
+            "parents"
+          ],
+          [
+            "babica",
+            "grandmother"
+          ],
+          [
+            "dedek",
+            "grandfather"
+          ],
+          [
+            "teta",
+            "aunt"
+          ],
+          [
+            "stric",
+            "uncle"
+          ],
+          [
+            "bratranec, sestrična",
+            "cousin"
+          ],
+          [
+            "hčerka",
+            "daughter"
+          ],
+          [
+            "sin",
+            "son"
+          ]
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "fam",
+        "question": "My dad's father is my …",
+        "say": "My dad's father is my …",
+        "options": [
+          "uncle",
+          "grandfather",
+          "cousin"
+        ],
+        "answer": 1,
+        "explain": "Očetov oče je dedek: grandfather (ali grandpa)."
+      },
+      {
+        "type": "intro",
+        "emoji": "⏸️",
+        "title": "Polčas!",
+        "sub": "Malo vode, globok vdih. Drugi polčas: have got, his ali he's, can.",
+        "foxy": "Prvi polčas je odličen, {name}! Kratek odmor, potem gremo naprej."
+      },
+      {
+        "type": "rule",
+        "skill": "hasgot",
+        "title": "have got ali has got?",
+        "foxy": "Kaj kdo ima? Za to rabimo have got.",
+        "steps": [
+          {
+            "sl": "I, you, we, they → have got",
+            "en": "We've got a new ball."
+          },
+          {
+            "sl": "He, she, it → has got",
+            "en": "Oblak has got big hands."
+          },
+          {
+            "sl": "Zanikanje: haven't got, hasn't got",
+            "en": "We haven't got a dog."
+          },
+          {
+            "sl": "Vprašanje: Has + kdo + got …?",
+            "en": "Has your brother got a bike? Yes, he has."
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "hasgot",
+        "question": "Ronaldo ___ got a lot of trophies.",
+        "options": [
+          "have",
+          "has"
+        ],
+        "answer": 1,
+        "explain": "Ronaldo = he, zato has got."
+      },
+      {
+        "type": "quiz",
+        "skill": "hasgot",
+        "question": "Katera poved je pravilna?",
+        "options": [
+          "He have got green eyes.",
+          "He has got green eyes.",
+          "He haves green eyes."
+        ],
+        "answer": 1,
+        "explain": "Pri he, she, it vedno has: He has got green eyes. Krajše: He's got green eyes."
+      },
+      {
+        "type": "rule",
+        "skill": "poss",
+        "title": "his ali he's?",
+        "foxy": "Najpogostejša past na tej tekmi. Pazi!",
+        "steps": [
+          {
+            "sl": "his = njegov",
+            "en": "His team is Real Madrid."
+          },
+          {
+            "sl": "he's = he is (ali he has)",
+            "en": "He's eleven. He's got green eyes."
+          },
+          {
+            "sl": "Trik: če lahko rečeš »he is«, napiši he's. Če pomeni »njegov«, napiši his.",
+            "en": "His favourite player is Mbappé."
+          },
+          {
+            "sl": "Še cela ekipa:",
+            "en": "my, your, his, her, its, our, their"
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "poss",
+        "question": "___ favourite player is Mbappé.",
+        "options": [
+          "He's",
+          "His"
+        ],
+        "answer": 1,
+        "explain": "»Njegov« najljubši igralec → His."
+      },
+      {
+        "type": "rule",
+        "skill": "can",
+        "title": "can ali can't?",
+        "foxy": "Kaj kdo zna? Can je pri vseh osebah enak.",
+        "steps": [
+          {
+            "sl": "can = znam, can't = ne znam",
+            "en": "I can swim but I can't fly."
+          },
+          {
+            "sl": "I can, he can, they can – nikoli »cans«!",
+            "en": "Oblak can stop penalties."
+          },
+          {
+            "sl": "Vprašanje in kratek odgovor:",
+            "en": "Can you speak German? No, I can't."
+          }
+        ]
+      },
+      {
+        "type": "rule",
+        "skill": "desc",
+        "title": "Opis igralca",
+        "foxy": "Zdaj pa kot pravi športni novinar: opiši igralca po vrsti.",
+        "steps": [
+          {
+            "sl": "1. Kdo je in od kod je?",
+            "en": "This is Jan Oblak. He's from Slovenia."
+          },
+          {
+            "sl": "2. Kakšen je na videz? (He's got …)",
+            "en": "He's tall and he's got short hair."
+          },
+          {
+            "sl": "3. Kakšen je po značaju?",
+            "en": "He's brave and friendly."
+          },
+          {
+            "sl": "4. Kaj zna in česa ne? Poveži z but.",
+            "en": "He can stop penalties but he can't play in attack!"
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "desc",
+        "question": "Somebody who isn't scared is …",
+        "say": "Somebody who isn't scared is …",
+        "options": [
+          "brave",
+          "nervous",
+          "quiet"
+        ],
+        "answer": 0,
+        "explain": "brave = pogumen. Vratar mora biti brave!"
+      },
+      {
+        "type": "recap",
+        "title": "Končni žvižg!",
+        "foxy": "Bravo, {name}! Ta tekma je dobljena. Zdaj pa v Vajo – tam zabiješ prave gole. ⚽",
+        "points": [
+          "Narodnost z veliko začetnico: Slovenian, French, Dutch",
+          "There are four people in my family.",
+          "he, she, it → has got",
+          "his = njegov, he's = he is",
+          "can je pri vseh enak: I can, he can"
+        ]
+      }
+    ]
+  }
 }

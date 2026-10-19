@@ -23,7 +23,8 @@ def topic_card(t: dict[str, Any]) -> dict[str, Any]:
             "intro": t["intro"], "tasks": len(t["tasks"]), "learn": len(t.get("learn", [])), "levels": levels(t),
             "extras": sum(1 for x in t["tasks"] if x.get("extra")), "challenge": len(t.get("challenge", [])),
             "cards": len(st.get("cards", [])), "goals": len(goal_list(st)), "skills": len(t.get("skills", [])),
-            "for": t.get("for", []), "has_parent_card": bool(t.get("parent")), "oral": len(t.get("oral", []))}
+            "for": t.get("for", []), "has_parent_card": bool(t.get("parent")), "oral": len(t.get("oral", [])),
+            "video": len((t.get("video") or {}).get("scenes", []))}
 
 
 def runs_state(runs: Iterable[PracticeRun]) -> dict[str, Any]:

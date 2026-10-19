@@ -77,6 +77,11 @@ function Learn({ s, topic }: { s: ReturnType<typeof useTopicScreen>; topic: Topi
         <SubjectBubble subject={topic.subject} />
         <h1 className="font-display text-3xl leading-tight">{topic.title}</h1>
       </div>
+      {topic.video && (
+        <Button variant="soft" size="lg" className="w-full print:hidden" onClick={() => navigate(s.preview ? `/preview/${topic.id}/video` : `/l/${s.lid}/video/${topic.id}`)}>
+          🎬 {t("videoWatch")}
+        </Button>
+      )}
       {tabs.length > 1 && <Segmented<Tab> value={tab} onChange={setTab} options={tabs} className="print:hidden" />}
 
       {tab === "notes" && (
