@@ -1,6 +1,6 @@
 {
   "id": "2026-10-17-erik-english-days",
-  "version": 5,
+  "version": 6,
   "format": 2,
   "for": [
     "Erik"
@@ -1287,5 +1287,404 @@
       ],
       "model_answer": "Nice to meet you, Hannah. Fine, thanks. And you?"
     }
-  ]
+  ],
+  "video": {
+    "title": "📅 Sezonski koledar: Days, dates & hello",
+    "scenes": [
+      {
+        "type": "intro",
+        "emoji": "📅",
+        "title": "Days, dates & hello",
+        "sub": "Starter unit · sezonski koledar",
+        "foxy": "{name}, nogometna sezona ima treninge in tekme vsak teden. Da veš, KDAJ igraš, rabiš dneve, mesece in datume. Gremo!"
+      },
+      {
+        "type": "pairs",
+        "skill": "days",
+        "title": "Teden treningov",
+        "say": [
+          1
+        ],
+        "foxy": "Dneve pišemo z veliko začetnico. Poslušaj!",
+        "pairs": [
+          [
+            "ponedeljek",
+            "Monday"
+          ],
+          [
+            "torek",
+            "Tuesday"
+          ],
+          [
+            "sreda",
+            "Wednesday"
+          ],
+          [
+            "četrtek",
+            "Thursday"
+          ],
+          [
+            "petek",
+            "Friday"
+          ],
+          [
+            "sobota",
+            "Saturday"
+          ],
+          [
+            "nedelja",
+            "Sunday"
+          ]
+        ]
+      },
+      {
+        "type": "rule",
+        "skill": "days",
+        "title": "Pasti v dnevih",
+        "foxy": "Trije triki za dneve.",
+        "steps": [
+          {
+            "sl": "V Wednesday prvega d ne slišimo, napišemo pa ga!",
+            "en": "Wednesday"
+          },
+          {
+            "sl": "Tuesday je torek, Thursday je četrtek. Ne zamenjaj ju!",
+            "en": "Tuesday, Thursday"
+          },
+          {
+            "sl": "before = pred, after = po",
+            "en": "Saturday is after Friday and before Sunday."
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "days",
+        "question": "Which day is after Sunday and before Tuesday?",
+        "say": "Which day is after Sunday and before Tuesday?",
+        "options": [
+          "Monday",
+          "Wednesday",
+          "Saturday"
+        ],
+        "answer": 0,
+        "explain": "Sunday → Monday → Tuesday."
+      },
+      {
+        "type": "rule",
+        "skill": "months",
+        "title": "Meseci in letni časi",
+        "foxy": "Sezona traja vse leto. Meseci imajo veliko začetnico, letni časi pa malo.",
+        "steps": [
+          {
+            "sl": "Zima (winter)",
+            "en": "December, January, February"
+          },
+          {
+            "sl": "Pomlad (spring)",
+            "en": "March, April, May"
+          },
+          {
+            "sl": "Poletje (summer)",
+            "en": "June, July, August"
+          },
+          {
+            "sl": "Jesen (autumn) se na koledarju začne 21. septembra. August je še poletje!",
+            "en": "September, October, November"
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "months",
+        "question": "Autumn starts on the 21st of …",
+        "say": "Autumn starts on the twenty-first of …",
+        "options": [
+          "August",
+          "September",
+          "October"
+        ],
+        "answer": 1,
+        "explain": "Jesen se začne septembra. August je še summer."
+      },
+      {
+        "type": "rule",
+        "skill": "prep",
+        "title": "Taktika: on, in, at",
+        "foxy": "Trije predlogi, tri pozicije na igrišču. Zapomni si jih!",
+        "steps": [
+          {
+            "sl": "ON + dan ali točen datum",
+            "en": "on Saturday, on the fifth of May"
+          },
+          {
+            "sl": "IN + mesec, letni čas, del dneva",
+            "en": "in June, in winter, in the morning"
+          },
+          {
+            "sl": "AT + night: posebnež!",
+            "en": "at night"
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "prep",
+        "question": "We have training ___ Tuesday.",
+        "options": [
+          "in",
+          "on",
+          "at"
+        ],
+        "answer": 1,
+        "explain": "Dan v tednu → on: on Tuesday."
+      },
+      {
+        "type": "quiz",
+        "skill": "prep",
+        "question": "I sleep ___ night.",
+        "options": [
+          "in",
+          "on",
+          "at"
+        ],
+        "answer": 2,
+        "explain": "Samo night ima at: at night. Ampak: in the evening."
+      },
+      {
+        "type": "intro",
+        "emoji": "⏸️",
+        "title": "Polčas!",
+        "sub": "Drugi polčas: vrstilni števniki, datumi in pozdravi.",
+        "foxy": "Prvi polčas je za nami. Še malo, {name}!"
+      },
+      {
+        "type": "rule",
+        "skill": "ord",
+        "title": "Vrstni red na lestvici",
+        "foxy": "Kdo je prvi, drugi, tretji? Za to rabimo vrstilne števnike.",
+        "steps": [
+          {
+            "sl": "1., 2. in 3. so posebni:",
+            "en": "first, second, third"
+          },
+          {
+            "sl": "Potem večinoma dodamo -th:",
+            "en": "fourth, sixth, seventh"
+          },
+          {
+            "sl": "Pazi na te tri: five → fifth, nine → ninth, twelve → twelfth",
+            "en": "fifth, ninth, twelfth"
+          },
+          {
+            "sl": "Ne zamenjaj: 15th in 50th!",
+            "en": "fifteenth, fiftieth"
+          },
+          {
+            "sl": "Pri deseticah y postane ie:",
+            "en": "twentieth, thirtieth"
+          }
+        ]
+      },
+      {
+        "type": "pairs",
+        "skill": "ord",
+        "title": "Lestvica",
+        "say": [
+          1
+        ],
+        "foxy": "Poslušaj, kako jih preberemo.",
+        "pairs": [
+          [
+            "1st",
+            "first"
+          ],
+          [
+            "2nd",
+            "second"
+          ],
+          [
+            "3rd",
+            "third"
+          ],
+          [
+            "5th",
+            "fifth"
+          ],
+          [
+            "9th",
+            "ninth"
+          ],
+          [
+            "12th",
+            "twelfth"
+          ],
+          [
+            "15th",
+            "fifteenth"
+          ],
+          [
+            "20th",
+            "twentieth"
+          ],
+          [
+            "21st",
+            "twenty-first"
+          ],
+          [
+            "31st",
+            "thirty-first"
+          ]
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "ord",
+        "question": "15th = ?",
+        "options": [
+          "fiftieth",
+          "fifteenth",
+          "fiveteenth"
+        ],
+        "answer": 1,
+        "explain": "fifteen + th = fifteenth. Fiftieth je 50th."
+      },
+      {
+        "type": "rule",
+        "skill": "dates",
+        "title": "Datum tekme",
+        "foxy": "Kako preberemo datum? Takole:",
+        "steps": [
+          {
+            "sl": "Napišemo:",
+            "en": "21st September"
+          },
+          {
+            "sl": "Preberemo: the … of …",
+            "en": "the twenty-first of September"
+          },
+          {
+            "sl": "Pred datumom je on:",
+            "en": "The match is on the fifth of May."
+          },
+          {
+            "sl": "Še dva praznika:",
+            "en": "Halloween is on the thirty-first of October. Christmas is on the twenty-fifth of December."
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "dates",
+        "question": "Kako preberemo 3rd March?",
+        "options": [
+          "the three of March",
+          "the third of March",
+          "the thirty of March"
+        ],
+        "answer": 1,
+        "explain": "3rd = third: the third of March."
+      },
+      {
+        "type": "rule",
+        "skill": "hello",
+        "title": "Garderoba: pozdravi",
+        "foxy": "V garderobi spoznaš novo soigralko. Kaj rečeš?",
+        "steps": [
+          {
+            "sl": "Ko te s kom seznanijo:",
+            "en": "This is Hannah. Nice to meet you!"
+          },
+          {
+            "sl": "Na How are you? odgovori, ne vprašaj nazaj:",
+            "en": "How are you? Fine, thanks. And you?"
+          },
+          {
+            "sl": "Ob slovesu:",
+            "en": "See you later!"
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "hello",
+        "question": "»This is Hannah.« Kaj rečeš?",
+        "say": "This is Hannah.",
+        "options": [
+          "See you later.",
+          "Pleased to meet you.",
+          "I'm fine."
+        ],
+        "answer": 1,
+        "explain": "Ko nekoga spoznaš: Pleased to meet you (ali Nice to meet you)."
+      },
+      {
+        "type": "pairs",
+        "skill": "qwords",
+        "title": "Vprašalnice",
+        "say": [
+          1
+        ],
+        "foxy": "Novinar po tekmi vedno sprašuje. Poslušaj vprašalnice!",
+        "pairs": [
+          [
+            "kaj",
+            "what"
+          ],
+          [
+            "kdo",
+            "who"
+          ],
+          [
+            "kje",
+            "where"
+          ],
+          [
+            "kdaj",
+            "when"
+          ],
+          [
+            "zakaj",
+            "why"
+          ],
+          [
+            "kako",
+            "how"
+          ],
+          [
+            "kateri",
+            "which"
+          ],
+          [
+            "koliko",
+            "how many"
+          ]
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "qwords",
+        "question": "___ is your birthday? On the fifth of May.",
+        "options": [
+          "Where",
+          "When",
+          "Who"
+        ],
+        "answer": 1,
+        "explain": "Odgovor je datum, zato When (kdaj)."
+      },
+      {
+        "type": "recap",
+        "title": "Konec sezone!",
+        "foxy": "Odlično, {name}! Koledar je obvladan. Zdaj pa v Vajo! ⚽",
+        "points": [
+          "Dnevi in meseci z veliko začetnico: Monday, June",
+          "on Monday · in June · in the morning · at night",
+          "first, second, third … fifth, twelfth, fifteenth",
+          "the twenty-first of September",
+          "How are you? → Fine, thanks."
+        ]
+      }
+    ]
+  }
 }

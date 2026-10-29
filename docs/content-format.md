@@ -100,6 +100,43 @@ English), the learner types the answer, and Foxy (the `oral_grading` AI job) ans
 yet with one or two sentences, checked against `key_points`. Each checked answer counts as one Foxy
 question for the day. Write the questions the way the teacher asks them.
 
+## Video lesson ("🎬 Video lekcija")
+
+An optional `video` makes an animated, narrated lesson that plays like a football match. The kid's topic
+gets a 🎬 row, and parents get a 🎬 Video preview on Topics. There's no film file: the app animates the
+scenes. Foxy's Slovene lines are captions (read aloud where the device has a Slovene voice), and English
+lines are read aloud by the device's English voice. `{name}` becomes the learner's first name. Nothing is
+saved: quizzes in the video only count "goals" for fun.
+
+```json
+"video": {
+  "title": "⚽ Tekma: People are people",
+  "scenes": [
+    {"type": "intro", "emoji": "🏟️", "title": "People are people", "sub": "Unit 1", "foxy": "Živjo, {name}! Gremo!"},
+    {"type": "rule", "skill": "hasgot", "title": "have got ali has got?", "foxy": "Kaj kdo ima?",
+     "steps": [{"sl": "He, she, it → has got", "en": "Oblak has got big hands."}]},
+    {"type": "pairs", "skill": "nat", "title": "Država → narodnost", "say": [0, 1], "pairs": [["Japan", "Japanese"], ["Holland", "Dutch"]]},
+    {"type": "quiz", "skill": "poss", "question": "___ favourite player is Mbappé.", "options": ["He's", "His"], "answer": 1,
+     "explain": "»Njegov« → His."},
+    {"type": "recap", "title": "Končni žvižg!", "foxy": "Bravo, {name}!", "points": ["his = njegov, he's = he is"]}
+  ]
+}
+```
+
+The scene types:
+- **`intro`:** a title card with `emoji`, `title` and `sub`. Use it for the kick-off and for half-time.
+- **`rule`:** 1–8 `steps`, each with `sl` (a caption, ≤200 characters) and/or `en` (read aloud, ≤160 characters).
+- **`pairs`:** a flip board of 2–12 `[left, right]` pairs. `say` lists which sides are read aloud.
+- **`quiz`:** a `question`, 2–4 `options`, the `answer` index, an `explain` sentence, and an optional
+  English `say`. The kid gets 6 seconds to tap.
+- **`recap`:** 1–6 `points` at the final whistle.
+
+Every scene may have `foxy`, a Slovene line said when it opens, and a `skill`. Rules for writing them:
+- Use 3–30 scenes; about 15–20 makes roughly 5 minutes.
+- Aim at the kid's real mistakes. The video is for the kid only and never leaves the family.
+- Keep the Slovene gender-neutral (the checker includes the video).
+- Raise `version`: parents approve the topic again.
+
 ## Format
 
 ```json

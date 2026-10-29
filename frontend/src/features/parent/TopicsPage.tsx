@@ -240,6 +240,11 @@ function TopicPanel({ id, learners }: { id: string; learners: LearnerBrief[] }) 
                 <ApprovalBadge card={card} />
               </div>
             </div>
+            {topic.video && (
+              <Button variant="secondary" size="sm" onClick={() => navigate(`/preview/${id}/video`)}>
+                🎬 Video
+              </Button>
+            )}
             {topic.study && (
               <Button variant="secondary" size="sm" onClick={() => navigate(`/preview/${id}/learn`)}>
                 📖 Study pages

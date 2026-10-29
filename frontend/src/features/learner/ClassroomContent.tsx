@@ -118,6 +118,9 @@ export function TopicList({ lid, topics, preview, oralOk }: { lid: number; topic
                   </div>
                   {mastery.data && <MasteryChip label={readinessLabel(ready.get(s.id))} />}
                 </div>
+                {s.video > 0 && (
+                  <PathRow icon="🎬" title={t("videoTitle")} sub={t("videoRow")} tone="info" onClick={() => navigate(`/l/${lid}/video/${s.id}`)} />
+                )}
                 {s.study_state && (
                   <PathRow
                     icon="📖"

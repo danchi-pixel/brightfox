@@ -10,7 +10,7 @@ import EnglishPage from "./EnglishPage";
 import LearnerHome from "./LearnerHome";
 
 vi.mock("@/lib/auth", () => ({ useAuth: () => ({ language: "sl", isAdmin: false }) }));
-const topic: LearnerTopicCard = { id: "people", version: 5, subject: "english", title: "People are People", grade: 6, intro: "People notes", tasks: 25, learn: 6, levels: [1,2,3], extras: 0, challenge: 11, cards: 38, goals: 3, skills: 7, for: ["Erik"], has_parent_card: true, oral: 5, runs: 4, finished: 2, last: null, challenge_state: {tasks: 11,unlocked:true,cleared:true}, study_state:{cards:38,known:["aunt","uncle"],goals:3,goal_ids:["a","b","c"],ticked:["a"]} };
+const topic: LearnerTopicCard = { id: "people", version: 5, subject: "english", title: "People are People", grade: 6, intro: "People notes", tasks: 25, learn: 6, levels: [1,2,3], extras: 0, challenge: 11, cards: 38, goals: 3, skills: 7, for: ["Erik"], has_parent_card: true, video: 0, oral: 5, runs: 4, finished: 2, last: null, challenge_state: {tasks: 11,unlocked:true,cleared:true}, study_state:{cards:38,known:["aunt","uncle"],goals:3,goal_ids:["a","b","c"],ticked:["a"]} };
 const mock: MockCard & {last: {points:number;max:number} | null} = {id:"people-mock",subject:"english",title:"Poskusni test: People are People",version:2,grade:6,intro:"",minutes:30,topics:["people"],tasks:17,points:28,for:["Erik"],last:{points:21,max:28}};
 const exam: Exam = {id:9,subject:"english",title:"English oral exam",exam_date:"2026-11-10",kind:"oral",target_grade:null,notes:"",result_grade:null,days_left:12,scope:[{topic_id:"people",skill_id:null,topic_title:topic.title}],readiness:0.7,skills:[]};
 let client: QueryClient;
@@ -39,7 +39,7 @@ beforeEach(() => {
 });
 afterEach(()=>{cleanup();client.clear();vi.restoreAllMocks();vi.unstubAllGlobals();});
 function Location(){const l=useLocation();return <output data-testid="location">{l.pathname}{l.search}</output>;}
-function mount(path:string){return render(<QueryClientProvider client={client}><MemoryRouter initialEntries={[path]}><Location /><Routes><Route path="/l/:lid" element={<LearnerHome />} /><Route path="/l/:lid/english" element={<EnglishPage />} /><Route path="/l/:lid/practice/:tid" element={<p>Original practice screen</p>} /><Route path="/l/:lid/mock/:mid" element={<p>Original mock screen</p>} /></Routes></MemoryRouter></QueryClientProvider>);}
+function mount(path:string){return render(<QueryClientProvider client={client}><MemoryRouter initialEntries={[path]}><Location /><Routes><Route path="/l/:lid" element={<LearnerHome />} /><Route path="/l/:lid/english" element={<EnglishPage />} /><Route path="/l/:lid/practice/:tid" element={<p>Original practice screen</p>} /><Route path="/l/:lid/video/:tid" element={<p>Original video screen</p>} /><Route path="/l/:lid/mock/:mid" element={<p>Original mock screen</p>} /></Routes></MemoryRouter></QueryClientProvider>);}
 
 describe("English collection",()=>{
   it("groups English only, keeping science and all originals intact",async()=>{
@@ -69,6 +69,12 @@ describe("English collection",()=>{
     expect(buttons.some(t=>t?.includes('Ustno'))).toBe(true);
     fireEvent.click(screen.getByRole('button',{name:/Vaja/}));
     expect(screen.getByTestId('location').textContent).toBe('/l/1/practice/people');
+  });
+  it("includes upstream video lessons inside the collection",async()=>{
+    home.topics[0]={...topic,video:12};
+    mount('/l/1/english?view=study&topic=people');
+    fireEvent.click(await screen.findByRole('button',{name:/Video/}));
+    expect(screen.getByTestId('location').textContent).toBe('/l/1/video/people');
   });
   it("shows saved progress and keeps the original mock route",async()=>{
     mount('/l/1/english?view=progress');

@@ -87,6 +87,31 @@ def test_format_2_fields(tmp_path):
     assert "unknown skill 'nope'" in _problems(data)
 
 
+def test_video_lesson(tmp_path):
+    data = _copy(tmp_path)
+    video = {"title": "🎬 Ulomki", "scenes": [
+        {"type": "intro", "emoji": "🍕", "title": "Ulomki", "foxy": "Živjo, {name}! Gremo na pico."},
+        {"type": "rule", "title": "Števec in imenovalec", "steps": [{"sl": "Imenovalec pove, na koliko delov režemo."}, {"en": "one half"}]},
+        {"type": "pairs", "title": "Besede", "say": [1], "pairs": [["polovica", "half"], ["četrtina", "quarter"]]},
+        {"type": "quiz", "question": "1/2 od 10 je …", "options": ["2", "5"], "answer": 1, "explain": "10 : 2 = 5"},
+        {"type": "recap", "title": "Konec", "points": ["Imenovalec je spodaj."]},
+    ]}
+    _edit(data, f"global/topics/{PRIMER}.json", lambda s: s.update(video=video))
+    assert load(data).topics[PRIMER]["video"]["scenes"][3]["answer"] == 1
+
+    def broken(s):
+        s["video"]["scenes"][3]["answer"] = 5
+        s["video"]["scenes"][1]["steps"] = [{}]
+        s["video"]["scenes"][2]["say"] = [2]
+        s["video"]["scenes"].append({"type": "song", "title": "?"})
+        s["video"]["scenes"][0]["foxy"] = "Si pripravljen?"
+
+    _edit(data, f"global/topics/{PRIMER}.json", broken)
+    msg = _problems(data)
+    for part in ("\"answer\" must be the number", "a step needs", "\"say\" lists the sides", "\"type\" must be one of", "gendered"):
+        assert part in msg
+
+
 def test_legacy_goals_get_ids():
     assert goal_list({"goals": ["A", "B"]}) == [{"id": "g0", "text": "A"}, {"id": "g1", "text": "B"}]
     assert goal_list(None) == []

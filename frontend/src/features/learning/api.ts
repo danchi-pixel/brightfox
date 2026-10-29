@@ -63,10 +63,24 @@ export interface ParentCard {
   tips?: string[];
 }
 
+/** A video lesson's scenes (🎬). Slovene lines are captions, English ones are read aloud; "{name}" is the learner. */
+export type VideoScene =
+  | { type: "intro"; skill?: string; foxy?: string; title: string; sub?: string; emoji?: string }
+  | { type: "rule"; skill?: string; foxy?: string; title: string; steps: { sl?: string; en?: string }[] }
+  | { type: "pairs"; skill?: string; foxy?: string; title: string; pairs: [string, string][]; say?: (0 | 1)[] }
+  | { type: "quiz"; skill?: string; foxy?: string; question: string; say?: string; options: string[]; answer: number; explain?: string }
+  | { type: "recap"; skill?: string; foxy?: string; title: string; points: string[] };
+
+export interface Video {
+  title: string;
+  scenes: VideoScene[];
+}
+
 export interface Topic {
   id: string;
   version: number;
   format?: 1 | 2;
+  video?: Video;
   subject: Subject;
   grade: number;
   title: string;
@@ -102,6 +116,8 @@ export interface TopicCard {
   has_parent_card: boolean;
   /** Number of oral-exam questions. */
   oral: number;
+  /** Number of scenes in the video lesson (0: none). */
+  video: number;
 }
 
 export interface Runs {

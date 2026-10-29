@@ -36,7 +36,7 @@ beforeEach(() => {
   home = {
     learner: { id: 1, name: "Scratch learner", avatar: "", color: "", grade: 5 }, owner: true, lang: "en",
     tutor: { configured: true, enabled: true, daily_limit: 20, left_today: 20 }, chats: [],
-    topics: [{ ...topic, tasks: 2, learn: 0, levels: [1, 2], extras: 0, challenge: 2, cards: 0, goals: 1, skills: 1, for: [], has_parent_card: false, oral: 0, runs: 0, finished: 0, last: null, challenge_state: { tasks: 2, unlocked: true, cleared: false }, study_state: null }],
+    topics: [{ ...topic, tasks: 2, learn: 0, levels: [1, 2], extras: 0, challenge: 2, cards: 0, goals: 1, skills: 1, for: [], has_parent_card: false, video: 0, oral: 0, runs: 0, finished: 0, last: null, challenge_state: { tasks: 2, unlocked: true, cleared: false }, study_state: null }],
   };
   vi.spyOn(api, "get").mockImplementation(async (path) => {
     if (path.includes("/home?")) return structuredClone(home);

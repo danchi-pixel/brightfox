@@ -45,13 +45,13 @@ const SECTIONS: Section[] = [
     body: {
       sl: [
         "BrightFox je družinska učilnica za snov, ki jo otroka jemljeta v šoli. Iz fotografij učbenika, delovnega zvezka ali zapiskov nastanejo **teme**, vsaka z enako potjo:",
-        ["📖 **Uči se**: urejena snov (razlaga, tabele, »Pazi!« pasti), kartice in seznam »Kaj znam«.", "✏️ **Vaja**: naloge od lažjih k težjim, z namigi in rešitvami.", "🏆 **Liga prvakov**: težja raven, ki se odklene po vaji; zmaga prinese pokal.", "🎤 **Ustno spraševanje** in 📝 **poskusni test**, kjer sta pripravljena."],
+        ["🎬 **Video lekcija**: Foxy snov razloži kot nogometno tekmo – angleške besede in povedi prebere naprava na glas, vmes so hitra vprašanja za »gol«. Na Topics jo predogledate z gumbom 🎬 Video.", "📖 **Uči se**: urejena snov (razlaga, tabele, »Pazi!« pasti), kartice in seznam »Kaj znam«.", "✏️ **Vaja**: naloge od lažjih k težjim, z namigi in rešitvami.", "🏆 **Liga prvakov**: težja raven, ki se odklene po vaji; zmaga prinese pokal.", "🎤 **Ustno spraševanje** in 📝 **poskusni test**, kjer sta pripravljena."],
         "Zraven je **Foxy**, lisička inštruktor za domače naloge: najprej pomaga z namigi, celotno rešitev pokaže šele, ko otrok res poskusi.",
         "Za teste vnesete datum in snov, otrok pa dobi odštevanje, približno pripravljenost in kratek načrt za vsak dan.",
       ],
       en: [
         "BrightFox is a family classroom for what the kids are learning at school. Photos of the textbook, workbook or notes become **topics**, each with the same path:",
-        ["📖 **Learn**: the material in order (explanations, tables, \"Watch out!\" traps), flashcards and an \"I can\" list.", "✏️ **Practice**: tasks from easy to harder, with hints and solutions.", "🏆 **Champions League**: a harder level that opens after the practice; finishing it wins a trophy.", "🎤 **Oral exam** and 📝 **mock test**, where they exist."],
+        ["🎬 **Video lesson**: Foxy explains the material like a football match; the device reads the English words and sentences aloud, with quick questions to score a \"goal\". Preview it on Topics with 🎬 Video.", "📖 **Learn**: the material in order (explanations, tables, \"Watch out!\" traps), flashcards and an \"I can\" list.", "✏️ **Practice**: tasks from easy to harder, with hints and solutions.", "🏆 **Champions League**: a harder level that opens after the practice; finishing it wins a trophy.", "🎤 **Oral exam** and 📝 **mock test**, where they exist."],
         "Next to that is **Foxy**, a fox homework tutor: hints first, the full solution only after the kid has really tried.",
         "For school tests you enter the date and what's on it; the kid gets a countdown, about how ready they are, and a short plan for every day.",
       ],
