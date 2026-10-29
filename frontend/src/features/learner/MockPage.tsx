@@ -19,6 +19,7 @@ import { qk, ucApi, useLearnerHome, useLearnerMock, useStudioMock, type Mock, ty
 import { LangContext, useT } from "../learning/i18n";
 import { CAN_SPEAK, speak } from "../learning/speech";
 import { FullScreen, RichText } from "../learning/ui";
+import { englishMock, englishPath } from "../learning/english";
 
 export function isRight(task: MockTask, given: string): boolean {
   if (!given.trim()) return false;
@@ -51,7 +52,8 @@ export default function MockPage() {
   const mock = preview ? studio.data?.mock : learnerMock.data;
   const error = preview ? studio.error : learnerMock.error;
   const owner = !preview && !!home.data?.owner;
-  const back = preview ? "/topics" : `/l/${lid}`;
+  const englishIds = new Set(home.data?.topics.filter(t => t.subject === "english").map(t => t.id));
+  const back = preview ? "/topics" : mock && englishMock(mock, englishIds) ? englishPath(lid) : `/l/${lid}`;
   return (
     <LangContext.Provider value={!preview && home.data && !home.data.owner ? home.data.lang : null}>
       <MockScreen mock={mock} error={error} loading={!mock || (!preview && !home.data)} owner={owner} lid={lid} back={back} />

@@ -1,0 +1,1342 @@
+{
+  "id": "testcopy-ca1182d0-t001",
+  "version": 6,
+  "format": 2,
+  "skills": [
+    {
+      "id": "s001",
+      "title": "Država → narodnost (Japan → Japanese)"
+    },
+    {
+      "id": "s002",
+      "title": "Družina"
+    },
+    {
+      "id": "s003",
+      "title": "have got / has got"
+    },
+    {
+      "id": "s004",
+      "title": "my, your, his … in he's"
+    },
+    {
+      "id": "s005",
+      "title": "can / can't"
+    },
+    {
+      "id": "s006",
+      "title": "Opis osebe in oblačila"
+    }
+  ],
+  "subject": "english",
+  "grade": 6,
+  "title": "People are people ⚽ (Unit 1)",
+  "intro": "Narodnosti, družina, have got, his ali he's in can – z nogometnimi zvezdniki. Najprej kratko ponovi pravila, potem gremo na naloge!",
+  "learn": [
+    {
+      "title": "Država ali narodnost?",
+      "text": "Država (country) je kraj na zemljevidu. Narodnost (nationality) pove, kdo je od tam. Narodnosti in jezike v angleščini vedno pišemo z veliko začetnico.",
+      "example": "Slovenia → Slovenian, Italy → Italian, Japan → Japanese, France → French, Germany → German, Holland → Dutch, Scotland → Scottish, the USA → American"
+    },
+    {
+      "title": "have got ali has got?",
+      "text": "I, you, we, they → have got (I've got). He, she, it → has got (she's got). Zanikanje: haven't got / hasn't got. Vprašanje: Have you got …? Has he got …?",
+      "example": "Jan Oblak has got big hands. We haven't got a dog. Has your brother got a bike?"
+    },
+    {
+      "title": "his ali he's?",
+      "text": "his = njegov (his eyes, his team). he's = he is ali he has (He's eleven. He's got green eyes.). Še ostali: my, your, his, her, its, our, their.",
+      "example": "He's my best friend. His favourite player is Mbappé."
+    },
+    {
+      "title": "can / can't",
+      "text": "S can povemo, kaj kdo zna: She can swim. He can't fly. Vprašanje: Can you …? Kratek odgovor: Yes, I can. / No, I can't.",
+      "example": "Can you speak German? No, I can't, but I can speak Slovenian."
+    },
+    {
+      "title": "There are …",
+      "text": "»V moji sobi sta dve okni« po angleško NI »In my room have two windows«. Pravilno je: There are two windows in my room.",
+      "example": "There are eleven players in a football team."
+    }
+  ],
+  "study": {
+    "goals": [
+      {
+        "id": "g001",
+        "text": "Znam povedati, od kod je kdo in kakšne narodnosti je (Japan → Japanese).",
+        "skill": "s001"
+      },
+      {
+        "id": "g002",
+        "text": "Znam poimenovati člane družine (aunt, cousin, grandmother …).",
+        "skill": "s002"
+      },
+      {
+        "id": "g003",
+        "text": "Znam uporabljati have got in has got.",
+        "skill": "s003"
+      },
+      {
+        "id": "g004",
+        "text": "Znam ločiti his (njegov) in he's (on je).",
+        "skill": "s004"
+      },
+      {
+        "id": "g005",
+        "text": "Znam povedati, kaj kdo zna in česa ne (can / can't).",
+        "skill": "s005"
+      },
+      {
+        "id": "g006",
+        "text": "Znam opisati prijatelja: videz, osebnost in kaj zna.",
+        "skill": "s006"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Države in narodnosti",
+        "text": "Država (country) je kraj na zemljevidu. Narodnost (nationality) pove, kdo je od tam. Beseda za narodnost je pogosto tudi beseda za jezik: French = francoski in francoščina.\n\n**Narodnosti pišemo vedno z veliko začetnico.**",
+        "table": {
+          "head": [
+            "Country (država)",
+            "Nationality (narodnost)"
+          ],
+          "say": [
+            0,
+            1
+          ],
+          "rows": [
+            [
+              "Slovenia",
+              "Slovenian"
+            ],
+            [
+              "England",
+              "English"
+            ],
+            [
+              "Scotland",
+              "Scottish"
+            ],
+            [
+              "Ireland",
+              "Irish"
+            ],
+            [
+              "France",
+              "French"
+            ],
+            [
+              "Germany",
+              "German"
+            ],
+            [
+              "Italy",
+              "Italian"
+            ],
+            [
+              "Spain",
+              "Spanish"
+            ],
+            [
+              "Poland",
+              "Polish"
+            ],
+            [
+              "Holland",
+              "Dutch"
+            ],
+            [
+              "Japan",
+              "Japanese"
+            ],
+            [
+              "the USA",
+              "American"
+            ],
+            [
+              "Argentina",
+              "Argentinian"
+            ],
+            [
+              "Mexico",
+              "Mexican"
+            ]
+          ]
+        },
+        "examples": [
+          "Messi is from Argentina. He's Argentinian.",
+          "Where are you from? I'm from Slovenia. I'm Slovenian."
+        ],
+        "skill": "s001"
+      },
+      {
+        "title": "Družina (Family)",
+        "text": "S **'s** povemo, čigav je kdo: my mum's sister = mamina sestra = my aunt. Pri več ljudeh samo apostrof: my parents' car.",
+        "table": {
+          "head": [
+            "English",
+            "Slovensko"
+          ],
+          "say": [
+            0
+          ],
+          "rows": [
+            [
+              "mother (mum)",
+              "mama"
+            ],
+            [
+              "father (dad)",
+              "oče"
+            ],
+            [
+              "parents",
+              "starši"
+            ],
+            [
+              "sister",
+              "sestra"
+            ],
+            [
+              "brother",
+              "brat"
+            ],
+            [
+              "grandmother (granny, grandma)",
+              "babica"
+            ],
+            [
+              "grandfather (grandpa)",
+              "dedek"
+            ],
+            [
+              "aunt",
+              "teta"
+            ],
+            [
+              "uncle",
+              "stric"
+            ],
+            [
+              "cousin",
+              "bratranec, sestrična"
+            ],
+            [
+              "wife",
+              "žena"
+            ],
+            [
+              "husband",
+              "mož"
+            ],
+            [
+              "daughter",
+              "hčerka"
+            ],
+            [
+              "son",
+              "sin"
+            ]
+          ]
+        },
+        "examples": [
+          "My mum's sister is my aunt.",
+          "My uncle's son is my cousin.",
+          "There are five people in my family."
+        ],
+        "skill": "s002"
+      },
+      {
+        "title": "have got / has got",
+        "text": "S have got povemo, kaj kdo **ima**: stvari, družino, videz (oči, lase).",
+        "table": {
+          "head": [
+            "Kdo",
+            "+",
+            "−",
+            "?"
+          ],
+          "say": [
+            1,
+            2,
+            3
+          ],
+          "rows": [
+            [
+              "I, you, we, they",
+              "have got ('ve got)",
+              "haven't got",
+              "Have you got …?"
+            ],
+            [
+              "he, she, it",
+              "has got ('s got)",
+              "hasn't got",
+              "Has she got …?"
+            ]
+          ]
+        },
+        "examples": [
+          "I've got a sister.",
+          "He's got green eyes.",
+          "We haven't got a dog.",
+          "Has your brother got a bike? Yes, he has. / No, he hasn't."
+        ],
+        "skill": "s003"
+      },
+      {
+        "title": "My, your, his … (čigavo je)",
+        "text": "Svojilni zaimki povedo, čigavo je nekaj.",
+        "table": {
+          "head": [
+            "Oseba",
+            "Svojilni",
+            "Primer"
+          ],
+          "say": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "I",
+              "my",
+              "my bike"
+            ],
+            [
+              "you",
+              "your",
+              "your bag"
+            ],
+            [
+              "he",
+              "his",
+              "his team"
+            ],
+            [
+              "she",
+              "her",
+              "her dog"
+            ],
+            [
+              "it",
+              "its",
+              "its name"
+            ],
+            [
+              "we",
+              "our",
+              "our school"
+            ],
+            [
+              "they",
+              "their",
+              "their house"
+            ]
+          ]
+        },
+        "examples": [
+          "He's my friend. His favourite player is Mbappé."
+        ],
+        "skill": "s004"
+      },
+      {
+        "title": "can / can't (kaj kdo zna)",
+        "text": "S **can** povemo, kaj kdo zna. Can je pri vseh osebah enak: I can, he can, they can. Vprašanje: Can you …? Kratek odgovor: Yes, I can. / No, I can't.",
+        "examples": [
+          "I can swim but I can't fly.",
+          "Can you speak German? No, I can't.",
+          "How many languages can you speak?"
+        ],
+        "skill": "s005"
+      },
+      {
+        "title": "Opis osebe (Describing people)",
+        "text": "Dober opis gre po vrsti: kdo je → koliko je star → od kod je → videz (He's got …) → osebnost (He's funny) → kaj zna (He can …). Povedi poveži z **and** ali **but**.",
+        "table": {
+          "head": [
+            "English",
+            "Slovensko"
+          ],
+          "say": [
+            0
+          ],
+          "rows": [
+            [
+              "tall",
+              "visok"
+            ],
+            [
+              "short",
+              "nizek"
+            ],
+            [
+              "slim",
+              "vitek"
+            ],
+            [
+              "long hair",
+              "dolgi lasje"
+            ],
+            [
+              "short hair",
+              "kratki lasje"
+            ],
+            [
+              "blonde hair",
+              "svetli lasje"
+            ],
+            [
+              "dark hair",
+              "temni lasje"
+            ],
+            [
+              "blue eyes",
+              "modre oči"
+            ],
+            [
+              "brave",
+              "pogumen"
+            ],
+            [
+              "clever",
+              "pameten"
+            ],
+            [
+              "friendly",
+              "prijazen"
+            ],
+            [
+              "funny",
+              "smešen, zabaven"
+            ],
+            [
+              "nervous",
+              "živčen"
+            ],
+            [
+              "quiet",
+              "tih"
+            ],
+            [
+              "nice",
+              "prijeten"
+            ]
+          ]
+        },
+        "examples": [
+          "My best friend is eleven. He's from Slovenia.",
+          "He's tall and he's got short dark hair.",
+          "He's funny and clever. He can play football but he can't sing."
+        ],
+        "skill": "s006"
+      },
+      {
+        "title": "Oblačila (Clothes)",
+        "table": {
+          "head": [
+            "English",
+            "Slovensko"
+          ],
+          "say": [
+            0
+          ],
+          "rows": [
+            [
+              "T-shirt",
+              "majica"
+            ],
+            [
+              "shirt",
+              "srajca"
+            ],
+            [
+              "sweater",
+              "pulover"
+            ],
+            [
+              "sweatshirt",
+              "športni pulover"
+            ],
+            [
+              "jacket",
+              "jakna"
+            ],
+            [
+              "jeans",
+              "kavbojke"
+            ],
+            [
+              "trousers",
+              "hlače"
+            ],
+            [
+              "shorts",
+              "kratke hlače"
+            ],
+            [
+              "skirt",
+              "krilo"
+            ],
+            [
+              "dress",
+              "obleka"
+            ],
+            [
+              "tracksuit",
+              "trenirka"
+            ],
+            [
+              "trainers",
+              "superge"
+            ],
+            [
+              "boots",
+              "škornji (football boots = kopačke)"
+            ],
+            [
+              "hat",
+              "klobuk, kapa"
+            ],
+            [
+              "sunglasses",
+              "sončna očala"
+            ]
+          ]
+        },
+        "examples": [
+          "Your trainers are really cool!",
+          "He's got a blue jacket and black jeans."
+        ],
+        "skill": "s006"
+      }
+    ],
+    "cards": [
+      {
+        "front": "teta",
+        "back": "aunt",
+        "skill": "s002"
+      },
+      {
+        "front": "stric",
+        "back": "uncle",
+        "skill": "s002"
+      },
+      {
+        "front": "bratranec / sestrična",
+        "back": "cousin",
+        "skill": "s002"
+      },
+      {
+        "front": "babica",
+        "back": "grandmother",
+        "skill": "s002"
+      },
+      {
+        "front": "dedek",
+        "back": "grandfather",
+        "skill": "s002"
+      },
+      {
+        "front": "hčerka",
+        "back": "daughter",
+        "skill": "s002"
+      },
+      {
+        "front": "sin",
+        "back": "son",
+        "skill": "s002"
+      },
+      {
+        "front": "žena",
+        "back": "wife",
+        "skill": "s002"
+      },
+      {
+        "front": "mož",
+        "back": "husband",
+        "skill": "s002"
+      },
+      {
+        "front": "starši",
+        "back": "parents",
+        "skill": "s002"
+      },
+      {
+        "front": "sestra",
+        "back": "sister",
+        "skill": "s002"
+      },
+      {
+        "front": "brat",
+        "back": "brother",
+        "skill": "s002"
+      },
+      {
+        "front": "japonski, Japonec",
+        "back": "Japanese",
+        "skill": "s001"
+      },
+      {
+        "front": "italijanski, Italijan",
+        "back": "Italian",
+        "skill": "s001"
+      },
+      {
+        "front": "nizozemski, Nizozemec",
+        "back": "Dutch",
+        "skill": "s001"
+      },
+      {
+        "front": "poljski, Poljak",
+        "back": "Polish",
+        "skill": "s001"
+      },
+      {
+        "front": "škotski, Škot",
+        "back": "Scottish",
+        "skill": "s001"
+      },
+      {
+        "front": "irski, Irec",
+        "back": "Irish",
+        "skill": "s001"
+      },
+      {
+        "front": "ameriški, Američan",
+        "back": "American",
+        "skill": "s001"
+      },
+      {
+        "front": "francoski, Francoz",
+        "back": "French",
+        "skill": "s001"
+      },
+      {
+        "front": "nemški, Nemec",
+        "back": "German",
+        "skill": "s001"
+      },
+      {
+        "front": "argentinski, Argentinec",
+        "back": "Argentinian",
+        "skill": "s001"
+      },
+      {
+        "front": "pogumen",
+        "back": "brave",
+        "skill": "s006"
+      },
+      {
+        "front": "pameten",
+        "back": "clever",
+        "skill": "s006"
+      },
+      {
+        "front": "prijazen",
+        "back": "friendly",
+        "skill": "s006"
+      },
+      {
+        "front": "smešen",
+        "back": "funny",
+        "skill": "s006"
+      },
+      {
+        "front": "živčen",
+        "back": "nervous",
+        "skill": "s006"
+      },
+      {
+        "front": "tih",
+        "back": "quiet",
+        "skill": "s006"
+      },
+      {
+        "front": "visok",
+        "back": "tall",
+        "skill": "s006"
+      },
+      {
+        "front": "vitek",
+        "back": "slim",
+        "skill": "s006"
+      },
+      {
+        "front": "majica",
+        "back": "T-shirt",
+        "skill": "s006"
+      },
+      {
+        "front": "jakna",
+        "back": "jacket",
+        "skill": "s006"
+      },
+      {
+        "front": "kavbojke",
+        "back": "jeans",
+        "skill": "s006"
+      },
+      {
+        "front": "superge",
+        "back": "trainers",
+        "skill": "s006"
+      },
+      {
+        "front": "pulover",
+        "back": "sweater",
+        "skill": "s006"
+      },
+      {
+        "front": "hlače",
+        "back": "trousers",
+        "skill": "s006"
+      },
+      {
+        "front": "krilo",
+        "back": "skirt",
+        "skill": "s006"
+      },
+      {
+        "front": "sončna očala",
+        "back": "sunglasses",
+        "skill": "s006"
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "t001",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Jan Oblak is from Slovenia. He's …",
+      "options": [
+        "Slovenia",
+        "Slovenian",
+        "Slovenish"
+      ],
+      "answer": 1,
+      "hints": [
+        "Iščemo narodnost (kdo je), ne države."
+      ],
+      "solution": "**Slovenian** je narodnost, Slovenia je država. Jan Oblak is Slovenian.",
+      "skill": "s001"
+    },
+    {
+      "id": "t002",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Kylian Mbappé is from France. He's …",
+      "options": [
+        "France",
+        "Francish",
+        "French"
+      ],
+      "answer": 2,
+      "hints": [
+        "Kratka beseda, ki se konča na -ch."
+      ],
+      "solution": "France → **French**. Mbappé is French.",
+      "skill": "s001"
+    },
+    {
+      "id": "t003",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Katera beseda je DRŽAVA (country)?",
+      "options": [
+        "Japanese",
+        "Japan",
+        "Italian"
+      ],
+      "answer": 1,
+      "hints": [
+        "Država je kraj na zemljevidu. Narodnost pove, kdo je od tam."
+      ],
+      "solution": "**Japan** je država. Japanese je narodnost in jezik: People from Japan are Japanese.",
+      "skill": "s001"
+    },
+    {
+      "id": "t004",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "My mum's sister is my …",
+      "options": [
+        "uncle",
+        "aunt",
+        "cousin"
+      ],
+      "answer": 1,
+      "hints": [
+        "Mamina sestra je ženska: teta."
+      ],
+      "solution": "Mamina sestra je **aunt** (teta). Uncle = stric, cousin = bratranec ali sestrična.",
+      "skill": "s002"
+    },
+    {
+      "id": "t005",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Ana ___ got long hair.",
+      "options": [
+        "have",
+        "has"
+      ],
+      "answer": 1,
+      "hints": [
+        "Ana = she. Kaj sodi k he, she, it?"
+      ],
+      "solution": "Pri he, she, it: **has got**. Ana has got long hair. (I, you, we, they have got.)",
+      "skill": "s003"
+    },
+    {
+      "id": "t006",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Kateri zapis je pravilen?",
+      "options": [
+        "I like french films.",
+        "I like French films."
+      ],
+      "answer": 1,
+      "hints": [
+        "Poglej prvo črko besede French."
+      ],
+      "solution": "Narodnosti in jezike pišemo z **veliko začetnico**: French, English, Slovenian.",
+      "skill": "s001"
+    },
+    {
+      "id": "t007",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Država → narodnost. Italy → ______",
+      "answer": "Italian",
+      "hints": [
+        "Ne Italy! Narodnost se tukaj konča na -ian.",
+        "Ital…"
+      ],
+      "solution": "Italy → **Italian**. Pizza is Italian!",
+      "skill": "s001"
+    },
+    {
+      "id": "t008",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni s have got ali has got: Jan Oblak ______ big hands.",
+      "answer": "has got",
+      "accept": [
+        "'s got"
+      ],
+      "hints": [
+        "Jan Oblak = he."
+      ],
+      "solution": "He → **has got**: Jan Oblak has got big hands. Krajše: He's got big hands.",
+      "skill": "s003"
+    },
+    {
+      "id": "t009",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "___ favourite player is Mbappé.",
+      "options": [
+        "He's",
+        "His"
+      ],
+      "answer": 1,
+      "hints": [
+        "Ali tu pomeni »on je« ali »njegov«?"
+      ],
+      "solution": "**His** = njegov: His favourite player is Mbappé. He's = he is (on je).",
+      "skill": "s004"
+    },
+    {
+      "id": "t010",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Država → narodnost. Japan → ______",
+      "answer": "Japanese",
+      "hints": [
+        "Konča se na -ese.",
+        "Japan + ese"
+      ],
+      "solution": "Japan → **Japanese**.",
+      "skill": "s001"
+    },
+    {
+      "id": "t011",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni s have got ali has got: The players ______ new boots.",
+      "answer": "have got",
+      "accept": [
+        "'ve got"
+      ],
+      "hints": [
+        "The players = they."
+      ],
+      "solution": "They → **have got**: The players have got new boots. Krajše: They've got new boots.",
+      "skill": "s003"
+    },
+    {
+      "id": "t012",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "___ eleven years old.",
+      "options": [
+        "His",
+        "He's"
+      ],
+      "answer": 1,
+      "hints": [
+        "Tukaj pomeni »on je«."
+      ],
+      "solution": "**He's** = he is: He's eleven years old. His = njegov.",
+      "skill": "s004"
+    },
+    {
+      "id": "t013",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Država → narodnost. Holland → ______",
+      "answer": "Dutch",
+      "hints": [
+        "Ta je posebna: ne konča se na -ish.",
+        "Ima pet črk in se začne z D."
+      ],
+      "solution": "Holland → **Dutch**. Virgil van Dijk is Dutch.",
+      "skill": "s001"
+    },
+    {
+      "id": "t014",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni kratek odgovor. »Can you speak German?« »No, I ______.«",
+      "answer": "can't",
+      "accept": [
+        "cannot",
+        "can not"
+      ],
+      "hints": [
+        "Nikalna oblika od can."
+      ],
+      "solution": "No, I **can't**. Kratek odgovor ponovi can: Yes, I can. / No, I can't.",
+      "skill": "s005"
+    },
+    {
+      "id": "t015",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Poslušaj in zapiši oblačilo.",
+      "say": "trainers",
+      "answer": "trainers",
+      "hints": [
+        "Nosimo jih na nogah pri športu.",
+        "t _ _ _ n e r s"
+      ],
+      "solution": "**trainers** = superge. Za nogomet pa imamo boots (kopačke).",
+      "skill": "s006"
+    },
+    {
+      "id": "t016",
+      "level": 2,
+      "kind": "text",
+      "extra": true,
+      "prompt": "Bonus: poslušaj in zapiši družinskega člana.",
+      "say": "daughter",
+      "answer": "daughter",
+      "hints": [
+        "To je hčerka. Črk gh se ne sliši.",
+        "d _ _ g h t e r"
+      ],
+      "solution": "**daughter** = hčerka (son = sin). Črk gh v daughter ne izgovorimo.",
+      "skill": "s002"
+    },
+    {
+      "id": "t017",
+      "level": 2,
+      "kind": "text",
+      "prompt": "My dad's father is my ______.",
+      "answer": "grandfather",
+      "accept": [
+        "grandpa",
+        "granddad",
+        "grandad"
+      ],
+      "hints": [
+        "Očetov oče je dedek.",
+        "grand…"
+      ],
+      "solution": "**grandfather** (ali grandpa) = dedek. Grandmother (grandma) = babica.",
+      "skill": "s002"
+    },
+    {
+      "id": "t018",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Popravi poved: »In my class have twenty pupils.«",
+      "answer": "There are twenty pupils in my class.",
+      "accept": [
+        "There are 20 pupils in my class."
+      ],
+      "hints": [
+        "Začni z There are …",
+        "There are … pupils in my class."
+      ],
+      "solution": "**There are twenty pupils in my class.** (= V mojem razredu je dvajset učencev.) Slovenskega »imamo« tu ne prevajamo dobesedno.",
+      "skill": "s002"
+    },
+    {
+      "id": "t019",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Popravi poved: »She have a new bike.«",
+      "answer": "She has got a new bike.",
+      "accept": [
+        "She's got a new bike.",
+        "She has a new bike."
+      ],
+      "hints": [
+        "She = ona. Kaj sodi k she?"
+      ],
+      "solution": "**She has got a new bike.** (ali She's got a new bike.) Pri he, she, it: has, ne have.",
+      "skill": "s003"
+    },
+    {
+      "id": "t020",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Popravi poved: »Hes favourite colour is blue.«",
+      "answer": "His favourite colour is blue.",
+      "accept": [
+        "His favorite color is blue.",
+        "His favourite color is blue.",
+        "His favorite colour is blue."
+      ],
+      "hints": [
+        "Tukaj mislimo »njegov«."
+      ],
+      "solution": "**His** favourite colour is blue. His = njegov, he's = he is.",
+      "skill": "s004"
+    },
+    {
+      "id": "t021",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Popravi poved: »Mbappé is France.«",
+      "answer": "Mbappé is French.",
+      "accept": [
+        "Mbappé is from France."
+      ],
+      "hints": [
+        "France je država. Uporabi narodnost ali pa dodaj from."
+      ],
+      "solution": "**Mbappé is French.** ali **Mbappé is from France.**",
+      "skill": "s001"
+    },
+    {
+      "id": "t022",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Sestavi vprašanje: speak / languages / can / how many / you / ?",
+      "answer": "How many languages can you speak?",
+      "hints": [
+        "Začni s How many …",
+        "How many languages + can + you + speak?"
+      ],
+      "solution": "**How many languages can you speak?** Vrstni red: vprašalnica + can + oseba + glagol.",
+      "skill": "s005"
+    },
+    {
+      "id": "t023",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Združi povedi z and ali but: Ronaldo can play football. He can't fly.",
+      "answer": "Ronaldo can play football but he can't fly.",
+      "accept": [
+        "Ronaldo can play football but can't fly.",
+        "Ronaldo can play football but he cannot fly."
+      ],
+      "hints": [
+        "Ene stvari zna, druge ne. Kateri veznik pove nasprotje?"
+      ],
+      "solution": "**Ronaldo can play football but he can't fly.** But uporabimo za nasprotje, and za dve podobni stvari.",
+      "skill": "s005"
+    },
+    {
+      "id": "t024",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Mini spis v zvezek: v štirih povedih opiši svojega najljubšega nogometaša. Uporabi: He's from … / He's … (narodnost) / He's got … / He can … but he can't …",
+      "hints": [
+        "Začni z: My favourite football player is …",
+        "Narodnost z veliko začetnico, pri he pa has got."
+      ],
+      "solution": "Primer: My favourite football player is Jan Oblak. He's from Slovenia, so he's Slovenian. He's got short hair and big hands. He can stop penalties but he can't play in attack!",
+      "skill": "s006"
+    },
+    {
+      "id": "t025",
+      "level": 3,
+      "kind": "choice",
+      "extra": true,
+      "prompt": "Bonus: Somebody who isn't scared is …",
+      "options": [
+        "brave",
+        "nervous",
+        "quiet"
+      ],
+      "answer": 0,
+      "hints": [
+        "Katniss iz The Hunger Games ni prestrašena."
+      ],
+      "solution": "**brave** = pogumen, pogumna. Nervous = živčen, quiet = tih.",
+      "skill": "s006"
+    }
+  ],
+  "challenge": [
+    {
+      "id": "t026",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Prevedi v angleščino: Moj bratranec je Italijan.",
+      "answer": "My cousin is Italian.",
+      "accept": [
+        "My cousin's Italian."
+      ],
+      "hints": [
+        "Narodnost z veliko začetnico!"
+      ],
+      "solution": "**My cousin is Italian.**",
+      "skill": "s001"
+    },
+    {
+      "id": "t027",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Prevedi: Ona ima dolge lase in modre oči.",
+      "answer": "She has got long hair and blue eyes.",
+      "accept": [
+        "She's got long hair and blue eyes.",
+        "She has long hair and blue eyes."
+      ],
+      "hints": [
+        "Uporabi has got. Lasje = hair (brez s!)."
+      ],
+      "solution": "**She has got long hair and blue eyes.** (She's got …) Hair je v angleščini brez s.",
+      "skill": "s003"
+    },
+    {
+      "id": "t028",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Država → narodnost: Poland → ______",
+      "answer": "Polish",
+      "hints": [
+        "Konča se na -ish."
+      ],
+      "solution": "Poland → **Polish**.",
+      "skill": "s001"
+    },
+    {
+      "id": "t029",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Prevedi: Ali ima tvoj oče avto?",
+      "answer": "Has your dad got a car?",
+      "accept": [
+        "Has your father got a car?",
+        "Does your dad have a car?",
+        "Does your father have a car?"
+      ],
+      "hints": [
+        "Has + kdo + got …?"
+      ],
+      "solution": "**Has your dad got a car?** Kratek odgovor: Yes, he has. / No, he hasn't.",
+      "skill": "s003"
+    },
+    {
+      "id": "t030",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Zanikaj: The Gardners have got a dog. → The Gardners ______ a dog.",
+      "answer": "haven't got",
+      "accept": [
+        "have not got"
+      ],
+      "solution": "The Gardners **haven't got** a dog. (The Gardners = they.)",
+      "skill": "s003"
+    },
+    {
+      "id": "t031",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Prevedi: Njegova najljubša ekipa je Real Madrid.",
+      "answer": "His favourite team is Real Madrid.",
+      "accept": [
+        "His favorite team is Real Madrid."
+      ],
+      "hints": [
+        "Njegov = his (ne he's)."
+      ],
+      "solution": "**His favourite team is Real Madrid.**",
+      "skill": "s004"
+    },
+    {
+      "id": "t032",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Popravi poved: »My cousins has got a big house.«",
+      "answer": "My cousins have got a big house.",
+      "hints": [
+        "Cousins je množina (they)."
+      ],
+      "solution": "**My cousins have got a big house.** Več bratrancev = they → have got.",
+      "skill": "s003"
+    },
+    {
+      "id": "t033",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Popravi drugo poved: »My pen friend is from the USA. She's america.«",
+      "answer": "She's American.",
+      "accept": [
+        "She is American.",
+        "My pen friend is from the USA. She's American.",
+        "My pen friend is from the USA. She is American."
+      ],
+      "solution": "**She's American.** Narodnost, z veliko začetnico.",
+      "skill": "s001"
+    },
+    {
+      "id": "t034",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Prevedi: Moja sestra zna plavati, ne zna pa voziti avta.",
+      "answer": "My sister can swim but she can't drive a car.",
+      "accept": [
+        "My sister can swim but she can't drive.",
+        "My sister can swim but can't drive a car.",
+        "My sister can swim but can't drive.",
+        "My sister can swim but she cannot drive a car.",
+        "My sister can swim but she cannot drive."
+      ],
+      "hints": [
+        "can … but … can't"
+      ],
+      "solution": "**My sister can swim but she can't drive a car.**",
+      "skill": "s005"
+    },
+    {
+      "id": "t035",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Sestavi vprašanje za ta odgovor: »Yes, he can! Oblak can catch every ball.«",
+      "answer": "Can Oblak catch every ball?",
+      "accept": [
+        "Can Jan Oblak catch every ball?",
+        "Can he catch every ball?"
+      ],
+      "hints": [
+        "Začni s Can …"
+      ],
+      "solution": "**Can Oblak catch every ball?** Yes, he can!",
+      "skill": "s005"
+    },
+    {
+      "id": "t036",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Poslušaj in zapiši celo poved.",
+      "say": "My granny is Japanese and my uncle is Dutch.",
+      "answer": "My granny is Japanese and my uncle is Dutch.",
+      "hints": [
+        "Uporabi 🐢 za počasno branje. Narodnosti z veliko začetnico."
+      ],
+      "solution": "**My granny is Japanese and my uncle is Dutch.**",
+      "skill": "s002"
+    }
+  ],
+  "parent": {
+    "school_method": "Wider World 1, Unit 1. The book pairs each country with its nationality (Japan → Japanese), teaches family words, have got / has got (he/she/it → has got), my/your/his/her, and can / can't for abilities. Nationalities always start with a capital letter.",
+    "car_questions": [
+      {
+        "q": "Where is Mbappé from? What nationality is he?",
+        "a": "From France. He's French."
+      },
+      {
+        "q": "What is your dad's sister to you?",
+        "a": "My aunt."
+      },
+      {
+        "q": "Say in English: Moj brat ima moder avto.",
+        "a": "My brother has got a blue car."
+      },
+      {
+        "q": "His or he's: \"___ eleven.\"",
+        "a": "He's eleven."
+      },
+      {
+        "q": "One thing you can do and one you can't.",
+        "a": "e.g. I can swim but I can't fly."
+      }
+    ],
+    "tips": [
+      "Ask for full sentences: that's what the test checks.",
+      "Point at players on TV: \"Where is he from? What nationality is he?\""
+    ]
+  },
+  "oral": [
+    {
+      "id": "q001",
+      "skill": "s001",
+      "question": "Where is Kylian Mbappé from, and what nationality is he? Answer in full sentences.",
+      "key_points": [
+        "He's from France.",
+        "He's French (with a capital F)."
+      ],
+      "model_answer": "He's from France. He's French."
+    },
+    {
+      "id": "q002",
+      "skill": "s002",
+      "question": "Tell me about your family. Who is in it?",
+      "key_points": [
+        "family words (mum, dad, brother, sister …)",
+        "There are … people in my family / I've got …"
+      ],
+      "model_answer": "There are five people in my family: my mum, my dad, my two sisters and me."
+    },
+    {
+      "id": "q003",
+      "skill": "s003",
+      "question": "What has your best friend got? Say two things.",
+      "key_points": [
+        "He/She has got …",
+        "two things"
+      ],
+      "model_answer": "My best friend has got a dog and a new bike."
+    },
+    {
+      "id": "q004",
+      "skill": "s005",
+      "question": "Say one thing you can do and one thing you can't do.",
+      "key_points": [
+        "I can …",
+        "I can't …"
+      ],
+      "model_answer": "I can swim but I can't play the guitar."
+    },
+    {
+      "id": "q005",
+      "skill": "s006",
+      "question": "Describe your favourite football player: what does he look like, and what is he like?",
+      "key_points": [
+        "looks (tall, short hair …)",
+        "personality (brave, funny …)",
+        "is / has got used correctly"
+      ],
+      "model_answer": "He's tall and he has got short black hair. He's brave and friendly."
+    }
+  ]
+}

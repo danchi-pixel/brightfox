@@ -1,0 +1,1128 @@
+{
+  "id": "testcopy-ca1182d0-t002",
+  "version": 6,
+  "format": 2,
+  "skills": [
+    {
+      "id": "s001",
+      "title": "Dnevi v tednu"
+    },
+    {
+      "id": "s002",
+      "title": "Meseci in letni časi"
+    },
+    {
+      "id": "s003",
+      "title": "on, in, at"
+    },
+    {
+      "id": "s004",
+      "title": "Vrstilni števniki"
+    },
+    {
+      "id": "s005",
+      "title": "Datumi"
+    },
+    {
+      "id": "s006",
+      "title": "Pozdravi"
+    },
+    {
+      "id": "s007",
+      "title": "Vprašalnice"
+    }
+  ],
+  "subject": "english",
+  "grade": 6,
+  "title": "Days, dates & hello 📅 (Starter unit)",
+  "intro": "Dnevi, meseci, on/in/at, vrstilni števniki, datumi in pozdravi. Pri nalogah s 🔊 ti telefon besedo prebere na glas.",
+  "learn": [
+    {
+      "title": "Dnevi in meseci",
+      "text": "Dneve in mesece pišemo z veliko začetnico. Pazi na črkovanje: Wednesday (prvega d ne slišimo) in February (r po b).",
+      "example": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"
+    },
+    {
+      "title": "on, in ali at?",
+      "text": "ON + dan ali datum (on Monday, on the 5th of May). IN + mesec, letni čas, del dneva (in June, in winter, in the morning, in the evening). AT + night (at night).",
+      "example": "I play football on Saturday. My birthday is in June. I sleep at night."
+    },
+    {
+      "title": "Vrstilni števniki",
+      "text": "1st first, 2nd second, 3rd third, potem večinoma + th: 4th fourth, 15th fifteenth. Pazi: 5th fifth, 8th eighth, 9th ninth, 12th twelfth, 20th twentieth, 21st twenty-first.",
+      "example": "15th = fifteenth, 16th = sixteenth, 20th = twentieth."
+    },
+    {
+      "title": "Datumi",
+      "text": "Pišemo 21st September, preberemo pa: the twenty-first of September.",
+      "example": "My birthday is on the fifth of May."
+    },
+    {
+      "title": "Pozdravi",
+      "text": "How are you? / How's it going? → Fine, thanks. / I'm good, thanks. Ko ti nekoga predstavijo (This is Hannah.) → Pleased to meet you. / Nice to meet you. Ob slovesu: See you later!",
+      "example": "A: This is Hannah. B: Hi, Hannah! Nice to meet you."
+    }
+  ],
+  "study": {
+    "goals": [
+      {
+        "id": "g001",
+        "text": "Znam dneve v tednu po vrsti in jih pravilno napišem (Wednesday!).",
+        "skill": "s001"
+      },
+      {
+        "id": "g002",
+        "text": "Znam mesece in letne čase.",
+        "skill": "s002"
+      },
+      {
+        "id": "g003",
+        "text": "Znam, kdaj uporabim on, in ali at.",
+        "skill": "s003"
+      },
+      {
+        "id": "g004",
+        "text": "Znam vrstilne števnike do 31 (first, second, third …).",
+        "skill": "s004"
+      },
+      {
+        "id": "g005",
+        "text": "Znam prebrati in povedati datum (the fifth of May).",
+        "skill": "s005"
+      },
+      {
+        "id": "g006",
+        "text": "Znam pozdraviti in odgovoriti (How are you? Fine, thanks.).",
+        "skill": "s006"
+      },
+      {
+        "id": "g007",
+        "text": "Znam vprašalnice: what, who, where, when, why, how, which.",
+        "skill": "s007"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Dnevi v tednu (Days of the week)",
+        "text": "Dneve pišemo **z veliko začetnico**. Teden se začne s ponedeljkom.",
+        "table": {
+          "head": [
+            "English",
+            "Slovensko"
+          ],
+          "say": [
+            0
+          ],
+          "rows": [
+            [
+              "Monday",
+              "ponedeljek"
+            ],
+            [
+              "Tuesday",
+              "torek"
+            ],
+            [
+              "Wednesday",
+              "sreda"
+            ],
+            [
+              "Thursday",
+              "četrtek"
+            ],
+            [
+              "Friday",
+              "petek"
+            ],
+            [
+              "Saturday",
+              "sobota"
+            ],
+            [
+              "Sunday",
+              "nedelja"
+            ]
+          ]
+        },
+        "skill": "s001"
+      },
+      {
+        "title": "Meseci in letni časi",
+        "text": "Mesece pišemo z veliko začetnico (January), letne čase z malo (spring, summer, autumn, winter). Autumn je po ameriško fall.\n\nV knjigi spadajo meseci k letnim časom kot v tabeli. Na koledarju se jesen začne **21. septembra** (the twenty-first of September).",
+        "table": {
+          "head": [
+            "English",
+            "Slovensko",
+            "Season"
+          ],
+          "say": [
+            0
+          ],
+          "rows": [
+            [
+              "January",
+              "januar",
+              "winter"
+            ],
+            [
+              "February",
+              "februar",
+              "winter"
+            ],
+            [
+              "March",
+              "marec",
+              "spring"
+            ],
+            [
+              "April",
+              "april",
+              "spring"
+            ],
+            [
+              "May",
+              "maj",
+              "spring"
+            ],
+            [
+              "June",
+              "junij",
+              "summer"
+            ],
+            [
+              "July",
+              "julij",
+              "summer"
+            ],
+            [
+              "August",
+              "avgust",
+              "summer"
+            ],
+            [
+              "September",
+              "september",
+              "autumn"
+            ],
+            [
+              "October",
+              "oktober",
+              "autumn"
+            ],
+            [
+              "November",
+              "november",
+              "autumn"
+            ],
+            [
+              "December",
+              "december",
+              "winter"
+            ]
+          ]
+        },
+        "skill": "s002"
+      },
+      {
+        "title": "on, in, at",
+        "table": {
+          "head": [
+            "Predlog",
+            "Kdaj",
+            "Primer"
+          ],
+          "say": [
+            2
+          ],
+          "rows": [
+            [
+              "on",
+              "dnevi, točni datumi",
+              "on Monday, on the 5th of May"
+            ],
+            [
+              "in",
+              "meseci, letni časi",
+              "in June, in winter"
+            ],
+            [
+              "in",
+              "deli dneva",
+              "in the morning, in the afternoon, in the evening"
+            ],
+            [
+              "at",
+              "noč",
+              "at night"
+            ]
+          ]
+        },
+        "examples": [
+          "I play football on Saturday.",
+          "My birthday is in June.",
+          "We have dinner in the evening.",
+          "I sleep at night."
+        ],
+        "skill": "s003"
+      },
+      {
+        "title": "Vrstilni števniki (Ordinal numbers)",
+        "text": "1st **first**, 2nd **second**, 3rd **third**, potem večinoma + **th** (4th fourth, 6th sixth). Pri 21, 22, 23 se spet pojavijo first, second, third: twenty-first. Pri deseticah y postane ie: twenty → twentieth.",
+        "table": {
+          "head": [
+            "Number",
+            "Word"
+          ],
+          "say": [
+            1
+          ],
+          "rows": [
+            [
+              "1st",
+              "first"
+            ],
+            [
+              "2nd",
+              "second"
+            ],
+            [
+              "3rd",
+              "third"
+            ],
+            [
+              "4th",
+              "fourth"
+            ],
+            [
+              "5th",
+              "fifth"
+            ],
+            [
+              "8th",
+              "eighth"
+            ],
+            [
+              "9th",
+              "ninth"
+            ],
+            [
+              "12th",
+              "twelfth"
+            ],
+            [
+              "15th",
+              "fifteenth"
+            ],
+            [
+              "20th",
+              "twentieth"
+            ],
+            [
+              "21st",
+              "twenty-first"
+            ],
+            [
+              "22nd",
+              "twenty-second"
+            ],
+            [
+              "23rd",
+              "twenty-third"
+            ],
+            [
+              "30th",
+              "thirtieth"
+            ],
+            [
+              "31st",
+              "thirty-first"
+            ]
+          ]
+        },
+        "skill": "s004"
+      },
+      {
+        "title": "Datumi (Dates)",
+        "text": "Pišemo: **21st September**. Preberemo: **the twenty-first of September** (ali September the twenty-first).",
+        "examples": [
+          "My birthday is on the fifth of May.",
+          "Halloween is on the thirty-first of October.",
+          "Christmas is on the twenty-fifth of December."
+        ],
+        "skill": "s005"
+      },
+      {
+        "title": "Pozdravi (Meeting people)",
+        "table": {
+          "head": [
+            "Rečejo ti",
+            "Odgovoriš"
+          ],
+          "say": [
+            0,
+            1
+          ],
+          "rows": [
+            [
+              "Hello!",
+              "Hi!"
+            ],
+            [
+              "How are you?",
+              "Fine, thanks. / I'm good, thanks."
+            ],
+            [
+              "How's it going?",
+              "Great, thanks!"
+            ],
+            [
+              "This is Hannah.",
+              "Nice to meet you. / Pleased to meet you."
+            ],
+            [
+              "I'm sorry!",
+              "No worries!"
+            ],
+            [
+              "Goodbye!",
+              "See you later!"
+            ]
+          ]
+        },
+        "text": "Še nekaj fraz: **Excuse me** (oprostite, ko nekoga ogovoriš), **Come on!** (dajmo, pohiti), **Really cool!** (zelo kul).",
+        "skill": "s006"
+      },
+      {
+        "title": "Vprašalnice (Question words)",
+        "table": {
+          "head": [
+            "English",
+            "Slovensko",
+            "Primer"
+          ],
+          "say": [
+            0,
+            2
+          ],
+          "rows": [
+            [
+              "what",
+              "kaj",
+              "What's your name?"
+            ],
+            [
+              "who",
+              "kdo",
+              "Who is your teacher?"
+            ],
+            [
+              "where",
+              "kje, od kod",
+              "Where are you from?"
+            ],
+            [
+              "when",
+              "kdaj",
+              "When's your birthday?"
+            ],
+            [
+              "why",
+              "zakaj",
+              "Why are you sad?"
+            ],
+            [
+              "how",
+              "kako",
+              "How are you?"
+            ],
+            [
+              "which",
+              "kateri",
+              "Which page are we on?"
+            ],
+            [
+              "how many",
+              "koliko",
+              "How many languages can you speak?"
+            ]
+          ]
+        },
+        "skill": "s007"
+      }
+    ],
+    "cards": [
+      {
+        "front": "ponedeljek",
+        "back": "Monday",
+        "skill": "s001"
+      },
+      {
+        "front": "torek",
+        "back": "Tuesday",
+        "skill": "s001"
+      },
+      {
+        "front": "sreda",
+        "back": "Wednesday",
+        "skill": "s001"
+      },
+      {
+        "front": "četrtek",
+        "back": "Thursday",
+        "skill": "s001"
+      },
+      {
+        "front": "petek",
+        "back": "Friday",
+        "skill": "s001"
+      },
+      {
+        "front": "sobota",
+        "back": "Saturday",
+        "skill": "s001"
+      },
+      {
+        "front": "nedelja",
+        "back": "Sunday",
+        "skill": "s001"
+      },
+      {
+        "front": "januar",
+        "back": "January",
+        "skill": "s002"
+      },
+      {
+        "front": "februar",
+        "back": "February",
+        "skill": "s002"
+      },
+      {
+        "front": "junij",
+        "back": "June",
+        "skill": "s002"
+      },
+      {
+        "front": "julij",
+        "back": "July",
+        "skill": "s002"
+      },
+      {
+        "front": "avgust",
+        "back": "August",
+        "skill": "s002"
+      },
+      {
+        "front": "pomlad",
+        "back": "spring",
+        "skill": "s002"
+      },
+      {
+        "front": "poletje",
+        "back": "summer",
+        "skill": "s002"
+      },
+      {
+        "front": "jesen",
+        "back": "autumn",
+        "skill": "s002"
+      },
+      {
+        "front": "zima",
+        "back": "winter",
+        "skill": "s002"
+      },
+      {
+        "front": "prvi",
+        "back": "first",
+        "skill": "s004"
+      },
+      {
+        "front": "drugi",
+        "back": "second",
+        "skill": "s004"
+      },
+      {
+        "front": "tretji",
+        "back": "third",
+        "skill": "s004"
+      },
+      {
+        "front": "peti",
+        "back": "fifth",
+        "skill": "s004"
+      },
+      {
+        "front": "dvanajsti",
+        "back": "twelfth",
+        "skill": "s004"
+      },
+      {
+        "front": "petnajsti",
+        "back": "fifteenth",
+        "skill": "s004"
+      },
+      {
+        "front": "kaj",
+        "back": "what",
+        "skill": "s007"
+      },
+      {
+        "front": "kdo",
+        "back": "who",
+        "skill": "s007"
+      },
+      {
+        "front": "kje",
+        "back": "where",
+        "skill": "s007"
+      },
+      {
+        "front": "kdaj",
+        "back": "when",
+        "skill": "s007"
+      },
+      {
+        "front": "zakaj",
+        "back": "why",
+        "skill": "s007"
+      },
+      {
+        "front": "kako",
+        "back": "how",
+        "skill": "s007"
+      },
+      {
+        "front": "Me veseli. (ko nekoga spoznaš)",
+        "back": "Nice to meet you.",
+        "skill": "s006"
+      },
+      {
+        "front": "Se vidimo!",
+        "back": "See you later!",
+        "skill": "s006"
+      },
+      {
+        "front": "Dobro, hvala.",
+        "back": "Fine, thanks.",
+        "skill": "s006"
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "t001",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "We play football ___ Saturday.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": 1,
+      "hints": [
+        "Pri dnevih v tednu uporabimo …"
+      ],
+      "solution": "**on** + dan: on Saturday, on Monday.",
+      "skill": "s003"
+    },
+    {
+      "id": "t002",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "My birthday is ___ June.",
+      "options": [
+        "on",
+        "at",
+        "in"
+      ],
+      "answer": 2,
+      "hints": [
+        "Pri mesecih in letnih časih uporabimo …"
+      ],
+      "solution": "**in** + mesec: in June, in winter.",
+      "skill": "s003"
+    },
+    {
+      "id": "t003",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "I sleep ___ night.",
+      "options": [
+        "in",
+        "at",
+        "on"
+      ],
+      "answer": 1,
+      "hints": [
+        "Night je posebna: ni enaka kot morning in evening."
+      ],
+      "solution": "**at** night. Ampak: in the morning, in the afternoon, in the evening.",
+      "skill": "s003"
+    },
+    {
+      "id": "t004",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "»This is Hannah.« Kaj odgovoriš?",
+      "options": [
+        "See you later.",
+        "Yes, she is.",
+        "Pleased to meet you."
+      ],
+      "answer": 2,
+      "hints": [
+        "Hannah spoznavaš prvič."
+      ],
+      "solution": "**Pleased to meet you.** (ali Nice to meet you.) To rečemo, ko nekoga spoznamo.",
+      "skill": "s006"
+    },
+    {
+      "id": "t005",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "»How are you?« Kaj odgovoriš?",
+      "options": [
+        "I'm eleven.",
+        "Fine, thanks.",
+        "I'm Pete."
+      ],
+      "answer": 1,
+      "hints": [
+        "Vprašajo te, kako si."
+      ],
+      "solution": "**Fine, thanks.** (ali I'm good, thanks.)",
+      "skill": "s006"
+    },
+    {
+      "id": "t006",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Which day is after Friday and before Sunday?",
+      "answer": "Saturday",
+      "hints": [
+        "Vikend: … and Sunday.",
+        "S a t u …"
+      ],
+      "solution": "**Saturday**: Friday → Saturday → Sunday.",
+      "skill": "s001"
+    },
+    {
+      "id": "t007",
+      "level": 2,
+      "kind": "text",
+      "prompt": "______ is after Sunday and before Tuesday.",
+      "answer": "Monday",
+      "hints": [
+        "To je prvi šolski dan v tednu."
+      ],
+      "solution": "**Monday**: Sunday → Monday → Tuesday.",
+      "skill": "s001"
+    },
+    {
+      "id": "t008",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Poslušaj in zapiši dan.",
+      "say": "Wednesday",
+      "answer": "Wednesday",
+      "hints": [
+        "Pazi: prvega d ne slišimo!",
+        "W e d n e s …"
+      ],
+      "solution": "**Wednesday** = sreda. Izgovorimo »wenzdej«, pišemo pa z d: Wed-nes-day.",
+      "skill": "s001"
+    },
+    {
+      "id": "t009",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni s predlogom: We have dinner ___ the evening.",
+      "answer": "in",
+      "hints": [
+        "Deli dneva: … the morning, … the afternoon, … the evening."
+      ],
+      "solution": "**in** the evening (in the morning, in the afternoon). Samo night ima at.",
+      "skill": "s003"
+    },
+    {
+      "id": "t010",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Zapiši z besedo: 15th → ______",
+      "answer": "fifteenth",
+      "hints": [
+        "15 = fifteen. Dodaj -th.",
+        "f i f t e e n …"
+      ],
+      "solution": "15th = **fifteenth** (fifteen + th).",
+      "skill": "s004"
+    },
+    {
+      "id": "t011",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Zapiši z besedo: 5th → ______",
+      "answer": "fifth",
+      "hints": [
+        "Ne fiveth!",
+        "Iz five postane fif-: f i f …"
+      ],
+      "solution": "5th = **fifth**. Iz five postane fif- + th.",
+      "skill": "s004"
+    },
+    {
+      "id": "t012",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Which month is the seventh month of the year?",
+      "answer": "July",
+      "hints": [
+        "January je prvi, February drugi …",
+        "June je šesti."
+      ],
+      "solution": "**July** je sedmi mesec (julij). The seventh month is July.",
+      "skill": "s002"
+    },
+    {
+      "id": "t013",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Poslušaj in zapiši mesec.",
+      "say": "February",
+      "answer": "February",
+      "hints": [
+        "Drugi mesec v letu.",
+        "F e b r u …"
+      ],
+      "solution": "**February** = februar. Pazi na r po b: Feb-ru-a-ry.",
+      "skill": "s002"
+    },
+    {
+      "id": "t014",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Autumn starts on the 21st of …",
+      "options": [
+        "August",
+        "September",
+        "October"
+      ],
+      "answer": 1,
+      "hints": [
+        "Šola se začne septembra. Jesen pride malo kasneje v istem mesecu."
+      ],
+      "solution": "Autumn starts on the 21st of **September**. August je še poletje (summer).",
+      "skill": "s002"
+    },
+    {
+      "id": "t015",
+      "level": 2,
+      "kind": "choice",
+      "extra": true,
+      "prompt": "Bonus: St Patrick's Day (irski praznik) is …",
+      "options": [
+        "in March",
+        "in July",
+        "in December"
+      ],
+      "answer": 0,
+      "hints": [
+        "Je spomladi, še pred aprilom."
+      ],
+      "solution": "St Patrick's Day is on the 17th of **March**. Takrat vsi na Irskem nosijo zeleno! ☘️",
+      "skill": "s002"
+    },
+    {
+      "id": "t016",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Kako preberemo datum 21st September? Dopolni: the ______ of September",
+      "answer": "twenty-first",
+      "accept": [
+        "twenty first"
+      ],
+      "hints": [
+        "21 = twenty-one. Zadnji del spremeni v vrstilni števnik.",
+        "one → first"
+      ],
+      "solution": "the **twenty-first** of September. Pišemo 21st September.",
+      "skill": "s005"
+    },
+    {
+      "id": "t017",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Dopolni s predlogom: My birthday is ___ the 5th of May.",
+      "answer": "on",
+      "hints": [
+        "Pri točnem datumu uporabimo isti predlog kot pri dnevih.",
+        "Kot on Monday …"
+      ],
+      "solution": "**on** the 5th of May (točen datum). Ampak: in May (samo mesec).",
+      "skill": "s003"
+    },
+    {
+      "id": "t018",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Sestavi poved: meet / pleased / you / to",
+      "answer": "Pleased to meet you.",
+      "hints": [
+        "Začni s Pleased …",
+        "Pleased + to + meet + you"
+      ],
+      "solution": "**Pleased to meet you.** = Me veseli.",
+      "skill": "s006"
+    },
+    {
+      "id": "t019",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Zapiši z besedo: 12th → ______",
+      "answer": "twelfth",
+      "hints": [
+        "Iz twelve postane twelf- + th.",
+        "t w e l f …"
+      ],
+      "solution": "12th = **twelfth**. Iz twelve izpade ve: twelf + th.",
+      "skill": "s004"
+    },
+    {
+      "id": "t020",
+      "level": 3,
+      "kind": "open",
+      "prompt": "V zvezek napiši tri povedi o sebi: When's your birthday? What's your favourite day and why? What do you do in the evening?",
+      "hints": [
+        "My birthday is on the … of …",
+        "My favourite day is … because …"
+      ],
+      "solution": "Primer: My birthday is on the fifth of May. My favourite day is Saturday because I play football. In the evening I watch films with my family.",
+      "skill": "s005"
+    }
+  ],
+  "challenge": [
+    {
+      "id": "t021",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Prevedi v angleščino: Rojstni dan imam 3. marca.",
+      "answer": "My birthday is on the third of March.",
+      "accept": [
+        "My birthday's on the third of March.",
+        "My birthday is on 3rd March.",
+        "My birthday is on the 3rd of March.",
+        "My birthday is on March the third."
+      ],
+      "hints": [
+        "on + the third of March"
+      ],
+      "solution": "**My birthday is on the third of March.** (Napišemo tudi: on 3rd March.)",
+      "skill": "s005"
+    },
+    {
+      "id": "t022",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Prevedi: Zvečer gledamo filme.",
+      "answer": "We watch films in the evening.",
+      "accept": [
+        "In the evening we watch films.",
+        "We watch movies in the evening.",
+        "In the evening we watch movies."
+      ],
+      "hints": [
+        "zvečer = in the evening"
+      ],
+      "solution": "**We watch films in the evening.** (ali In the evening we watch films.)",
+      "skill": "s003"
+    },
+    {
+      "id": "t023",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Zapiši z besedo: 30th → ______",
+      "answer": "thirtieth",
+      "hints": [
+        "thirty → thirti + eth"
+      ],
+      "solution": "30th = **thirtieth** (y postane i, dodamo eth). Tako tudi twentieth.",
+      "skill": "s004"
+    },
+    {
+      "id": "t024",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Zapiši z besedo: 9th → ______",
+      "answer": "ninth",
+      "hints": [
+        "Pazi: iz nine izpade e!"
+      ],
+      "solution": "9th = **ninth** (brez e). Nine → ninth.",
+      "skill": "s004"
+    },
+    {
+      "id": "t025",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Zapiši z besedo: 22nd → ______",
+      "answer": "twenty-second",
+      "accept": [
+        "twenty second"
+      ],
+      "solution": "22nd = **twenty-second**.",
+      "skill": "s004"
+    },
+    {
+      "id": "t026",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Dopolni in napiši celo poved: I go to school ___ Mondays ___ the morning.",
+      "answer": "I go to school on Mondays in the morning.",
+      "hints": [
+        "Dan → on, del dneva → in."
+      ],
+      "solution": "I go to school **on** Mondays **in** the morning.",
+      "skill": "s003"
+    },
+    {
+      "id": "t027",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Which month comes after the month of Halloween?",
+      "answer": "November",
+      "hints": [
+        "Halloween je 31. oktobra."
+      ],
+      "solution": "Halloween is in October, so the answer is **November**.",
+      "skill": "s002"
+    },
+    {
+      "id": "t028",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Odgovori po angleško: »How's it going?«",
+      "answer": "Fine, thanks.",
+      "accept": [
+        "Fine, thank you.",
+        "I'm fine, thanks.",
+        "I'm fine, thank you.",
+        "I'm good, thanks.",
+        "I'm good, thank you.",
+        "Good, thanks.",
+        "Good, thank you.",
+        "Great, thanks.",
+        "I'm great, thanks.",
+        "Not bad, thanks."
+      ],
+      "hints": [
+        "Kot pri How are you? In ne pozabi se zahvaliti."
+      ],
+      "solution": "Na primer: **Fine, thanks.** / I'm good, thanks.",
+      "skill": "s006"
+    },
+    {
+      "id": "t029",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Kateri letni čas traja od 21. decembra do 20. marca? Zapiši po angleško.",
+      "answer": "winter",
+      "solution": "**winter** (zima). Spring, summer, autumn, winter.",
+      "skill": "s002"
+    },
+    {
+      "id": "t030",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Sestavi poved: later / see / you",
+      "answer": "See you later.",
+      "solution": "**See you later.** = Se vidimo kasneje.",
+      "skill": "s006"
+    },
+    {
+      "id": "t031",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Poslušaj in zapiši datum z besedami.",
+      "say": "Wednesday, the twelfth of February",
+      "answer": "Wednesday, the twelfth of February",
+      "hints": [
+        "Uporabi 🐢 za počasno branje. Dan, vrstilni števnik, mesec."
+      ],
+      "solution": "**Wednesday, the twelfth of February** (napišemo Wednesday 12th February).",
+      "skill": "s005"
+    }
+  ],
+  "parent": {
+    "school_method": "Starter unit: days of the week, months and seasons, on / in / at for time (on Monday, in June, at night), ordinal numbers up to 31st, saying dates (the fifth of May), greetings and question words.",
+    "car_questions": [
+      {
+        "q": "What day is after Wednesday?",
+        "a": "Thursday."
+      },
+      {
+        "q": "When is your birthday? Use \"on the … of\".",
+        "a": "e.g. On the twelfth of February."
+      },
+      {
+        "q": "on, in or at: ___ night, ___ Monday, ___ July?",
+        "a": "at night, on Monday, in July."
+      },
+      {
+        "q": "Spell \"fifth\".",
+        "a": "f-i-f-t-h"
+      },
+      {
+        "q": "How are you?",
+        "a": "Fine, thanks. And you?"
+      }
+    ],
+    "tips": [
+      "Spell the tricky words aloud together: Wednesday, February, fifth, twelfth."
+    ]
+  },
+  "oral": [
+    {
+      "id": "q001",
+      "skill": "s005",
+      "question": "When is your birthday? Say the full date.",
+      "key_points": [
+        "on the …",
+        "an ordinal number (the fifth …)",
+        "of + the month"
+      ],
+      "model_answer": "My birthday is on the fifth of May."
+    },
+    {
+      "id": "q002",
+      "skill": "s001",
+      "question": "Say the days of the week in order, starting with Monday.",
+      "key_points": [
+        "all seven days",
+        "the right order"
+      ],
+      "model_answer": "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday."
+    },
+    {
+      "id": "q003",
+      "skill": "s003",
+      "question": "Fill in on, in or at: ___ Saturday, ___ July, ___ night.",
+      "key_points": [
+        "on Saturday",
+        "in July",
+        "at night"
+      ],
+      "model_answer": "On Saturday, in July, at night."
+    },
+    {
+      "id": "q004",
+      "skill": "s006",
+      "question": "Someone says: \"This is Hannah.\" What do you say? And what do you answer to \"How are you?\"",
+      "key_points": [
+        "Nice / Pleased to meet you",
+        "Fine, thanks"
+      ],
+      "model_answer": "Nice to meet you, Hannah. Fine, thanks. And you?"
+    }
+  ]
+}

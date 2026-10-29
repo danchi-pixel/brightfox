@@ -18,6 +18,7 @@ import { goalList, qk, ucApi, type StudyPart, type StudySection, type Topic } fr
 import { LangContext, useT } from "../learning/i18n";
 import { CAN_SPEAK, speak } from "../learning/speech";
 import { FullScreen, RichText, SubjectBubble } from "../learning/ui";
+import { FoxyHelp } from "../tutor/FoxyHelp";
 import { useTopicScreen } from "./useTopic";
 
 type Tab = "notes" | "cards" | "goals";
@@ -54,6 +55,7 @@ function Learn({ s, topic }: { s: ReturnType<typeof useTopicScreen>; topic: Topi
   const [tab, setTab] = useState<Tab>(() => (params.get("tab") === "cards" && study.cards?.length ? "cards" : "notes"));
   const [known, setKnown] = useState<string[]>(saved?.known ?? []);
   const [ticked, setTicked] = useState<string[]>(saved?.ticked ?? []);
+  const [foxyOpen, setFoxyOpen] = useState(false);
   const owl = s.owner && s.home?.tutor.configured && s.home.tutor.enabled && s.home.tutor.left_today > 0;
 
   const save = (nextKnown: string[], nextTicked: string[]) => {
@@ -89,7 +91,7 @@ function Learn({ s, topic }: { s: ReturnType<typeof useTopicScreen>; topic: Topi
               <Printer /> {t("printPage")}
             </Button>
             {owl && (
-              <Button variant="secondary" size="lg" onClick={() => navigate(`/l/${s.lid}/chat/new?topic=${topic.id}`)}>
+              <Button variant="secondary" size="lg" onClick={() => setFoxyOpen(true)}>
                 <MessageCircle /> {t("askAboutThis")}
               </Button>
             )}
@@ -151,6 +153,7 @@ function Learn({ s, topic }: { s: ReturnType<typeof useTopicScreen>; topic: Topi
       >
         ✏️ {t("toPractice")} <ArrowRight />
       </Button>
+      {foxyOpen && <FoxyHelp lid={s.lid} topicId={topic.id} onClose={() => setFoxyOpen(false)} />}
     </FullScreen>
   );
 }

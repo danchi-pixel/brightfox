@@ -3,6 +3,7 @@ from .base import Base, utcnow
 from .core import AuthSession, Family, Learner, User
 from .exams import Exam, ExamScope, ReviewItem
 from .oral import OralSession, OralTurn
+from .lab import LabProgress
 from .study import (Attachment, ContentAccess, DataImport, LlmCall, LlmRoute, PracticeRun, TaskResult, TopicProgress,
                     TutorChat, TutorMessage)
 

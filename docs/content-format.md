@@ -16,6 +16,14 @@ Ids are unique across all folders. Check every change with (from `backend`):
 A topic reaches a learner only after a parent approves its **current version** for that learner. After any
 change, raise `version`: the topic is taken away from the kids until it's checked again.
 
+**Local authoring exception:** `start.bat` explicitly enables the household's local mode. Its active
+profiles are Alan and Erik. Set `for` to `["Alan"]`, `["Erik"]`, or `["Alan", "Erik"]` in the one topic
+or mock JSON file. Refresh localhost and the latest validated content appears for that child, without
+another registry or approval step. Unassigned content still requires manual approval; content belonging
+to another family never appears. Production keeps the version-specific approval rule above. File edits
+are detected automatically; preserve IDs to retain progress. New activities must use this documented
+format; an unrelated HTML page or an invalid JSON file is not automatically a BrightFox topic.
+
 ## Making a set from photos
 
 The parent sends Claude photos of what a child is learning (textbook pages, a worksheet, notes)
@@ -171,6 +179,35 @@ Optional `"study"` block: the topic's own study page, opened from the set's row.
   the direction; parents see how many are known.
 
 Changing the study part is a change like any other: raise `version`.
+
+### Optional source-based learning bank (`lab`)
+
+A format-2 topic can include a `lab` object, validated by `app/content/lab.py`.
+The normal family scope, `for` assignment and version approvals still apply. The learner
+home links to `/l/:lid/science/:tid` when the topic has a bank.
+
+- `sources`: stable `id`, allowlisted JPEG `file`, readable `label`, original `width`/`height`,
+  clockwise `rotate` (0, 90 or -90), and optional `review` note for ambiguity.
+- `lessons`: stable `id`, `title`, `icon`, `summary`, paragraph `notes`, `vocabulary` mapping
+  and source IDs. Every lesson must have exercises.
+- `questions`: stable `id`, lesson ID in `topic`, `kind`, `prompt`, model `answer`, important
+  `points`, progressive `hints`, source IDs, and `difficulty` (1–3). Kinds are `oral`,
+  `choice`, `boolean`, `fill`, `match`, `sort`, `sequence`, and `label`. Checked kinds use
+  `correct`, with `items`/`options` as appropriate. Optional `card: true` enables flashcards;
+  `followup` requires `followup_answer`.
+- Optional question `image` uses a source ID, accessible `alt` and `box: [x,y,width,height]`
+  in the oriented image's pixel coordinates. Inspect crops in the browser, including labels.
+- `review_notes`: bank-level limitations. The viewer derives the coverage matrix from the bank.
+
+Keep photos outside Git at `data/files/study/<scope>/<topic-id>/<filename>`. The authenticated
+image route checks both learner scope and current topic visibility. Nothing is placed in
+public frontend assets. Images load near the viewport and retain their original detail.
+
+Bank progress uses the additive `lab_progress` table, separate from conventional readiness.
+Card recall and practice answers are separate. Only self-ratings, counts, due dates and the
+current session are stored; typed oral drafts and audio are not stored. Optimistic revisions
+protect simultaneous tabs. A content edit must raise the topic `version`, keeping IDs stable.
+See [Erik's source coverage and setup](erik-naravoslovje.md) for the first bank.
 
 ### How a run works
 

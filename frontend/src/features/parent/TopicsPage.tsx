@@ -42,7 +42,9 @@ export default function TopicsPage() {
 
   return (
     <div className="space-y-5">
-      <PageTitle title="Topics" sub="Each topic is made from photos of what a kid is learning: notes and flashcards, practice from easy to harder, and the Champions League level. Kids only see a topic after you approve it." />
+      <PageTitle title="Topics" sub={overview.data?.local_auto_assignment
+        ? "Local classroom: assigned topics and mock tests appear automatically after refresh. Approval controls are for preparing publication."
+        : "Study pages, practice and challenges. Kids see a topic after you approve its current version."} />
       {list.isError ? (
         <ErrorState error={list.error} onRetry={() => void list.refetch()} />
       ) : !list.data || !overview.data ? (

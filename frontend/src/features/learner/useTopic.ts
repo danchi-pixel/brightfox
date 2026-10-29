@@ -3,6 +3,7 @@
 import { useParams } from "react-router";
 import { useLearnerHome, useLearnerTopic, useStudioTopic } from "../learning/api";
 import type { Lang } from "../learning/i18n";
+import { subjectHomePath } from "../learning/english";
 
 export function useTopicScreen() {
   const { lid: lidParam = "", tid = "" } = useParams();
@@ -17,6 +18,6 @@ export function useTopicScreen() {
   // A parent looking at a learner's space sees it in the learner's language.
   const lang: Lang | null = !preview && home.data && !home.data.owner ? home.data.lang : null;
   const loading = !topic || (!preview && !home.data);
-  const homePath = preview ? "/topics" : `/l/${lid}`;
+  const homePath = preview ? "/topics" : subjectHomePath(lid, topic?.subject);
   return { lid, tid, preview, topic, home: home.data, error, owner, lang, loading, homePath };
 }

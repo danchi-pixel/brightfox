@@ -6,6 +6,7 @@ import { ErrorState, PageLoader } from "@/components/ui/misc";
 import { useExam, useLearnerHome } from "../learning/api";
 import { formatDay, LangContext, useT } from "../learning/i18n";
 import { FullScreen, SubjectBubble } from "../learning/ui";
+import { englishExam, englishPath } from "../learning/english";
 import { daysLeftText, MasteryChip, ReadinessRing, StepRow } from "./progress";
 
 export default function ExamPage() {
@@ -22,11 +23,12 @@ function Exam() {
   const { lid: lidParam = "", eid: eidParam = "" } = useParams();
   const lid = Number(lidParam) || 0;
   const exam = useExam(lid, Number(eidParam) || 0);
+  const home = useLearnerHome(lid);
   const { t, lang } = useT();
   const navigate = useNavigate();
   const e = exam.data;
   return (
-    <FullScreen title={`📅 ${e?.title ?? t("myTests")}`} onClose={() => navigate(`/l/${lid}`)} closeLabel={t("back")}>
+    <FullScreen title={`📅 ${e?.title ?? t("myTests")}`} onClose={() => navigate(e && englishExam(e, new Set(home.data?.topics.filter(t => t.subject === "english").map(t => t.id))) ? englishPath(lid) : `/l/${lid}`)} closeLabel={t("back")}>
       {exam.isError ? (
         <ErrorState error={exam.error} />
       ) : !e ? (

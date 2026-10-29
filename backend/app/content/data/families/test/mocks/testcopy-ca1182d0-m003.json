@@ -1,0 +1,239 @@
+{
+  "id": "testcopy-ca1182d0-m003",
+  "version": 2,
+  "subject": "english",
+  "grade": 6,
+  "title": "Poskusni test: People are people (Unit 1)",
+  "intro": "Kot pravi test: 30 minut, brez namigov. Reši vse, kar znaš, potem se vrni k težjim nalogam. Rešitve vidiš na koncu.",
+  "minutes": 30,
+  "topics": [
+    "testcopy-ca1182d0-t001"
+  ],
+  "sections": [
+    {
+      "title": "A. Besedišče (Vocabulary)",
+      "tasks": [
+        {
+          "id": "t001",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s002",
+          "points": 1,
+          "kind": "text",
+          "prompt": "My mum's brother is my ______.",
+          "answer": "uncle",
+          "solution": "Mamin brat je stric: uncle."
+        },
+        {
+          "id": "t002",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s002",
+          "points": 1,
+          "kind": "text",
+          "prompt": "My aunt's son is my ______.",
+          "answer": "cousin",
+          "solution": "Tetin sin je bratranec: cousin."
+        },
+        {
+          "id": "t003",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s001",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Država → narodnost. Spain → ______",
+          "answer": "Spanish",
+          "solution": "Spain → Spanish."
+        },
+        {
+          "id": "t004",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s001",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Država → narodnost. Germany → ______",
+          "answer": "German",
+          "solution": "Germany → German."
+        },
+        {
+          "id": "t005",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s001",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Država → narodnost. Scotland → ______",
+          "answer": "Scottish",
+          "solution": "Scotland → Scottish."
+        },
+        {
+          "id": "t006",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s006",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "You wear them on your feet when you play football.",
+          "options": [
+            "trainers",
+            "sunglasses",
+            "sweater",
+            "skirt"
+          ],
+          "answer": 0,
+          "solution": "Trainers (superge) nosimo na nogah."
+        }
+      ]
+    },
+    {
+      "title": "B. Slovnica (Grammar)",
+      "tasks": [
+        {
+          "id": "t007",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s003",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Dopolni s pravo obliko (have got): My sister ______ a new phone.",
+          "answer": "has got",
+          "accept": [
+            "'s got"
+          ],
+          "solution": "My sister = she, zato has got: My sister has got a new phone."
+        },
+        {
+          "id": "t008",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s003",
+          "points": 2,
+          "kind": "text",
+          "prompt": "Dopolni z zanikano obliko (have got): We ______ a cat.",
+          "answer": "haven't got",
+          "accept": [
+            "have not got"
+          ],
+          "solution": "We → have got, zanikano: haven't got. We haven't got a cat."
+        },
+        {
+          "id": "t009",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s003",
+          "points": 2,
+          "kind": "text",
+          "prompt": "Sestavi vprašanje: your brother / a bike / has / got / ?",
+          "answer": "Has your brother got a bike?",
+          "solution": "Vprašanje začne Has, nato oseba, nato got: Has your brother got a bike?"
+        },
+        {
+          "id": "t010",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s004",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Ana is my friend. ___ dad is a teacher.",
+          "options": [
+            "Her",
+            "His",
+            "She's",
+            "Hers"
+          ],
+          "answer": 0,
+          "solution": "Anin oče = njen oče: Her dad."
+        },
+        {
+          "id": "t011",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s004",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Tom is twelve. ___ from London.",
+          "options": [
+            "He's",
+            "His",
+            "He",
+            "Him"
+          ],
+          "answer": 0,
+          "solution": "On je iz Londona = He is from London = He's from London."
+        },
+        {
+          "id": "t012",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s005",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Dopolni kratek odgovor. »Can your dad cook?« »Yes, ______.«",
+          "answer": "he can",
+          "solution": "Kratek odgovor: Yes, he can."
+        }
+      ]
+    },
+    {
+      "title": "C. Prevodi in pisanje",
+      "tasks": [
+        {
+          "id": "t013",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s001",
+          "points": 2,
+          "kind": "text",
+          "prompt": "Prevedi v angleščino: Moja babica je Italijanka.",
+          "answer": "My grandmother is Italian.",
+          "accept": [
+            "My granny is Italian.",
+            "My grandma is Italian.",
+            "My grandmother's Italian."
+          ],
+          "solution": "My grandmother is Italian. (Narodnost z veliko: Italian.)"
+        },
+        {
+          "id": "t014",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s005",
+          "points": 2,
+          "kind": "text",
+          "prompt": "Prevedi: Moj brat ne zna plavati.",
+          "answer": "My brother can't swim.",
+          "accept": [
+            "My brother cannot swim."
+          ],
+          "solution": "ne zna = can't: My brother can't swim."
+        },
+        {
+          "id": "t015",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s003",
+          "points": 2,
+          "kind": "text",
+          "prompt": "Prevedi: Ali ima tvoja sestra modre oči?",
+          "answer": "Has your sister got blue eyes?",
+          "solution": "Has your sister got blue eyes?"
+        },
+        {
+          "id": "t016",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s006",
+          "points": 5,
+          "kind": "open",
+          "prompt": "V zvezek napiši 5 povedi o članu svoje družine: kdo je, od kod je, kako izgleda, kaj ima in kaj zna.",
+          "solution": "Primer: My aunt is Lucy. She's Scottish. She's tall and she has got long red hair. She has got a big dog. She can play the guitar but she can't swim. (Za 5 točk: 5 pravilnih povedi; has got pri he/she, narodnost z veliko.)"
+        }
+      ]
+    },
+    {
+      "title": "D. Poslušanje (Listening)",
+      "tasks": [
+        {
+          "id": "t017",
+          "topic": "testcopy-ca1182d0-t001",
+          "skill": "s001",
+          "points": 3,
+          "kind": "text",
+          "prompt": "Poslušaj in zapiši celo poved.",
+          "say": "My uncle is Scottish and he has got red hair.",
+          "answer": "My uncle is Scottish and he has got red hair.",
+          "accept": [
+            "My uncle is Scottish and he's got red hair."
+          ],
+          "solution": "My uncle is Scottish and he has got red hair."
+        }
+      ]
+    }
+  ]
+}

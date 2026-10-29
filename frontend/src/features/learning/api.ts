@@ -83,6 +83,7 @@ export interface Topic {
 }
 
 export interface TopicCard {
+  has_lab?: boolean;
   id: string;
   version: number;
   subject: Subject;
@@ -210,6 +211,7 @@ export interface TopicResults {
 
 export interface Overview {
   family: { id: number; name: string };
+  local_auto_assignment?: boolean;
   tutor: { configured: boolean; model: string; effort: string; month_calls: number; month_cost_usd: number; budget_usd: number | null };
   subjects: Subject[];
   learners: (LearnerBrief & {
@@ -505,6 +507,7 @@ export function useLearnerHome(lid: number | null | undefined) {
     queryFn: () => api.get<LearnerHome>(`/api/learners/${lid}/home?today=${todayISO()}`),
     enabled: !!lid,
     retry: false,
+    staleTime: 0,
   });
 }
 
@@ -513,6 +516,7 @@ export function useLearnerTopic(lid: number, tid: string, enabled = true) {
     queryKey: qk.topic(lid, tid),
     queryFn: () => api.get<Topic>(`/api/learners/${lid}/topics/${tid}`),
     enabled: enabled && lid > 0 && !!tid,
+    staleTime: 0,
   });
 }
 

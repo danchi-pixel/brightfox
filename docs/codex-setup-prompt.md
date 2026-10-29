@@ -21,11 +21,10 @@ language I write in.
    with my own GitHub account.
 4. Read BrightFox\AGENTS.md completely. It holds the project's rules; follow them from now on.
 5. Run `setup.bat --no-pause` in that folder and check that it ends with "Setup complete".
-6. Make a local test family, for this PC's practice copy only (never the real site). In the backend
-   folder, with .venv\Scripts\python.exe, run
-   `-m app.manage create-family test --name "Test family"` and `-m app.manage add-learner test Tina --grade 5`.
-   Then give me the two exact commands to run myself in PowerShell for the logins (`testparent` as the
-   parent, `tina` for the kid Tina), because I type the passwords myself in a hidden prompt.
+6. Use start.bat to prepare the local danijel household with Alan and Erik. Preserve any existing
+   profiles, settings, progress and parent account. Do not create demo learners or duplicate content.
+   If this is a fresh database, give me the app.manage set-password commands for a local parent and
+   the two children's local accounts; I type passwords myself in the hidden prompts.
 7. Start the app with start.bat, check that http://localhost:7686 opens, and tell me how to sign in.
 8. Finally, explain in five short points how we work from now on: `git pull` first; you make the change
    and run the tests; I check it on localhost:7686; you commit and push; then I tell Danijel, who deploys it

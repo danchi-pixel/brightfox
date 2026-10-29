@@ -23,26 +23,40 @@ import { FoxAvatar, RichText, SUBJECT_META } from "../learning/ui";
 const MAX_PHOTOS = 4;
 
 export default function ChatPage() {
-  const { lid: lidParam = "" } = useParams();
-  const home = useLearnerHome(Number(lidParam) || 0);
-  return (
-    <LangContext.Provider value={home.data && !home.data.owner ? home.data.lang : null}>
-      <Chat />
-    </LangContext.Provider>
-  );
-}
-
-function Chat() {
   const { lid: lidParam = "", cid: cidParam = "new" } = useParams();
   const [params] = useSearchParams();
   const lid = Number(lidParam) || 0;
   const cid = cidParam === "new" ? null : Number(cidParam) || null;
   const wanted = params.get("subject") as Subject | null;
-  const topicId = params.get("topic");
-  const taskId = params.get("task");
   const subject: Subject = wanted && SUBJECTS.includes(wanted) ? wanted : "other";
-  const { t } = useT();
   const navigate = useNavigate();
+  const home = useLearnerHome(lid);
+  return (
+    <LangContext.Provider value={home.data && !home.data.owner ? home.data.lang : null}>
+      <Chat
+        lid={lid}
+        cid={cid}
+        subject={subject}
+        topicId={params.get("topic")}
+        taskId={params.get("task")}
+        onClose={() => navigate(`/l/${lid}`)}
+        onChatCreated={(id) => navigate(`/l/${lid}/chat/${id}`, { replace: true })}
+      />
+    </LangContext.Provider>
+  );
+}
+
+/** The same chat can live in its own route or in help over an exercise; only the caller navigates. */
+export function Chat({ lid, cid, subject = "other", topicId, taskId, onClose, onChatCreated }: {
+  lid: number;
+  cid: number | null;
+  subject?: Subject;
+  topicId?: string | null;
+  taskId?: string | null;
+  onClose: () => void;
+  onChatCreated: (id: number) => void;
+}) {
+  const { t } = useT();
   const qc = useQueryClient();
   const chat = useChat(lid, cid);
   const home = useLearnerHome(lid);
@@ -91,7 +105,7 @@ function Chat() {
       qc.setQueryData(qk.chat(lid, res.chat.id), res);
       void qc.invalidateQueries({ queryKey: qk.home(lid) });
       void qc.invalidateQueries({ queryKey: qk.chats(lid) });
-      if (!cid) navigate(`/l/${lid}/chat/${res.chat.id}`, { replace: true });
+      if (!cid) onChatCreated(res.chat.id);
     } catch (e) {
       // Nothing was saved: give the message back so it can be sent again.
       setText(body.text);
@@ -107,7 +121,7 @@ function Chat() {
     <div className="flex h-dvh flex-col bg-background">
       <header className="shrink-0 border-b border-border bg-background/90 backdrop-blur">
         <div className="mx-auto flex h-14 max-w-2xl items-center gap-3 px-4">
-          <button onClick={() => navigate(`/l/${lid}`)} className="-ml-2 rounded-xl p-2 text-muted-foreground hover:bg-muted hover:text-foreground" aria-label={t("back")}>
+          <button onClick={onClose} className="-ml-2 rounded-xl p-2 text-muted-foreground hover:bg-muted hover:text-foreground" aria-label={t("back")}>
             <X className="size-6" />
           </button>
           <FoxAvatar size="sm" />

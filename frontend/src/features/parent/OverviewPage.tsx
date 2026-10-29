@@ -22,6 +22,12 @@ export default function OverviewPage() {
   return (
     <div className="space-y-6">
       <PageTitle title={o.family.name} sub="Your kids' classrooms at a glance: what to check, how they're doing, and Foxy." />
+      {o.local_auto_assignment && (
+        <p className="rounded-2xl bg-info/10 p-4 text-sm">
+          Local classroom: new and updated topics and mock tests appear automatically for the child they are assigned to.
+          Refresh to load the latest content. Approval controls below apply to the published site.
+        </p>
+      )}
 
       {!o.learners.length ? (
         <EmptyState icon={<BookOpenCheck />} title="No learners yet" action={<Button variant="primary" onClick={() => navigate("/family")}>Add a learner</Button>}>
@@ -60,7 +66,7 @@ export default function OverviewPage() {
 
       <Card className="space-y-3 p-4">
         <div className="flex items-center justify-between gap-2">
-          <h2 className="font-display text-xl">Waiting for your check</h2>
+          <h2 className="font-display text-xl">{o.local_auto_assignment ? "Review before publishing" : "Waiting for your check"}</h2>
           <Link to="/topics" className="text-sm font-medium text-primary underline">
             All topics
           </Link>
@@ -108,7 +114,8 @@ export default function OverviewPage() {
       </Card>
 
       <Card className="p-4 text-sm leading-relaxed text-muted-foreground">
-        <b className="text-foreground">Adding topics:</b> put photos of what a kid is learning (textbook pages, worksheets, notes) in a folder and ask Claude to make a topic for them. Each topic has a study part (notes, flashcards, "I can"), practice from easy to harder, and the Champions League level. It appears under "Waiting for your check", and a kid only sees it after you approve it.
+        <b className="text-foreground">Adding topics:</b> ask Codex or Claude to make a topic for Alan or Erik from their school material. Each topic can include study pages, practice and a challenge.
+        {o.local_auto_assignment ? " Assigned content appears in the local classroom after refresh; progress stays saved." : " Review and approve the topic before it appears in the child's classroom."}
       </Card>
     </div>
   );

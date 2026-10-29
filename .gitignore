@@ -19,6 +19,13 @@ __pycache__/
 *.pyc
 .pytest_cache/
 *.tsbuildinfo
+/.scratch/
+
+# Local source photographs and the legacy content-only export (not application source)
+/učenje/
+/content/
+/manifest.json
+/SUMMARY.md
 
 # Eval runs (cost money; the summary report is committed by hand)
 backend/evals/results/*/raw/

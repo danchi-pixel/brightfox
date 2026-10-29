@@ -140,9 +140,8 @@ def unapprove(mid: MockId, db: Session = Depends(get_db), ctx: AdminCtx = Depend
 # The learner
 # --------------------------------------------------------------------------- #
 def visible_mocks(db: Session, c: Content, ctx: LearnerCtx) -> list[str]:
-    rows = db.scalars(select(ContentAccess).where(ContentAccess.kind == "mock", ContentAccess.learner_id == ctx.learner.id))
-    approved = {a.content_id: a.version for a in rows}
-    return [i for i in c.mocks_for_family(ctx.family.slug) if approved.get(i) == c.mocks[i]["version"]]
+    from ..content.visibility import visible_ids
+    return visible_ids(db, c, ctx, "mock")
 
 
 def _visible_mock(db: Session, ctx: LearnerCtx, mid: str) -> dict[str, Any]:

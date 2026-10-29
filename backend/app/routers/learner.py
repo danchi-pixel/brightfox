@@ -18,6 +18,7 @@ from .. import llm
 from ..access import LearnerCtx, learner_in_scope
 from ..content.checker import Content, goal_list
 from ..content.registry import content
+from ..content.visibility import visible_ids
 from ..db import get_db
 from ..learning import progress as pg
 from ..learning.service import note_run
@@ -32,9 +33,7 @@ TopicId = Annotated[str, Path(pattern=r"^[a-z0-9][a-z0-9-]{0,78}$")]
 
 def visible_topics(db: Session, c: Content, ctx: LearnerCtx) -> list[str]:
     """Topics this learner may open: approved in their current version, newest first."""
-    rows = db.scalars(select(ContentAccess).where(ContentAccess.kind == "topic", ContentAccess.learner_id == ctx.learner.id))
-    approved = {a.content_id: a.version for a in rows}
-    return [i for i in c.for_family(ctx.family.slug) if approved.get(i) == c.topics[i]["version"]]
+    return visible_ids(db, c, ctx, "topic")
 
 
 def visible_topic(db: Session, ctx: LearnerCtx, tid: str) -> dict[str, Any]:

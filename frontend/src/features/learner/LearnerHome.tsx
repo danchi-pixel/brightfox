@@ -2,42 +2,42 @@
  * A learner's classroom: their topics (📖 Uči se → ✏️ Vaja → 🏆 Liga prvakov), Foxy, and their chats.
  * Nothing is scored; a topic shows "new", "started" or "done", flashcards known and the trophy.
  */
-import { ArrowRight, Eye, Lock, MessageCircle, Play, RotateCcw, Trophy } from "lucide-react";
+import { ArrowRight, Eye, MessageCircle } from "lucide-react";
 import { Link, useNavigate, useParams } from "react-router";
 import { Feedback } from "@/components/kid";
 import { Button } from "@/components/ui/button";
 import { ErrorState, PageLoader } from "@/components/ui/misc";
 import { useAuth } from "@/lib/auth";
-import { todayISO } from "@/lib/dates";
-import { cn } from "@/lib/utils";
 import {
   SUBJECTS,
-  useExam,
   useExams,
   useLearnerHome,
   useLearnerMocks,
-  useMastery,
   useReview,
   useWeek,
-  type ChallengeState,
   type LearnerHome as Home,
-  type LearnerTopicCard,
-  type MasteryLabel,
   type Subject,
 } from "../learning/api";
 import { formatDay, gradeText, LangContext, useT } from "../learning/i18n";
 import { LearnerAvatar, FoxAvatar, SUBJECT_META, SubjectBubble } from "../learning/ui";
-import { daysLeftText, MasteryChip, ReadinessRing, StepRow, WeekDots } from "./progress";
+import { WeekDots } from "./progress";
+import { TestsCard, MocksCard, TopicList } from "./ClassroomContent";
+import { StudyHubEntry } from "../learning/StudyHub";
+import { englishPath, englishMock, englishExam } from "../learning/english";
 
 export default function LearnerHome() {
   const { lid: lidParam = "" } = useParams();
   const lid = Number(lidParam) || 0;
   const home = useLearnerHome(lid);
+  const mocks = useLearnerMocks(lid);
+  const exams = useExams(lid);
   const { isAdmin } = useAuth();
 
   if (home.isError) return <ErrorState error={home.error} onRetry={() => void home.refetch()} />;
   if (!home.data) return <PageLoader />;
   const h = home.data;
+  const englishIds = new Set(h.topics.filter(t => t.subject === "english").map(t => t.id));
+  const hasEnglish = englishIds.size > 0 || mocks.data?.some(m => englishMock(m, englishIds)) || exams.data?.some(e => englishExam(e, englishIds));
 
   return (
     <LangContext.Provider value={h.owner ? null : h.lang}>
@@ -54,10 +54,12 @@ export default function LearnerHome() {
           </div>
         )}
         <Heading home={h} />
-        <TestsCard lid={lid} />
+        {h.topics.filter(topic => topic.has_lab && topic.subject !== "english").map(topic => <StudyHubEntry key={topic.id} to={`/l/${lid}/science/${topic.id}`} title={topic.title} description="Raziskuj teme, vadi ustno in se uči s slikami." icon="🌿" />)}
+        {hasEnglish && <StudyHubEntry to={englishPath(lid)} title="Angleščina" description="Vse učne teme, kartice, vaje in testi na enem mestu." icon="💬" />}
+        <TestsCard lid={lid} include={e => !englishExam(e, englishIds)} />
         <ReviewCard lid={lid} />
-        <TopicList lid={lid} topics={h.topics} preview={!h.owner} oralOk={h.owner && h.tutor.configured && h.tutor.enabled} />
-        <MocksCard lid={lid} />
+        <TopicList lid={lid} topics={h.topics.filter(t => t.subject !== "english")} preview={!h.owner} oralOk={h.owner && h.tutor.configured && h.tutor.enabled} />
+        <MocksCard lid={lid} include={m => !englishMock(m, englishIds)} />
         <TutorCard lid={lid} home={h} />
         <WeekCard lid={lid} />
         {h.chats.length > 0 && <ChatList lid={lid} home={h} />}
@@ -79,52 +81,6 @@ function Heading({ home }: { home: Home }) {
         </p>
       </div>
     </div>
-  );
-}
-
-function readinessLabel(v: number | null | undefined): MasteryLabel {
-  if (v === null || v === undefined) return "not_started";
-  return v >= 0.8 ? "know" : v >= 0.5 ? "almost" : "not_yet";
-}
-
-/** The next tests: countdown, about how ready, and today's steps for the nearest one. */
-function TestsCard({ lid }: { lid: number }) {
-  const { t, lang } = useT();
-  const exams = useExams(lid);
-  const list = exams.data ?? [];
-  const nearest = list[0];
-  const detail = useExam(lid, nearest?.id ?? 0);
-  if (!list.length) return null;
-  const today = detail.data?.plan.days[0];
-  const isToday = today && today.date === todayISO();
-  return (
-    <section className="space-y-3 rounded-3xl border-2 border-primary/30 bg-card p-4 sm:p-5">
-      <h2 className="font-display text-2xl leading-tight">📅 {t("myTests")}</h2>
-      {list.map((e) => (
-        <Link key={e.id} to={`/l/${lid}/exam/${e.id}`} className="flex items-center gap-3 rounded-2xl bg-card-2 p-3 hover:opacity-90">
-          <ReadinessRing value={e.readiness} size={64} />
-          <span className="min-w-0 flex-1">
-            <span className="block font-semibold leading-tight">{e.title}</span>
-            <span className="block text-sm text-muted-foreground">
-              {formatDay(e.exam_date, lang)} · <b className="text-foreground">{daysLeftText(t, e.days_left)}</b>
-            </span>
-          </span>
-          <ArrowRight className="size-5 text-primary" />
-        </Link>
-      ))}
-      {isToday && (
-        <div className="space-y-2">
-          <div className="text-sm font-semibold text-muted-foreground">
-            {t("todayPlan")} · {nearest.title}
-          </div>
-          {today.steps.every((s) => s.done) ? (
-            <Feedback>{t("planDone")}</Feedback>
-          ) : (
-            today.steps.map((s) => <StepRow key={s.key} lid={lid} step={s} />)
-          )}
-        </div>
-      )}
-    </section>
   );
 }
 
@@ -154,36 +110,6 @@ function ReviewCard({ lid }: { lid: number }) {
   );
 }
 
-/** Mock tests the parent approved: the last points, never a grade. */
-function MocksCard({ lid }: { lid: number }) {
-  const { t } = useT();
-  const mocks = useLearnerMocks(lid);
-  const navigate = useNavigate();
-  if (!mocks.data?.length) return null;
-  return (
-    <section className="space-y-2 rounded-3xl border border-border bg-card p-4 sm:p-5">
-      <h2 className="font-display text-2xl leading-tight">📝 {t("mocks")}</h2>
-      {mocks.data.map((m) => (
-        <button
-          key={m.id}
-          type="button"
-          onClick={() => navigate(`/l/${lid}/mock/${m.id}`)}
-          className="flex w-full items-center gap-3 rounded-2xl border-2 border-border bg-card-2 px-3 py-2.5 text-left transition hover:-translate-y-0.5"
-        >
-          <SubjectBubble subject={m.subject} size="sm" />
-          <span className="min-w-0 flex-1">
-            <span className="block font-semibold leading-tight">{m.title}</span>
-            <span className="text-sm text-muted-foreground">
-              {m.last ? t("mockLast", { p: m.last.points, max: m.last.max }) : t("mockIntro", { minutes: m.minutes, points: m.points })}
-            </span>
-          </span>
-          <ArrowRight className="size-5 text-primary" />
-        </button>
-      ))}
-    </section>
-  );
-}
-
 function WeekCard({ lid }: { lid: number }) {
   const { t } = useT();
   const week = useWeek(lid);
@@ -196,125 +122,6 @@ function WeekCard({ lid }: { lid: number }) {
       </div>
       <WeekDots week={week.data} />
     </section>
-  );
-}
-
-function TopicList({ lid, topics, preview, oralOk }: { lid: number; topics: LearnerTopicCard[]; preview: boolean; oralOk: boolean }) {
-  const { t, lang } = useT();
-  const navigate = useNavigate();
-  const mastery = useMastery(lid);
-  const ready = new Map((mastery.data?.topics ?? []).map((m) => [m.topic_id, m.readiness]));
-  return (
-    <section className="space-y-3 rounded-3xl border border-border bg-card p-4 sm:p-5">
-      <div>
-        <h2 className="font-display text-2xl leading-tight">{t("topics")}</h2>
-        <p className="text-sm text-muted-foreground">{t("topicsSub")}</p>
-      </div>
-      {!topics.length ? (
-        <p className="rounded-2xl bg-card-2 px-4 py-3 text-muted-foreground">{t("noTopics")}</p>
-      ) : (
-        <div className="divide-y divide-border/60">
-          {topics.map((s) => {
-            const status = s.finished ? t("statusDone") : s.runs ? t("statusStarted") : t("statusNew");
-            return (
-              <div key={s.id} className="space-y-2 py-3">
-                <div className="flex items-center gap-3">
-                  <SubjectBubble subject={s.subject} />
-                  <div className="min-w-0 flex-1">
-                    <div className="font-semibold leading-tight">{s.title}</div>
-                    <div className="flex flex-wrap items-center gap-x-2 text-sm text-muted-foreground">
-                      <span>{t(SUBJECT_META[s.subject].key)}</span>·<span>{t("tasksN", { n: s.tasks })}</span>·
-                      <span className={s.runs ? undefined : "font-semibold text-primary"}>{status}</span>
-                    </div>
-                  </div>
-                  {mastery.data && <MasteryChip label={readinessLabel(ready.get(s.id))} />}
-                </div>
-                {s.study_state && (
-                  <PathRow
-                    icon="📖"
-                    title={t("learnTitle")}
-                    sub={`${t("learnRow")}${s.study_state.cards ? ` · ${s.study_state.known.length}/${s.study_state.cards}` : ""}`}
-                    tone="info"
-                    onClick={() => navigate(`/l/${lid}/learn/${s.id}`)}
-                  />
-                )}
-                <PathRow
-                  icon="✏️"
-                  title={t("practice")}
-                  sub={s.finished ? t("doAgain") : t("start")}
-                  tone="primary"
-                  trailing={s.finished ? <RotateCcw className="size-5 text-muted-foreground" /> : <Play className="size-5 text-primary" />}
-                  onClick={() => navigate(`/l/${lid}/practice/${s.id}`)}
-                />
-                {s.challenge_state && (
-                  <ChallengeRow state={s.challenge_state} preview={preview} onPlay={() => navigate(`/l/${lid}/practice/${s.id}?challenge=1`)} />
-                )}
-                {s.oral > 0 && oralOk && (
-                  <PathRow icon="🎤" title={t("oralTitle")} sub={t("oralRow")} tone="info" onClick={() => navigate(`/l/${lid}/oral/${s.id}`)} />
-                )}
-                {s.last && <p className="ml-15 text-xs text-muted-foreground">{formatDay(s.last, lang)}</p>}
-              </div>
-            );
-          })}
-        </div>
-      )}
-    </section>
-  );
-}
-
-function PathRow({ icon, title, sub, tone, onClick, trailing }: { icon: string; title: string; sub: string; tone: "info" | "primary"; onClick: () => void; trailing?: React.ReactNode }) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      className={cn(
-        "ml-15 flex w-[calc(100%-3.75rem)] items-center gap-3 rounded-2xl border-2 px-3 py-2.5 text-left transition hover:-translate-y-0.5",
-        tone === "info" ? "border-info/40 bg-info/10" : "border-primary/30 bg-primary-soft",
-      )}
-    >
-      <span className="text-2xl" aria-hidden>
-        {icon}
-      </span>
-      <span className="min-w-0 flex-1">
-        <span className="block font-semibold leading-tight">{title}</span>
-        <span className="text-sm text-muted-foreground">{sub}</span>
-      </span>
-      {trailing ?? <ArrowRight className={cn("size-5", tone === "info" ? "text-info" : "text-primary")} />}
-    </button>
-  );
-}
-
-/** The "Liga prvakov" level of a topic: locked until the practice is finished, then a trophy to win. */
-function ChallengeRow({ state, preview, onPlay }: { state: ChallengeState; preview: boolean; onPlay: () => void }) {
-  const { t } = useT();
-  if (!state.unlocked)
-    return (
-      <button
-        type="button"
-        disabled={!preview}
-        onClick={onPlay}
-        className="ml-15 flex w-[calc(100%-3.75rem)] items-center gap-2 rounded-2xl bg-card-2 px-3 py-2 text-left text-sm text-muted-foreground enabled:hover:bg-muted"
-      >
-        <Lock className="size-4 shrink-0" /> {t("challengeTitle")}: {t("challengeLocked")}
-        {preview && <span className="ml-auto shrink-0 font-medium text-primary">{t("previewWord")}</span>}
-      </button>
-    );
-  return (
-    <button
-      type="button"
-      onClick={onPlay}
-      className={cn(
-        "ml-15 flex w-[calc(100%-3.75rem)] items-center gap-3 rounded-2xl border-2 px-3 py-2.5 text-left transition hover:-translate-y-0.5",
-        state.cleared ? "border-warning/40 bg-warning/10" : "border-warning bg-warning/15",
-      )}
-    >
-      <Trophy className={cn("size-7 shrink-0 text-warning", !state.cleared && "animate-pulse")} />
-      <span className="min-w-0 flex-1">
-        <span className="block font-semibold leading-tight">{t("challengeTitle")}</span>
-        <span className="text-sm text-muted-foreground">{state.cleared ? t("challengeWon") : t("challengeStart")}</span>
-      </span>
-      {state.cleared ? <RotateCcw className="size-5 text-muted-foreground" /> : <ArrowRight className="size-5 text-warning" />}
-    </button>
   );
 }
 

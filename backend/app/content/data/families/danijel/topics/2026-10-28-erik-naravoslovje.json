@@ -1,0 +1,3335 @@
+{
+  "id": "2026-10-28-erik-naravoslovje",
+  "version": 4,
+  "format": 2,
+  "subject": "science",
+  "grade": 6,
+  "title": "Erikovo naravoslovje",
+  "intro": "Živjo, Erik! Pripraviva se na naravoslovje! Raziskuj snov, razloži jo s svojimi besedami in vadi ob slikah.",
+  "source": "38 fotografij iz mape erik narav, 28. 10. 2026. Učbenik str. 6–20, 22–37 in 40–53 ter šolski delovni listi. Podrobni viri so v učni zbirki.",
+  "for": [
+    "Erik"
+  ],
+  "study": {
+    "sections": [
+      {
+        "title": "Snovi okoli nas",
+        "text": "Zakaj je ponev kovinska, ročaj pa iz druge snovi?"
+      },
+      {
+        "title": "Majhni delci, velike razlike",
+        "text": "Trdno, tekoče in plinasto – ista snov, drugačna razporeditev."
+      },
+      {
+        "title": "Od surovine do predmeta",
+        "text": "Voda, zrak, kamnine, apno, steklo in goriva."
+      },
+      {
+        "title": "Znaki, ki nas varujejo",
+        "text": "Prepoznaj opozorilo in ravnaj premišljeno."
+      },
+      {
+        "title": "Od Sonca do Zemlje",
+        "text": "Naš planet, njegova notranjost in pogoji za življenje."
+      },
+      {
+        "title": "Sledi davnega življenja",
+        "text": "Kaj nam kamnine povedo o nekdanjih organizmih?"
+      },
+      {
+        "title": "Kamninski detektivi",
+        "text": "Spoznaj nastanek, zgradbo in uporabo kamnin."
+      },
+      {
+        "title": "Življenje pod nogami",
+        "text": "Kako nastane prst in zakaj različna tla zadržujejo različno količino vode?"
+      },
+      {
+        "title": "Organizmi in njihovo okolje",
+        "text": "Akvarij in visokogorje: poveži živo naravo z razmerami."
+      },
+      {
+        "title": "Vreme pod povečevalom",
+        "text": "Temperatura, tlak, vlaga, veter in kroženje vode."
+      },
+      {
+        "title": "Sonce in drugi viri energije",
+        "text": "Od svetlobe do hrane, vetra in rek."
+      },
+      {
+        "title": "Tokovi in elektrarne",
+        "text": "Kaj tok poganja in kako energija pride do porabnika?"
+      }
+    ],
+    "cards": [
+      {
+        "front": "Razloži izbiro materialov za lonec in električni kabel.",
+        "back": "prevajanje toplote"
+      },
+      {
+        "front": "Ali magnet privlači vse kovine? Navedi primer.",
+        "back": "ne vse kovine"
+      },
+      {
+        "front": "Primerjaj sladkor, kovinski ključ in stiropor v vodi.",
+        "back": "sladkor se raztopi"
+      },
+      {
+        "front": "Kaj je jeklo in zakaj se uporablja za predmete?",
+        "back": "železo in ogljik"
+      },
+      {
+        "front": "Primerjaj delce v ledu, tekoči vodi in vodni pari.",
+        "back": "ista snov"
+      },
+      {
+        "front": "Zakaj se voda ob kapljici barvila postopoma obarva?",
+        "back": "gibanje delcev"
+      },
+      {
+        "front": "Kako lahko zaznamo vonj iz odprte stekleničke?",
+        "back": "delci snovi v zraku"
+      },
+      {
+        "front": "Zakaj lahko vodo prelijemo, kocka ledu pa ohranja obliko?",
+        "back": "tekočina teče"
+      }
+    ],
+    "goals": [
+      {
+        "id": "razlozim",
+        "text": "Snov razložim s svojimi besedami."
+      },
+      {
+        "id": "povezem",
+        "text": "Povežem sliko, pojem in razlago."
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "uvod-1",
+      "kind": "open",
+      "level": 1,
+      "prompt": "Razloži izbiro materialov za lonec in električni kabel.",
+      "hints": [
+        "Primerjaj nalogo kovine in plastike.",
+        "Pri razlagi uporabi to povezavo: prevajanje toplote."
+      ],
+      "solution": "Kovinski lonec dobro prevaja toploto do hrane. V kablu kovinska žica prevaja električni tok, plastična prevleka pa ga slabo prevaja. Material mora ustrezati nalogi predmeta."
+    },
+    {
+      "id": "uvod-2",
+      "kind": "open",
+      "level": 1,
+      "prompt": "Primerjaj delce v ledu, tekoči vodi in vodni pari.",
+      "hints": [
+        "Opiši razdalje med delci in njihovo gibanje.",
+        "Pri razlagi uporabi to povezavo: ista snov."
+      ],
+      "solution": "V ledu so delci tesno in urejeno razporejeni ter nihajo okoli svojih mest. V tekoči vodi so blizu, a se premikajo drug mimo drugega. V pari so bolj narazen in se prosto gibljejo. V vseh treh primerih gre za vodo."
+    },
+    {
+      "id": "uvod-3",
+      "kind": "open",
+      "level": 1,
+      "prompt": "Navedi tri naravne vire surovin in primere snovi, ki jih dobimo iz njih.",
+      "hints": [
+        "Pomagaj si s tremi besedami: voda, zrak, kamnine.",
+        "Pri razlagi uporabi to povezavo: voda – sol."
+      ],
+      "solution": "Iz vode, na primer morske, dobimo sol. Iz zraka pridobivamo kisik in dušik. Iz kamnin oziroma rud pridobivamo kovine; apnenec je tudi gradbena surovina."
+    },
+    {
+      "id": "uvod-4",
+      "kind": "open",
+      "level": 1,
+      "prompt": "Zakaj so na embalaži znaki za nevarnost?",
+      "hints": [
+        "Kaj izvemo, še preden uporabimo izdelek?",
+        "Pri razlagi uporabi to povezavo: nevarne lastnosti."
+      ],
+      "solution": "Opozarjajo na nevarne lastnosti snovi, da lahko upoštevamo navodila in preprečimo poškodbe ali onesnaženje. Pomen simbola povežemo z besedilom na embalaži."
+    },
+    {
+      "id": "uvod-5",
+      "kind": "open",
+      "level": 2,
+      "prompt": "Po čem se Sonce razlikuje od Zemlje in Lune?",
+      "hints": [
+        "Primerjaj svetlobo in kroženje.",
+        "Pri razlagi uporabi to povezavo: zvezda."
+      ],
+      "solution": "Sonce je zvezda in oddaja lastno svetlobo. Zemlja je planet, ki kroži okoli Sonca. Luna je naravni satelit Zemlje in kroži okoli nje."
+    },
+    {
+      "id": "uvod-6",
+      "kind": "open",
+      "level": 2,
+      "prompt": "Kaj je fosil in kaj lahko izvemo iz njega?",
+      "hints": [
+        "Pomisli na ostanek v kamnini.",
+        "Pri razlagi uporabi to povezavo: ostanek ali sled."
+      ],
+      "solution": "Fosil je ohranjen ostanek ali sled nekdanjega organizma. Iz njega sklepamo, kakšni organizmi so živeli v preteklosti in v kakšnem okolju."
+    },
+    {
+      "id": "uvod-7",
+      "kind": "open",
+      "level": 2,
+      "prompt": "Primerjaj nastanek treh glavnih vrst kamnin.",
+      "hints": [
+        "Pomisli na magmo, usedline in preobrazbo.",
+        "Pri razlagi uporabi to povezavo: ohlajanje."
+      ],
+      "solution": "Magmatske nastanejo z ohlajanjem magme. Sedimentne nastanejo iz usedlin in njihovih sprijetih delcev ali izločenih mineralov. Metamorfne nastanejo s preobrazbo starejših kamnin pri visokem tlaku in temperaturi."
+    },
+    {
+      "id": "uvod-8",
+      "kind": "open",
+      "level": 2,
+      "prompt": "Kako nastaja prst in kdo pri tem sodeluje?",
+      "hints": [
+        "Poveži neživi in živi del nastanka.",
+        "Pri razlagi uporabi to povezavo: preperevanje."
+      ],
+      "solution": "Kamnine preperevajo v manjše delce. Rastline, lišaji, mikroorganizmi in talne živali sodelujejo pri razpadanju kamnin in razkrajanju ostankov organizmov. Ti se pomešajo z mineralnimi delci in nastaja prst."
+    },
+    {
+      "id": "uvod-9",
+      "kind": "open",
+      "level": 2,
+      "prompt": "Opiši akvarij kot ekosistem.",
+      "hints": [
+        "Loči živo od neživega.",
+        "Pri razlagi uporabi to povezavo: organizmi."
+      ],
+      "solution": "V akvariju živijo ribe in rastline. Nanje vplivajo voda, svetloba, temperatura in podlaga. Organizmi in neživi dejavniki so povezani, zato jih obravnavamo skupaj kot ekosistem."
+    },
+    {
+      "id": "uvod-10",
+      "kind": "open",
+      "level": 2,
+      "prompt": "Kako merimo temperaturo, zračni tlak, vlažnost in padavine?",
+      "hints": [
+        "Vsaki količini pripiši njen merilnik.",
+        "Pri razlagi uporabi to povezavo: termometer."
+      ],
+      "solution": "Temperaturo merimo s termometrom v °C, tlak s tlakomerom v hPa, relativno vlažnost z vlagomerom v odstotkih, padavine pa z dežemerom v mm oziroma L/m²."
+    },
+    {
+      "id": "uvod-11",
+      "kind": "open",
+      "level": 2,
+      "prompt": "Pojasni, kako je energija hrane povezana s Soncem.",
+      "hints": [
+        "Začni pri rastlinah.",
+        "Pri razlagi uporabi to povezavo: svetloba."
+      ],
+      "solution": "Rastline pri fotosintezi uporabljajo sončno svetlobo. Živali in ljudje dobimo energijo s hrano, ki je neposredno ali posredno povezana z rastlinami."
+    },
+    {
+      "id": "uvod-12",
+      "kind": "open",
+      "level": 2,
+      "prompt": "Primerjaj, kaj poganja vodni tok, veter in električni tok.",
+      "hints": [
+        "Vsakemu toku poišči njegov vzrok.",
+        "Pri razlagi uporabi to povezavo: višinska razlika ali črpalka."
+      ],
+      "solution": "Vodni tok poganja višinska razlika ali črpalka. Veter poganja razlika v zračnem tlaku. Električni tok poganja električna napetost. Vsak tok potrebuje pot in nekaj, kar ga vzdržuje."
+    },
+    {
+      "id": "uvod-13",
+      "kind": "open",
+      "level": 2,
+      "prompt": "Kako se razlikujeta toplota in temperatura?",
+      "hints": [
+        "Primerjaj opis stanja s prenosom energije.",
+        "Pri razlagi uporabi to povezavo: temperatura °C."
+      ],
+      "solution": "Temperatura pove, kako toplo je telo, in jo merimo na primer v °C. Toplota je energija, ki prehaja med telesoma zaradi razlike v temperaturi, in jo merimo v J."
+    }
+  ],
+  "parent": {
+    "school_method": "Ustna vaja s samooceno brez AI. Zbirka vsebuje preoblikovane razlage in vprašanja iz vseh 38 fotografij. Natančne izvorne strani in opozorila so v pregledu virov.",
+    "tips": [
+      "Ocene Znam, Še vadim in Ne znam še so otrokova samoocena, ne uradna šolska ocena.",
+      "V zbirki odprite Viri in opombe ter preglejte označene nejasnosti.",
+      "Poskuse z vročino, elektriko in kemikalijami obravnavajte skupaj; aplikacija jih ne zahteva."
+    ]
+  },
+  "lab": {
+    "title": "Erikovo naravoslovje",
+    "sources": [
+      {
+        "id": "p01",
+        "file": "viber_image_2026-10-28_15-39-51-836.jpg",
+        "label": "Delovni list: toplotni tok",
+        "rotate": 0,
+        "width": 1200,
+        "height": 1600,
+        "review": "Ročne meritve v tabeli niso dovolj jasne za preverjanje številčnih odgovorov. Vadimo smer prenosa toplote."
+      },
+      {
+        "id": "p02",
+        "file": "viber_image_2026-10-28_15-39-52-635.jpg",
+        "label": "List: rastline v visokogorju",
+        "rotate": -90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p03",
+        "file": "viber_image_2026-10-28_15-39-52-710.jpg",
+        "label": "Zapiski in fotografiji gorskih rastlin",
+        "rotate": 0,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p04",
+        "file": "viber_image_2026-10-28_15-39-52-754.jpg",
+        "label": "Delovni list: padavine",
+        "rotate": 0,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p05",
+        "file": "viber_image_2026-10-28_15-39-52-799.jpg",
+        "label": "Delovni list: veter",
+        "rotate": 0,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p06",
+        "file": "viber_image_2026-10-28_15-39-52-832.jpg",
+        "label": "Delovni list: vlažnost zraka",
+        "rotate": -90,
+        "width": 1600,
+        "height": 1200,
+        "review": ""
+      },
+      {
+        "id": "p07",
+        "file": "viber_image_2026-10-28_15-39-52-861.jpg",
+        "label": "Delovni list: zračni tlak",
+        "rotate": -90,
+        "width": 1600,
+        "height": 1200,
+        "review": ""
+      },
+      {
+        "id": "p08",
+        "file": "viber_image_2026-10-28_15-39-52-896.jpg",
+        "label": "Delovni list: temperatura",
+        "rotate": -90,
+        "width": 1600,
+        "height": 1200,
+        "review": "Desni rob višinskega diagrama je odrezan. Ne preverjamo odrezanih temperatur."
+      },
+      {
+        "id": "p09",
+        "file": "viber_image_2026-10-28_15-39-52-989.jpg",
+        "label": "Delovni list: ekosistem – akvarij",
+        "rotate": -90,
+        "width": 1600,
+        "height": 1200,
+        "review": ""
+      },
+      {
+        "id": "p10",
+        "file": "viber_image_2026-10-28_15-39-53-021.jpg",
+        "label": "Delovni list: neživi dejavniki in termometri",
+        "rotate": -90,
+        "width": 1600,
+        "height": 1200,
+        "review": "Tabela ima neskladni enoti za padavine in osvetljenost. Za padavine uporabimo mm oziroma L/m² iz lista o padavinah; osvetljenost vadimo z merilnikom, brez sporne enote. Odčitka termometrov nista dovolj jasna."
+      },
+      {
+        "id": "p11",
+        "file": "viber_image_2026-10-28_15-39-53-150.jpg",
+        "label": "Utrjevanje: vesolje in pogoji za življenje",
+        "rotate": -90,
+        "width": 1600,
+        "height": 1200,
+        "review": ""
+      },
+      {
+        "id": "p12",
+        "file": "viber_image_2026-10-28_15-39-53-179.jpg",
+        "label": "Utrjevanje: fosili in časovni trak",
+        "rotate": -90,
+        "width": 1600,
+        "height": 1200,
+        "review": "Časovni trak in list o razvoju življenja uporabljata različne datume za človeka. Vadimo zaporedje, ne enega točnega datuma."
+      },
+      {
+        "id": "p13",
+        "file": "viber_image_2026-10-28_15-39-53-247.jpg",
+        "label": "Delovni list: prepoznavanje fosilov",
+        "rotate": -90,
+        "width": 1600,
+        "height": 1200,
+        "review": "Zgornja ilustracija ob amonitu je podobna današnjemu glavonožcu. Naloga prepoznavanja uporablja fotografijo fosila pod njo."
+      },
+      {
+        "id": "p14",
+        "file": "viber_image_2026-10-28_15-39-53-361.jpg",
+        "label": "Delovni list: razvoj življenja",
+        "rotate": 0,
+        "width": 1200,
+        "height": 1600,
+        "review": "List ponovi več kot 90 % izumrtja pri dveh različnih dogodkih in vsebuje napačen ročni vpis pri 66 milijonih let. Ti deleži niso uporabljeni. Starost Zemlje je v gradivu zaokrožena na 4,5 oziroma 4,6 milijarde let."
+      },
+      {
+        "id": "p15",
+        "file": "viber_image_2026-10-28_15-39-53-402.jpg",
+        "label": "Učbenik, str. 52–53: energija – ponovitev",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p16",
+        "file": "viber_image_2026-10-28_15-39-53-502.jpg",
+        "label": "Učbenik, str. 50–51: toplotni tok",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p17",
+        "file": "viber_image_2026-10-28_15-39-53-537.jpg",
+        "label": "Učbenik, str. 48–49: električni tok in energija",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p18",
+        "file": "viber_image_2026-10-28_15-39-53-607.jpg",
+        "label": "Učbenik, str. 46–47: elektrika in vodni tok",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p19",
+        "file": "viber_image_2026-10-28_15-39-53-678.jpg",
+        "label": "Učbenik, str. 44–45: elektrarne",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": "Časovno odvisne deleže proizvodnje elektrike v Sloveniji iz starega učbenika izpustimo."
+      },
+      {
+        "id": "p20",
+        "file": "viber_image_2026-10-28_15-39-53-770.jpg",
+        "label": "Učbenik, str. 42–43: viri energije",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p21",
+        "file": "viber_image_2026-10-28_15-39-53-813.jpg",
+        "label": "Učbenik, str. 40–41: sončna energija",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p22",
+        "file": "viber_image_2026-10-28_15-39-54-042.jpg",
+        "label": "Učbenik: uvod v energijo",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p23",
+        "file": "viber_image_2026-10-28_15-39-54-130.jpg",
+        "label": "Učbenik, str. 36–37: kamnine in prst – ponovitev",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p24",
+        "file": "viber_image_2026-10-28_15-39-54-169.jpg",
+        "label": "Učbenik, str. 34–35: vrste prsti",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p25",
+        "file": "viber_image_2026-10-28_15-39-54-207.jpg",
+        "label": "Učbenik, str. 32–33: določanje kamnin in nastanek prsti",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p26",
+        "file": "viber_image_2026-10-28_15-39-54-249.jpg",
+        "label": "Učbenik, str. 30–31: geološka karta in trdota",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p27",
+        "file": "viber_image_2026-10-28_15-39-54-283.jpg",
+        "label": "Učbenik, str. 28–29: sedimentne in metamorfne kamnine",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p28",
+        "file": "viber_image_2026-10-28_15-39-54-407.jpg",
+        "label": "Učbenik, str. 26–27: magmatske in sedimentne kamnine",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p29",
+        "file": "viber_image_2026-10-28_15-39-54-445.jpg",
+        "label": "Učbenik, str. 24–25: kamninski krog",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p30",
+        "file": "viber_image_2026-10-28_15-39-54-520.jpg",
+        "label": "Učbenik, str. 22–23: Zemlja in vulkani",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": "Risba označi ozračje do 50 km; tega ne obravnavamo kot zgornjo mejo celotnega ozračja."
+      },
+      {
+        "id": "p31",
+        "file": "viber_image_2026-10-28_15-39-54-557.jpg",
+        "label": "Učbenik, str. 20 in uvod v kamnine",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p32",
+        "file": "viber_image_2026-10-28_15-39-54-622.jpg",
+        "label": "Učbenik, str. 18–19: varnost in ponovitev snovi",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": "Navodila za prvo pomoč niso vključena v učne odgovore; ta del naj z otrokom obravnava odrasla oseba. Vadimo prepoznavanje nevarnosti in obvestilo odrasli osebi."
+      },
+      {
+        "id": "p33",
+        "file": "viber_image_2026-10-28_15-39-54-687.jpg",
+        "label": "Učbenik, str. 16–17: znaki za nevarnost",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p34",
+        "file": "viber_image_2026-10-28_15-39-54-758.jpg",
+        "label": "Učbenik, str. 14–15: fosilna goriva",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p35",
+        "file": "viber_image_2026-10-28_15-39-54-822.jpg",
+        "label": "Učbenik, str. 12–13: apno, malta, beton, steklo",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": "Shema stekla navaja samo nad 100 °C, kar ni uporabna temperatura za izdelavo stekla. Vprašanja preverjajo surovine in zaporedje, ne temperature."
+      },
+      {
+        "id": "p36",
+        "file": "viber_image_2026-10-28_15-39-54-907.jpg",
+        "label": "Učbenik, str. 10–11: delci in viri surovin",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p37",
+        "file": "viber_image_2026-10-28_15-39-54-998.jpg",
+        "label": "Učbenik, str. 8–9: delci in agregatna stanja",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      },
+      {
+        "id": "p38",
+        "file": "viber_image_2026-10-28_15-39-55-102.jpg",
+        "label": "Učbenik, str. 6–7: lastnosti in uporaba snovi",
+        "rotate": 90,
+        "width": 1200,
+        "height": 1600,
+        "review": ""
+      }
+    ],
+    "lessons": [
+      {
+        "id": "materiali",
+        "title": "Snovi okoli nas",
+        "icon": "🧲",
+        "summary": "Zakaj je ponev kovinska, ročaj pa iz druge snovi?",
+        "notes": [
+          "Material izberemo glede na namen predmeta. Pomembni so trdota, gostota, prožnost, topnost, prevajanje toplote in elektrike ter magnetne lastnosti.",
+          "Kovine dobro prevajajo toploto in elektriko. Bakrene žice zato prenašajo električni tok. Plastična prevleka ga slabo prevaja in je izolator. Magnet ne privlači vseh kovin: med primeri v gradivu sta železo in nikelj.",
+          "Jeklo nastane iz železa z dodatkom ogljika. Nerjaveče jeklo je uporabno za posodo in pribor. Plastiko lahko oblikujemo; stiropor slabo prevaja toploto in je uporaben za izolacijo.",
+          "Kovinski ključ v vodi potone, stiropor pa plava. Sladkor se v vodi raztopi; kovina in stiropor se pri opisanem poskusu ne. Plavanje in raztapljanje sta različni lastnosti."
+        ],
+        "vocabulary": {
+          "prevodnik": "Snov, skozi katero toplota ali električni tok dobro prehajata.",
+          "izolator": "Snov, ki slabo prevaja toploto ali električni tok.",
+          "topnost": "Lastnost snovi, da se raztaplja v topilu, na primer vodi."
+        },
+        "sources": [
+          "p38",
+          "p32"
+        ]
+      },
+      {
+        "id": "delci",
+        "title": "Majhni delci, velike razlike",
+        "icon": "💧",
+        "summary": "Trdno, tekoče in plinasto – ista snov, drugačna razporeditev.",
+        "notes": [
+          "Snovi so zgrajene iz zelo majhnih delcev. Ko se barvilo raztopi, se njegovi delci porazdelijo med delce vode. Tudi širjenje vonja pokaže, da se delci gibljejo.",
+          "V trdni snovi so delci blizu skupaj in nihajo okoli svojih mest. V tekočini so blizu, vendar se premikajo drug mimo drugega. V plinu so precej narazen in se gibljejo po razpoložljivem prostoru.",
+          "Led, tekoča voda in vodna para so ista snov v različnih agregatnih stanjih. Spremenita se razporeditev in gibanje delcev. Tekočina prevzame obliko posode; trdna snov ohranja obliko.",
+          "Tudi živa bitja sestavljajo delci. V organizmih najdemo vodo, v neživi naravi pa prav tako. Pri razlagi sheme opazujemo razdalje, razporeditev in različne vrste delcev."
+        ],
+        "vocabulary": {
+          "agregatno stanje": "Trdno, tekoče ali plinasto stanje snovi.",
+          "vodna para": "Voda v plinastem stanju.",
+          "raztapljanje": "Delci topljenca se porazdelijo med delce topila."
+        },
+        "sources": [
+          "p37",
+          "p36",
+          "p32",
+          "p31"
+        ]
+      },
+      {
+        "id": "surovine",
+        "title": "Od surovine do predmeta",
+        "icon": "🏭",
+        "summary": "Voda, zrak, kamnine, apno, steklo in goriva.",
+        "notes": [
+          "Naravni viri surovin so voda, zrak in kamnine. Iz morske vode z izhlapevanjem dobimo sol. Zrak je zmes plinov, večinoma dušika in kisika. Rude vsebujejo minerale, iz katerih pridobivamo kovine.",
+          "Iz apnenca s segrevanjem pridobimo žgano apno. Z dodajanjem vode dobimo gašeno apno. Gašeno apno, pesek in voda sestavljajo malto; cement, pesek in voda pa beton. Steklo izdelujejo iz kremenovega peska, apnenca in sode.",
+          "Premog, nafta in zemeljski plin so fosilna goriva. Nastajali so zelo dolgo iz ostankov nekdanjih organizmov. Njihove zaloge so omejene. Premog je nastajal predvsem iz rastlinskih ostankov, nafta in plin pa iz odmrlih morskih organizmov.",
+          "Gradivo primerja lignit, rjavi in črni premog ter antracit. Več ogljika pomeni več sproščene energije pri gorenju primerljive mase. Nafta je zmes: v rafineriji dobimo različna goriva in surovine za plastiko, barve in druge izdelke."
+        ],
+        "vocabulary": {
+          "ruda": "Kamnina oziroma mineralna surovina, iz katere pridobivamo kovine.",
+          "fosilna goriva": "Premog, nafta in zemeljski plin.",
+          "surovina": "Snov, iz katere pridobimo drug material ali izdelek."
+        },
+        "sources": [
+          "p36",
+          "p35",
+          "p34",
+          "p31"
+        ]
+      },
+      {
+        "id": "varnost",
+        "title": "Znaki, ki nas varujejo",
+        "icon": "⚠️",
+        "summary": "Prepoznaj opozorilo in ravnaj premišljeno.",
+        "notes": [
+          "Nalepke na embalaži opozarjajo na nevarne lastnosti snovi. Plamen opozarja na vnetljivost, mrtvo drevo in riba na nevarnost za vodno okolje, lobanja na strupenost, znak z razjedanjem pa na jedkost.",
+          "Klicaj opozarja na različne nevarnosti v blažji obliki, na primer draženje. Iz samega klicaja ne določimo vseh lastnosti izdelka; upoštevamo tudi navodila na embalaži.",
+          "Pri neznani snovi z nečitljivo nalepko ne odpiramo posode in ne ugotavljamo vsebine z vohanjem ali segrevanjem. Opozorimo odraslo osebo. Nevarnih poskusov ne izvajamo sami.",
+          "Gradivo kaže stare oranžne in nove rdeče obrobljene znake. Pri učenju prepoznavamo pomen simbola. Ravnanje ob poškodbi obravnavamo z odraslo osebo, ne kot samostojen poskus."
+        ],
+        "vocabulary": {
+          "vnetljivo": "Snov se lahko vname.",
+          "jedko": "Lahko povzroči razjede kože in hude poškodbe oči.",
+          "nevarno za okolje": "Lahko škoduje organizmom v okolju."
+        },
+        "sources": [
+          "p33",
+          "p32",
+          "p31"
+        ]
+      },
+      {
+        "id": "vesolje",
+        "title": "Od Sonca do Zemlje",
+        "icon": "🪐",
+        "summary": "Naš planet, njegova notranjost in pogoji za življenje.",
+        "notes": [
+          "Sonce je zvezda in oddaja lastno svetlobo. Planeti krožijo okoli zvezde. Zemlja je tretji planet od Sonca, Merkur mu je najbližji, Jupiter je največji planet Osončja. Saturn ima izrazite obroče, Luna pa je naravni satelit Zemlje.",
+          "Dan in noč se izmenjujeta zaradi vrtenja Zemlje okoli svoje osi. Obhod Zemlje okoli Sonca je povezan z letom. Meteor oziroma utrinek je svetlobna sled delca, ki vstopi v ozračje.",
+          "Za življenje na Zemlji so pomembni tekoča voda, ustrezna temperatura, energija in ozračje. Ozonska plast zmanjšuje del škodljivega UV-sevanja. Zlati pas v gradivu označuje območje primerne oddaljenosti od Sonca.",
+          "Zemljo sestavljajo skorja, plašč in jedro. Notranje jedro je trdno, zunanje tekoče. Skorja je tanka zunanja plast. Magma je v notranjosti; ko pride na površje skozi vulkan, jo imenujemo lava. Izbruhi lahko močno spremenijo okolje."
+        ],
+        "vocabulary": {
+          "zvezda": "Vroče nebesno telo, ki oddaja lastno svetlobo.",
+          "planet": "Nebesno telo, ki kroži okoli zvezde.",
+          "magma": "Raztaljena kamninska snov v notranjosti Zemlje.",
+          "lava": "Magma, ki priteče na površje."
+        },
+        "sources": [
+          "p11",
+          "p14",
+          "p30"
+        ]
+      },
+      {
+        "id": "fosili",
+        "title": "Sledi davnega življenja",
+        "icon": "🐚",
+        "summary": "Kaj nam kamnine povedo o nekdanjih organizmih?",
+        "notes": [
+          "Fosil je ohranjen ostanek ali sled nekdanjega organizma. Fosili nam pomagajo sklepati o življenju in okolju v preteklosti.",
+          "Pri prikazanem nastanku fosila organizem živi, pogine, prekrijejo ga usedline, plasti se nalagajo in utrjujejo, del ostankov ali sled pa se ohrani v kamnini.",
+          "Na fotografijah so trilobit, amonit, morski ježek, dinozaver in mamut. Morski fosili kažejo na nekdanje morsko okolje; mamut in prikazani dinozaver sta povezana s kopnim.",
+          "V grobem zaporedju je najprej nastala Zemlja, nato so se pojavile preproste oblike življenja. Mnogo pozneje so živeli dinozavri, po njihovem izumrtju pa se v prikazanem časovnem pregledu pojavi človek. Razvoj življenja vključuje tudi velika izumrtja in ledene dobe."
+        ],
+        "vocabulary": {
+          "fosil": "Ohranjen ostanek ali sled nekdanjega organizma.",
+          "sediment": "Usedlina, ki se nalaga v plasteh.",
+          "izumrtje": "Izginotje vrste oziroma skupine vrst."
+        },
+        "sources": [
+          "p12",
+          "p13",
+          "p14"
+        ]
+      },
+      {
+        "id": "kamnine",
+        "title": "Kamninski detektivi",
+        "icon": "🪨",
+        "summary": "Spoznaj nastanek, zgradbo in uporabo kamnin.",
+        "notes": [
+          "Kamnine sestavljajo minerali. Glede na nastanek ločimo magmatske, sedimentne in metamorfne kamnine. V kamninskem krogu se lahko spreminjajo iz ene vrste v drugo.",
+          "Magmatske kamnine nastanejo ob ohlajanju magme. Počasno ohlajanje v globini daje globočnine, na primer granit. Hitro ohlajanje blizu površja daje predornine, na primer bazalt. Pri zelo hitrem ohlajanju nastane vulkansko steklo.",
+          "Voda, led, veter in temperaturne spremembe drobijo kamnine. Delce prenašajo reke in jih odlagajo. Iz sprijetih usedlin nastanejo sedimentne kamnine; v njih lahko najdemo fosile. V Sloveniji prevladujejo sedimentne kamnine, zlasti apnenec.",
+          "Breča ima oglate sprijete delce, konglomerat zaobljene prodnike, peščenjak pa zrna peska. Glino sestavljajo zelo drobni delci; sprijeta glina tvori glinavec. Lehnjak se izloča iz vode, tuf pa nastane iz vulkanskega pepela.",
+          "Metamorfne kamnine nastanejo s spreminjanjem starejših kamnin pod visokim tlakom in temperaturo. Marmor nastane iz apnenca. Če se kamnina stali, nastane magma; to ni več samo preobrazba.",
+          "Trdoto mineralov primerjamo s praskanjem: trši mineral razi mehkejšega. Mohsova lestvica poteka od lojevca (1) do diamanta (10). Geološka karta pokaže razširjenost vrst kamnin. Granit je uporaben za trdne obloge, marmor za kipe; glino oblikujejo v lončarske izdelke."
+        ],
+        "vocabulary": {
+          "mineral": "Naravna sestavina kamnine.",
+          "globočnina": "Magmatska kamnina, nastala s počasnim ohlajanjem v globini.",
+          "predornina": "Magmatska kamnina, nastala s hitrejšim ohlajanjem blizu površja.",
+          "preperevanje": "Razpadanje in spreminjanje kamnin pod vplivi okolja."
+        },
+        "sources": [
+          "p29",
+          "p28",
+          "p27",
+          "p26",
+          "p25",
+          "p23",
+          "p31"
+        ]
+      },
+      {
+        "id": "prst",
+        "title": "Življenje pod nogami",
+        "icon": "🌱",
+        "summary": "Kako nastane prst in zakaj različna tla zadržujejo različno količino vode?",
+        "notes": [
+          "Prst nastaja počasi iz preperelih kamnin in ostankov organizmov. Korenine širijo razpoke, lišaji in drugi organizmi prispevajo k nastajanju. Odmrle ostanke razgrajujejo mikroorganizmi.",
+          "V prsti so mineralni delci, humus, voda in zrak ter živi organizmi. Humus nastaja z razkrajanjem ostankov rastlin in živali. Na vrhu je stelja, pod njo prst, spodaj matična kamnina.",
+          "Peščena prst ima večje delce in hitro prepušča vodo. Glinena ima drobnejše delce in vodo bolje zadržuje. Temna prst pogosto vsebuje več humusa. Vrsta prsti je odvisna tudi od matične kamnine in razmer okolja.",
+          "Na pobočjih je prst pogosto plitvejša, ker jo voda odnaša. Rastline jo s koreninami pomagajo zadrževati. V poskusu z enako količino vode primerjamo količino, ki pronica skozi različni prsti."
+        ],
+        "vocabulary": {
+          "humus": "Snov, ki nastaja z razkrajanjem odmrlih delov organizmov.",
+          "stelja": "Plast odpadlega listja in drugih ostankov na površju.",
+          "matična kamnina": "Kamnina, iz katere s preperevanjem nastaja mineralni del prsti."
+        },
+        "sources": [
+          "p25",
+          "p24",
+          "p23"
+        ]
+      },
+      {
+        "id": "okolje",
+        "title": "Organizmi in njihovo okolje",
+        "icon": "🏔️",
+        "summary": "Akvarij in visokogorje: poveži živo naravo z razmerami.",
+        "notes": [
+          "Ekosistem vključuje organizme in nežive dejavnike ter njihove povezave. V akvariju so živi dejavniki ribe in rastline, neživi pa voda, svetloba, temperatura in podlaga.",
+          "Organizmi potrebujejo ustrezne življenjske razmere. Pri opazovanju ločimo, kaj je organizem in kaj je lastnost okolja. Temperatura ni živ organizem, četudi vpliva na ribe.",
+          "V visokogorju so dolge mrzle zime, kratka poletja, močan veter in UV-sevanje. Voda je lahko zamrznjena ali hitro odteče, tla so plitva in kamnita.",
+          "Nizka blazinasta rast zmanjšuje vpliv vetra in pomaga zadrževati toploto. Močne korenine rastlino utrjujejo. Majhni listi in voščena prevleka zmanjšujejo izgubo vode. Svetle dlačice odbijajo svetlobo in zadržujejo plast zraka."
+        ],
+        "vocabulary": {
+          "ekosistem": "Organizmi, neživo okolje in njihove medsebojne povezave.",
+          "prilagoditev": "Značilnost, ki organizmu pomaga živeti v določenih razmerah.",
+          "neživi dejavnik": "Na primer svetloba, voda ali temperatura."
+        },
+        "sources": [
+          "p09",
+          "p02",
+          "p03"
+        ]
+      },
+      {
+        "id": "vreme",
+        "title": "Vreme pod povečevalom",
+        "icon": "🌦️",
+        "summary": "Temperatura, tlak, vlaga, veter in kroženje vode.",
+        "notes": [
+          "Nežive dejavnike merimo z različnimi merilniki: temperaturo s termometrom, tlak s tlakomerom, vlažnost z vlagomerom, padavine z dežemerom in osvetljenost s svetlomerom. Rezultat zapišemo z ustrezno enoto.",
+          "Sonce segreva površje, površje pa zrak nad seboj. Del svetlobe se odbije. Snežna površina odbije velik delež, temen asfalt manj. Z višino se temperatura zraka običajno znižuje.",
+          "Zračni tlak je povezan s pritiskanjem zraka na površino. Z višino se običajno zmanjšuje. Veter je gibanje zraka zaradi razlik v zračnem tlaku: zrak se premika z območja višjega proti območju nižjega tlaka.",
+          "Relativna vlažnost primerja količino vodne pare z največjo možno količino pri isti temperaturi. Pri ohlajanju zraka z enako količino pare relativna vlažnost naraste. Pri nasičenosti se lahko para kondenzira v kapljice; tako nastajajo oblaki, megla ali rosa.",
+          "Voda izhlapeva, vodna para se ohlaja in kondenzira, kapljice pa lahko postanejo dovolj velike za padavine. Voda odteka v reke, jezera in morje ali pronica v tla. Za količino padavin velja 1 mm = 1 L/m².",
+          "Na privetrni strani hriba se zrak dviga in ohlaja, zato nastajajo oblaki in padavine. Na drugi strani je lahko bolj suh. Visok in nizek tlak sta uporabna za opis vremenskih razmer, vendar sama ne zagotavljata točne napovedi."
+        ],
+        "vocabulary": {
+          "kondenzacija": "Prehod iz plinastega v tekoče stanje.",
+          "izhlapevanje": "Prehajanje vode v vodno paro.",
+          "relativna vlažnost": "Delež vodne pare glede na največjo možno količino pri isti temperaturi.",
+          "veter": "Gibanje zraka zaradi razlik v zračnem tlaku."
+        },
+        "sources": [
+          "p04",
+          "p05",
+          "p06",
+          "p07",
+          "p08",
+          "p10"
+        ]
+      },
+      {
+        "id": "energija",
+        "title": "Sonce in drugi viri energije",
+        "icon": "☀️",
+        "summary": "Od svetlobe do hrane, vetra in rek.",
+        "notes": [
+          "Energijo potrebujemo za življenje, gibanje in delovanje naprav. Sonce na Zemljo pošilja svetlobo. Rastline jo uporabljajo pri fotosintezi, hrana pa daje energijo živalim in ljudem.",
+          "Sončna energija poganja izhlapevanje in kroženje vode. Padavine napajajo reke. Različno segrevanje površja ustvarja razmere za veter. Zato sta energija rek in vetra povezani s Soncem.",
+          "Sončni kolektor segreva vodo, sončna celica pa pretvarja svetlobno energijo v električno. To sta različni nalogi, čeprav obe napravi uporabljata Sonce.",
+          "Obnovljivi viri se sproti obnavljajo: sončna energija, veter, energija rek in ob primernem obnavljanju biomasa. Fosilna goriva so neobnovljiva. Geotermalna energija prihaja iz notranjosti Zemlje, jedrska iz sprememb atomskih jeder.",
+          "Pri gorenju fosilnih goriv se sprošča ogljikov dioksid. Več toplogrednih plinov krepi učinek tople grede. Jedrska energija potrebuje malo goriva, vendar nastajajo radioaktivni odpadki. Vire primerjamo po prednostih in težavah."
+        ],
+        "vocabulary": {
+          "biomasa": "Snov rastlinskih in drugih organskih ostankov, uporabljena kot vir energije.",
+          "obnovljiv vir": "Vir, ki se sproti obnavlja.",
+          "geotermalna energija": "Energija iz notranjosti Zemlje."
+        },
+        "sources": [
+          "p21",
+          "p20",
+          "p22"
+        ]
+      },
+      {
+        "id": "elektrika",
+        "title": "Tokovi in elektrarne",
+        "icon": "💡",
+        "summary": "Kaj tok poganja in kako energija pride do porabnika?",
+        "notes": [
+          "Vodni tok potuje po strugi ali cevi; poganja ga višinska razlika ali črpalka. Veter je zračni tok zaradi razlike v tlaku. Električni tok teče po prevodnikih in ga poganja električna napetost.",
+          "Električni krog sestavljajo izvir, vodniki in porabnik. Tok teče po sklenjenem krogu, če izvir zagotavlja energijo. Ko krog prekinemo, žarnica ugasne. Baterija se med uporabo prazni.",
+          "V večini opisanih elektrarn turbina poganja generator. V hidroelektrarni turbino poganja voda, v vetrni veter. V termoelektrarni gorivo segreva vodo, para pa poganja turbino. V jedrski elektrarni toplota prihaja iz jedrskih reakcij.",
+          "Sončne celice pretvarjajo svetlobo neposredno v elektriko. Generator pa pretvarja energijo vrtenja. Elektriko uporabljamo za svetlobo, gibanje, gretje in delovanje naprav.",
+          "Energija se pretvarja iz ene oblike v drugo. Delo, energijo in toploto merimo v joulih (J). Pri hrani se uporablja tudi kilokalorija: v gradivu približno 4200 J. Z ugašanjem nepotrebnih luči in smotrno uporabo naprav zmanjšujemo porabo."
+        ],
+        "vocabulary": {
+          "napetost": "Količina, ki poganja električni tok.",
+          "generator": "Naprava, ki energijo vrtenja pretvarja v električno.",
+          "porabnik": "Naprava, ki prejema električno energijo in jo pretvarja.",
+          "joule": "Enota za energijo, delo in toploto; oznaka J."
+        },
+        "sources": [
+          "p19",
+          "p18",
+          "p17",
+          "p15"
+        ]
+      },
+      {
+        "id": "toplota",
+        "title": "Kam potuje toplota?",
+        "icon": "🌡️",
+        "summary": "Razlikuj toploto in temperaturo ter izberi dober izolator.",
+        "notes": [
+          "Toplota je energija, ki prehaja med telesoma zaradi temperaturne razlike. Prehaja od toplejšega proti hladnejšemu. Temperatura opisuje, kako toplo je telo; merimo jo v °C, toploto pa v J.",
+          "Večja temperaturna razlika povzroča večji toplotni tok v primerljivih razmerah. Kovine so dobri toplotni prevodniki, keramika in stiropor slabši. Debelejša plast izolatorja zmanjša prehajanje toplote.",
+          "Oblačila in hišna izolacija zmanjšujejo oddajanje toplote v hladno okolje. Živali imajo prilagoditve: polarna lisica ima gosto dlako in manjša ušesa, puščavska večja ušesa, skozi katera oddaja toploto.",
+          "Grelnik pretvarja energijo v toploto. Pri centralnem ogrevanju vroča voda teče po ceveh do radiatorja in oddaja toploto sobi. Toplotna črpalka prenaša toploto iz okolice v prostor ob porabi energije.",
+          "Pri poskusu z dvema posodama je v eni toplejša, v drugi hladnejša voda. Toplejša oddaja toploto, hladnejša jo prejema. Temperaturama sledimo s termometroma in meritvami v časovnih presledkih; običajno se približujeta."
+        ],
+        "vocabulary": {
+          "toplota": "Energija, ki prehaja zaradi razlike v temperaturi.",
+          "temperatura": "Količina, ki opisuje toplotno stanje telesa.",
+          "toplotni tok": "Prehajanje toplote od toplejšega k hladnejšemu."
+        },
+        "sources": [
+          "p16",
+          "p01",
+          "p15"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "id": "material-izbira",
+        "topic": "materiali",
+        "kind": "oral",
+        "prompt": "Razloži izbiro materialov za lonec in električni kabel.",
+        "answer": "Kovinski lonec dobro prevaja toploto do hrane. V kablu kovinska žica prevaja električni tok, plastična prevleka pa ga slabo prevaja. Material mora ustrezati nalogi predmeta.",
+        "points": [
+          "prevajanje toplote",
+          "kovinska žica",
+          "izolacijska prevleka"
+        ],
+        "hints": [
+          "Primerjaj nalogo kovine in plastike.",
+          "Pri razlagi uporabi to povezavo: prevajanje toplote."
+        ],
+        "sources": [
+          "p38"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "magnet",
+        "topic": "materiali",
+        "kind": "oral",
+        "prompt": "Ali magnet privlači vse kovine? Navedi primer.",
+        "answer": "Ne. Med kovinami z magnetnimi lastnostmi sta železo in nikelj. Iz dejstva, da je predmet kovinski, še ne sklepamo, da ga magnet privlači.",
+        "points": [
+          "ne vse kovine",
+          "železo ali nikelj"
+        ],
+        "hints": [
+          "Spomni se primerov iz odstavka o kovinah.",
+          "Pri razlagi uporabi to povezavo: ne vse kovine."
+        ],
+        "sources": [
+          "p38"
+        ],
+        "difficulty": 1,
+        "card": true
+      },
+      {
+        "id": "topnost",
+        "topic": "materiali",
+        "kind": "oral",
+        "prompt": "Primerjaj sladkor, kovinski ključ in stiropor v vodi.",
+        "answer": "Sladkor v vodi potone in se nato raztopi. Kovinski ključ potone, vendar se ne raztopi. Stiropor plava in se ne raztopi. Potopitev ni isto kot raztapljanje.",
+        "points": [
+          "sladkor se raztopi",
+          "ključ potone",
+          "stiropor plava"
+        ],
+        "hints": [
+          "Loči dve vprašanji: ali plava in ali se raztopi.",
+          "Pri razlagi uporabi to povezavo: sladkor se raztopi."
+        ],
+        "sources": [
+          "p38"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "jeklo",
+        "topic": "materiali",
+        "kind": "oral",
+        "prompt": "Kaj je jeklo in zakaj se uporablja za predmete?",
+        "answer": "Jeklo je železo z dodatkom ogljika. Iz njega izdelujejo različne trdne predmete. Nerjaveče jeklo se uporablja tudi za kuhinjsko posodo in pribor.",
+        "points": [
+          "železo in ogljik",
+          "primer uporabe"
+        ],
+        "hints": [
+          "Pomisli na kovinsko posodo.",
+          "Pri razlagi uporabi to povezavo: železo in ogljik."
+        ],
+        "sources": [
+          "p38"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "kovine-kviz",
+        "topic": "materiali",
+        "kind": "boolean",
+        "prompt": "Vsaka kovina privlači magnet. Drži ali ne drži?",
+        "answer": "Ne drži. Gradivo kot primera kovin z magnetnimi lastnostmi navaja železo in nikelj.",
+        "points": [
+          "Ne drži. Gradivo kot primera kovin z magnetnimi lastnostmi navaja železo in nikelj."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p38"
+        ],
+        "difficulty": 2,
+        "options": [
+          "Drži",
+          "Ne drži"
+        ],
+        "correct": [
+          "Ne drži"
+        ],
+        "items": []
+      },
+      {
+        "id": "material-povezi",
+        "topic": "materiali",
+        "kind": "match",
+        "prompt": "Poveži material z njegovo uporabo.",
+        "answer": "Baker prevaja tok v žici, stiropor zmanjšuje prehod toplote skozi steno, nerjaveče jeklo pa uporabljamo za pribor.",
+        "points": [
+          "Baker prevaja tok v žici, stiropor zmanjšuje prehod toplote skozi steno, nerjaveče jeklo pa uporabljamo za pribor."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p38"
+        ],
+        "difficulty": 2,
+        "options": [
+          "žica v kablu",
+          "toplotna izolacija stene",
+          "jedilni pribor"
+        ],
+        "correct": [
+          "žica v kablu",
+          "toplotna izolacija stene",
+          "jedilni pribor"
+        ],
+        "items": [
+          "baker",
+          "stiropor",
+          "nerjaveče jeklo"
+        ]
+      },
+      {
+        "id": "stanja",
+        "topic": "delci",
+        "kind": "oral",
+        "prompt": "Primerjaj delce v ledu, tekoči vodi in vodni pari.",
+        "answer": "V ledu so delci tesno in urejeno razporejeni ter nihajo okoli svojih mest. V tekoči vodi so blizu, a se premikajo drug mimo drugega. V pari so bolj narazen in se prosto gibljejo. V vseh treh primerih gre za vodo.",
+        "points": [
+          "ista snov",
+          "trdno: tesno in urejeno",
+          "tekoče: gibanje mimo drugih",
+          "plinasto: narazen"
+        ],
+        "hints": [
+          "Opiši razdalje med delci in njihovo gibanje.",
+          "Pri razlagi uporabi to povezavo: ista snov."
+        ],
+        "sources": [
+          "p37"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "barvilo",
+        "topic": "delci",
+        "kind": "oral",
+        "prompt": "Zakaj se voda ob kapljici barvila postopoma obarva?",
+        "answer": "Delci barvila se gibljejo in porazdelijo med delce vode. Barvilo ne izgine, ampak je razporejeno po vodi.",
+        "points": [
+          "gibanje delcev",
+          "porazdelitev med delce vode"
+        ],
+        "hints": [
+          "Kaj se zgodi z delci barvila?",
+          "Pri razlagi uporabi to povezavo: gibanje delcev."
+        ],
+        "sources": [
+          "p37",
+          "p36"
+        ],
+        "difficulty": 1,
+        "card": true
+      },
+      {
+        "id": "vonj",
+        "topic": "delci",
+        "kind": "oral",
+        "prompt": "Kako lahko zaznamo vonj iz odprte stekleničke?",
+        "answer": "Delci snovi iz stekleničke prehajajo v zrak in se širijo po prostoru. Ko dosežejo naš nos, zaznamo vonj. To je primer gibanja delcev.",
+        "points": [
+          "delci snovi v zraku",
+          "širjenje po prostoru"
+        ],
+        "hints": [
+          "Pomisli na gibanje delcev.",
+          "Pri razlagi uporabi to povezavo: delci snovi v zraku."
+        ],
+        "sources": [
+          "p37"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "oblika",
+        "topic": "delci",
+        "kind": "oral",
+        "prompt": "Zakaj lahko vodo prelijemo, kocka ledu pa ohranja obliko?",
+        "answer": "V tekočini se delci premikajo drug mimo drugega, zato voda prevzame obliko posode. V trdni snovi delci nihajo okoli določenih mest, zato led ohranja obliko.",
+        "points": [
+          "tekočina teče",
+          "trdna snov ohranja obliko",
+          "gibanje delcev"
+        ],
+        "hints": [
+          "Poveži obliko z gibanjem delcev.",
+          "Pri razlagi uporabi to povezavo: tekočina teče."
+        ],
+        "sources": [
+          "p37",
+          "p31"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "para-vpis",
+        "topic": "delci",
+        "kind": "fill",
+        "prompt": "Voda v plinastem stanju je vodna ____.",
+        "answer": "Voda v plinastem stanju je vodna para.",
+        "points": [
+          "Voda v plinastem stanju je vodna para."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p37"
+        ],
+        "difficulty": 2,
+        "options": [],
+        "correct": [
+          "para"
+        ],
+        "items": []
+      },
+      {
+        "id": "delci-slika",
+        "topic": "delci",
+        "kind": "label",
+        "prompt": "Oglej si pet shem. Poveži številke z agregatnim stanjem.",
+        "answer": "Shemi 1 in 5 prikazujeta urejene delce trdne snovi, 3 tekočino, 2 in 4 pa razmaknjene delce plina.",
+        "points": [
+          "Shemi 1 in 5 prikazujeta urejene delce trdne snovi, 3 tekočino, 2 in 4 pa razmaknjene delce plina."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p36"
+        ],
+        "difficulty": 2,
+        "options": [
+          "trdno",
+          "tekoče",
+          "plinasto"
+        ],
+        "correct": [
+          "trdno",
+          "plinasto",
+          "tekoče",
+          "plinasto",
+          "trdno"
+        ],
+        "items": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "image": {
+          "source": "p36",
+          "box": [
+            70,
+            90,
+            670,
+            200
+          ],
+          "alt": "Pet oštevilčenih shem razporeditve delcev."
+        }
+      },
+      {
+        "id": "viri",
+        "topic": "surovine",
+        "kind": "oral",
+        "prompt": "Navedi tri naravne vire surovin in primere snovi, ki jih dobimo iz njih.",
+        "answer": "Iz vode, na primer morske, dobimo sol. Iz zraka pridobivamo kisik in dušik. Iz kamnin oziroma rud pridobivamo kovine; apnenec je tudi gradbena surovina.",
+        "points": [
+          "voda – sol",
+          "zrak – kisik ali dušik",
+          "kamnine – kovine ali apnenec"
+        ],
+        "hints": [
+          "Pomagaj si s tremi besedami: voda, zrak, kamnine.",
+          "Pri razlagi uporabi to povezavo: voda – sol."
+        ],
+        "sources": [
+          "p36"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "soline",
+        "topic": "surovine",
+        "kind": "oral",
+        "prompt": "Kako v solinah iz morske vode pridobivajo sol?",
+        "answer": "Morsko vodo pustijo v plitvih bazenih. Voda izhlapeva, sol pa ostane in se izloči v kristalih.",
+        "points": [
+          "morska voda",
+          "izhlapevanje",
+          "kristali soli"
+        ],
+        "hints": [
+          "Katera snov izhlapeva?",
+          "Pri razlagi uporabi to povezavo: morska voda."
+        ],
+        "sources": [
+          "p36"
+        ],
+        "difficulty": 1,
+        "card": true
+      },
+      {
+        "id": "apno",
+        "topic": "surovine",
+        "kind": "oral",
+        "prompt": "Pojasni pot od apnenca do malte.",
+        "answer": "Apnenec segrevajo in dobijo žgano apno. Z vodo nastane gašeno apno. Gašenemu apnu dodajo pesek in vodo, da dobijo malto za povezovanje opeke.",
+        "points": [
+          "apnenec → žgano apno",
+          "voda → gašeno apno",
+          "pesek in voda → malta"
+        ],
+        "hints": [
+          "Začni pri kamnini; nadaljuj s segrevanjem in vodo.",
+          "Pri razlagi uporabi to povezavo: apnenec → žgano apno."
+        ],
+        "sources": [
+          "p35"
+        ],
+        "difficulty": 2,
+        "card": true,
+        "followup": "Po čem se sestava betona razlikuje od sestave malte?",
+        "followup_answer": "Pri betonu uporabimo cement, pesek in vodo; pri opisani malti gašeno apno, pesek in vodo."
+      },
+      {
+        "id": "steklo",
+        "topic": "surovine",
+        "kind": "oral",
+        "prompt": "Katere surovine uporabljajo za steklo in kako ga oblikujejo?",
+        "answer": "Uporabijo kremenov pesek, apnenec in sodo. Zmes v peči segrejejo do tekoče mase. Iz nje lahko s kalupi oblikujejo steklenice ali izdelujejo ravno steklo.",
+        "points": [
+          "tri surovine",
+          "segrevanje",
+          "oblikovanje"
+        ],
+        "hints": [
+          "Pomisli na pesek in dve dodatni surovini.",
+          "Pri razlagi uporabi to povezavo: tri surovine."
+        ],
+        "sources": [
+          "p35"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "fosilna",
+        "topic": "surovine",
+        "kind": "oral",
+        "prompt": "Zakaj so premog, nafta in zemeljski plin neobnovljivi viri?",
+        "answer": "Nastajajo iz ostankov organizmov v zelo dolgih obdobjih. Porabljamo jih mnogo hitreje, kot nastajajo, zato njihove zaloge niso neomejene.",
+        "points": [
+          "ostanki organizmov",
+          "zelo dolg nastanek",
+          "omejene zaloge"
+        ],
+        "hints": [
+          "Primerjaj čas nastanka s časom porabe.",
+          "Pri razlagi uporabi to povezavo: ostanki organizmov."
+        ],
+        "sources": [
+          "p34",
+          "p20"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "nafta",
+        "topic": "surovine",
+        "kind": "oral",
+        "prompt": "Ali nafto uporabljamo samo za gorivo?",
+        "answer": "Ne. V rafinerijah iz nje ločujejo različne snovi. Poleg goriv dobimo tudi surovine za plastiko, barve, detergente in druge izdelke.",
+        "points": [
+          "zmes snovi",
+          "goriva",
+          "surovine za izdelke"
+        ],
+        "hints": [
+          "Poglej izdelke na shemi rafinerije.",
+          "Pri razlagi uporabi to povezavo: zmes snovi."
+        ],
+        "sources": [
+          "p34"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "surovine-pari",
+        "topic": "surovine",
+        "kind": "match",
+        "prompt": "Poveži izdelek z virom.",
+        "answer": "Kuhinjsko sol pridobivamo iz morske vode, plastiko iz nafte, železo iz rude hematita, kisik pa iz zraka.",
+        "points": [
+          "Kuhinjsko sol pridobivamo iz morske vode, plastiko iz nafte, železo iz rude hematita, kisik pa iz zraka."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p34",
+          "p36"
+        ],
+        "difficulty": 2,
+        "options": [
+          "morska voda",
+          "nafta",
+          "ruda hematit",
+          "zrak"
+        ],
+        "correct": [
+          "morska voda",
+          "nafta",
+          "ruda hematit",
+          "zrak"
+        ],
+        "items": [
+          "kuhinjska sol",
+          "plastika",
+          "železo",
+          "kisik"
+        ]
+      },
+      {
+        "id": "apno-red",
+        "topic": "surovine",
+        "kind": "sequence",
+        "prompt": "Uredi korake priprave malte.",
+        "answer": "Najprej segrejemo apnenec, žganemu apnu dodamo vodo, nato gašenemu apnu primešamo pesek in vodo.",
+        "points": [
+          "Najprej segrejemo apnenec, žganemu apnu dodamo vodo, nato gašenemu apnu primešamo pesek in vodo."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p35"
+        ],
+        "difficulty": 2,
+        "options": [],
+        "correct": [
+          "segrevanje apnenca",
+          "žgano apno in voda",
+          "gašeno apno, pesek in voda"
+        ],
+        "items": [
+          "segrevanje apnenca",
+          "žgano apno in voda",
+          "gašeno apno, pesek in voda"
+        ]
+      },
+      {
+        "id": "znaki",
+        "topic": "varnost",
+        "kind": "oral",
+        "prompt": "Zakaj so na embalaži znaki za nevarnost?",
+        "answer": "Opozarjajo na nevarne lastnosti snovi, da lahko upoštevamo navodila in preprečimo poškodbe ali onesnaženje. Pomen simbola povežemo z besedilom na embalaži.",
+        "points": [
+          "nevarne lastnosti",
+          "navodila",
+          "zaščita ljudi in okolja"
+        ],
+        "hints": [
+          "Kaj izvemo, še preden uporabimo izdelek?",
+          "Pri razlagi uporabi to povezavo: nevarne lastnosti."
+        ],
+        "sources": [
+          "p33"
+        ],
+        "difficulty": 1,
+        "card": true
+      },
+      {
+        "id": "neznana-snov",
+        "topic": "varnost",
+        "kind": "oral",
+        "prompt": "V kleti je posoda z nečitljivo nalepko. Kako ravnaš?",
+        "answer": "Posodo pustim zaprto in opozorim odraslo osebo. Vsebine ne preizkušam z vohanjem, dotikanjem ali segrevanjem.",
+        "points": [
+          "ne odpiramo",
+          "ne preizkušamo",
+          "obvestimo odraslo osebo"
+        ],
+        "hints": [
+          "Najprej pomisli na varnost.",
+          "Pri razlagi uporabi to povezavo: ne odpiramo."
+        ],
+        "sources": [
+          "p33"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "klicaj",
+        "topic": "varnost",
+        "kind": "oral",
+        "prompt": "Kaj pove klicaj na opozorilnem znaku?",
+        "answer": "Opozarja na različne nevarnosti v blažji obliki, na primer draženje. Za natančna navodila pogledamo tudi besedilo na embalaži.",
+        "points": [
+          "različne nevarnosti",
+          "preberemo navodila"
+        ],
+        "hints": [
+          "En simbol se lahko uporablja pri več nevarnostih.",
+          "Pri razlagi uporabi to povezavo: različne nevarnosti."
+        ],
+        "sources": [
+          "p33"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "varno-izberi",
+        "topic": "varnost",
+        "kind": "choice",
+        "prompt": "Kaj narediš s posodo, katere vsebine ne poznaš?",
+        "answer": "Opozori odraslo osebo in pusti posodo zaprto.",
+        "points": [
+          "Opozori odraslo osebo in pusti posodo zaprto."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p33"
+        ],
+        "difficulty": 2,
+        "options": [
+          "Povoham vsebino.",
+          "Opozorim odraslo osebo.",
+          "Snov segrejem."
+        ],
+        "correct": [
+          "Opozorim odraslo osebo."
+        ],
+        "items": []
+      },
+      {
+        "id": "znak-slika",
+        "topic": "varnost",
+        "kind": "oral",
+        "prompt": "Na sliki poišči plamen in znak z drevesom ter ribo. Razloži oba.",
+        "answer": "Plamen opozarja na vnetljivo snov. Drevo in riba opozarjata na nevarnost za vodno okolje. En izdelek ima lahko več nevarnih lastnosti.",
+        "points": [
+          "vnetljivo",
+          "nevarno za vodno okolje"
+        ],
+        "hints": [
+          "Preberi obliko simbola, ne samo barve.",
+          "Pri razlagi uporabi to povezavo: vnetljivo."
+        ],
+        "sources": [
+          "p33"
+        ],
+        "difficulty": 2,
+        "card": false,
+        "image": {
+          "source": "p33",
+          "box": [
+            900,
+            370,
+            430,
+            200
+          ],
+          "alt": "Primeri znakov za vnetljivost in nevarnost za vodno okolje."
+        }
+      },
+      {
+        "id": "sonce-planet",
+        "topic": "vesolje",
+        "kind": "oral",
+        "prompt": "Po čem se Sonce razlikuje od Zemlje in Lune?",
+        "answer": "Sonce je zvezda in oddaja lastno svetlobo. Zemlja je planet, ki kroži okoli Sonca. Luna je naravni satelit Zemlje in kroži okoli nje.",
+        "points": [
+          "zvezda",
+          "planet",
+          "naravni satelit"
+        ],
+        "hints": [
+          "Primerjaj svetlobo in kroženje.",
+          "Pri razlagi uporabi to povezavo: zvezda."
+        ],
+        "sources": [
+          "p11"
+        ],
+        "difficulty": 1,
+        "card": true
+      },
+      {
+        "id": "dan-noc",
+        "topic": "vesolje",
+        "kind": "oral",
+        "prompt": "Kaj povzroča menjavanje dneva in noči?",
+        "answer": "Zemlja se vrti okoli svoje osi. Del, ki je obrnjen proti Soncu, ima dan, drugi del pa noč. Obhod okoli Sonca je povezan z letom, ne z menjavanjem dneva in noči.",
+        "points": [
+          "vrtenje okoli osi",
+          "osvetljena in neosvetljena stran"
+        ],
+        "hints": [
+          "Loči vrtenje okoli osi od obhoda okoli Sonca.",
+          "Pri razlagi uporabi to povezavo: vrtenje okoli osi."
+        ],
+        "sources": [
+          "p11"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "pogoji",
+        "topic": "vesolje",
+        "kind": "oral",
+        "prompt": "Zakaj je Zemlja primerna za življenje?",
+        "answer": "Ima tekočo vodo, primerno temperaturo in ozračje. Primerna oddaljenost od Sonca omogoča dovolj svetlobe in toplote. Ozonska plast nas ščiti pred delom škodljivega UV-sevanja.",
+        "points": [
+          "tekoča voda",
+          "temperatura in energija",
+          "ozračje"
+        ],
+        "hints": [
+          "Pomagaj si s pojmi voda, temperatura in ozračje.",
+          "Pri razlagi uporabi to povezavo: tekoča voda."
+        ],
+        "sources": [
+          "p11",
+          "p14"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "zemlja-plasti",
+        "topic": "vesolje",
+        "kind": "oral",
+        "prompt": "Opiši notranjo zgradbo Zemlje od zunaj navznoter.",
+        "answer": "Na zunanji strani je tanka trdna skorja, pod njo plašč, v sredini pa jedro. Zunanje jedro je tekoče, notranje jedro pa trdno.",
+        "points": [
+          "skorja",
+          "plašč",
+          "tekoče zunanje jedro",
+          "trdno notranje jedro"
+        ],
+        "hints": [
+          "Začni s plastjo, na kateri živimo.",
+          "Pri razlagi uporabi to povezavo: skorja."
+        ],
+        "sources": [
+          "p30"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "vulkan",
+        "topic": "vesolje",
+        "kind": "oral",
+        "prompt": "Kakšna je razlika med magmo in lavo?",
+        "answer": "Magma je raztaljena kamninska snov v notranjosti Zemlje. Ko skozi vulkan priteče na površje, ji pravimo lava. Ob ohlajanju nastanejo kamnine.",
+        "points": [
+          "notranjost – magma",
+          "površje – lava",
+          "ohlajanje"
+        ],
+        "hints": [
+          "Odločilno je, kje je raztaljena snov.",
+          "Pri razlagi uporabi to povezavo: notranjost – magma."
+        ],
+        "sources": [
+          "p30"
+        ],
+        "difficulty": 2,
+        "card": true,
+        "followup": "Kako lahko izbruh vpliva na okolico?",
+        "followup_answer": "Lava, pepel in plini lahko poškodujejo naselja, prometnice in živa bitja ter preoblikujejo površje."
+      },
+      {
+        "id": "vesolje-kviz",
+        "topic": "vesolje",
+        "kind": "choice",
+        "prompt": "Katero je največje telo v našem Osončju?",
+        "answer": "Sonce je največje telo v Osončju; Jupiter je največji planet. To ni isto vprašanje.",
+        "points": [
+          "Sonce je največje telo v Osončju; Jupiter je največji planet. To ni isto vprašanje."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p11"
+        ],
+        "difficulty": 2,
+        "options": [
+          "Jupiter",
+          "Zemlja",
+          "Sonce",
+          "Saturn"
+        ],
+        "correct": [
+          "Sonce"
+        ],
+        "items": []
+      },
+      {
+        "id": "plasti-red",
+        "topic": "vesolje",
+        "kind": "sequence",
+        "prompt": "Uredi plasti od površja proti središču.",
+        "answer": "Od zunaj navznoter sledijo skorja, plašč, zunanje jedro in notranje jedro.",
+        "points": [
+          "Od zunaj navznoter sledijo skorja, plašč, zunanje jedro in notranje jedro."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p30"
+        ],
+        "difficulty": 2,
+        "options": [],
+        "correct": [
+          "skorja",
+          "plašč",
+          "zunanje jedro",
+          "notranje jedro"
+        ],
+        "items": [
+          "skorja",
+          "plašč",
+          "zunanje jedro",
+          "notranje jedro"
+        ]
+      },
+      {
+        "id": "zemlja-slika",
+        "topic": "vesolje",
+        "kind": "oral",
+        "prompt": "Pokaži skorjo in jedro na prerezu. Katera plast je med njima?",
+        "answer": "Skorja je tanek zunanji del. Jedro je v središču, med skorjo in jedrom pa je plašč.",
+        "points": [
+          "skorja",
+          "plašč",
+          "jedro"
+        ],
+        "hints": [
+          "Sledi prerezu od zunaj navznoter.",
+          "Pri razlagi uporabi to povezavo: skorja."
+        ],
+        "sources": [
+          "p30"
+        ],
+        "difficulty": 2,
+        "card": false,
+        "image": {
+          "source": "p30",
+          "box": [
+            380,
+            180,
+            390,
+            260
+          ],
+          "alt": "Prerez notranjosti Zemlje z označenimi plastmi."
+        }
+      },
+      {
+        "id": "fosil-kaj",
+        "topic": "fosili",
+        "kind": "oral",
+        "prompt": "Kaj je fosil in kaj lahko izvemo iz njega?",
+        "answer": "Fosil je ohranjen ostanek ali sled nekdanjega organizma. Iz njega sklepamo, kakšni organizmi so živeli v preteklosti in v kakšnem okolju.",
+        "points": [
+          "ostanek ali sled",
+          "preteklo življenje",
+          "nekdanje okolje"
+        ],
+        "hints": [
+          "Pomisli na ostanek v kamnini.",
+          "Pri razlagi uporabi to povezavo: ostanek ali sled."
+        ],
+        "sources": [
+          "p12",
+          "p13"
+        ],
+        "difficulty": 1,
+        "card": true
+      },
+      {
+        "id": "fosil-nastanek",
+        "topic": "fosili",
+        "kind": "oral",
+        "prompt": "Razloži nastanek fosila, prikazan v gradivu.",
+        "answer": "Organizem pogine in ostanke prekrijejo usedline. Te se nalagajo in utrjujejo. Sčasoma se ostanki ali njihove sledi lahko ohranijo v kamnini.",
+        "points": [
+          "pogin",
+          "prekrivanje z usedlinami",
+          "utrjevanje plasti",
+          "ohranitev"
+        ],
+        "hints": [
+          "Začni z organizmom, nato opiši usedline.",
+          "Pri razlagi uporabi to povezavo: pogin."
+        ],
+        "sources": [
+          "p12"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "fosil-morje",
+        "topic": "fosili",
+        "kind": "oral",
+        "prompt": "Kaj lahko sklepamo, če v kamnini najdemo morski fosil?",
+        "answer": "Sklepamo, da je bilo okolje, v katerem je nastajala ta kamnina z ostankom organizma, povezano z morjem. Fosil je dokaz o preteklem okolju, čeprav je danes tam kopno.",
+        "points": [
+          "morski organizem",
+          "nekdanje morsko okolje"
+        ],
+        "hints": [
+          "Primerjaj današnji kraj in okolje v preteklosti.",
+          "Pri razlagi uporabi to povezavo: morski organizem."
+        ],
+        "sources": [
+          "p13"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "zgodovina-red",
+        "topic": "fosili",
+        "kind": "sequence",
+        "prompt": "Uredi dogodke od najstarejšega do najmlajšega.",
+        "answer": "Zemlja je nastala pred prvim življenjem. Dinozavri so se pojavili mnogo pozneje, človek pa za njimi.",
+        "points": [
+          "Zemlja je nastala pred prvim življenjem. Dinozavri so se pojavili mnogo pozneje, človek pa za njimi."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p12",
+          "p14"
+        ],
+        "difficulty": 2,
+        "options": [],
+        "correct": [
+          "nastanek Zemlje",
+          "prve preproste oblike življenja",
+          "pojav dinozavrov",
+          "pojav človeka"
+        ],
+        "items": [
+          "nastanek Zemlje",
+          "prve preproste oblike življenja",
+          "pojav dinozavrov",
+          "pojav človeka"
+        ]
+      },
+      {
+        "id": "fosili-okolje",
+        "topic": "fosili",
+        "kind": "sort",
+        "prompt": "Razvrsti primere po okolju iz gradiva.",
+        "answer": "Trilobit, amonit in morski ježek so povezani z morjem, mamut in prikazani dinozaver pa s kopnim.",
+        "points": [
+          "Trilobit, amonit in morski ježek so povezani z morjem, mamut in prikazani dinozaver pa s kopnim."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p13"
+        ],
+        "difficulty": 2,
+        "options": [
+          "morje",
+          "kopno"
+        ],
+        "correct": [
+          "morje",
+          "morje",
+          "morje",
+          "kopno",
+          "kopno"
+        ],
+        "items": [
+          "trilobit",
+          "amonit",
+          "morski ježek",
+          "mamut",
+          "prikazani dinozaver"
+        ]
+      },
+      {
+        "id": "amonit-slika",
+        "topic": "fosili",
+        "kind": "oral",
+        "prompt": "Opazuj fosil s spiralno zavito lupino. Poimenuj ga in povej, kaj lahko izvemo iz njega.",
+        "answer": "To je amonit. Njegov fosil je ostanek nekdanjega morskega organizma in kaže na nekdanje morsko okolje.",
+        "points": [
+          "amonit",
+          "morsko okolje"
+        ],
+        "hints": [
+          "Opazuj spiralno obliko.",
+          "Pri razlagi uporabi to povezavo: amonit."
+        ],
+        "sources": [
+          "p13"
+        ],
+        "difficulty": 2,
+        "card": false,
+        "image": {
+          "source": "p13",
+          "box": [
+            275,
+            705,
+            240,
+            240
+          ],
+          "alt": "Fotografija spiralno zavitega fosila iz delovnega lista."
+        }
+      },
+      {
+        "id": "tri-kamnine",
+        "topic": "kamnine",
+        "kind": "oral",
+        "prompt": "Primerjaj nastanek treh glavnih vrst kamnin.",
+        "answer": "Magmatske nastanejo z ohlajanjem magme. Sedimentne nastanejo iz usedlin in njihovih sprijetih delcev ali izločenih mineralov. Metamorfne nastanejo s preobrazbo starejših kamnin pri visokem tlaku in temperaturi.",
+        "points": [
+          "ohlajanje",
+          "usedanje in sprijemanje",
+          "visok tlak in temperatura"
+        ],
+        "hints": [
+          "Pomisli na magmo, usedline in preobrazbo.",
+          "Pri razlagi uporabi to povezavo: ohlajanje."
+        ],
+        "sources": [
+          "p29"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "granit-bazalt",
+        "topic": "kamnine",
+        "kind": "oral",
+        "prompt": "Primerjaj granit in bazalt glede na nastanek.",
+        "answer": "Oba sta magmatski kamnini. Granit je globočnina, ki nastane s počasnim ohlajanjem magme v globini. Bazalt je predornina, ki nastane s hitrim ohlajanjem bliže površju.",
+        "points": [
+          "oba magmatska",
+          "granit – počasno ohlajanje",
+          "bazalt – hitro ohlajanje"
+        ],
+        "hints": [
+          "Kje se magma ohlaja in kako hitro?",
+          "Pri razlagi uporabi to povezavo: oba magmatska."
+        ],
+        "sources": [
+          "p28"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "sedimenti",
+        "topic": "kamnine",
+        "kind": "oral",
+        "prompt": "Kako lahko iz gore nastane sedimentna kamnina v morju?",
+        "answer": "Kamnine na gori preperevajo. Reke delce prenašajo in jih odlagajo v morje ali jezero. Plasti usedlin se nalagajo in utrjujejo, delci se sprimejo v kamnino.",
+        "points": [
+          "preperevanje",
+          "prenos",
+          "odlaganje",
+          "sprijemanje"
+        ],
+        "hints": [
+          "Sledi delcem z gore do vode.",
+          "Pri razlagi uporabi to povezavo: preperevanje."
+        ],
+        "sources": [
+          "p28"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "breca-konglomerat",
+        "topic": "kamnine",
+        "kind": "oral",
+        "prompt": "Kako ločiš brečo od konglomerata?",
+        "answer": "V breči so sprijeti oglati kosi kamnin. V konglomeratu so sprijeti zaobljeni prodniki. Opazujem obliko delcev, ne samo barve.",
+        "points": [
+          "oglati delci",
+          "zaobljeni prodniki"
+        ],
+        "hints": [
+          "Opazuj robove delcev.",
+          "Pri razlagi uporabi to povezavo: oglati delci."
+        ],
+        "sources": [
+          "p27"
+        ],
+        "difficulty": 1,
+        "card": true
+      },
+      {
+        "id": "apnenec-marmor",
+        "topic": "kamnine",
+        "kind": "oral",
+        "prompt": "Kako sta povezana apnenec in marmor?",
+        "answer": "Apnenec je sedimentna kamnina. Pri visokem tlaku in temperaturi se lahko preobrazi v metamorfno kamnino marmor. Marmor uporabljajo za kipe in obloge.",
+        "points": [
+          "apnenec sedimenten",
+          "preobrazba",
+          "marmor metamorfen"
+        ],
+        "hints": [
+          "Katera vrsta kamnine nastane s preobrazbo?",
+          "Pri razlagi uporabi to povezavo: apnenec sedimenten."
+        ],
+        "sources": [
+          "p27"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "trdota",
+        "topic": "kamnine",
+        "kind": "oral",
+        "prompt": "Kako s praskanjem primerjamo trdoto mineralov?",
+        "answer": "Trši mineral razi mehkejšega. Na Mohsovi lestvici je lojevec pri 1 in diamant pri 10. Višje število pomeni večjo trdoto.",
+        "points": [
+          "trši razi mehkejšega",
+          "lojevec 1",
+          "diamant 10"
+        ],
+        "hints": [
+          "Kateri mineral pusti razo na drugem?",
+          "Pri razlagi uporabi to povezavo: trši razi mehkejšega."
+        ],
+        "sources": [
+          "p26"
+        ],
+        "difficulty": 2,
+        "card": true,
+        "followup": "Ali lahko kremen s trdoto 7 razi kalcit s trdoto 3?",
+        "followup_answer": "Da, ker je kremen trši od kalcita."
+      },
+      {
+        "id": "karta",
+        "topic": "kamnine",
+        "kind": "oral",
+        "prompt": "Kaj prikazuje geološka karta Slovenije?",
+        "answer": "Prikazuje razširjenost vrst kamnin. Iz legende in obarvanih območij razberemo, kje prevladujejo sedimentne, magmatske ali metamorfne kamnine. V Sloveniji prevladujejo sedimentne.",
+        "points": [
+          "vrste kamnin",
+          "legenda",
+          "sedimentne prevladujejo"
+        ],
+        "hints": [
+          "Najprej poglej legendo.",
+          "Pri razlagi uporabi to povezavo: vrste kamnin."
+        ],
+        "sources": [
+          "p26"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "glina",
+        "topic": "kamnine",
+        "kind": "oral",
+        "prompt": "Zakaj je glina uporabna za lončarstvo in kaj je glinavec?",
+        "answer": "Glino sestavljajo drobni delci. Z vodo jo lahko oblikujemo; po sušenju in žganju izdelek ohrani obliko. Sprijeta glina je sedimentna kamnina glinavec.",
+        "points": [
+          "drobni delci",
+          "oblikovanje z vodo",
+          "glinavec"
+        ],
+        "hints": [
+          "Primerjaj nevezano in sprijeto glino.",
+          "Pri razlagi uporabi to povezavo: drobni delci."
+        ],
+        "sources": [
+          "p27"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "tuf-lehnjak",
+        "topic": "kamnine",
+        "kind": "oral",
+        "prompt": "Kako nastaneta tuf in lehnjak?",
+        "answer": "Tuf nastane iz vulkanskega pepela. Lehnjak se izloča iz vode in je luknjičasta kamnina, ki se lahko nalaga tudi na obvodne rastline.",
+        "points": [
+          "tuf – pepel",
+          "lehnjak – izločanje iz vode"
+        ],
+        "hints": [
+          "En primer je povezan z vulkanom, drugi z vodo.",
+          "Pri razlagi uporabi to povezavo: tuf – pepel."
+        ],
+        "sources": [
+          "p27"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "kamnine-razvrsti",
+        "topic": "kamnine",
+        "kind": "sort",
+        "prompt": "Razvrsti kamnine glede na nastanek.",
+        "answer": "Granit in bazalt sta magmatska, apnenec in peščenjak sedimentna, marmor pa metamorfen.",
+        "points": [
+          "Granit in bazalt sta magmatska, apnenec in peščenjak sedimentna, marmor pa metamorfen."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p27",
+          "p28",
+          "p29"
+        ],
+        "difficulty": 2,
+        "options": [
+          "magmatska",
+          "sedimentna",
+          "metamorfna"
+        ],
+        "correct": [
+          "magmatska",
+          "magmatska",
+          "sedimentna",
+          "sedimentna",
+          "metamorfna"
+        ],
+        "items": [
+          "granit",
+          "bazalt",
+          "apnenec",
+          "peščenjak",
+          "marmor"
+        ]
+      },
+      {
+        "id": "trdota-kviz",
+        "topic": "kamnine",
+        "kind": "choice",
+        "prompt": "Kalcit ima trdoto 3, kremen pa 7. Katera trditev drži?",
+        "answer": "Kremen je trši, zato razi kalcit.",
+        "points": [
+          "Kremen je trši, zato razi kalcit."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p26"
+        ],
+        "difficulty": 2,
+        "options": [
+          "Kalcit razi kremen.",
+          "Kremen razi kalcit.",
+          "Oba imata enako trdoto."
+        ],
+        "correct": [
+          "Kremen razi kalcit."
+        ],
+        "items": []
+      },
+      {
+        "id": "kamnine-slika",
+        "topic": "kamnine",
+        "kind": "oral",
+        "prompt": "Primerjaj fotografiji breče in konglomerata. Kaj opaziš pri delcih?",
+        "answer": "Pri breči imajo delci ostre robove, pri konglomeratu so prodniki zaobljeni. Obe kamnini sta sedimentni.",
+        "points": [
+          "oblika delcev",
+          "sedimentni kamnini"
+        ],
+        "hints": [
+          "Poišči oglate in zaobljene kose.",
+          "Pri razlagi uporabi to povezavo: oblika delcev."
+        ],
+        "sources": [
+          "p27"
+        ],
+        "difficulty": 2,
+        "card": false,
+        "image": {
+          "source": "p27",
+          "box": [
+            80,
+            400,
+            600,
+            200
+          ],
+          "alt": "Dve fotografiji kamnin s sprijetimi delci."
+        }
+      },
+      {
+        "id": "prst-nastanek",
+        "topic": "prst",
+        "kind": "oral",
+        "prompt": "Kako nastaja prst in kdo pri tem sodeluje?",
+        "answer": "Kamnine preperevajo v manjše delce. Rastline, lišaji, mikroorganizmi in talne živali sodelujejo pri razpadanju kamnin in razkrajanju ostankov organizmov. Ti se pomešajo z mineralnimi delci in nastaja prst.",
+        "points": [
+          "preperevanje",
+          "organizmi",
+          "odmrli ostanki"
+        ],
+        "hints": [
+          "Poveži neživi in živi del nastanka.",
+          "Pri razlagi uporabi to povezavo: preperevanje."
+        ],
+        "sources": [
+          "p25"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "prst-sestava",
+        "topic": "prst",
+        "kind": "oral",
+        "prompt": "Kaj sestavlja prst?",
+        "answer": "Prst sestavljajo mineralni delci preperelih kamnin in humus. Med delci sta voda in zrak. V prsti živijo tudi številni organizmi.",
+        "points": [
+          "mineralni delci",
+          "humus",
+          "voda",
+          "zrak",
+          "organizmi"
+        ],
+        "hints": [
+          "Prst ni sestavljena samo iz kamenčkov.",
+          "Pri razlagi uporabi to povezavo: mineralni delci."
+        ],
+        "sources": [
+          "p25",
+          "p24"
+        ],
+        "difficulty": 1,
+        "card": true
+      },
+      {
+        "id": "prst-voda",
+        "topic": "prst",
+        "kind": "oral",
+        "prompt": "Primerjaj peščeno in glineno prst glede na vodo.",
+        "answer": "Peščena prst ima večje delce in prostore, zato voda hitreje pronica skoznjo. Glinena ima drobnejše delce in bolje zadržuje vodo.",
+        "points": [
+          "velikost delcev",
+          "pronicanje",
+          "zadrževanje"
+        ],
+        "hints": [
+          "Pomisli na razmake med delci.",
+          "Pri razlagi uporabi to povezavo: velikost delcev."
+        ],
+        "sources": [
+          "p24"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "prst-poskus",
+        "topic": "prst",
+        "kind": "oral",
+        "prompt": "Kako primerjamo zadrževanje vode v dveh vrstah prsti?",
+        "answer": "V enaki posodi damo primerljivo količino prsti in na vsako nalijemo enako količino vode. Primerjamo, koliko vode priteče skozi. Prst, ki več vode zadrži, je manj prepusti v spodnjo posodo.",
+        "points": [
+          "primerljivi količini prsti",
+          "enaka voda",
+          "primerjava iztekle vode"
+        ],
+        "hints": [
+          "Da je primerjava poštena, naj se razlikuje predvsem vrsta prsti.",
+          "Pri razlagi uporabi to povezavo: primerljivi količini prsti."
+        ],
+        "sources": [
+          "p24"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "prst-korenine",
+        "topic": "prst",
+        "kind": "oral",
+        "prompt": "Zakaj je na strmem pobočju pogosto manj prsti in kako pomagajo rastline?",
+        "answer": "Voda s pobočja odnaša delce prsti. Korenine delce zadržujejo, rastline pa sodelujejo tudi pri nastajanju prsti. Zato odstranjevanje rastlin lahko pospeši odnašanje prsti.",
+        "points": [
+          "odnašanje z vodo",
+          "korenine zadržujejo"
+        ],
+        "hints": [
+          "Pomisli na dež na pobočju.",
+          "Pri razlagi uporabi to povezavo: odnašanje z vodo."
+        ],
+        "sources": [
+          "p25",
+          "p24"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "humus-vpis",
+        "topic": "prst",
+        "kind": "fill",
+        "prompt": "Z razkrajanjem odmrlih ostankov nastaja ____.",
+        "answer": "Humus nastaja z razkrajanjem ostankov organizmov.",
+        "points": [
+          "Humus nastaja z razkrajanjem ostankov organizmov."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p25"
+        ],
+        "difficulty": 2,
+        "options": [],
+        "correct": [
+          "humus"
+        ],
+        "items": []
+      },
+      {
+        "id": "prst-slika",
+        "topic": "prst",
+        "kind": "oral",
+        "prompt": "Na fotografiji pokaži steljo, prst in matično kamnino. Razloži njihovo povezavo.",
+        "answer": "Stelja je na površju in vsebuje odpadle ostanke. Pod njo je prst z mineralnimi delci in humusom. Spodaj je matična kamnina, ki s preperevanjem prispeva delce za nastanek prsti.",
+        "points": [
+          "stelja",
+          "prst",
+          "matična kamnina"
+        ],
+        "hints": [
+          "Sledi prerezu od vrha navzdol.",
+          "Pri razlagi uporabi to povezavo: stelja."
+        ],
+        "sources": [
+          "p25"
+        ],
+        "difficulty": 2,
+        "card": false,
+        "image": {
+          "source": "p25",
+          "box": [
+            1130,
+            670,
+            420,
+            450
+          ],
+          "alt": "Fotografija prereza tal s tremi označenimi plastmi."
+        }
+      },
+      {
+        "id": "akvarij",
+        "topic": "okolje",
+        "kind": "oral",
+        "prompt": "Opiši akvarij kot ekosistem.",
+        "answer": "V akvariju živijo ribe in rastline. Nanje vplivajo voda, svetloba, temperatura in podlaga. Organizmi in neživi dejavniki so povezani, zato jih obravnavamo skupaj kot ekosistem.",
+        "points": [
+          "organizmi",
+          "neživi dejavniki",
+          "povezave"
+        ],
+        "hints": [
+          "Loči živo od neživega.",
+          "Pri razlagi uporabi to povezavo: organizmi."
+        ],
+        "sources": [
+          "p09"
+        ],
+        "difficulty": 1,
+        "card": true
+      },
+      {
+        "id": "gore-razmere",
+        "topic": "okolje",
+        "kind": "oral",
+        "prompt": "Katere razmere v visokogorju otežujejo rast rastlin?",
+        "answer": "Rast ovirajo dolge mrzle zime, kratka poletja, močan veter in UV-sevanje. Vode je za rastline pogosto malo, ker je zamrznjena ali odteče. Tla so plitva in kamnita.",
+        "points": [
+          "mraz in kratko poletje",
+          "veter in sevanje",
+          "malo dostopne vode",
+          "plitva tla"
+        ],
+        "hints": [
+          "Pomisli na vreme, vodo in tla.",
+          "Pri razlagi uporabi to povezavo: mraz in kratko poletje."
+        ],
+        "sources": [
+          "p02",
+          "p03"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "gore-prilagoditve",
+        "topic": "okolje",
+        "kind": "oral",
+        "prompt": "Poveži tri prilagoditve gorskih rastlin z njihovimi koristmi.",
+        "answer": "Nizka blazinasta rast zmanjša vpliv vetra in zadržuje toploto. Močne korenine rastlino utrjujejo. Majhni listi in voščena prevleka zmanjšujejo izgubo vode. Svetle dlačice odbijajo svetlobo in zadržujejo zrak.",
+        "points": [
+          "nizka rast",
+          "korenine",
+          "listi ali dlačice"
+        ],
+        "hints": [
+          "Pri vsaki lastnosti povej, pri čem pomaga.",
+          "Pri razlagi uporabi to povezavo: nizka rast."
+        ],
+        "sources": [
+          "p02",
+          "p03"
+        ],
+        "difficulty": 3,
+        "card": true
+      },
+      {
+        "id": "zivo-nezivo",
+        "topic": "okolje",
+        "kind": "sort",
+        "prompt": "Razvrsti dejavnike v akvariju.",
+        "answer": "Ribe in rastline so organizmi. Voda, temperatura in svetloba so neživi dejavniki.",
+        "points": [
+          "Ribe in rastline so organizmi. Voda, temperatura in svetloba so neživi dejavniki."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p09"
+        ],
+        "difficulty": 2,
+        "options": [
+          "živi",
+          "neživi"
+        ],
+        "correct": [
+          "živi",
+          "neživi",
+          "živi",
+          "neživi",
+          "neživi"
+        ],
+        "items": [
+          "ribe",
+          "temperatura",
+          "rastline",
+          "svetloba",
+          "voda"
+        ]
+      },
+      {
+        "id": "gore-slika",
+        "topic": "okolje",
+        "kind": "oral",
+        "prompt": "Na fotografijah poišči blazinasto rast in svetle dlačice. Kako pomagajo rastlinama?",
+        "answer": "Blazinasta rast zmanjšuje vpliv vetra in zadržuje toploto. Svetle dlačice odbijajo močno svetlobo in zadržujejo zrak, ki deluje kot izolacija.",
+        "points": [
+          "blazinasta rast",
+          "dlačice",
+          "povezava z razmerami"
+        ],
+        "hints": [
+          "Primerjaj obliko rastline in površino listov.",
+          "Pri razlagi uporabi to povezavo: blazinasta rast."
+        ],
+        "sources": [
+          "p03",
+          "p02"
+        ],
+        "difficulty": 2,
+        "card": false,
+        "image": {
+          "source": "p03",
+          "box": [
+            390,
+            610,
+            720,
+            320
+          ],
+          "alt": "Dve gorski rastlini: nizka blazinasta rast in rastlina s svetlimi dlačicami."
+        }
+      },
+      {
+        "id": "merilniki",
+        "topic": "vreme",
+        "kind": "oral",
+        "prompt": "Kako merimo temperaturo, zračni tlak, vlažnost in padavine?",
+        "answer": "Temperaturo merimo s termometrom v °C, tlak s tlakomerom v hPa, relativno vlažnost z vlagomerom v odstotkih, padavine pa z dežemerom v mm oziroma L/m².",
+        "points": [
+          "termometer",
+          "tlakomer",
+          "vlagomer",
+          "dežemer"
+        ],
+        "hints": [
+          "Vsaki količini pripiši njen merilnik.",
+          "Pri razlagi uporabi to povezavo: termometer."
+        ],
+        "sources": [
+          "p10",
+          "p04",
+          "p07",
+          "p06"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "veter-nastanek",
+        "topic": "vreme",
+        "kind": "oral",
+        "prompt": "Razloži nastanek vetra ob različno segretem površju.",
+        "answer": "Sonce segreva površje, ki segreje zrak. Toplejši zrak se dviga. Zaradi razlik v tlaku se hladnejši zrak premakne proti območju nižjega tlaka. To gibanje zraka je veter.",
+        "points": [
+          "segrevanje površja",
+          "dviganje zraka",
+          "razlika tlakov",
+          "gibanje zraka"
+        ],
+        "hints": [
+          "Sledi zaporedju: Sonce, tla, zrak.",
+          "Pri razlagi uporabi to povezavo: segrevanje površja."
+        ],
+        "sources": [
+          "p05"
+        ],
+        "difficulty": 3,
+        "card": true
+      },
+      {
+        "id": "tlak-visina",
+        "topic": "vreme",
+        "kind": "oral",
+        "prompt": "Kako se zračni tlak spreminja z višino in zakaj?",
+        "answer": "Z višino je nad nami manj zraka. Zato je njegovo pritiskanje manjše in se zračni tlak običajno znižuje. Merimo ga s tlakomerom.",
+        "points": [
+          "manj zraka nad nami",
+          "nižji tlak"
+        ],
+        "hints": [
+          "Pomisli na količino zraka nad merilnikom.",
+          "Pri razlagi uporabi to povezavo: manj zraka nad nami."
+        ],
+        "sources": [
+          "p07"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "vlaga",
+        "topic": "vreme",
+        "kind": "oral",
+        "prompt": "Kaj se zgodi z relativno vlažnostjo, ko zrak ohlajamo brez odvzemanja vodne pare?",
+        "answer": "Hladnejši zrak lahko pri nasičenosti vsebuje manj vodne pare. Zato relativna vlažnost narašča. Ob nasičenosti lahko vodna para prehaja v drobne kapljice.",
+        "points": [
+          "relativna vlažnost naraste",
+          "nasičenost",
+          "kondenzacija"
+        ],
+        "hints": [
+          "Količina pare ostane ista, spremeni pa se temperatura.",
+          "Pri razlagi uporabi to povezavo: relativna vlažnost naraste."
+        ],
+        "sources": [
+          "p06"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "oblaki",
+        "topic": "vreme",
+        "kind": "oral",
+        "prompt": "Kako nastanejo oblaki in zakaj iz vseh ne dežuje?",
+        "answer": "Vlažen zrak se dviga in ohlaja. Vodna para kondenzira v drobne kapljice. Za padavine morajo biti kapljice dovolj velike, zato iz vsakega oblaka ne dežuje.",
+        "points": [
+          "ohlajanje",
+          "kondenzacija",
+          "dovolj velike kapljice"
+        ],
+        "hints": [
+          "Loči nastanek drobnih kapljic od nastanka padavin.",
+          "Pri razlagi uporabi to povezavo: ohlajanje."
+        ],
+        "sources": [
+          "p04"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "padavine-enote",
+        "topic": "vreme",
+        "kind": "oral",
+        "prompt": "Kaj pomeni, da pade 6 mm dežja?",
+        "answer": "Na ravni neprepustni površini nastane 6 mm visoka plast vode. Na vsak kvadratni meter pade 6 litrov vode, ker 1 mm padavin pomeni 1 L/m².",
+        "points": [
+          "višina vode",
+          "6 L/m²"
+        ],
+        "hints": [
+          "Uporabi zvezo 1 mm = 1 L/m².",
+          "Pri razlagi uporabi to povezavo: višina vode."
+        ],
+        "sources": [
+          "p04"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "odboj",
+        "topic": "vreme",
+        "kind": "oral",
+        "prompt": "Zakaj se sneg in asfalt na soncu različno segrevata?",
+        "answer": "Površini odbijata različna deleža svetlobe. Sneg odbije veliko svetlobe, asfalt precej manj. Vpita svetloba prispeva k segrevanju površja.",
+        "points": [
+          "različen odboj",
+          "vpijanje svetlobe",
+          "segrevanje"
+        ],
+        "hints": [
+          "Primerjaj svetlo in temno površino.",
+          "Pri razlagi uporabi to povezavo: različen odboj."
+        ],
+        "sources": [
+          "p08"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "veter-red",
+        "topic": "vreme",
+        "kind": "sequence",
+        "prompt": "Uredi razlago nastanka vetra.",
+        "answer": "Sonce najprej segreva površje, to segreva zrak, toplejši zrak se dviga, na njegovo mesto pa priteka hladnejši.",
+        "points": [
+          "Sonce najprej segreva površje, to segreva zrak, toplejši zrak se dviga, na njegovo mesto pa priteka hladnejši."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p05"
+        ],
+        "difficulty": 2,
+        "options": [],
+        "correct": [
+          "Sonce segreva površje.",
+          "Površje segreva zrak.",
+          "Toplejši zrak se dviga.",
+          "Priteka hladnejši zrak."
+        ],
+        "items": [
+          "Sonce segreva površje.",
+          "Površje segreva zrak.",
+          "Toplejši zrak se dviga.",
+          "Priteka hladnejši zrak."
+        ]
+      },
+      {
+        "id": "merilnik-pari",
+        "topic": "vreme",
+        "kind": "match",
+        "prompt": "Poveži količino z merilnikom.",
+        "answer": "Termometer meri temperaturo, vlagomer vlažnost, tlakomer tlak in dežemer padavine.",
+        "points": [
+          "Termometer meri temperaturo, vlagomer vlažnost, tlakomer tlak in dežemer padavine."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p10"
+        ],
+        "difficulty": 2,
+        "options": [
+          "termometer",
+          "vlagomer",
+          "tlakomer",
+          "dežemer"
+        ],
+        "correct": [
+          "termometer",
+          "vlagomer",
+          "tlakomer",
+          "dežemer"
+        ],
+        "items": [
+          "temperatura",
+          "vlažnost",
+          "zračni tlak",
+          "padavine"
+        ]
+      },
+      {
+        "id": "voda-slika",
+        "topic": "vreme",
+        "kind": "oral",
+        "prompt": "Ob sliki pojasni puščici 1 in 2 ter pot vode nazaj v morje.",
+        "answer": "Puščica 1 označuje izhlapevanje. Pri 2 se vodna para ohlaja in kondenzira. Iz oblakov padejo padavine, voda pa po površju in skozi tla pride v reke in nazaj v morje.",
+        "points": [
+          "izhlapevanje",
+          "kondenzacija",
+          "padavine in odtekanje"
+        ],
+        "hints": [
+          "Začni pri morju in sledi puščicam.",
+          "Pri razlagi uporabi to povezavo: izhlapevanje."
+        ],
+        "sources": [
+          "p04"
+        ],
+        "difficulty": 2,
+        "card": false,
+        "image": {
+          "source": "p04",
+          "box": [
+            90,
+            500,
+            600,
+            380
+          ],
+          "alt": "Shema kroženja vode z dvema oštevilčenima procesoma."
+        }
+      },
+      {
+        "id": "sonce-zivljenje",
+        "topic": "energija",
+        "kind": "oral",
+        "prompt": "Pojasni, kako je energija hrane povezana s Soncem.",
+        "answer": "Rastline pri fotosintezi uporabljajo sončno svetlobo. Živali in ljudje dobimo energijo s hrano, ki je neposredno ali posredno povezana z rastlinami.",
+        "points": [
+          "svetloba",
+          "fotosinteza",
+          "hrana"
+        ],
+        "hints": [
+          "Začni pri rastlinah.",
+          "Pri razlagi uporabi to povezavo: svetloba."
+        ],
+        "sources": [
+          "p21"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "sonce-reke",
+        "topic": "energija",
+        "kind": "oral",
+        "prompt": "Zakaj pravimo, da energija rek izvira tudi iz Sonca?",
+        "answer": "Sonce povzroča izhlapevanje vode. Ta se vrne kot padavine, tudi na višje ležeče površje. Voda nato teče proti nižjim krajem in lahko poganja turbine.",
+        "points": [
+          "izhlapevanje",
+          "padavine",
+          "tek vode navzdol"
+        ],
+        "hints": [
+          "Poveži kroženje vode s tokom reke.",
+          "Pri razlagi uporabi to povezavo: izhlapevanje."
+        ],
+        "sources": [
+          "p21"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "kolektor-celica",
+        "topic": "energija",
+        "kind": "oral",
+        "prompt": "Primerjaj sončni kolektor in sončno celico.",
+        "answer": "Kolektor uporablja sončno energijo za segrevanje vode. Sončna celica pretvarja svetlobno energijo v električno. Obe uporabljata Sonce, vendar dobimo različen učinek.",
+        "points": [
+          "segrevanje vode",
+          "električna energija"
+        ],
+        "hints": [
+          "Pri eni napravi je rezultat topla voda.",
+          "Pri razlagi uporabi to povezavo: segrevanje vode."
+        ],
+        "sources": [
+          "p21",
+          "p18"
+        ],
+        "difficulty": 1,
+        "card": true
+      },
+      {
+        "id": "obnovljivi",
+        "topic": "energija",
+        "kind": "oral",
+        "prompt": "Kaj pomeni obnovljiv vir? Navedi primere in primerjaj s premogom.",
+        "answer": "Obnovljiv vir se sproti obnavlja, na primer energija Sonca, vetra in rek. Premog nastaja zelo počasi, njegove zaloge so omejene, zato je neobnovljiv.",
+        "points": [
+          "obnavljanje",
+          "primeri",
+          "omejene zaloge premoga"
+        ],
+        "hints": [
+          "Primerjaj čas obnavljanja.",
+          "Pri razlagi uporabi to povezavo: obnavljanje."
+        ],
+        "sources": [
+          "p20"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "drugi-viri",
+        "topic": "energija",
+        "kind": "oral",
+        "prompt": "Katera vira v gradivu ne izvirata iz sončne energije?",
+        "answer": "Geotermalna energija prihaja iz notranjosti Zemlje. Jedrska energija se sprošča pri spremembah atomskih jeder. Gradivo ju loči od energije rek, vetra, biomase in fosilnih goriv.",
+        "points": [
+          "geotermalna",
+          "jedrska"
+        ],
+        "hints": [
+          "Pomisli na notranjost Zemlje in atome.",
+          "Pri razlagi uporabi to povezavo: geotermalna."
+        ],
+        "sources": [
+          "p20"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "viri-primerjava",
+        "topic": "energija",
+        "kind": "oral",
+        "prompt": "Navedi težavo fosilnih goriv in težavo jedrske energije.",
+        "answer": "Zaloge fosilnih goriv so omejene, pri gorenju pa nastaja ogljikov dioksid, ki krepi učinek tople grede. Pri jedrski energiji nastajajo radioaktivni odpadki, za katere je treba ustrezno poskrbeti.",
+        "points": [
+          "omejene zaloge in CO₂",
+          "radioaktivni odpadki"
+        ],
+        "hints": [
+          "Razmisli o ostankih po pridobivanju energije.",
+          "Pri razlagi uporabi to povezavo: omejene zaloge in CO₂."
+        ],
+        "sources": [
+          "p20"
+        ],
+        "difficulty": 3,
+        "card": true
+      },
+      {
+        "id": "viri-sort",
+        "topic": "energija",
+        "kind": "sort",
+        "prompt": "Razvrsti vire po tem, ali se sproti obnavljajo.",
+        "answer": "Veter, sončna energija in energija rek so obnovljivi viri; premog in nafta sta neobnovljiva.",
+        "points": [
+          "Veter, sončna energija in energija rek so obnovljivi viri; premog in nafta sta neobnovljiva."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p20"
+        ],
+        "difficulty": 2,
+        "options": [
+          "obnovljiv",
+          "neobnovljiv"
+        ],
+        "correct": [
+          "obnovljiv",
+          "obnovljiv",
+          "obnovljiv",
+          "neobnovljiv",
+          "neobnovljiv"
+        ],
+        "items": [
+          "veter",
+          "sončna energija",
+          "energija rek",
+          "premog",
+          "nafta"
+        ]
+      },
+      {
+        "id": "soncna-kviz",
+        "topic": "energija",
+        "kind": "choice",
+        "prompt": "S katero napravo neposredno dobimo električno energijo iz svetlobe?",
+        "answer": "Sončna celica pretvarja svetlobo v električno energijo; kolektor segreva vodo.",
+        "points": [
+          "Sončna celica pretvarja svetlobo v električno energijo; kolektor segreva vodo."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p21",
+          "p18"
+        ],
+        "difficulty": 2,
+        "options": [
+          "sončna celica",
+          "sončni kolektor za vodo",
+          "dežemer"
+        ],
+        "correct": [
+          "sončna celica"
+        ],
+        "items": []
+      },
+      {
+        "id": "tokovi",
+        "topic": "elektrika",
+        "kind": "oral",
+        "prompt": "Primerjaj, kaj poganja vodni tok, veter in električni tok.",
+        "answer": "Vodni tok poganja višinska razlika ali črpalka. Veter poganja razlika v zračnem tlaku. Električni tok poganja električna napetost. Vsak tok potrebuje pot in nekaj, kar ga vzdržuje.",
+        "points": [
+          "višinska razlika ali črpalka",
+          "razlika tlakov",
+          "električna napetost"
+        ],
+        "hints": [
+          "Vsakemu toku poišči njegov vzrok.",
+          "Pri razlagi uporabi to povezavo: višinska razlika ali črpalka."
+        ],
+        "sources": [
+          "p18",
+          "p17"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "krog",
+        "topic": "elektrika",
+        "kind": "oral",
+        "prompt": "Kaj potrebuje preprost električni krog, da žarnica sveti?",
+        "answer": "Potrebuje izvir, na primer baterijo, vodnike in žarnico kot porabnik. Povezava mora biti sklenjena, izvir pa mora zagotavljati energijo. Če povezavo prekinemo, tok ne teče in žarnica ugasne.",
+        "points": [
+          "izvir",
+          "vodniki",
+          "porabnik",
+          "sklenjena povezava"
+        ],
+        "hints": [
+          "Sledi poti od enega priključka baterije do drugega.",
+          "Pri razlagi uporabi to povezavo: izvir."
+        ],
+        "sources": [
+          "p17"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "hidro-veter",
+        "topic": "elektrika",
+        "kind": "oral",
+        "prompt": "Kaj imata skupnega hidroelektrarna in vetrna elektrarna?",
+        "answer": "Pri obeh se vrti turbina, ki poganja električni generator. V hidroelektrarni jo poganja voda, v vetrni pa veter. Energija gibanja se pretvarja v električno energijo.",
+        "points": [
+          "turbina",
+          "generator",
+          "voda ali veter"
+        ],
+        "hints": [
+          "Pomisli na del, ki se vrti.",
+          "Pri razlagi uporabi to povezavo: turbina."
+        ],
+        "sources": [
+          "p19"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "termo",
+        "topic": "elektrika",
+        "kind": "oral",
+        "prompt": "Pojasni pot energije v termoelektrarni.",
+        "answer": "Gorivo gori in segreva vodo. Vodna para poganja turbino, turbina generator, ta pa proizvaja električno energijo. Para se nato ohladi, voda se vrne v kroženje.",
+        "points": [
+          "gorivo in segrevanje",
+          "para",
+          "turbina",
+          "generator"
+        ],
+        "hints": [
+          "Začni pri gorivu, končaj pri elektriki.",
+          "Pri razlagi uporabi to povezavo: gorivo in segrevanje."
+        ],
+        "sources": [
+          "p19"
+        ],
+        "difficulty": 3,
+        "card": true
+      },
+      {
+        "id": "jedrska",
+        "topic": "elektrika",
+        "kind": "oral",
+        "prompt": "Po čem se jedrska elektrarna razlikuje od termoelektrarne na premog?",
+        "answer": "Glavna razlika je vir toplote. V elektrarni na premog jo dobimo z gorenjem goriva, v jedrski pa pri jedrskih reakcijah. V obeh toplota pomaga ustvariti paro za pogon turbine in generatorja.",
+        "points": [
+          "vir toplote",
+          "para",
+          "turbina in generator"
+        ],
+        "hints": [
+          "Primerjaj vir toplote, nato skupne dele.",
+          "Pri razlagi uporabi to povezavo: vir toplote."
+        ],
+        "sources": [
+          "p19",
+          "p20"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "energija-enota",
+        "topic": "elektrika",
+        "kind": "oral",
+        "prompt": "V kateri enoti merimo energijo, delo in toploto? Kaj pomeni kcal na hrani?",
+        "answer": "Energijo, delo in toploto merimo v joulih z oznako J. Kilokalorija oziroma kcal je druga enota za energijo; gradivo navaja približno 4200 J za 1 kcal.",
+        "points": [
+          "joule J",
+          "kilokalorija",
+          "približno 4200 J"
+        ],
+        "hints": [
+          "Spomni se oznake J.",
+          "Pri razlagi uporabi to povezavo: joule J."
+        ],
+        "sources": [
+          "p17"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "varcuj",
+        "topic": "elektrika",
+        "kind": "oral",
+        "prompt": "Predlagaj dva načina smotrne uporabe elektrike doma.",
+        "answer": "Ugasnem luči v praznem prostoru in naprave, ki jih ne uporabljam. Uporabljamo lahko varčne sijalke in varčne naprave. Pomembno je, da energijo porabljamo za dejanske potrebe.",
+        "points": [
+          "dva konkretna primera",
+          "manj nepotrebne porabe"
+        ],
+        "hints": [
+          "Pomisli na luči in naprave.",
+          "Pri razlagi uporabi to povezavo: dva konkretna primera."
+        ],
+        "sources": [
+          "p18"
+        ],
+        "difficulty": 1,
+        "card": true
+      },
+      {
+        "id": "elektrarne-pari",
+        "topic": "elektrika",
+        "kind": "match",
+        "prompt": "Poveži elektrarno z virom, ki ga izkorišča.",
+        "answer": "Hidroelektrarna uporablja energijo vode, vetrna vetra, termoelektrarna toploto pri gorenju, sončna celica pa svetlobo.",
+        "points": [
+          "Hidroelektrarna uporablja energijo vode, vetrna vetra, termoelektrarna toploto pri gorenju, sončna celica pa svetlobo."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p19",
+          "p18"
+        ],
+        "difficulty": 2,
+        "options": [
+          "voda",
+          "veter",
+          "gorenje goriva",
+          "svetloba"
+        ],
+        "correct": [
+          "voda",
+          "veter",
+          "gorenje goriva",
+          "svetloba"
+        ],
+        "items": [
+          "hidroelektrarna",
+          "vetrna elektrarna",
+          "termoelektrarna",
+          "sončna celica"
+        ]
+      },
+      {
+        "id": "krog-slika",
+        "topic": "elektrika",
+        "kind": "oral",
+        "prompt": "Primerjaj električna kroga na fotografijah. Zakaj žarnica v enem sveti, v drugem pa ne?",
+        "answer": "V sklenjenem krogu so baterija, vodniki in žarnica povezani v neprekinjeno pot. V prekinjenem krogu tok ne teče, zato žarnica ne sveti.",
+        "points": [
+          "sklenjen krog",
+          "prekinjen krog",
+          "tok"
+        ],
+        "hints": [
+          "Poišči prekinitev povezave.",
+          "Pri razlagi uporabi to povezavo: sklenjen krog."
+        ],
+        "sources": [
+          "p17"
+        ],
+        "difficulty": 2,
+        "card": false,
+        "image": {
+          "source": "p17",
+          "box": [
+            80,
+            670,
+            660,
+            220
+          ],
+          "alt": "Dve fotografiji preprostega električnega kroga z baterijo in žarnico."
+        }
+      },
+      {
+        "id": "hidro-slika",
+        "topic": "elektrika",
+        "kind": "oral",
+        "prompt": "Na prerezu hidroelektrarne opiši pot vode in pretvorbo energije.",
+        "answer": "Voda teče z višjega mesta skozi cev do turbine. Turbina poganja generator in nastaja električna energija. Voda nato odteče naprej.",
+        "points": [
+          "višinska razlika",
+          "turbina",
+          "generator"
+        ],
+        "hints": [
+          "Sledi puščicam v modri vodi.",
+          "Pri razlagi uporabi to povezavo: višinska razlika."
+        ],
+        "sources": [
+          "p19"
+        ],
+        "difficulty": 2,
+        "card": false,
+        "image": {
+          "source": "p19",
+          "box": [
+            375,
+            720,
+            425,
+            320
+          ],
+          "alt": "Prerez hidroelektrarne s tokom vode in generatorjem."
+        }
+      },
+      {
+        "id": "toplota-temperatura",
+        "topic": "toplota",
+        "kind": "oral",
+        "prompt": "Kako se razlikujeta toplota in temperatura?",
+        "answer": "Temperatura pove, kako toplo je telo, in jo merimo na primer v °C. Toplota je energija, ki prehaja med telesoma zaradi razlike v temperaturi, in jo merimo v J.",
+        "points": [
+          "temperatura °C",
+          "toplota J",
+          "prenos energije"
+        ],
+        "hints": [
+          "Primerjaj opis stanja s prenosom energije.",
+          "Pri razlagi uporabi to povezavo: temperatura °C."
+        ],
+        "sources": [
+          "p16",
+          "p17"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "toplotni-poskus",
+        "topic": "toplota",
+        "kind": "oral",
+        "prompt": "Kaj pričakujemo pri poskusu s toplejšo in hladnejšo vodo v dveh posodah?",
+        "answer": "Toplota prehaja od toplejše vode proti hladnejši. Toplejša se ohlaja, hladnejša segreva in njuni temperaturi se približujeta. Meritve zapisujemo skupaj s časom.",
+        "points": [
+          "smer toplote",
+          "spremembi temperatur",
+          "meritve s časom"
+        ],
+        "hints": [
+          "Najprej določi toplejšo in hladnejšo vodo.",
+          "Pri razlagi uporabi to povezavo: smer toplote."
+        ],
+        "sources": [
+          "p01",
+          "p16"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "izolacija",
+        "topic": "toplota",
+        "kind": "oral",
+        "prompt": "Zakaj pozimi oblečemo debelejša oblačila?",
+        "answer": "Oblačila delujejo kot toplotna izolacija in zmanjšajo oddajanje toplote iz telesa v hladnejšo okolico. Debelejša plast dobrega izolatorja zmanjša toplotni tok.",
+        "points": [
+          "izolacija",
+          "manj oddane toplote"
+        ],
+        "hints": [
+          "Oblačilo pomaga zadržati toploto.",
+          "Pri razlagi uporabi to povezavo: izolacija."
+        ],
+        "sources": [
+          "p16"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "lisici",
+        "topic": "toplota",
+        "kind": "oral",
+        "prompt": "Primerjaj prilagoditvi polarne in puščavske lisice.",
+        "answer": "Polarna lisica ima gosto dlako in majhna ušesa, kar zmanjša oddajanje toplote. Puščavska lisica ima večja ušesa, skozi katera lažje oddaja toploto v okolico.",
+        "points": [
+          "polarna zadržuje toploto",
+          "puščavska oddaja toploto"
+        ],
+        "hints": [
+          "Opazuj dlako in velikost ušes.",
+          "Pri razlagi uporabi to povezavo: polarna zadržuje toploto."
+        ],
+        "sources": [
+          "p16"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "radiator",
+        "topic": "toplota",
+        "kind": "oral",
+        "prompt": "Kako centralno ogrevanje prenese toploto do sobe?",
+        "answer": "Vroča voda teče po ceveh do radiatorja. Radiator oddaja toploto zraku in okolici, zato se soba segreva. Vodni tok prenaša energijo od vira do radiatorja.",
+        "points": [
+          "vroča voda",
+          "cevi",
+          "radiator",
+          "oddajanje toplote"
+        ],
+        "hints": [
+          "Poveži vodni in toplotni tok.",
+          "Pri razlagi uporabi to povezavo: vroča voda."
+        ],
+        "sources": [
+          "p16"
+        ],
+        "difficulty": 2,
+        "card": true
+      },
+      {
+        "id": "toplota-smer",
+        "topic": "toplota",
+        "kind": "choice",
+        "prompt": "Kovinska žlica je hladnejša od čaja. V katero smer prehaja toplota?",
+        "answer": "Toplota prehaja od toplejšega čaja proti hladnejši žlici.",
+        "points": [
+          "Toplota prehaja od toplejšega čaja proti hladnejši žlici."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p16"
+        ],
+        "difficulty": 2,
+        "options": [
+          "iz čaja v žlico",
+          "iz žlice v čaj",
+          "v nobeno smer"
+        ],
+        "correct": [
+          "iz čaja v žlico"
+        ],
+        "items": []
+      },
+      {
+        "id": "izolator-sort",
+        "topic": "toplota",
+        "kind": "sort",
+        "prompt": "Razvrsti materiala glede na prevajanje toplote.",
+        "answer": "Kovina toploto dobro prevaja, stiropor in keramika pa jo prevajata slabše.",
+        "points": [
+          "Kovina toploto dobro prevaja, stiropor in keramika pa jo prevajata slabše."
+        ],
+        "hints": [
+          "Najprej premisli, kaj pomenijo pojmi v nalogi."
+        ],
+        "sources": [
+          "p16"
+        ],
+        "difficulty": 2,
+        "options": [
+          "dober prevodnik",
+          "slab prevodnik"
+        ],
+        "correct": [
+          "dober prevodnik",
+          "slab prevodnik",
+          "slab prevodnik"
+        ],
+        "items": [
+          "kovina",
+          "stiropor",
+          "keramika"
+        ]
+      },
+      {
+        "id": "lisici-slika",
+        "topic": "toplota",
+        "kind": "oral",
+        "prompt": "Na risbah primerjaj ušesa in dlako lisic. Katera je prilagojena zadrževanju toplote?",
+        "answer": "Polarna lisica z gosto dlako in majhnimi ušesi bolje zadržuje toploto. Puščavska ima večja ušesa, ki pomagajo pri oddajanju toplote.",
+        "points": [
+          "gosta dlaka",
+          "majhna in velika ušesa",
+          "oddajanje toplote"
+        ],
+        "hints": [
+          "Poveži obliko telesa s temperaturo okolja.",
+          "Pri razlagi uporabi to povezavo: gosta dlaka."
+        ],
+        "sources": [
+          "p16"
+        ],
+        "difficulty": 2,
+        "card": false,
+        "image": {
+          "source": "p16",
+          "box": [
+            820,
+            455,
+            520,
+            155
+          ],
+          "alt": "Risbi polarne in puščavske lisice iz odstavka o prilagoditvah."
+        }
+      }
+    ],
+    "review_notes": [
+      "Gradivo vsebuje tudi izbirna znanja; ker obseg ustnega spraševanja ni posebej označen, so vključena v ponavljanje.",
+      "Vprašanja ne preverjajo nejasnih ročnih meritev, spornih datumov, zastarelih energetskih deležev ali nejasnih enot. Opombe so navedene pri posameznih virih.",
+      "Ustna vaja temelji na samooceni in ne potrebuje mikrofona ali zunanje storitve."
+    ]
+  }
+}

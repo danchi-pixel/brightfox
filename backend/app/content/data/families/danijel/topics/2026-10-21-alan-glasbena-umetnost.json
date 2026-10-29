@@ -1,0 +1,190 @@
+{
+  "id": "2026-10-21-alan-glasbena-umetnost",
+  "format": 2,
+  "version": 1,
+  "subject": "other",
+  "grade": 4,
+  "title": "Glasbena umetnost: zapoj, prepoznaj in razloži",
+  "intro": "Razišči glasbo, prepoznaj note in vadi za ustno ocenjevanje. Uči se po 10–15 minut, med počitnicami pa ponovi le po želji. Na koncu zapoj pesem iz šole in razloži pojme s svojimi besedami.",
+  "source": "Alanov list »Odgovori za ustno ocenjevanje«, 4. razred, 12 točk (21. 10. 2026). Izvirne vaje. Manjkajoča pojma pri 9–10 preverjena v založniškem predogledu Glasba 4: melodija in bordun. Test čez približno dva tedna; datum in pesmi nista navedena.",
+  "for": ["Alan"],
+  "skills": [
+    {"id": "izvor", "title": "Ljudska in umetna glasba"},
+    {"id": "izvajanje", "title": "Glas, glasbila in vrste izvedbe"},
+    {"id": "druzine", "title": "Glasbene družine"},
+    {"id": "oprekel", "title": "Oprekel"},
+    {"id": "visina", "title": "Melodija in bordun"},
+    {"id": "note", "title": "Četrtinka, osminka in doba"},
+    {"id": "petje", "title": "Petje in samoocena"}
+  ],
+  "learn": [
+    {"title": "Od kod je glasba?", "text": "Pri ljudski glasbi prvotni skladatelj ni znan; ljudje jo predajajo naslednjim rodovom. Pri umetni glasbi poznamo skladatelja."},
+    {"title": "Kdo izvaja glasbo?", "text": "Vokalna: petje. Inštrumentalna: glasbila. Vokalno-inštrumentalna: petje z glasbili."},
+    {"title": "Višina in trajanje", "text": "Melodija povezuje tone v glasbeno celoto. Bordunska spremljava ostaja na istih tonskih višinah. V teh vajah je četrtinka dolga eno dobo, osminka pa pol dobe."}
+  ],
+  "study": {
+    "goals": [
+      {"id": "g-izvor", "skill": "izvor", "text": "Razložim razliko med ljudsko in umetno glasbo."},
+      {"id": "g-izvajanje", "skill": "izvajanje", "text": "Ločim vokalno, inštrumentalno in vokalno-inštrumentalno glasbo."},
+      {"id": "g-druzine", "skill": "druzine", "text": "Naštejem glasbene družine Volk, Feguš in Bach."},
+      {"id": "g-oprekel", "skill": "oprekel", "text": "Opišem oprekel, njegov izvor in način igranja."},
+      {"id": "g-visina", "skill": "visina", "text": "Razlikujem melodijo in bordun ter višino in glasnost tona."},
+      {"id": "g-note", "skill": "note", "text": "Prepoznam četrtinko in osminko, opišem dele in povem trajanje."},
+      {"id": "g-ritem", "skill": "note", "text": "Odploskam četrtinke in osminke ob enakomernem štetju dob."},
+      {"id": "g-petje", "skill": "petje", "text": "Zapojem šolsko pesem in povem, kaj pri petju gre dobro in kaj še vadim."}
+    ],
+    "sections": [
+      {
+        "title": "Tvoja pot v dveh tednih",
+        "text": "Vsako srečanje naj traja 10–15 minut: 3 minute razlage, 5 minut vaj, 2 minuti govora ali petja. Pred počitnicami opravi prve tri korake. Med počitnicami sta dovolj dva kratka, neobvezna obiska. Zadnje dni ponovi težje pojme in vadi ustno. Če kak dan izpustiš, nadaljuj tam, kjer ti ustreza.",
+        "table": {"head": ["Kdaj", "Kaj vadiš"], "rows": [
+          ["Pred počitnicami · 1", "Ljudska/umetna glasba in tri vrste izvedbe."],
+          ["Pred počitnicami · 2", "Družine Volk, Feguš, Bach in oprekel."],
+          ["Pred počitnicami · 3", "Melodija/bordun, četrtinka/osminka; zapoj šolsko pesem."],
+          ["Počitnice · po želji dvakrat", "5 minut kartic, ploskanja ali petja; brez nadomeščanja dni."],
+          ["3–4 dni pred testom", "Reši Vajo; ponovno razloži pojme, pri katerih potrebuješ namig."],
+          ["2 dni pred testom", "Ustna vaja s staršem in petje; po želji Liga prvakov."],
+          ["Dan pred testom", "5–10 minut: dve težji kartici, obe noti in ena pesem."]
+        ]}
+      },
+      {
+        "title": "Ljudska ali umetna?", "skill": "izvor",
+        "text": "Pri izvoru glasbe vprašaj: ali poznamo njenega skladatelja? Ljudska glasba potuje med generacijami, ime prvotnega ustvarjalca pa ni znano. Pri umetni glasbi vemo, kdo jo je ustvaril. Beseda umetna tu ne pomeni lažna ali računalniška.",
+        "table": {"head": ["Glasba", "Skladatelj", "Značilnost"], "rows": [["Ljudska", "Ni znan", "Prenaša se iz roda v rod."], ["Umetna", "Je znan", "Poznamo njenega ustvarjalca."]]},
+        "examples": ["Vaščani že več rodov pojejo pesem brez znanega avtorja: ljudska pesem.", "Skladatelj napiše novo skladbo in se podpiše: umetna glasba."],
+        "watch_out": [{"wrong": "Vsaka stara pesem je ljudska.", "right": "Starost pesmi ni dovolj; pomemben je njen izvor.", "why": "Tudi zelo stara skladba ima lahko znanega skladatelja."}]
+      },
+      {
+        "title": "Glas, glasbila ali oboje?", "skill": "izvajanje",
+        "text": "Vokal pomeni pevski glas. Vrsto izvedbe določiš po tem, kaj zveni. Ista pesem ima lahko različne izvedbe. Izvor in izvedba sta dve različni vprašanji.",
+        "table": {"head": ["Izvedba", "Kaj slišiš", "Primer"], "rows": [["Vokalna", "Petje brez glasbil", "Zbor poje brez spremljave."], ["Inštrumentalna", "Glasbila brez petja", "Klavir igra sam."], ["Vokalno-inštrumentalna", "Petje in glasbila", "Pevski glas ob kitari."]]},
+        "watch_out": [{"wrong": "Ljudska pomeni samo petje.", "right": "Ljudsko pesem lahko zapojemo ali zaigramo.", "why": "Izvor glasbe ne določa vrste izvedbe."}]
+      },
+      {
+        "title": "Tri glasbene družine", "skill": "druzine",
+        "text": "Na listu so tri glasbene družine: Volk, Feguš in Bach. Zapomni si vse tri priimke. Izgovori jih, pokrij zapis in jih ponovi v drugem vrstnem redu.",
+        "examples": ["Volk – Feguš – Bach.", "Glasbena družina pomeni družino ljudi, ki se ukvarjajo z glasbo."]
+      },
+      {
+        "title": "Uganka o opreklu", "skill": "oprekel",
+        "text": "Oprekel (tudi oprekelj) je ljudsko glasbilo alpskih dežel. Strune so razpete čez lesen obod. Zvok nastane, ko po strunah udarjamo z dvema lesenima kladivcema. Z rokama pokaži način igranja.",
+        "table": {"head": ["Vprašanje", "Ključna beseda"], "rows": [["Od kod?", "Alpske dežele."], ["Kaj sestavlja glasbilo?", "Lesen obod in napete strune."], ["S čim igramo?", "Z dvema lesenima kladivcema."]]},
+        "watch_out": [{"wrong": "Na oprekel pihamo.", "right": "S kladivcema udarjamo po strunah.", "why": "Pri opreklu zvenijo strune."}]
+      },
+      {
+        "title": "Melodija in bordun", "skill": "visina",
+        "text": "Za šolsko primerjavo si predstavljaj dve poti: melodija gre med različnimi tonskimi višinami, bordunska spremljava pa vztraja pri isti višini oziroma istih višinah. Bordun lahko dolgo zveni ali se ponavlja. V melodiji se kak ton lahko tudi ponovi. Višje ne pomeni glasneje.",
+        "table": {"head": ["Primer", "Kaj se dogaja"], "rows": [["Melodija: nizko → visoko → srednje → nizko", "Višina se spreminja."], ["Bordun: nizko → nizko → nizko → nizko", "Spremljava ostaja na isti višini."]]},
+        "watch_out": [{"wrong": "Toni iste višine so vedno ritem.", "right": "Na tem listu je ime za stalno spremljavo bordun.", "why": "Ritem govori o razporeditvi trajanj; bordun o spremljavi na istih višinah."}]
+      },
+      {
+        "title": "Dve noti, ena enakomerna doba", "skill": "note",
+        "text": "Z roko meri enakomerne dobe. V teh šolskih vajah četrtinka traja eno dobo, osminka pa pol dobe. Zato dve osminki zapolnita isto dobo kot ena četrtinka. Pri osminkah ne pospeši štetja dob: znotraj ene dobe sta dva zvoka.",
+        "table": {"head": ["Nota", "Deli", "Trajanje", "Ritmični zlog"], "rows": [["♩ četrtinka", "Polna glavica in vrat", "1 doba", "TA"], ["♪ osminka", "Polna glavica, vrat, zastavica", "Pol dobe", "TA-TE za dve osminki"]]},
+        "examples": ["Četrtinka + dve osminki = dve dobi.", "Štiri osminke = dve dobi.", "Ritem za ploskanje: TA | TA-TE | TA | TA-TE. To so štiri dobe in šest ploskov."],
+        "watch_out": [{"wrong": "Osminka traja osem dob.", "right": "Osminka v teh vajah traja pol dobe.", "why": "Ime note ni število dob."}, {"wrong": "Vsak plosk je nova doba.", "right": "Na eno dobo lahko zaploskaš dvakrat.", "why": "Dve osminki skupaj trajata eno dobo."}]
+      },
+      {
+        "title": "Zapoj in opazuj svoje petje", "skill": "petje",
+        "text": "Izberi pesem, ki jo pojete pri pouku. Sprosti ramena, mirno vdihni in zapoj kratek del brez kričanja. Poslušaj melodijo, ohranjaj enakomeren utrip in jasno izgovarjaj besede. Nato povej eno stvar, ki gre dobro, in eno za naslednjo vajo. Starš naj posluša; računalniški kviz petja ne oceni.",
+        "examples": ["Besedilo izgovarjam jasno. Še vadim enakomerno petje do konca.", "Melodiji sledim. Pri daljši povedi še vadim miren vdih."]
+      }
+    ],
+    "cards": [
+      {"front": "Dve značilnosti ljudske glasbe?", "back": "Neznan skladatelj; prenašanje iz roda v rod.", "skill": "izvor"},
+      {"front": "Kaj veš o skladatelju umetne glasbe?", "back": "Njegovo ime je znano.", "skill": "izvor"},
+      {"front": "Samo petje brez glasbil: katera izvedba?", "back": "Vokalna glasba.", "skill": "izvajanje"},
+      {"front": "Samo glasbila brez petja: katera izvedba?", "back": "Inštrumentalna glasba.", "skill": "izvajanje"},
+      {"front": "Petje ob glasbilih: katera izvedba?", "back": "Vokalno-inštrumentalna glasba.", "skill": "izvajanje"},
+      {"front": "Kaj pomeni vokal?", "back": "Pevski glas.", "skill": "izvajanje"},
+      {"front": "Naštej tri glasbene družine z lista.", "back": "Volk, Feguš in Bach.", "skill": "druzine"},
+      {"front": "Od kod izvira oprekel?", "back": "Iz alpskih dežel.", "skill": "oprekel"},
+      {"front": "Kako je zgrajen oprekel?", "back": "Strune so napete čez lesen obod.", "skill": "oprekel"},
+      {"front": "Kako igramo na oprekel?", "back": "Z dvema lesenima kladivcema udarjamo po strunah.", "skill": "oprekel"},
+      {"front": "Melodija v primerjavi na listu?", "back": "Zaporedje tonov različnih tonskih višin.", "skill": "visina"},
+      {"front": "Bordun?", "back": "Spremljava z vztrajanjem na istih tonskih višinah.", "skill": "visina"},
+      {"front": "♩ Poimenuj noto, dele in trajanje.", "back": "Četrtinka: polna glavica in vrat; ena doba.", "skill": "note"},
+      {"front": "♪ Poimenuj noto, dele in trajanje.", "back": "Osminka: polna glavica, vrat in zastavica; pol dobe.", "skill": "note"},
+      {"front": "Koliko osmink zapolni eno dobo?", "back": "Dve osminki.", "skill": "note"},
+      {"front": "Kaj opazuj pri petju?", "back": "Melodijo, ritem, jasno besedilo in mirno dihanje.", "skill": "petje"}
+    ]
+  },
+  "tasks": [
+    {"id": "v01-ljudska", "level": 1, "skill": "izvor", "kind": "choice", "prompt": "Katera značilnost velja za ljudsko pesem?", "options": ["Prvotni skladatelj ni znan, pesem prehaja med rodovi.", "Vedno je brez petja.", "Vedno nastane na računalniku."], "answer": 0, "hints": ["Pomisli, kako pesem potuje med generacijami."], "solution": "Ljudsko pesem ljudje predajajo iz roda v rod, njen prvotni skladatelj pa ni znan."},
+    {"id": "v02-umetna", "level": 1, "skill": "izvor", "kind": "choice", "prompt": "Pri umetni glasbi je skladatelj …", "options": ["vedno neznan", "znan", "vedno pevec"], "answer": 1, "hints": ["Pri tej vrsti glasbe lahko poveš ime ustvarjalca."], "solution": "Skladatelj je znan. Umetna tu ne pomeni lažna."},
+    {"id": "v03-glas", "level": 1, "skill": "izvajanje", "kind": "choice", "prompt": "Vokal pomeni …", "options": ["leseno kladivce", "pevski glas", "zastavico note"], "answer": 1, "hints": ["Pomisli na petje."], "solution": "Vokal pomeni pevski glas."},
+    {"id": "v04-izvedba", "level": 1, "skill": "izvajanje", "kind": "choice", "prompt": "Na odru zvenita samo flavta in klavir. Nihče ne poje. Kakšna je izvedba?", "options": ["Vokalna", "Inštrumentalna", "Vokalno-inštrumentalna"], "answer": 1, "hints": ["Preštej: glasbila so prisotna, petja pa ni."], "solution": "To je inštrumentalna izvedba, ker igrajo samo glasbila."},
+    {"id": "v05-zbor", "level": 2, "skill": "izvajanje", "kind": "text", "prompt": "Zbor poje brez glasbil. Dopolni z eno besedo: To je ______ glasba.", "answer": "vokalna", "accept": ["vokalna glasba"], "hints": ["Poimenuj izvedbo po pevskem glasu."], "solution": "To je vokalna glasba: slišimo petje brez glasbil."},
+    {"id": "v06-oboje", "level": 2, "skill": "izvajanje", "kind": "choice", "prompt": "Nekdo poje, druga oseba pa spremlja na kitari. Izberi vrsto izvedbe.", "options": ["Samo vokalna", "Samo inštrumentalna", "Vokalno-inštrumentalna"], "answer": 2, "hints": ["Prisotna sta dva načina ustvarjanja glasbe."], "solution": "Petje in kitara skupaj pomenita vokalno-inštrumentalno izvedbo."},
+    {"id": "v07-izvor", "level": 2, "skill": "izvor", "kind": "text", "prompt": "Pesem brez znanega skladatelja se prenaša med generacijami. Dopolni: To je ______ pesem.", "answer": "ljudska", "accept": ["ljudska pesem"], "hints": ["Pesem živi med ljudmi že več rodov."], "solution": "To je ljudska pesem. Povežemo neznanega skladatelja in prenašanje med rodovi."},
+    {"id": "v08-starost", "level": 2, "skill": "izvor", "kind": "choice", "prompt": "Skladba je stara dvesto let, ime skladatelja pa poznamo. Ali je samo zaradi starosti ljudska?", "options": ["Da, vsaka stara skladba je ljudska.", "Ne, starost sama ne določa izvora glasbe."], "answer": 1, "hints": ["Vrni se k vprašanju o skladatelju."], "solution": "Ne. Tudi zelo stara skladba je lahko umetna; njen skladatelj je znan."},
+    {"id": "v09-druzina", "level": 2, "skill": "druzine", "kind": "text", "prompt": "Dopolni tretji priimek glasbene družine z lista: Volk, Feguš, ______.", "answer": "Bach", "hints": ["Priimek se začne s črko B."], "solution": "Manjka Bach. Tri družine so Volk, Feguš in Bach."},
+    {"id": "v10-fegus", "level": 2, "skill": "druzine", "kind": "text", "prompt": "Zdaj dopolni drug manjkajoči priimek: Bach, Volk, ______.", "answer": "Feguš", "hints": ["Priimek se začne s črko F."], "solution": "Manjka Feguš. Vrstni red naštevanja ni pomemben."},
+    {"id": "v11-oprekel", "level": 2, "skill": "oprekel", "kind": "text", "prompt": "Po strunah na lesenem obodu udarjaš z dvema lesenima kladivcema. Katero ljudsko glasbilo je to?", "answer": "oprekel", "accept": ["oprekelj"], "hints": ["To je glasbilo iz alpskih dežel; ime se začne z O."], "solution": "To je oprekel, imenovan tudi oprekelj."},
+    {"id": "v12-alpe", "level": 2, "skill": "oprekel", "kind": "choice", "prompt": "S katerim območjem list povezuje oprekel?", "options": ["S tropskimi otoki", "Z alpskimi deželami", "S puščavami"], "answer": 1, "hints": ["Pomisli na gorovje v naši bližini."], "solution": "Oprekel je ljudsko glasbilo alpskih dežel."},
+    {"id": "v13-strune", "level": 2, "skill": "oprekel", "kind": "text", "prompt": "Kaj je napeto čez lesen obod oprekla? Odgovori z eno besedo.", "answer": "strune", "hints": ["To so deli, po katerih udarita kladivci."], "solution": "Čez lesen obod so napete strune; ob udarcu zazvenijo."},
+    {"id": "v14-melodija", "level": 2, "skill": "visina", "kind": "text", "prompt": "Dopolni po šolski primerjavi: Toni različnih tonskih višin sestavljajo ______.", "answer": "melodijo", "accept": ["melodija"], "hints": ["Pomisli na tonsko pot pesmi, ki gre višje in nižje."], "solution": "Sestavljajo melodijo. V melodiji se lahko posamezni toni tudi ponovijo."},
+    {"id": "v15-bordun", "level": 2, "skill": "visina", "kind": "text", "prompt": "Kako imenujemo spremljavo, ki vztraja na istih tonskih višinah?", "answer": "bordun", "accept": ["bordunska spremljava"], "hints": ["To je pojem iz 10. točke lista; začne se z B."], "solution": "To je bordun. Spremljevalni ton ali toni se ponavljajo ali dolgo zvenijo na isti višini."},
+    {"id": "v16-visje", "level": 2, "skill": "visina", "kind": "choice", "prompt": "Ton ostaja enako visok, vendar zveni glasneje. Kaj se spremeni?", "options": ["Tonska višina", "Glasnost", "Ime glasbene družine"], "answer": 1, "hints": ["Loči visoko/nizko od glasno/tiho."], "solution": "Spremeni se glasnost. Tonska višina ostaja ista."},
+    {"id": "v17-cetrtinka", "level": 2, "skill": "note", "kind": "text", "prompt": "♩ — poimenuj noto s polno glavico in vratom, brez zastavice.", "answer": "četrtinka", "accept": ["nota četrtinka"], "hints": ["V teh vajah zapolni eno dobo."], "solution": "To je četrtinka: polna glavica in vrat, ena doba."},
+    {"id": "v18-osminka", "level": 2, "skill": "note", "kind": "text", "prompt": "♪ — poimenuj noto s polno glavico, vratom in eno zastavico.", "answer": "osminka", "accept": ["nota osminka"], "hints": ["Dve taki noti skupaj trajata eno dobo."], "solution": "To je osminka. Ena osminka traja pol dobe."},
+    {"id": "v19-zastavica", "level": 2, "skill": "note", "kind": "text", "prompt": "Kateri del ima posamična osminka poleg polne glavice in vratu?", "answer": "zastavico", "accept": ["zastavica", "eno zastavico"], "hints": ["Poglej ukrivljeni del pri vrhu vratu."], "solution": "Ima še zastavico. Četrtinka je nima."},
+    {"id": "v20-pol", "level": 2, "skill": "note", "kind": "number", "prompt": "Koliko dobe traja ena osminka? Vpiši število ali ulomek.", "answer": "1/2", "unit": "dobe", "hints": ["Dve osminki skupaj zapolnita eno dobo."], "solution": "Ena osminka traja 1/2 oziroma 0,5 dobe."},
+    {"id": "v21-dve", "level": 2, "skill": "note", "kind": "number", "prompt": "Koliko osmink skupaj traja toliko kot ena četrtinka?", "answer": 2, "hints": ["Koliko polovic sestavi celoto?"], "solution": "Dve osminki: pol dobe + pol dobe = ena doba."},
+    {"id": "v22-ploskaj", "level": 2, "skill": "note", "kind": "open", "prompt": "Z nogo enakomerno meri štiri dobe. Zaploskaj: TA | TA-TE | TA | TA-TE. Na TA je en plosk v dobi, na TA-TE dva enakomerno razporejena ploska. Nato primerjaj z rešitvijo.", "hints": ["Hitrost noge ostaja enaka tudi takrat, ko roki ploskneta dvakrat."], "solution": "Dobe so 1 | 2 | 3 | 4. Ploski so 1 | 2 | 1 | 2, skupaj šest. Prva in tretja doba imata četrtinko, druga in četrta dve osminki. Starš naj posluša enakomernost; označi Znam, če utrip ostaja enak."},
+    {"id": "v23-dva-pogleda", "level": 3, "skill": "izvajanje", "kind": "choice", "prompt": "Ljudsko pesem brez znanega avtorja zapoje pevska skupina ob harmoniki. Izberi pravilen par: izvor + izvedba.", "options": ["Umetna + vokalna", "Ljudska + vokalno-inštrumentalna", "Ljudska + samo inštrumentalna"], "answer": 1, "hints": ["Najprej preveri izvor. Nato posebej preveri, ali slišiš petje, glasbila ali oboje."], "solution": "Izvor je ljudski. Izvedba je vokalno-inštrumentalna, saj zvenita petje in harmonika."},
+    {"id": "v24-trajanje", "level": 3, "skill": "note", "kind": "number", "prompt": "Koliko dob skupaj trajajo dve četrtinki in štiri osminke?", "answer": 4, "unit": "dobe", "hints": ["Osminke združi v pare, nato prištej četrtinki."], "solution": "Dve četrtinki trajata dve dobi. Štiri osminke tvorijo dva para, to sta še dve dobi. Skupaj so štiri dobe."},
+    {"id": "v25-povej", "level": 3, "skill": "oprekel", "kind": "open", "prompt": "Brez gledanja opiši oprekel: izvor, zgradba in način igranja. Nato odpri rešitev in preveri vse tri dele.", "hints": ["Uporabi tri začetke: Izvira … Sestavljajo ga … Igramo …"], "solution": "Oprekel je ljudsko glasbilo alpskih dežel. Ima lesen obod in napete strune. Po strunah udarjamo z dvema lesenima kladivcema. Znam označi, če so v odgovoru vsi trije deli; sicer ponovi manjkajoči del."},
+    {"id": "v26-zapoj", "level": 3, "skill": "petje", "kind": "open", "prompt": "Staršu zapoj kratek del pesmi, ki jo pojete pri pouku. Nato povej, kaj pri petju gre dobro in kaj še vadiš. Primerjaj s kontrolnim seznamom v rešitvi.", "hints": ["Poslušaj melodijo in ritem ter opazuj besedilo in dihanje."], "solution": "Preverita: melodija, enakomeren ritem, jasno besedilo, mirno dihanje. Primer samoocene: Besedilo izgovarjam jasno; še vadim ritem v zadnji vrstici. Petje presodita skupaj; aplikacija ga ne posluša. Izbiro pesmi preveri v zvezku ali pri učitelju."}
+  ],
+  "challenge": [
+    {"id": "c01-razlika", "level": 3, "skill": "izvor", "kind": "open", "prompt": "Razloži ljudsko in umetno glasbo s svojimi besedami. Povej, zakaj nova izvedba ljudske pesmi še ne spremeni njenega izvora.", "hints": ["Loči nastanek pesmi od tega, kdo jo danes izvaja."], "solution": "Pri ljudski glasbi prvotni skladatelj ni znan in pesem prehaja med rodovi. Pri umetni glasbi je skladatelj znan. Novo petje iste ljudske pesmi ne pomeni, da je izvajalec njen prvotni skladatelj. Za Znam omeni vse tri ideje."},
+    {"id": "c02-tri-izvedbe", "level": 3, "skill": "izvajanje", "kind": "open", "prompt": "Izmisli si tri izvedbe iste pesmi: vokalno, inštrumentalno in vokalno-inštrumentalno. Za vsako povej, kdo ali kaj zveni.", "hints": ["Enkrat samo glas, enkrat samo glasbilo, enkrat oboje."], "solution": "Primer: 1. Pesem zapojem brez spremljave. 2. Melodijo zaigra flavta, brez petja. 3. Pesem zapojem ob klavirju. Za Znam pravilno poimenuj vse tri izvedbe; tudi drugi pravilni primeri veljajo."},
+    {"id": "c03-druzine", "level": 3, "skill": "druzine", "kind": "open", "prompt": "Brez namigov naštej vse tri glasbene družine z lista. Nato jih povej še v drugačnem vrstnem redu.", "hints": ["Začetnice so V, F in B."], "solution": "Volk, Feguš, Bach. Pravilen je vsak vrstni red. Za Znam morajo biti navedeni vsi trije priimki."},
+    {"id": "c04-bordun", "level": 3, "skill": "visina", "kind": "open", "prompt": "Starš ponavlja en nizek ton, ti pa nad njim zapoj tri različne višine. Kateri del je bordun in kateri melodija? Razloži tudi, zakaj glasnejši ton ni nujno višji.", "hints": ["Poslušaj posebej spremljavo, svojo tonsko pot in glasnost."], "solution": "Ponavljajoči se nizki ton je bordun; tonska pot s spreminjanjem višin je melodija. Glasnost pove, kako glasno zveni, višina pa, kako visoko ali nizko. Za Znam loči vse tri pojme; aplikacija petja ne ocenjuje."},
+    {"id": "c05-dopolni", "level": 3, "skill": "note", "kind": "number", "prompt": "Ritem mora trajati štiri dobe. Dve četrtinki že imaš. Koliko osmink še potrebuješ?", "answer": 4, "hints": ["Najprej ugotovi, koliko dob manjka; vsako zapolni z osminkami."], "solution": "Četrtinki zapolnita dve dobi. Manjkata dve dobi, za vsako potrebuješ dve osminki. Skupaj dodaj štiri osminke."},
+    {"id": "c06-narisi", "level": 3, "skill": "note", "kind": "open", "prompt": "V zvezek nariši četrtinko in osminko. Označi dele obeh not, napiši trajanje in sestavi lasten ritem s štirimi dobami.", "hints": ["Pri obeh je glavica polna. Preveri še vrh vratu."], "solution": "Četrtinka: polna glavica in vrat, ena doba. Osminka: polna glavica, vrat in zastavica, pol dobe. Primer štirih dob: četrtinka | dve osminki | dve osminki | četrtinka. Za Znam preveri risbi, dele, trajanje in vsoto štirih dob."}
+  ],
+  "parent": {
+    "school_method": "Podlaga je list z 12 odgovori za ustno ocenjevanje v 4. razredu. Točke 4–6 razumemo kot inštrumentalno, vokalno in vokalno-inštrumentalno izvedbo. Pojma za 9–10 sta melodija in bordun (preverjeno v predogledu Glasba 4, Emka.si). Pri notah sledimo listu: četrtinka = 1 doba, osminka = 1/2 dobe; polna glavica, vrat, zastavica. Test bo čez približno dva tedna po počitnicah; točen datum ni določen. Naslovi pesmi in učiteljeva merila petja niso na listu, zato jih preverite v zvezku. Računalniški rezultat ne ocenjuje petja. Naloge in primeri so novi; fotografija ni shranjena v projektu. Ni podatkov o Alanovih napačnih odgovorih, zato ni osebnih traps.",
+    "typical_mistakes": ["Zamenjava izvora glasbe z vrsto izvedbe.", "Bordun zamenjan z ritmom; glasnost zamenjana s tonsko višino.", "Ime osminka razumljeno kot osem dob.", "Dva ploska osmink razumljena kot dve dobi.", "Pri opreklu manjka lesen obod, strune ali dve leseni kladivci.", "Pri ustnem odgovoru manjka eden od priimkov Volk, Feguš, Bach."],
+    "car_questions": [
+      {"q": "Kako ločiš ljudsko in umetno glasbo?", "a": "Ljudska: neznan skladatelj in prenašanje med rodovi. Umetna: znan skladatelj."},
+      {"q": "Kakšna je izvedba, če pevski zbor spremlja klavir?", "a": "Vokalno-inštrumentalna."},
+      {"q": "Katere tri glasbene družine poznaš z lista?", "a": "Volk, Feguš, Bach; vrstni red ni pomemben."},
+      {"q": "Opiši oprekel.", "a": "Ljudsko glasbilo alpskih dežel: lesen obod, strune, udarjanje z dvema lesenima kladivcema."},
+      {"q": "Kako se bordun razlikuje od melodije v šolski primerjavi?", "a": "Bordun vztraja na istih tonskih višinah, melodija se giblje med različnimi."},
+      {"q": "Kateri deli sestavljajo četrtinko in osminko?", "a": "Obe: polna glavica in vrat. Posamična osminka ima še zastavico."},
+      {"q": "Koliko osmink zapolni eno dobo?", "a": "Dve. Vsaka traja pol dobe."},
+      {"q": "Kaj opazuješ pri svojem petju?", "a": "Melodijo, ritem, besedilo in dihanje; eno dobro stvar in eno za vajo."}
+    ],
+    "tips": ["Pred počitnicami tri vaje po 10–15 minut. Med počitnicami dve neobvezni petminutni ponovitvi; izpuščenih dni ne nadomeščajte.", "Zadnje 3–4 dni: Vaja, nato ustna vaja s petjem, zadnji dan le kratek pregled. Točen datum testa nastavite šele, ko ga poznate.", "Najprej naj Alan odgovori brez pomoči, nato primerjajta ključne ideje. Ni treba ponoviti povedi dobesedno.", "Za ustno vajo uporabite vprašanja na kartici. Foxyjevo tipkano ustno spraševanje uporablja AI; domače govorjenje in kviz ga ne potrebujeta.", "Liga prvakov je dodatni izziv. Petje vadite s pesmimi iz pouka; ta program ne nadomesti učiteljevih navodil ali ocene petja."]
+  },
+  "oral": [
+    {"id": "o01-petje", "skill": "petje", "question": "Kaj opazuješ, ko ocenjuješ svoje petje? Tu opiši merila; samo petje preveri s staršem.", "key_points": ["Melodija oziroma tonske višine", "Ritem", "Jasno besedilo", "Dihanje"], "model_answer": "Poslušam melodijo in ritem, jasno izgovarjam besede ter mirno diham. Povem eno stvar, ki gre dobro, in eno za nadaljnjo vajo."},
+    {"id": "o02-ljudska", "skill": "izvor", "question": "Povej dve značilnosti ljudske glasbe.", "key_points": ["Prvotni skladatelj ni znan", "Prenaša se iz roda v rod"], "model_answer": "Pri ljudski glasbi ne poznamo prvotnega skladatelja. Ljudje jo predajajo naslednjim generacijam."},
+    {"id": "o03-umetna", "skill": "izvor", "question": "Po čem prepoznaš umetno glasbo glede na njenega avtorja?", "key_points": ["Avtor oziroma skladatelj je znan"], "model_answer": "Pri umetni glasbi poznamo avtorja oziroma skladatelja."},
+    {"id": "o04-instrumentalna", "skill": "izvajanje", "question": "Kaj izvaja inštrumentalno glasbo?", "key_points": ["Glasbila oziroma inštrumenti", "Brez petja"], "model_answer": "Inštrumentalno glasbo izvajajo glasbila, brez petja."},
+    {"id": "o05-vokalna", "skill": "izvajanje", "question": "Kaj pomeni vokal in kaj izvaja vokalno glasbo?", "key_points": ["Vokal je pevski glas", "Vokalno glasbo izvajamo s petjem"], "model_answer": "Vokal je pevski glas. Vokalno glasbo izvajamo s petjem."},
+    {"id": "o06-oboje", "skill": "izvajanje", "question": "Kaj skupaj zveni pri vokalno-inštrumentalni glasbi?", "key_points": ["Petje oziroma glas", "Glasbila oziroma inštrumenti"], "model_answer": "Skupaj zvenijo pevski glasovi in glasbila."},
+    {"id": "o07-druzine", "skill": "druzine", "question": "Naštej tri glasbene družine s svojega lista.", "key_points": ["Volk", "Feguš", "Bach"], "model_answer": "Volk, Feguš in Bach. Vrstni red ni pomemben."},
+    {"id": "o08-oprekel", "skill": "oprekel", "question": "Od kod je oprekel, kako je zgrajen in kako igramo nanj?", "key_points": ["Ljudsko glasbilo alpskih dežel", "Lesen obod z napetimi strunami", "Udarjanje po strunah z dvema lesenima kladivcema"], "model_answer": "Oprekel je ljudsko glasbilo alpskih dežel. Ima lesen obod in napete strune. Po strunah udarjamo z dvema lesenima kladivcema."},
+    {"id": "o09-melodija", "skill": "visina", "question": "Kakšne tonske višine sestavljajo melodijo v primerjavi na tvojem listu?", "key_points": ["Različne tonske višine"], "model_answer": "Melodijo sestavljajo toni različnih tonskih višin. Kak ton se v melodiji lahko tudi ponovi."},
+    {"id": "o10-bordun", "skill": "visina", "question": "Kaj je bordun in kaj se dogaja s tonskimi višinami v njem?", "key_points": ["Spremljava", "Vztrajanje na istih tonskih višinah"], "model_answer": "Bordun je spremljava, v kateri toni ostajajo na istih tonskih višinah. Lahko dolgo zvenijo ali se ponavljajo."},
+    {"id": "o11-cetrtinka", "skill": "note", "question": "Opiši četrtinko: iz katerih delov je in koliko dob traja v teh vajah?", "key_points": ["Polna glavica", "Vrat", "Ena doba"], "model_answer": "Četrtinka ima polno glavico in vrat. V teh vajah traja eno dobo."},
+    {"id": "o12-osminka", "skill": "note", "question": "Opiši posamično osminko: iz katerih delov je in koliko dobe traja v teh vajah?", "key_points": ["Polna glavica", "Vrat", "Zastavica", "Pol dobe"], "model_answer": "Osminka ima polno glavico, vrat in zastavico. V teh vajah traja pol dobe."}
+  ],
+  "terms": [
+    {"term": "ljudska glasba", "meaning": "Glasba z neznanim prvotnim skladateljem, ki prehaja med rodovi."},
+    {"term": "umetna glasba", "meaning": "Glasba znanega skladatelja."},
+    {"term": "vokal", "meaning": "Pevski glas."},
+    {"term": "inštrument", "meaning": "Glasbilo."},
+    {"term": "vokalno-inštrumentalna glasba", "meaning": "Glasba, pri kateri sodelujejo pevski glasovi in glasbila."},
+    {"term": "oprekel", "meaning": "Tudi oprekelj: ljudsko glasbilo z lesenim obodom in strunami; igramo z dvema lesenima kladivcema."},
+    {"term": "melodija", "meaning": "Tonska pot glasbe; na listu jo primerjamo kot tone različnih višin z bordunom."},
+    {"term": "bordun", "meaning": "Spremljava z vztrajanjem na istih tonskih višinah, s ponavljanjem ali dolgim zvenenjem."},
+    {"term": "doba", "meaning": "Enakomeren glasbeni utrip; v teh vajah traja četrtinko."},
+    {"term": "četrtinka", "meaning": "Nota s polno glavico in vratom; v teh vajah traja eno dobo."},
+    {"term": "osminka", "meaning": "Nota s polno glavico, vratom in zastavico; v teh vajah traja pol dobe."}
+  ]
+}

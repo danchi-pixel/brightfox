@@ -17,6 +17,7 @@ import pytest
 _TMP = Path(tempfile.mkdtemp(prefix="ucilnica-test-"))
 os.environ["UCILNICA_DATA_DIR"] = str(_TMP / "data")
 os.environ.pop("ANTHROPIC_API_KEY", None)
+os.environ.pop("UCILNICA_LOCAL_FAMILY", None)  # tests enable this explicitly with monkeypatch
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from fastapi.testclient import TestClient  # noqa: E402

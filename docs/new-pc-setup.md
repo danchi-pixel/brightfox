@@ -35,16 +35,18 @@ and Codex does the steps below with her.
 2. Clone the repository in a new terminal, from the Desktop: `git clone https://github.com/danchi-pixel/brightfox.git BrightFox`.
    The first time, a "Connect to GitHub" window opens. Choose "Sign in with your browser" and sign in with
    **her own** GitHub account.
-3. Run `setup.bat` once. Then `start.bat` opens a local copy at http://localhost:7686, with an empty local
-   database that has nothing to do with the real site.
-4. Make a local test family to sign in with. In a terminal in the `backend` folder:
+3. Run `setup.bat` once. Then `start.bat` opens the current source at http://localhost:7686. It uses
+   this checkout's `data/ucilnica.db`, separate from production, and prepares the `danijel` household
+   with exactly Alan and Erik. Existing profiles and progress are preserved; demo data is backed up
+   and kept in an inactive family, never copied into the children's histories.
+4. On a fresh PC, the person sets local passwords in a terminal in the `backend` folder:
    ```
-   .venv\Scripts\python.exe -m app.manage create-family test --name "Test family"
-   .venv\Scripts\python.exe -m app.manage add-learner test Tina --grade 5
-   .venv\Scripts\python.exe -m app.manage set-password testparent --family test
-   .venv\Scripts\python.exe -m app.manage set-password tina --family test --learner Tina
+   .venv\Scripts\python.exe -m app.manage set-password localparent --family danijel
+   .venv\Scripts\python.exe -m app.manage set-password localalan --family danijel --learner Alan
+   .venv\Scripts\python.exe -m app.manage set-password localerik --family danijel --learner Erik
    ```
-   Each password is typed in a hidden prompt. Use made-up names like these, never the kids' real logins.
+   Each password is typed by the person in a hidden prompt, never by an agent. On an already configured
+   PC the existing parent sign-in continues to work; do not reset it or create duplicate profiles.
 5. Install Codex and open the BrightFox folder in it. Codex reads `AGENTS.md` at the top of the folder by
    itself: rules, layout, commands, deploy steps and pitfalls.
 
@@ -62,7 +64,9 @@ and Codex does the steps below with her.
   kids' work never go on GitHub.
 - Ask the AI to make a topic from them for Erik or Alan. It writes the JSON under
   `backend/app/content/data/families/danijel/` and runs the content checker.
-- Commit, push and deploy, then approve the topic in the app (Topics page).
+- Set `for` to Alan, Erik, or both. Refresh localhost: the content registry picks up the file and its
+  newest version automatically. Root `content/` is an old export bundle, not a second registry.
+- For production: commit, push and deploy, then approve the topic in the app (Topics page).
 
 ## Deploying from Daniela's PC (optional, later)
 

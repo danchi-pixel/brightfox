@@ -102,6 +102,14 @@ scripts/               PC helper scripts, the PitchDriven exporter
 ## 3. How the main features work
 
 ### Topics and approvals
+- **Local household workflow (parent request, 21 October 2026):** `start.bat` uses the current Vite source,
+  this checkout's `data/`, and explicit `UCILNICA_LOCAL_FAMILY=danijel`. Only Alan and Erik are active in
+  that household. Valid topics/mocks with `for: ["Alan"]`, `["Erik"]`, or both are visible automatically
+  after refresh, including version updates. Production still uses the approval rules below.
+- Write new activities once in `backend/app/content/data/families/danijel/topics/` or `mocks/` with the
+  correct `for` assignment. Do not put authored content in root `content/` (an old export bundle),
+  duplicate the registry, seed demo learners, or reset the local database. Keep content/task/goal IDs stable
+  to preserve progress; raise `version` on edits. The registry detects file changes without restart.
 - Topics and mocks are **JSON files**, checked by `backend/app/content/checker.py`. The format is in
   `docs/content-format.md`.
 - A topic is visible to a learner only when `content_access` has a row for that learner **at the file's

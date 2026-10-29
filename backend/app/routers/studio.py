@@ -14,6 +14,7 @@ from sqlalchemy.orm import Session, selectinload
 from .. import llm
 from ..access import AdminCtx, admin_ctx
 from ..content.registry import content, topic_for_family
+from ..config import settings
 from ..db import get_db
 from ..learning import progress as pg
 from ..llm import service as llm_service
@@ -38,6 +39,7 @@ def overview(today: str | None = None, db: Session = Depends(get_db), ctx: Admin
     spec, effort = llm_service.route(db, ctx.family_id, "tutor_chat")
     return {
         "family": {"id": ctx.family.id, "name": ctx.family.name},
+        "local_auto_assignment": settings.local_family == ctx.family.slug,
         "tutor": {"configured": llm.configured(), "model": spec.label, "effort": effort,
                   **tutor.month_usage(db, ctx.family_id, day),
                   "budget_usd": (ctx.family.settings or {}).get("ai_monthly_budget_usd")},

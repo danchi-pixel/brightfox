@@ -17,6 +17,7 @@ import { qk, ucApi, useLearnerHome, type OralSession, type Verdict } from "../le
 import { LangContext, useT, type Key } from "../learning/i18n";
 import { CAN_SPEAK, speak } from "../learning/speech";
 import { FullScreen, FoxAvatar, RichText } from "../learning/ui";
+import { subjectHomePath } from "../learning/english";
 
 const VERDICT_STYLE: Record<Verdict, string> = {
   right: "border-success/40 bg-success/10 text-success",
@@ -49,7 +50,7 @@ function Oral() {
   const [verdicts, setVerdicts] = useState<Verdict[]>([]);
   const topic = home.data?.topics.find((x) => x.id === tid);
   const english = topic?.subject === "english";
-  const back = () => navigate(`/l/${lid}`);
+  const back = () => navigate(subjectHomePath(lid, home.data?.topics.find(t => t.id === tid)?.subject));
   const q = session?.questions[index];
 
   // Foxy asks each new question aloud.

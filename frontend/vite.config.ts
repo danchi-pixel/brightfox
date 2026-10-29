@@ -1,5 +1,6 @@
 /// <reference types="vitest/config" />
 import path from "node:path";
+import { createHash } from "node:crypto";
 import tailwindcss from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
@@ -9,13 +10,23 @@ import { defineConfig } from "vite";
 // instead of silently moving to another port.
 const API_TARGET = process.env.UCILNICA_API_URL ?? "http://127.0.0.1:7687";
 const HOST = process.env.UCILNICA_HOST ?? "127.0.0.1";
+const workspaceId = createHash("sha256").update(path.resolve(__dirname, "..").toLowerCase()).digest("hex").slice(0, 16);
 
 const proxy = {
   "/api": { target: API_TARGET, changeOrigin: true },
 };
 
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  plugins: [react(), tailwindcss(), {
+    name: "brightfox-local-identity",
+    configureServer(server) {
+      server.middlewares.use("/__brightfox_local", (_req, res) => {
+        res.setHeader("Content-Type", "application/json");
+        res.setHeader("Cache-Control", "no-store");
+        res.end(JSON.stringify({ workspace_id: workspaceId, mode: "development" }));
+      });
+    },
+  }],
   resolve: {
     alias: { "@": path.resolve(__dirname, "src") },
   },
@@ -36,6 +47,6 @@ export default defineConfig({
   },
   test: {
     environment: "node",
-    include: ["src/**/*.test.ts"],
+    include: ["src/**/*.test.{ts,tsx}"],
   },
 });

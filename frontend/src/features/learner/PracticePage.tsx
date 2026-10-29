@@ -3,7 +3,7 @@
  * a parent gets a preview (from the studio, any topic; or looking at a learner's space) that is never saved.
  */
 import { useQueryClient } from "@tanstack/react-query";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { useNavigate, useSearchParams } from "react-router";
 import { toast } from "sonner";
 import { Feedback } from "@/components/kid";
@@ -12,6 +12,7 @@ import { errorMessage } from "@/lib/api";
 import { qk, ucApi, type TaskResult } from "../learning/api";
 import { LangContext, useT } from "../learning/i18n";
 import { FullScreen } from "../learning/ui";
+import { FoxyHelp } from "../tutor/FoxyHelp";
 import { PracticePlayer } from "./PracticePlayer";
 import { useTopicScreen } from "./useTopic";
 
@@ -26,6 +27,7 @@ export default function PracticePage() {
 
 function Practice({ s }: { s: ReturnType<typeof useTopicScreen> }) {
   const [params] = useSearchParams();
+  const [foxyTask, setFoxyTask] = useState<string | null>(null);
   const challenge = params.get("challenge") === "1";
   // ?skill=<id> (from the test plan): only that skill's tasks, if the topic marks skills.
   const skill = params.get("skill");
@@ -68,10 +70,11 @@ function Practice({ s }: { s: ReturnType<typeof useTopicScreen> }) {
             onRunFinished={(r) => save(r, true)}
             onPartial={(r) => save(r, false)}
             onExit={back}
-            onAskFoxy={owl ? (taskId) => navigate(`/l/${s.lid}/chat/new?topic=${s.tid}&task=${taskId}`) : undefined}
+            onAskFoxy={owl ? setFoxyTask : undefined}
           />
         </>
       )}
+      {foxyTask !== null && <FoxyHelp lid={s.lid} topicId={s.tid} taskId={foxyTask} onClose={() => setFoxyTask(null)} />}
     </FullScreen>
   );
 }

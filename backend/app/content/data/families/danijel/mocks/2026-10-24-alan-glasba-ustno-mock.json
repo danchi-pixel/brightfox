@@ -1,0 +1,104 @@
+{
+  "id": "2026-10-24-alan-glasba-ustno-mock",
+  "version": 1,
+  "subject": "other",
+  "grade": 4,
+  "title": "Poskusni test: Glasba – ustno ocenjevanje",
+  "intro": "Vzemi zvezek in svinčnik. Odgovarjaj na glas s svojimi besedami, brez zapiskov; starš naj posluša in na kratko zabeleži odgovore. Imaš približno 20 minut. Na koncu skupaj primerjajta odgovore z rešitvami: Znam izberi, ko odgovor vsebuje vse zahtevane ideje, sicer Še ne. Vsaka naloga šteje eno točko. Točke kažejo, kaj še vaditi; petje preveri s staršem.",
+  "source": "Izvirna ustna vaja po Alanovi temi Glasbena umetnost in njenih 12 točkah z lista za 4. razred. Dodani sta ploskanje in petje. Datum, pesmi in učiteljeva ocenjevalna lestvica niso znani. Točke so samo za domačo vajo; prikazana ocena ni napoved šolske ocene.",
+  "for": ["Alan"],
+  "minutes": 20,
+  "topics": ["2026-10-21-alan-glasbena-umetnost"],
+  "sections": [
+    {
+      "title": "A. Od kod prihaja glasba in kdo jo izvaja?",
+      "tasks": [
+        {
+          "id": "m-ljudska", "topic": "2026-10-21-alan-glasbena-umetnost", "skill": "izvor", "points": 1, "kind": "open",
+          "prompt": "Povej dve značilnosti ljudske glasbe: kaj vemo o njenem prvotnem skladatelju in kako se ohranja med ljudmi?",
+          "solution": "Prvotni skladatelj ljudske glasbe ni znan. Ljudje jo prenašajo iz roda v rod. Za Znam povej obe značilnosti; besedilo je lahko drugačno."
+        },
+        {
+          "id": "m-umetna", "topic": "2026-10-21-alan-glasbena-umetnost", "skill": "izvor", "points": 1, "kind": "open",
+          "prompt": "Kaj pomeni umetna glasba? Ali je lahko zelo stara skladba umetna? Razloži.",
+          "solution": "Pri umetni glasbi poznamo skladatelja. Tudi zelo stara skladba je lahko umetna, če poznamo njenega avtorja. Za Znam omeni znanega skladatelja in pojasni, da starost ni odločilna."
+        },
+        {
+          "id": "m-instrumentalna", "topic": "2026-10-21-alan-glasbena-umetnost", "skill": "izvajanje", "points": 1, "kind": "open",
+          "prompt": "Na nastopu zvenita flavta in klavir, nihče ne poje. Poimenuj vrsto izvedbe in razloži, kaj pomeni.",
+          "solution": "To je inštrumentalna glasba: izvajajo jo glasbila, brez petja. Za Znam povej ime in razlago."
+        },
+        {
+          "id": "m-vokalna", "topic": "2026-10-21-alan-glasbena-umetnost", "skill": "izvajanje", "points": 1, "kind": "open",
+          "prompt": "Pevski zbor poje brez glasbil. Kako imenujemo tako izvedbo? Kaj pomeni beseda vokal?",
+          "solution": "Izvedba je vokalna. Vokal pomeni pevski glas. Za Znam povej oba odgovora."
+        },
+        {
+          "id": "m-vokalno-instrumentalna", "topic": "2026-10-21-alan-glasbena-umetnost", "skill": "izvajanje", "points": 1, "kind": "open",
+          "prompt": "Pevka poje, ob njej nekdo igra kitaro. Kako imenujemo to vrsto izvedbe in kaj pri njej zveni skupaj?",
+          "solution": "To je vokalno-inštrumentalna glasba. Skupaj zvenijo pevski glas in glasbila. Za Znam povej ime in obe vrsti zvoka."
+        }
+      ]
+    },
+    {
+      "title": "B. Glasbene družine, oprekel, melodija in bordun",
+      "tasks": [
+        {
+          "id": "m-druzine", "topic": "2026-10-21-alan-glasbena-umetnost", "skill": "druzine", "points": 1, "kind": "open",
+          "prompt": "Naštej tri glasbene družine, ki jih obravnava tvoj list za ustno ocenjevanje.",
+          "solution": "Volk, Feguš in Bach. Za Znam naštej vse tri; vrstni red ni pomemben."
+        },
+        {
+          "id": "m-oprekel", "topic": "2026-10-21-alan-glasbena-umetnost", "skill": "oprekel", "points": 1, "kind": "open",
+          "prompt": "Predstavi oprekel nekomu, ki ga ne pozna: od kod prihaja, iz česa je sestavljen in kako igramo nanj? Z rokama pokaži način igranja.",
+          "solution": "Oprekel je ljudsko glasbilo alpskih dežel. Ima lesen obod z napetimi strunami. Po strunah udarjamo z dvema lesenima kladivcema. Za Znam povej izvor, obod in strune ter način igranja z obema kladivcema."
+        },
+        {
+          "id": "m-melodija", "topic": "2026-10-21-alan-glasbena-umetnost", "skill": "visina", "points": 1, "kind": "open",
+          "prompt": "Kako se v primerjavi na tvojem listu gibljejo tonske višine v melodiji? Ali višji ton nujno pomeni glasnejši ton?",
+          "solution": "Melodija povezuje tone različnih tonskih višin; kak ton se lahko tudi ponovi. Višji ton ni nujno glasnejši: tonska višina in glasnost sta različni lastnosti. Za Znam opiši različne višine in jih loči od glasnosti."
+        },
+        {
+          "id": "m-bordun", "topic": "2026-10-21-alan-glasbena-umetnost", "skill": "visina", "points": 1, "kind": "open",
+          "prompt": "Kaj je bordun? Povej, kaj se dogaja s tonskimi višinami v tej spremljavi.",
+          "solution": "Bordun je spremljava, ki vztraja na isti tonski višini oziroma istih tonskih višinah. Toni lahko dolgo zvenijo ali se ponavljajo. Za Znam omeni spremljavo in vztrajanje na istih višinah."
+        }
+      ]
+    },
+    {
+      "title": "C. Nariši note in pokaži ritem",
+      "tasks": [
+        {
+          "id": "m-cetrtinka", "topic": "2026-10-21-alan-glasbena-umetnost", "skill": "note", "points": 1, "kind": "open",
+          "prompt": "V zvezek nariši četrtinko, poimenuj njene dele in povej, koliko dob traja v teh šolskih vajah.",
+          "solution": "Četrtinka ima polno glavico in vrat, brez zastavice. V teh vajah traja eno dobo. Za Znam preveri risbo, poimenuj glavico in vrat ter povej trajanje."
+        },
+        {
+          "id": "m-osminka", "topic": "2026-10-21-alan-glasbena-umetnost", "skill": "note", "points": 1, "kind": "open",
+          "prompt": "Nariši eno samostojno osminko. Poimenuj njene dele, povej njeno trajanje in koliko osmink skupaj traja eno dobo v teh vajah.",
+          "solution": "Samostojna osminka ima polno glavico, vrat in eno zastavico. Traja pol dobe; dve osminki skupaj trajata eno dobo. Za Znam preveri vse tri dele na risbi ter povej oba podatka o trajanju."
+        },
+        {
+          "id": "m-ritem", "topic": "2026-10-21-alan-glasbena-umetnost", "skill": "note", "points": 1, "kind": "open",
+          "prompt": "Starš naj enakomerno šteje štiri dobe. Odploskaj: dve osminki | četrtinka | četrtinka | dve osminki. Nato povej, koliko je dob in koliko ploskov.",
+          "solution": "Ritem je TA-TE | TA | TA | TA-TE: štiri enakomerne dobe in šest ploskov. V prvi in četrti dobi sta po dva enakomerno razporejena ploska. Za Znam ohrani enakomeren utrip, pravilno razporedi ploske ter povej štiri dobe in šest ploskov."
+        }
+      ]
+    },
+    {
+      "title": "D. Petje in razmislek",
+      "tasks": [
+        {
+          "id": "m-merila-petja", "topic": "2026-10-21-alan-glasbena-umetnost", "skill": "petje", "points": 1, "kind": "open",
+          "prompt": "Povej štiri stvari, ki jih spremljaš pri svojem petju. Uporabi merila iz teme Glasbena umetnost.",
+          "solution": "Pri petju opazujem melodijo oziroma tonske višine, ritem, jasno besedilo in dihanje. Za Znam naštej vse štiri; ni treba uporabiti enakih povedi."
+        },
+        {
+          "id": "m-zapoj", "topic": "2026-10-21-alan-glasbena-umetnost", "skill": "petje", "points": 1, "kind": "open",
+          "prompt": "S staršem izberi pesem, ki jo pojete pri glasbi, in zapoj eno kitico. Nato povej eno konkretno stvar, ki gre pri petju dobro, in eno, ki jo želiš še vaditi.",
+          "solution": "Primer razmisleka: »Besedilo izgovarjam jasno. Na koncu kitice še vadim mirno dihanje.« Velja tudi drug konkreten razmislek o melodiji, ritmu, besedilu ali dihanju. Znam pomeni, da zapoješ kitico in poveš eno dobro stvar ter eno za vajo. Ta točka je za izvedbo vaje in razmislek, ne za kakovost petja. Pesem in učiteljeva merila preverita v zvezku."
+        }
+      ]
+    }
+  ]
+}

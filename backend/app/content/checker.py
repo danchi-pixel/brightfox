@@ -334,7 +334,14 @@ def _check_oral(c: _Checker, items: list[dict], w: str, skills: set[str], seen: 
 
 def check_topic(c: _Checker, s: dict, w: str) -> None:
     c.only(s, {"id", "version", "format", "subject", "grade", "title", "intro", "source", "for", "skills", "learn",
-               "study", "tasks", "challenge", "parent", "oral", "terms"}, w)
+               "study", "tasks", "challenge", "parent", "oral", "terms", "lab"}, w)
+    if "lab" in s:
+        from .lab import Lab
+        from pydantic import ValidationError
+        try:
+            Lab.model_validate(s["lab"])
+        except ValidationError as exc:
+            c.bad(w, f"invalid learning bank: {exc}")
     if s.get("format", 1) not in (1, 2):
         c.bad(w, "\"format\" must be 1 or 2")
     skills: set[str] = set()
@@ -431,7 +438,7 @@ def check_topic(c: _Checker, s: dict, w: str) -> None:
         _check_oral(c, c.objects(s, "oral", w, 1, 20), w, skills, set())
 
     # Kid-facing Slovene addresses the child without gendered forms.
-    kid_parts = {k: s[k] for k in ("intro", "learn", "study", "tasks", "challenge", "oral") if k in s}
+    kid_parts = {k: s[k] for k in ("intro", "learn", "study", "tasks", "challenge", "oral", "lab") if k in s}
     for text in _kid_texts(kid_parts):
         if m := _GENDERED_YOU.search(text):
             c.bad(w, f"gendered \"you\" ({m.group(0)!r}): use the imperative or present tense instead")

@@ -13,6 +13,32 @@ type Section = { id: string; icon: string; title: Record<L, string>; body: Recor
 /* A string is a paragraph; a string[] is a bullet list. **bold** works inside both. */
 const SECTIONS: Section[] = [
   {
+    id: "english-collection", icon: "💬",
+    title: { sl: "Angleščina na enem mestu", en: "English in one place" },
+    body: {
+      sl: ["V učilnici odprite **Angleščina**. Tu so skupaj vse dostopne angleške teme, njihove razlage, kartice, vaje, Liga prvakov, ustno spraševanje in poskusni testi. Datumi šolskih testov in načrti so pod **Testi in priprava**; dosedanji napredek pod **Moj napredek**.", "Gre za ureditev obstoječih gradiv. Vprašanja, točkovanje, odobritve in napredek ostanejo isti. Nove teme in testi iz angleščine se vključijo samodejno, ko so otroku dostopni. Izhod iz angleške vaje ali testa se vrne v Angleščino."],
+      en: ["Open **Angleščina** in the classroom for all accessible English lessons, notes, flashcards, practice, Champions League, oral practice and mocks. Scheduled school tests and plans appear under **Testi in priprava**, and existing progress under **Moj napredek**.", "This organizes existing materials without changing questions, scoring, approvals or progress. Newly accessible English topics and tests join automatically. Leaving an English lesson or test returns to the collection."],
+    },
+  },
+  {
+    id: "science-bank",
+    icon: "🌿",
+    title: { sl: "Erikovo naravoslovje", en: "Erik's science practice" },
+    body: {
+      sl: ["V Erikovi učilnici odprite **Erikovo naravoslovje**. Zbirka povezuje razlage po temah, kvize, izvorne slike, kartice in ustno vajo. **Poskusno ustno ocenjevanje** sestavi 5–10 vprašanj; ne daje uradne šolske ocene.", "Otrok naj najprej odgovori na glas ali zapiše misel, nato razkrije primer odgovora in pomembne točke. **Znam / Še vadim / Ne znam še** so samoocene. Ni snemanja, prepoznavanja govora ali klica AI. Besedilni osnutek se ne shranjuje; napredek in nadaljevanje vaje se shranita v račun. Kartice dajejo prednost šibkejšim odgovorom in uporabljajo razmake ponavljanja do 30 dni.", "**Viri in opombe** pokažejo pokritost snovi, fotografije in nejasnosti za pregled. Izvorne slike so zasebne datoteke, dostopne samo prek odobrene teme. Ob prenosu na drug računalnik ali strežnik je treba prenesti tudi te datoteke. Starševski predogled ne spreminja otrokovega napredka. Napredek zbirke je prikazan znotraj zbirke in se ne prišteva pripravljenosti drugih testov."],
+      en: ["Open **Erikovo naravoslovje** in Erik's classroom for topic notes, quizzes, source pictures, flashcards and oral rehearsal. Mock oral sessions draw 5–10 questions and never assign an official school grade.", "The learner attempts an answer before revealing a model answer and key-point checklist. Recall ratings are self-assessments. There is no microphone recording, speech recognition or AI call. Typed drafts are not stored; progress and session continuation are saved to the account. Flashcards prioritize weaker recall and space reviews up to 30 days apart.", "**Viri in opombe** contains the coverage matrix and source ambiguities. Source pictures require authorized topic access and must also be transferred when moving the installation. Parent previews never save learner progress. Bank progress is separate from the readiness calculations for other tests."],
+    },
+  },
+  {
+    id: "localhost",
+    icon: "💻",
+    title: { sl: "Lokalna učilnica", en: "Local classroom" },
+    body: {
+      sl: ["Na tem računalniku **start.bat** odpre najnovejšo kodo na **http://localhost:7686**. Alan in Erik imata svoja profila. Nove veljavne teme in poskusni testi se ob osvežitvi samodejno prikažejo otroku, za katerega so napisani. Napredek ostane shranjen.", "Lokalno samodejno dodeljevanje velja samo za izrecno vključeni lokalni način. Na objavljeni strani brightfox.si še vedno veljajo odobritve vsake različice. Starševski ogled ostaja predogled; za shranjevanje vaj otrok uporablja svojo prijavo, geslo pa določi oseba sama."],
+      en: ["On this computer, **start.bat** opens the current source at **http://localhost:7686**. Alan and Erik have separate profiles. Valid new topics and mock tests appear for their assigned child on refresh. Saved progress is preserved.", "Automatic assignment is limited to the explicitly enabled local mode. The published brightfox.si site still requires approval of each version. A parent's classroom view remains a preview; saving practice requires the child's own account, with a password set by a person."],
+    },
+  },
+  {
     id: "what",
     icon: "🦊",
     title: { sl: "Kaj je BrightFox", en: "What BrightFox is" },
@@ -131,10 +157,12 @@ const SECTIONS: Section[] = [
     title: { sl: "Poskusni test in ustno spraševanje", en: "Mock test and oral exam" },
     body: {
       sl: [
+          "Dostopni poskusni testi so tudi pod pripadajočimi temami na otrokovi začetni strani, v razdelku **Teme**.",
         "**Poskusni test** je kot pravi: časovna omejitev, brez namigov, točke, rešitve na koncu. Najbolje nastane iz fotografije starega testa (oblika naloge, točkovanje). Odobrite ga na strani Topics (spodaj, »Mock tests«). Otrok vidi točke in kaj ponoviti, **oceno vidite samo starši**.",
         "**Ustno spraševanje**: Foxy prebere vprašanje na glas (glas brskalnika, nič se ne snema), otrok odgovor napiše, Foxy pove »pravilno / skoraj / še ne« in kaj dodati. Vsak preverjen odgovor šteje kot eno vprašanje Foxyju za ta dan. Na strani Tests and gaps vidite, kaj je otrok odgovarjal.",
       ],
       en: [
+          "Available mock tests also appear under their linked topics in the **Topics** section of the kid's home page.",
         "A **mock test** is like the real one: a time limit, no hints, points, solutions at the end. It's best made from a photo of an old test (task types, points). Approve it on Topics (bottom, \"Mock tests\"). The kid sees points and what to repeat; **only parents see the grade estimate**.",
         "**Oral exam**: Foxy reads the question aloud (the browser's voice; nothing is recorded), the kid types the answer, Foxy says \"right / almost / not yet\" and what to add. Each checked answer counts as one Foxy question for the day. You see the answers on Tests and gaps.",
       ],

@@ -6,6 +6,7 @@ data without touching code. By default all data lives in ``<project>/data``.
 from __future__ import annotations
 
 import os
+import hashlib
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -14,6 +15,7 @@ PROJECT_DIR = BACKEND_DIR.parent
 
 APP_NAME = "BrightFox"
 APP_VERSION = "0.1.0"
+WORKSPACE_ID = hashlib.sha256(str(PROJECT_DIR.resolve()).casefold().encode()).hexdigest()[:16]
 
 
 @dataclass
@@ -26,6 +28,7 @@ class Settings:
     session_days: int = 30
     behind_proxy: bool = False  # trust X-Forwarded-* from the reverse proxy (Caddy)
     static_dir: Path | None = None  # serve the built web app from here (single-container deployment)
+    local_family: str | None = None  # explicit local launcher only; production keeps version approvals
 
     @property
     def db_path(self) -> Path:
@@ -62,6 +65,9 @@ def load_settings() -> Settings:
     s.session_days = int(os.environ.get("UCILNICA_SESSION_DAYS", s.session_days))
     static = os.environ.get("UCILNICA_STATIC_DIR")
     s.static_dir = Path(static).resolve() if static else None
+    s.local_family = os.environ.get("UCILNICA_LOCAL_FAMILY") or None
+    if s.local_family and (s.host not in ("127.0.0.1", "localhost", "::1") or s.behind_proxy or s.cookie_secure or s.static_dir):
+        raise ValueError("Automatic local assignment requires a loopback development server, without a proxy or static build.")
     return s
 
 

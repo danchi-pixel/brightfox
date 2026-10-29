@@ -13,6 +13,8 @@ import LearnPage from "@/features/learner/LearnPage";
 import MockPage from "@/features/learner/MockPage";
 import OralPage from "@/features/learner/OralPage";
 import PracticePage from "@/features/learner/PracticePage";
+import SciencePage from "@/features/science/SciencePage";
+import EnglishPage from "@/features/learner/EnglishPage";
 import FamilyPage from "@/features/parent/FamilyPage";
 import OverviewPage from "@/features/parent/OverviewPage";
 import FoxyPage from "@/features/parent/FoxyPage";
@@ -56,6 +58,8 @@ const router = createBrowserRouter([
     ],
   },
   // Full-screen pages: one thing at a time.
+  { path: "/l/:lid/english", element: <EnglishPage /> },
+  { path: "/l/:lid/science/:tid", element: <SciencePage /> },
   { path: "/l/:lid/learn/:tid", element: <LearnPage /> },
   { path: "/l/:lid/practice/:tid", element: <PracticePage /> },
   { path: "/l/:lid/chat/:cid", element: <ChatPage /> },

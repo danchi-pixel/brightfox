@@ -21,7 +21,7 @@ from .content.checker import ContentError
 from .content.registry import get_content
 from .migrate import run_migrations
 from .routers import auth as auth_router
-from .routers import exams, family, learner, mocks, oral, studio, system, tutor
+from .routers import exams, family, learner, mocks, oral, studio, system, tutor, lab
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 log = logging.getLogger("ucilnica")
@@ -68,7 +68,7 @@ async def unhandled(_request: Request, exc: Exception):  # pragma: no cover - de
 
 
 for r in (system.router, auth_router.router, family.router, studio.router, learner.router, tutor.router, exams.router,
-          mocks.studio, mocks.learner, oral.router):
+          mocks.studio, mocks.learner, oral.router, lab.router):
     app.include_router(r)
 
 
