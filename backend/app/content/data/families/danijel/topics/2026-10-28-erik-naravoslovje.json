@@ -1,6 +1,6 @@
 {
   "id": "2026-10-28-erik-naravoslovje",
-  "version": 4,
+  "version": 5,
   "format": 2,
   "subject": "science",
   "grade": 6,
@@ -269,7 +269,8 @@
         "rotate": 0,
         "width": 1200,
         "height": 1600,
-        "review": "Ročne meritve v tabeli niso dovolj jasne za preverjanje številčnih odgovorov. Vadimo smer prenosa toplote."
+        "review": "Ročne meritve v tabeli niso dovolj jasne za preverjanje številčnih odgovorov. Vadimo smer prenosa toplote.",
+        "group": "notebook"
       },
       {
         "id": "p02",
@@ -278,7 +279,8 @@
         "rotate": -90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "notebook"
       },
       {
         "id": "p03",
@@ -287,7 +289,8 @@
         "rotate": 0,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "notebook"
       },
       {
         "id": "p04",
@@ -296,7 +299,8 @@
         "rotate": 0,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "notebook"
       },
       {
         "id": "p05",
@@ -305,7 +309,8 @@
         "rotate": 0,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "notebook"
       },
       {
         "id": "p06",
@@ -314,7 +319,8 @@
         "rotate": -90,
         "width": 1600,
         "height": 1200,
-        "review": ""
+        "review": "",
+        "group": "notebook"
       },
       {
         "id": "p07",
@@ -323,7 +329,8 @@
         "rotate": -90,
         "width": 1600,
         "height": 1200,
-        "review": ""
+        "review": "",
+        "group": "notebook"
       },
       {
         "id": "p08",
@@ -332,7 +339,8 @@
         "rotate": -90,
         "width": 1600,
         "height": 1200,
-        "review": "Desni rob višinskega diagrama je odrezan. Ne preverjamo odrezanih temperatur."
+        "review": "Desni rob višinskega diagrama je odrezan. Ne preverjamo odrezanih temperatur.",
+        "group": "notebook"
       },
       {
         "id": "p09",
@@ -341,7 +349,8 @@
         "rotate": -90,
         "width": 1600,
         "height": 1200,
-        "review": ""
+        "review": "",
+        "group": "notebook"
       },
       {
         "id": "p10",
@@ -350,7 +359,8 @@
         "rotate": -90,
         "width": 1600,
         "height": 1200,
-        "review": "Tabela ima neskladni enoti za padavine in osvetljenost. Za padavine uporabimo mm oziroma L/m² iz lista o padavinah; osvetljenost vadimo z merilnikom, brez sporne enote. Odčitka termometrov nista dovolj jasna."
+        "review": "Tabela ima neskladni enoti za padavine in osvetljenost. Za padavine uporabimo mm oziroma L/m² iz lista o padavinah; osvetljenost vadimo z merilnikom, brez sporne enote. Odčitka termometrov nista dovolj jasna.",
+        "group": "notebook"
       },
       {
         "id": "p11",
@@ -359,7 +369,8 @@
         "rotate": -90,
         "width": 1600,
         "height": 1200,
-        "review": ""
+        "review": "",
+        "group": "notebook"
       },
       {
         "id": "p12",
@@ -368,7 +379,8 @@
         "rotate": -90,
         "width": 1600,
         "height": 1200,
-        "review": "Časovni trak in list o razvoju življenja uporabljata različne datume za človeka. Vadimo zaporedje, ne enega točnega datuma."
+        "review": "Časovni trak in list o razvoju življenja uporabljata različne datume za človeka. Vadimo zaporedje, ne enega točnega datuma.",
+        "group": "notebook"
       },
       {
         "id": "p13",
@@ -377,7 +389,8 @@
         "rotate": -90,
         "width": 1600,
         "height": 1200,
-        "review": "Zgornja ilustracija ob amonitu je podobna današnjemu glavonožcu. Naloga prepoznavanja uporablja fotografijo fosila pod njo."
+        "review": "Zgornja ilustracija ob amonitu je podobna današnjemu glavonožcu. Naloga prepoznavanja uporablja fotografijo fosila pod njo.",
+        "group": "notebook"
       },
       {
         "id": "p14",
@@ -386,7 +399,8 @@
         "rotate": 0,
         "width": 1200,
         "height": 1600,
-        "review": "List ponovi več kot 90 % izumrtja pri dveh različnih dogodkih in vsebuje napačen ročni vpis pri 66 milijonih let. Ti deleži niso uporabljeni. Starost Zemlje je v gradivu zaokrožena na 4,5 oziroma 4,6 milijarde let."
+        "review": "List ponovi več kot 90 % izumrtja pri dveh različnih dogodkih in vsebuje napačen ročni vpis pri 66 milijonih let. Ti deleži niso uporabljeni. Starost Zemlje je v gradivu zaokrožena na 4,5 oziroma 4,6 milijarde let.",
+        "group": "notebook"
       },
       {
         "id": "p15",
@@ -395,7 +409,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p16",
@@ -404,7 +419,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p17",
@@ -413,7 +429,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p18",
@@ -422,7 +439,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p19",
@@ -431,7 +449,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": "Časovno odvisne deleže proizvodnje elektrike v Sloveniji iz starega učbenika izpustimo."
+        "review": "Časovno odvisne deleže proizvodnje elektrike v Sloveniji iz starega učbenika izpustimo.",
+        "group": "textbook"
       },
       {
         "id": "p20",
@@ -440,7 +459,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p21",
@@ -449,7 +469,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p22",
@@ -458,7 +479,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p23",
@@ -467,7 +489,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p24",
@@ -476,7 +499,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p25",
@@ -485,7 +509,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p26",
@@ -494,7 +519,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p27",
@@ -503,7 +529,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p28",
@@ -512,7 +539,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p29",
@@ -521,7 +549,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p30",
@@ -530,7 +559,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": "Risba označi ozračje do 50 km; tega ne obravnavamo kot zgornjo mejo celotnega ozračja."
+        "review": "Risba označi ozračje do 50 km; tega ne obravnavamo kot zgornjo mejo celotnega ozračja.",
+        "group": "textbook"
       },
       {
         "id": "p31",
@@ -539,7 +569,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p32",
@@ -548,7 +579,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": "Navodila za prvo pomoč niso vključena v učne odgovore; ta del naj z otrokom obravnava odrasla oseba. Vadimo prepoznavanje nevarnosti in obvestilo odrasli osebi."
+        "review": "Navodila za prvo pomoč niso vključena v učne odgovore; ta del naj z otrokom obravnava odrasla oseba. Vadimo prepoznavanje nevarnosti in obvestilo odrasli osebi.",
+        "group": "textbook"
       },
       {
         "id": "p33",
@@ -557,7 +589,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p34",
@@ -566,7 +599,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p35",
@@ -575,7 +609,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": "Shema stekla navaja samo nad 100 °C, kar ni uporabna temperatura za izdelavo stekla. Vprašanja preverjajo surovine in zaporedje, ne temperature."
+        "review": "Shema stekla navaja samo nad 100 °C, kar ni uporabna temperatura za izdelavo stekla. Vprašanja preverjajo surovine in zaporedje, ne temperature.",
+        "group": "textbook"
       },
       {
         "id": "p36",
@@ -584,7 +619,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p37",
@@ -593,7 +629,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       },
       {
         "id": "p38",
@@ -602,7 +639,8 @@
         "rotate": 90,
         "width": 1200,
         "height": 1600,
-        "review": ""
+        "review": "",
+        "group": "textbook"
       }
     ],
     "lessons": [
@@ -3330,6 +3368,47 @@
       "Gradivo vsebuje tudi izbirna znanja; ker obseg ustnega spraševanja ni posebej označen, so vključena v ponavljanje.",
       "Vprašanja ne preverjajo nejasnih ročnih meritev, spornih datumov, zastarelih energetskih deležev ali nejasnih enot. Opombe so navedene pri posameznih virih.",
       "Ustna vaja temelji na samooceni in ne potrebuje mikrofona ali zunanje storitve."
-    ]
+    ],
+    "legacy": {
+      "tasks": {
+        "uvod-1": "material-izbira",
+        "uvod-2": "stanja",
+        "uvod-3": "viri",
+        "uvod-4": "znaki",
+        "uvod-5": "sonce-planet",
+        "uvod-6": "fosil-kaj",
+        "uvod-7": "tri-kamnine",
+        "uvod-8": "prst-nastanek",
+        "uvod-9": "akvarij",
+        "uvod-10": "merilniki",
+        "uvod-11": "sonce-zivljenje",
+        "uvod-12": "tokovi",
+        "uvod-13": "toplota-temperatura"
+      },
+      "cards": {
+        "prevajanje toplote": "material-izbira",
+        "ne vse kovine": "magnet",
+        "sladkor se raztopi": "topnost",
+        "železo in ogljik": "jeklo",
+        "ista snov": "stanja",
+        "gibanje delcev": "barvilo",
+        "delci snovi v zraku": "vonj",
+        "tekočina teče": "oblika"
+      },
+      "sections": {
+        "Snovi okoli nas": "materiali",
+        "Majhni delci, velike razlike": "delci",
+        "Od surovine do predmeta": "surovine",
+        "Znaki, ki nas varujejo": "varnost",
+        "Od Sonca do Zemlje": "vesolje",
+        "Sledi davnega življenja": "fosili",
+        "Kamninski detektivi": "kamnine",
+        "Življenje pod nogami": "prst",
+        "Organizmi in njihovo okolje": "okolje",
+        "Vreme pod povečevalom": "vreme",
+        "Sonce in drugi viri energije": "energija",
+        "Tokovi in elektrarne": "elektrika"
+      }
+    }
   }
 }

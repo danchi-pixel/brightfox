@@ -254,3 +254,13 @@ worth another look and can practise just those. Parents see each child's latest 
 ("How the kids did": right first time, the tasks that needed help with **what was typed**), and per
 task how often it was right first time, the hints used and when the solution was needed. Use those
 typed mistakes when writing the next set.
+# Source groups in learning banks
+
+Each `lab.sources` entry may specify `group: "notebook" | "textbook" | "review"`.
+Missing classifications and questions citing multiple groups are held for review.
+Notebook questions are active by default; textbook questions require a parent activation
+for their `topic` (lesson ID) and learner. `lab.legacy` links existing ordinary `tasks`
+(task ID → question ID), study `cards` (back text → question ID), and `sections`
+(title → lesson ID), so older practice URLs obey the same policy. Unmapped legacy
+practice items remain inactive. These are organization fields; keep all original IDs.
+See [science source groups](science-source-groups.md) for behavior and parent controls.

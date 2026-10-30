@@ -21,6 +21,7 @@ from ..db import get_db
 from ..learning import gaps as gp
 from ..learning import plan as pl
 from ..learning import service as ls
+from ..learning.lab_scope import practice_topic
 from ..learning.mastery import WHOLE, SkillMastery, is_good, readiness
 from ..learning.progress import challenge_state
 from ..models import Exam, ExamScope, PracticeRun, ReviewItem, TaskResult, TopicProgress
@@ -34,7 +35,7 @@ router = APIRouter(prefix="/api/learners/{lid}", tags=["exams"])
 
 def _visible(db: Session, ctx: LearnerCtx) -> dict[str, dict[str, Any]]:
     c = content()
-    return {i: c.topics[i] for i in visible_topics(db, c, ctx)}
+    return {i: practice_topic(db, ctx, c.topics[i]) for i in visible_topics(db, c, ctx)}
 
 
 def _scope_skills(exam: Exam, mastery: dict[str, list[SkillMastery]]) -> list[tuple[str, SkillMastery]]:
@@ -187,7 +188,7 @@ def exam_detail(eid: int, today: str | None = None, db: Session = Depends(get_db
                                     practice["done"] / practice["total"] if practice["total"] else 1.0,
                                     bool(t.get("study")), cards_left, bool(t.get("challenge")), bool(ch.get("cleared"))))
     in_scope = {sc.topic_id for sc in exam.scope}
-    due = ls.due_items(db, ctx.learner.id, day, in_scope if (exam.exam_date - day).days <= 3 else set())
+    due = ls.due_items(db, ctx.learner.id, day, in_scope if (exam.exam_date - day).days <= 3 else set(), topics)
     # A mock test approved for this learner that covers the test's topics goes on the second-to-last study day.
     c = content()
     mock = next((c.mocks[i] for i in visible_mocks(db, c, ctx) if set(c.mocks[i]["topics"]) & in_scope), None)
@@ -216,9 +217,9 @@ def gaps(today: str | None = None, db: Session = Depends(get_db), ctx: LearnerCt
     wrong = ls.wrong_by_task(db, ctx.learner.id)
     inputs = [gp.TopicInput(t, m[tid], results.get(tid, []), wrong.get(tid, {}), (prog[tid].known if tid in prog else []) or [],
                             (prog[tid].goals if tid in prog else []) or [], nearest.get(tid)) for tid, t in topics.items()]
-    overdue = db.scalar(select(func.count(ReviewItem.id)).where(ReviewItem.learner_id == ctx.learner.id,
-                                                                 ReviewItem.cleared_at.is_(None),
-                                                                 ReviewItem.due_date < day - timedelta(days=3))) or 0
+    overdue = sum(1 for item in db.scalars(select(ReviewItem).where(ReviewItem.learner_id == ctx.learner.id,
+        ReviewItem.cleared_at.is_(None), ReviewItem.due_date < day - timedelta(days=3)))
+        if _task(topics, item.topic_id, item.item_id))
     return {"gaps": gp.find_gaps(inputs, overdue, day)}
 
 
@@ -236,8 +237,9 @@ def review(today: str | None = None, db: Session = Depends(get_db), ctx: Learner
     day = local_today(ctx.family.timezone, today)
     topics = _visible(db, ctx)
     soon = {sc.topic_id for e in ls.upcoming_exams(db, ctx.learner.id, day) if (e.exam_date - day).days <= 3 for sc in e.scope}
-    items = [i for i in ls.due_items(db, ctx.learner.id, day, soon) if _task(topics, i.topic_id, i.item_id)]
-    open_count = db.scalar(select(func.count(ReviewItem.id)).where(ReviewItem.learner_id == ctx.learner.id, ReviewItem.cleared_at.is_(None))) or 0
+    items = ls.due_items(db, ctx.learner.id, day, soon, topics)
+    open_count = sum(1 for item in db.scalars(select(ReviewItem).where(ReviewItem.learner_id == ctx.learner.id,
+        ReviewItem.cleared_at.is_(None))) if _task(topics, item.topic_id, item.item_id))
     cleared = db.scalar(select(func.count(ReviewItem.id)).where(ReviewItem.learner_id == ctx.learner.id, ReviewItem.cleared_at.is_not(None))) or 0
     return {"items": [{"id": i.id, "topic_id": i.topic_id, "topic_title": topics[i.topic_id]["title"], "box": i.box,
                        "wrong": i.wrong, "task": _task(topics, i.topic_id, i.item_id)} for i in items],

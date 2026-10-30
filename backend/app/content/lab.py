@@ -13,6 +13,7 @@ class Strict(BaseModel):
 
 class Source(Strict):
     id: Id
+    group: Literal["notebook", "textbook", "review"] = "review"
     file: Annotated[str, Field(pattern=r"^[a-zA-Z0-9_-]+\.jpg$")]
     label: Text
     rotate: Literal[0, -90, 90] = 0
@@ -64,12 +65,19 @@ class Question(Strict):
     card: bool = False
 
 
+class LegacyLinks(Strict):
+    tasks: dict[str, Id] = Field(default_factory=dict)
+    cards: dict[str, Id] = Field(default_factory=dict)
+    sections: dict[str, Id] = Field(default_factory=dict)
+
+
 class Lab(Strict):
     title: Text
     sources: list[Source] = Field(min_length=1, max_length=100)
     lessons: list[Lesson] = Field(min_length=1, max_length=30)
     questions: list[Question] = Field(min_length=1, max_length=500)
     review_notes: list[Text] = Field(default_factory=list)
+    legacy: LegacyLinks = Field(default_factory=LegacyLinks)
 
     @model_validator(mode="after")
     def references(self):
@@ -79,6 +87,11 @@ class Lab(Strict):
             raise ValueError("Duplicate source or lesson id")
         if len({q.id for q in self.questions}) != len(self.questions):
             raise ValueError("Duplicate question id")
+        question_ids = {q.id for q in self.questions}
+        if (set(self.legacy.tasks.values()) | set(self.legacy.cards.values())) - question_ids:
+            raise ValueError("Unknown legacy question link")
+        if set(self.legacy.sections.values()) - lessons:
+            raise ValueError("Unknown legacy lesson link")
         for lesson in self.lessons:
             if set(lesson.sources) - sources.keys():
                 raise ValueError("Unknown lesson source")

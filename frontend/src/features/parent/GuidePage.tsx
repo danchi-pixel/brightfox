@@ -13,6 +13,14 @@ type Section = { id: string; icon: string; title: Record<L, string>; body: Recor
 /* A string is a paragraph; a string[] is a bullet list. **bold** works inside both. */
 const SECTIONS: Section[] = [
   {
+    id: "science-sources", icon: "📓",
+    title: { sl: "Zvezek in učbenik", en: "Notebook and textbook" },
+    body: {
+      sl: ["Naravoslovje se odpre v skupini **Zvezek**: to so trenutne vaje iz šolskih zapiskov in delovnih listov. **Učbenik** je ločen in označen **Za kasneje**. Gradivo je mogoče prebrati, vendar neaktivne vaje ne štejejo v kvize, ustno vajo, kartice ali trenutni napredek.", "Kot starš odprite Erikovo učilnico → **Erikovo naravoslovje** → **Učbenik**, izberite temo in pritisnite **Aktiviraj temo**. Z **Prestavi za kasneje** jo ponovno izključite. Prejšnji napredek se ohrani in je spet vključen ob aktivaciji. Vprašanja z mešanimi ali neznanimi viri so posebej pod **Za pregled** in do pregleda ostanejo neaktivna."],
+      en: ["Science opens on **Zvezek**, the current notebook and school worksheet exercises. **Učbenik** contains textbook material for later. Inactive material remains readable but is excluded from practice, quizzes, flashcards and current progress totals.", "As a parent, open Erik's classroom → **Erikovo naravoslovje** → **Učbenik**, choose a topic and press **Aktiviraj temo**. **Prestavi za kasneje** pauses it again without losing earlier progress. Mixed or unknown source references appear under **Za pregled** and remain inactive pending review."],
+    },
+  },
+  {
     id: "english-collection", icon: "💬",
     title: { sl: "Angleščina na enem mestu", en: "English in one place" },
     body: {

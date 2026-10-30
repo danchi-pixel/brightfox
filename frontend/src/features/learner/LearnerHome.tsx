@@ -58,7 +58,7 @@ export default function LearnerHome() {
         {hasEnglish && <StudyHubEntry to={englishPath(lid)} title="Angleščina" description="Vse učne teme, kartice, vaje in testi na enem mestu." icon="💬" />}
         <TestsCard lid={lid} include={e => !englishExam(e, englishIds)} />
         <ReviewCard lid={lid} />
-        <TopicList lid={lid} topics={h.topics.filter(t => t.subject !== "english")} preview={!h.owner} oralOk={h.owner && h.tutor.configured && h.tutor.enabled} />
+        <TopicList lid={lid} topics={h.topics.filter(t => t.subject !== "english" && !t.has_lab)} preview={!h.owner} oralOk={h.owner && h.tutor.configured && h.tutor.enabled} />
         <MocksCard lid={lid} include={m => !englishMock(m, englishIds)} />
         <TutorCard lid={lid} home={h} />
         <WeekCard lid={lid} />

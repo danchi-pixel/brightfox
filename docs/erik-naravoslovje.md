@@ -1,5 +1,9 @@
 # Erikovo naravoslovje
 
+Version 5 adds **Zvezek / Učbenik** grouping and parent activation. See
+[source groups](science-source-groups.md) for the current practice scope and rollout.
+The coverage below describes the complete preserved catalog, including inactive material.
+
 Source: all 38 supplied photographs from `erik narav`, reviewed individually. The content is paraphrased and source-referenced; original photographs remain outside Git.
 
 ## Open locally

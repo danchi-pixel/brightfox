@@ -2,11 +2,11 @@
 import { cleanup, fireEvent, render, screen } from "@testing-library/react";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { Exercise } from "./Exercise";
-import { isCorrect, makeSession, shuffle } from "./session";
+import { activeQuestions, isCorrect, makeSession, resumable, shuffle, sourceGroup } from "./session";
 import type { Bank, Progress, Question } from "./types";
 
 const q: Question = { id: "a", topic: "one", kind: "oral", prompt: "Razloži pojav.", answer: "Vzorčni odgovor.", points: ["Prva točka"], hints: ["Namig.", "Močnejši namig."], sources: ["p01"], difficulty: 1, card: true, followup: "Zakaj?", followup_answer: "Razlaga dodatnega vprašanja." };
-const bank: Bank = { title: "Učna zbirka", lessons: [{id:"one",title:"Tema",summary:"",icon:"",notes:[],vocabulary:{},sources:["p01"]}], questions: [q], sources: [{id:"p01",file:"a.jpg",label:"Vir",width:1200,height:1600,rotate:0,review:""}], review_notes:[] };
+const bank: Bank = { title: "Učna zbirka", lessons: [{id:"one",title:"Tema",summary:"",icon:"",notes:[],vocabulary:{},sources:["p01"]}], questions: [q], sources: [{id:"p01",file:"a.jpg",group:"notebook",label:"Vir",width:1200,height:1600,rotate:0,review:""}], review_notes:[] };
 const empty: Progress = { revision:0, answers:{}, session:null };
 afterEach(cleanup);
 const click = (name: string) => fireEvent.click(screen.getByRole("button",{name}));
@@ -45,6 +45,25 @@ describe("Oral practice", () => {
   });
 });
 describe("Session selection and answers", () => {
+  it("excludes textbook and ambiguous sources from every mode until parent activation", () => {
+    const b: Bank = {...bank, sources:[...bank.sources,{...bank.sources[0],id:"p02",group:"textbook"}], questions: []};
+    b.questions = [q,{...q,id:"book",sources:["p02"]},{...q,id:"mixed",sources:["p01","p02"]},{...q,id:"unknown",sources:["missing"]}].flatMap(x => [x,{...x,id:x.id+"-quiz",kind:"choice" as const,options:["Yes"],correct:["Yes"],image:{source:x.sources[0],box:[0,0,100,100],alt:"Slika"}}]);
+    const before=JSON.stringify(b);
+    for (const mode of ["oral","mock","quiz","cards","images"] as const) {
+      expect(makeSession(b,mode,empty).queue.every(id => id === "a" || id === "a-quiz")).toBe(true);
+      expect(makeSession(b,mode,empty,"all",10,false,["one"]).queue.some(id => id.startsWith("book"))).toBe(true);
+    }
+    expect(activeQuestions(b,["one"]).some(x=>x.id.startsWith("mixed")||x.id.startsWith("unknown"))).toBe(false);
+    expect(sourceGroup(b,[])).toBe("review");
+    expect(JSON.stringify(b)).toBe(before);
+  });
+  it("resumes only active questions without altering stored sessions or answer history", () => {
+    const session={mode:"oral" as const,queue:["book","a","mixed","b"],index:2,ratings:{book:"know" as const,a:"practice" as const}};
+    const before=JSON.stringify(session);
+    expect(resumable(session,new Set(["a","b"]))).toEqual({...session,queue:["a","b"],index:1,ratings:{a:"practice"}});
+    expect(resumable(session,new Set(["a"]))).toBeNull();
+    expect(JSON.stringify(session)).toBe(before);
+  });
   it("mixes mock topics without duplicates and includes a visual prompt", () => {
     const questions = Array.from({length:30},(_,i) => ({...q,id:String(i),topic:String(i%10),...(i===29?{image:{source:"p01",box:[0,0,100,100] as [number,number,number,number],alt:"Slika"}}:{})}));
     const session=makeSession({...bank,questions},"mock",empty,"one",7);

@@ -1,4 +1,18 @@
-import type { Bank, Mode, Progress, Question, Session } from "./types";
+import type { Bank, Mode, Progress, Question, Session, SourceGroup } from "./types";
+
+export function sourceGroup(bank: Bank, sources: string[]): SourceGroup {
+  const groups = new Set(sources.map(id => bank.sources.find(s => s.id === id)?.group ?? "review"));
+  return groups.size === 1 ? [...groups][0] : "review";
+}
+export function activeQuestions(bank: Bank, enabled: string[] = []) {
+  return bank.questions.filter(q => { const g = sourceGroup(bank, q.sources); return g === "notebook" || g === "textbook" && enabled.includes(q.topic); });
+}
+export function resumable(session: Session | null, activeIds: Set<string>): Session | null {
+  if (!session) return null;
+  const queue = session.queue.filter(id => activeIds.has(id));
+  const index = session.queue.slice(0, session.index).filter(id => activeIds.has(id)).length;
+  return index < queue.length ? { ...session, queue, index, ratings: Object.fromEntries(Object.entries(session.ratings).filter(([id]) => activeIds.has(id))) } : null;
+}
 
 export function shuffle<T>(items: T[], random = Math.random): T[] {
   const out = [...items];
@@ -6,8 +20,8 @@ export function shuffle<T>(items: T[], random = Math.random): T[] {
   return out;
 }
 export function recallKey(mode: Mode, qid: string) { return `${mode === "cards" ? "cards" : "practice"}:${qid}`; }
-export function makeSession(bank: Bank, mode: Mode, progress: Progress, lesson = "all", count = 7, weak = false): Session {
-  let pool = bank.questions.filter(q => mode === "mock" || lesson === "all" || q.topic === lesson);
+export function makeSession(bank: Bank, mode: Mode, progress: Progress, lesson = "all", count = 7, weak = false, enabled: string[] = []): Session {
+  let pool = activeQuestions(bank, enabled).filter(q => mode === "mock" || lesson === "all" || q.topic === lesson);
   pool = pool.filter(q => mode === "quiz" ? q.kind !== "oral" : mode === "images" ? !!q.image : mode === "cards" ? !!q.card : q.kind === "oral");
   if (weak) pool = pool.filter(q => { const r = progress.answers[recallKey(mode, q.id)]; return r && r.rating !== "know"; });
   pool = shuffle(pool);

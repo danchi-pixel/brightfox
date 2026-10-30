@@ -7,6 +7,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
 from sqlalchemy import update
+from sqlalchemy.dialects.sqlite import insert
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.orm import Session
 
@@ -14,7 +15,8 @@ from ..access import LearnerCtx, learner_in_scope
 from ..config import settings
 from ..content.registry import content
 from ..db import get_db
-from ..models import LabProgress
+from ..models import LabProgress, LabActivation
+from ..learning.lab_scope import availability
 from .learner import TopicId, visible_topic
 
 router = APIRouter(prefix="/api/learners/{lid}/topics/{tid}/lab", tags=["learning-bank"])
@@ -35,6 +37,35 @@ def state_view(row):
 def get_progress(tid: TopicId, db: Session = Depends(get_db), ctx: LearnerCtx = Depends(learner_in_scope)):
     bank(db, ctx, tid)
     return state_view(db.get(LabProgress, (ctx.learner.id, tid)))
+
+
+@router.get("/availability")
+def get_availability(tid: TopicId, db: Session = Depends(get_db), ctx: LearnerCtx = Depends(learner_in_scope)):
+    return availability(db, ctx, bank(db, ctx, tid))
+
+
+class ActivationIn(BaseModel):
+    version: int = Field(ge=1)
+    enabled: bool
+
+
+@router.put("/availability/{lesson_id}")
+def set_availability(tid: TopicId, lesson_id: str, body: ActivationIn,
+                     db: Session = Depends(get_db), ctx: LearnerCtx = Depends(learner_in_scope)):
+    ctx.require_admin()
+    t = bank(db, ctx, tid)
+    if body.version != t["version"]:
+        raise HTTPException(409, "Snov se je spremenila. Osveži stran.")
+    scope = availability(db, ctx, t)
+    if not any(q["topic"] == lesson_id and scope["question_groups"][q["id"]] == "textbook"
+               for q in t["lab"]["questions"]):
+        raise HTTPException(400, "Tema nima vaj iz učbenika za aktivacijo.")
+    stmt = insert(LabActivation).values(family_id=ctx.family_id, learner_id=ctx.learner.id,
+        topic_id=tid, lesson_id=lesson_id, enabled=body.enabled)
+    db.execute(stmt.on_conflict_do_update(index_elements=["learner_id", "topic_id", "lesson_id"],
+        set_={"enabled": body.enabled}))
+    db.commit()
+    return availability(db, ctx, t)
 
 
 @router.get("/images/{sid}")
@@ -78,6 +109,8 @@ def save(tid: TopicId, body: SaveIn, db: Session = Depends(get_db), ctx: Learner
             or set(s.ratings) - set(s.queue) or (body.question is None) != (body.rating is None)
             or body.question is not None and body.question not in s.queue):
         raise HTTPException(400, "Neveljavna vaja.")
+    if set(s.queue) - set(availability(db, ctx, t)["active_questions"]):
+        raise HTTPException(409, "Izbor vsebuje neaktivno snov. Osveži stran in izberi aktivne vaje.")
     row = db.get(LabProgress, (ctx.learner.id, tid))
     if (row.revision if row else 0) != body.revision:
         raise HTTPException(409, "Napredek je spremenjen v drugem oknu. Osveži stran.")

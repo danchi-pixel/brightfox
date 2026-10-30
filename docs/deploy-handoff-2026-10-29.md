@@ -1,5 +1,11 @@
 # Deployment handoff — 29 October 2026
 
+**Update, 30 October:** the latest `main` also includes notebook/textbook grouping.
+Startup now applies additive migration **0005**, and the parent must approve science
+**v5** instead of v4. Textbook topics start inactive; activate them individually only
+when covered at school. See [source groups and activation](science-source-groups.md).
+The private photo transfer and deployment procedure below still apply.
+
 The `main` branch combines the local science classroom, English collection, Alan's music
 materials, local household startup improvements and Foxy exercise-state fixes with the
 English video lessons from upstream commit `d41d050`. No production deployment was run.

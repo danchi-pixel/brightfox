@@ -85,11 +85,15 @@ def note_run(db: Session, run: PracticeRun, today: date) -> None:
         item.wrong = (r.wrong or [None])[-1]
 
 
-def due_items(db: Session, learner_id: int, today: date, topics_in_exam_soon: set[str]) -> list[ReviewItem]:
+def due_items(db: Session, learner_id: int, today: date, topics_in_exam_soon: set[str],
+              topics: dict[str, dict[str, Any]] | None = None) -> list[ReviewItem]:
     """Due today (oldest first), plus everything of a topic on a test within 3 days; at most 10."""
     items = list(db.scalars(select(ReviewItem).where(ReviewItem.learner_id == learner_id, ReviewItem.cleared_at.is_(None))
                             .order_by(ReviewItem.due_date, ReviewItem.id)))
-    due = [i for i in items if i.due_date <= today or i.topic_id in topics_in_exam_soon]
+    allowed = {(tid, task["id"]) for tid, topic in (topics or {}).items()
+               for task in topic["tasks"] + topic.get("challenge", [])}
+    due = [i for i in items if (topics is None or (i.topic_id, i.item_id) in allowed)
+           and (i.due_date <= today or i.topic_id in topics_in_exam_soon)]
     return due[:rv.PER_DAY]
 
 

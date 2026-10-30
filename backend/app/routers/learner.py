@@ -22,6 +22,7 @@ from ..content.visibility import visible_ids
 from ..db import get_db
 from ..learning import progress as pg
 from ..learning.service import note_run
+from ..learning.lab_scope import practice_topic
 from ..models import ContentAccess, PracticeRun, TaskResult, TopicProgress, TutorChat, User
 from ..timeutil import local_today
 from ..tutor import service as tutor
@@ -40,7 +41,7 @@ def visible_topic(db: Session, ctx: LearnerCtx, tid: str) -> dict[str, Any]:
     c = content()
     if tid not in visible_topics(db, c, ctx):
         raise HTTPException(404, "Topic not found")
-    return c.topics[tid]
+    return practice_topic(db, ctx, c.topics[tid])
 
 
 def viewer_lang(db: Session, ctx: LearnerCtx) -> str:
@@ -71,9 +72,10 @@ def home(today: str | None = None, db: Session = Depends(get_db), ctx: LearnerCt
         "lang": lr.language or "sl",  # a parent's preview shows the learner's language
         "tutor": {"configured": llm.configured(), "enabled": lr.tutor_enabled, "daily_limit": lr.tutor_daily_limit,
                   "left_today": max(0, lr.tutor_daily_limit - used)},
-        "topics": [{**pg.topic_card(c.topics[i]), **pg.runs_state(runs.get(i, [])),
-                    "challenge_state": pg.challenge_state(c.topics[i], runs.get(i, [])),
-                    "study_state": pg.study_state(c.topics[i], prog.get(i))} for i in visible_topics(db, c, ctx)],
+        "topics": [{**pg.topic_card(t), **pg.runs_state(runs.get(t["id"], [])),
+                    "challenge_state": pg.challenge_state(t, runs.get(t["id"], [])),
+                    "study_state": pg.study_state(t, prog.get(t["id"]))}
+                   for t in (practice_topic(db, ctx, c.topics[i]) for i in visible_topics(db, c, ctx))],
         "chats": tutor.chat_cards(db, chats, with_cost=ctx.user.is_admin),
     }
 
@@ -153,8 +155,11 @@ def save_progress(tid: TopicId, body: ProgressIn, db: Session = Depends(get_db),
     if p is None:
         p = TopicProgress(learner_id=ctx.learner.id, topic_id=tid, family_id=ctx.family_id)
         db.add(p)
-    p.known = list(dict.fromkeys(body.known))
-    p.goals = [g for g in (g["id"] for g in goal_list(st)) if g in set(body.goals)]
+    # A filtered view must not erase previously saved cards/goals from inactive material.
+    held_known = [k for k in (p.known or []) if k not in backs] if t.get("lab") else []
+    held_goals = [g for g in (p.goals or []) if g not in goal_ids] if t.get("lab") else []
+    p.known = list(dict.fromkeys(held_known + body.known))
+    p.goals = held_goals + [g for g in (g["id"] for g in goal_list(st)) if g in set(body.goals)]
     p.updated_at = datetime.now(timezone.utc)
     db.commit()
     return pg.study_state(t, p) or {}
