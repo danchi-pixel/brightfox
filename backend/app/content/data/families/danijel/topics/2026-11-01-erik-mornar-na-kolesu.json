@@ -1,0 +1,845 @@
+{
+  "id": "2026-11-01-erik-mornar-na-kolesu",
+  "version": 1,
+  "format": 2,
+  "subject": "slovene",
+  "grade": 6,
+  "title": "Domače branje: Mornar na kolesu 🚲",
+  "intro": "Leopold Suhodolčan: 19 resničnih zgodb o pisateljevem otroštvu. Najprej ponovi zgodbe in pojme, potem reši vaje. Za petico znaj svoje mnenje utemeljiti z dogodkom iz knjige.",
+  "source": "59 fotografij knjige iz mape Mirnar, 1. 11. 2026: Leopold Suhodolčan, Mornar na kolesu (Karantanija 2010, 3. ponatis, ilustriral Aco Mavec). Napoved nalog po učnem načrtu in šolskih navodilih za domače branje.",
+  "skills": [
+    {
+      "id": "s001",
+      "title": "Dogodki v zgodbah"
+    },
+    {
+      "id": "s002",
+      "title": "Književne osebe"
+    },
+    {
+      "id": "s003",
+      "title": "Književni pojmi (avtor, pripovedovalec, vrsta)"
+    },
+    {
+      "id": "s004",
+      "title": "Kraj in čas dogajanja"
+    },
+    {
+      "id": "s005",
+      "title": "Pisatelj in knjiga"
+    },
+    {
+      "id": "s006",
+      "title": "Sporočilo in mnenje"
+    }
+  ],
+  "learn": [
+    {
+      "title": "Osebna izkaznica knjige",
+      "text": "Avtor: Leopold Suhodolčan. Ilustrator: Aco Mavec. Založba: Karantanija. Zbirka 19 kratkih zgodb, izdana ob 50-letnici bralne značke.",
+      "example": "»Prebral sem knjigo Mornar na kolesu, ki jo je napisal Leopold Suhodolčan.«"
+    },
+    {
+      "title": "Avtor = pripovedovalec",
+      "text": "Knjiga je avtobiografska: pisatelj piše o sebi. Pripoveduje v prvi osebi (»jaz«). Avtor, pripovedovalec in glavna oseba (Poldek) so ista oseba.",
+      "example": "»V mladost mi najdlje sega vesel spomin.« (začetek knjige)"
+    },
+    {
+      "title": "Realistična pripoved",
+      "text": "Vse, kar se zgodi, bi se lahko zgodilo zares: ni čarovnij in ne govorečih živali.",
+      "example": "Poldek pade s kolesom v blaten jarek."
+    },
+    {
+      "title": "Kraj in čas",
+      "text": "Žiri (reka Sora), Plač ob meji, Svečina, vas in mesto z gimnazijo. Pred drugo svetovno vojno in na njenem začetku (1941)."
+    }
+  ],
+  "study": {
+    "goals": [
+      {
+        "id": "g001",
+        "text": "Znam povedati avtorja, naslov, ilustratorja in založbo.",
+        "skill": "s005"
+      },
+      {
+        "id": "g002",
+        "text": "Znam obnoviti vsaj tri zgodbe v pravem vrstnem redu.",
+        "skill": "s001"
+      },
+      {
+        "id": "g003",
+        "text": "Znam opisati Poldka in lastnosti dokazati z dogodki.",
+        "skill": "s002"
+      },
+      {
+        "id": "g004",
+        "text": "Znam razložiti, zakaj je pripovedovalec prvoosebni in kdo je.",
+        "skill": "s003"
+      },
+      {
+        "id": "g005",
+        "text": "Znam povedati, kje in kdaj se zgodbe dogajajo.",
+        "skill": "s004"
+      },
+      {
+        "id": "g006",
+        "text": "Znam povedati sporočilo in svoje mnenje z razlogom.",
+        "skill": "s006"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Zgodbe 1–5: majhen Poldek",
+        "skill": "s001",
+        "text": "Prvi škornji: škornje vedno obuje narobe. Zgodba o zaboju: sam dela zaboj in pade na žeblje. Čebelja pot: s starim atom skrbi za čebele, išče roparice. Deček iz slame: prvi šolski dan, zbeži iz razreda. Ena in ena je tri: pazi na razred in nadzornika zamenja za prodajalca drv."
+      },
+      {
+        "title": "Zgodbe 6–10: Plač ob meji",
+        "skill": "s001",
+        "text": "Mornar na kolesu: z Vido se pelje po klancu, prelomi obljubo in pade v jarek. Pomladni sel: skozi gozd opozori ata, da prihaja inšpektor. Pesnik Muželj: Poldek je njegova »živa knjiga«. Singerica: mamin šivalni stroj, ki ga Poldek ob začetku vojne nese na begu. Golobučnež: ostrižen na golo, v nemški šoli se stepe s Hermanom."
+      },
+      {
+        "title": "Zgodbe 11–15: vas, živali, vojna",
+        "skill": "s001",
+        "text": "Grenke češnje: škilavci in putavci, goljufija, putavec pade, Poldka zadene frača. Konji: Nero ga vrže, Pram ga odnese v hlev. Jurij Polenta: Poldek se mu posmehuje in nato pade pod brento. Ura: uro izgubi v snegu in čas bere s cerkvene ure. Lis in Budl: med vojno sam vpreže vola."
+      },
+      {
+        "title": "Zgodbe 16–19: gimnazijec",
+        "skill": "s001",
+        "text": "Mojmeladek: zatožil je Lenko, v predoru mu počrnijo obraz. Plavalna šola: pri enajstih letih ga vržejo v Štuhčevo mlako. Zastavica: april 1941, zastavice ne da, čeprav ga napadeta dva fanta. Največja cirkuška predstava na svetu: kot klovn nasmeji vse, a krava si zvije nogo."
+      },
+      {
+        "title": "Osebe",
+        "skill": "s002",
+        "table": {
+          "head": [
+            "Oseba",
+            "Kdo je"
+          ],
+          "rows": [
+            [
+              "Poldek",
+              "glavna oseba, pisatelj kot deček"
+            ],
+            [
+              "ata",
+              "finančni stražnik, miren, rad bere"
+            ],
+            [
+              "mama",
+              "skrbna, šiva na singerici"
+            ],
+            [
+              "stari ata",
+              "v Žireh, čebele, zaboji, bil v Ameriki"
+            ],
+            [
+              "Vida",
+              "sestra (Mornar na kolesu)"
+            ],
+            [
+              "Muželj",
+              "stražnik in pesnik"
+            ],
+            [
+              "Jurij Polenta",
+              "brentar brez družine"
+            ],
+            [
+              "Lojzek, Peter",
+              "Grenke češnje"
+            ],
+            [
+              "Mojmeladek",
+              "Tonček, ki je zatožil Lenko"
+            ],
+            [
+              "Nero, Pram",
+              "konja: lep in ponosen / tih in zvest"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Sporočilo",
+        "skill": "s006",
+        "text": "Otroštvo je dragoceno, iz napak se učimo, spoštuj druge (Jurij Polenta, Pram), družina si pomaga v težkih časih (Singerica, Lis in Budl). Konec knjige: »jaz sem bil in ostal klovn vse do danes«.",
+        "examples": [
+          "Mnenje vedno utemelji: »Všeč mi je, ker ...«"
+        ]
+      }
+    ],
+    "cards": [
+      {
+        "front": "Avtor knjige",
+        "back": "Leopold Suhodolčan",
+        "skill": "s005"
+      },
+      {
+        "front": "Ilustrator",
+        "back": "Aco Mavec",
+        "skill": "s005"
+      },
+      {
+        "front": "Založba",
+        "back": "Karantanija",
+        "skill": "s005"
+      },
+      {
+        "front": "Koliko zgodb ima knjiga?",
+        "back": "19 kratkih zgodb",
+        "skill": "s005"
+      },
+      {
+        "front": "Pripovedovalec",
+        "back": "prvoosebni (»jaz«), pisatelj sam",
+        "skill": "s003"
+      },
+      {
+        "front": "Vrsta pripovedi",
+        "back": "realistična, avtobiografska",
+        "skill": "s003"
+      },
+      {
+        "front": "Glavna oseba",
+        "back": "Poldek (pisatelj kot deček)",
+        "skill": "s002"
+      },
+      {
+        "front": "Atov poklic",
+        "back": "finančni stražnik",
+        "skill": "s002"
+      },
+      {
+        "front": "Kje se je pisatelj rodil?",
+        "back": "v Žireh (ob reki Sori)",
+        "skill": "s004"
+      },
+      {
+        "front": "Kraj ob meji, kjer je ata stražil",
+        "back": "Plač",
+        "skill": "s004"
+      },
+      {
+        "front": "Kam je Poldek hodil v šolo?",
+        "back": "v Svečino",
+        "skill": "s004"
+      },
+      {
+        "front": "Čas dogajanja",
+        "back": "pred in med 2. svetovno vojno",
+        "skill": "s004"
+      },
+      {
+        "front": "Singerica",
+        "back": "šivalni stroj znamke Singer",
+        "skill": "s001"
+      },
+      {
+        "front": "Brenta",
+        "back": "posoda za grozdje, ki jo nosiš na hrbtu",
+        "skill": "s001"
+      },
+      {
+        "front": "Mojmeladek",
+        "back": "Tonček, ki je jedel kruh z marmelado",
+        "skill": "s002"
+      },
+      {
+        "front": "Živa knjiga pesnika Muželja",
+        "back": "Poldek",
+        "skill": "s002"
+      },
+      {
+        "front": "Nero, Pram, Šimlja",
+        "back": "konji Mlakarjevih",
+        "skill": "s002"
+      },
+      {
+        "front": "Lis in Budl",
+        "back": "vola, ki ju je Poldek vpregel sam",
+        "skill": "s002"
+      },
+      {
+        "front": "Grenke češnje: zakaj grenke?",
+        "back": "zaradi slabe vesti",
+        "skill": "s006"
+      },
+      {
+        "front": "Zadnji stavek knjige",
+        "back": "»Jaz sem bil in ostal klovn vse do danes.«",
+        "skill": "s006"
+      },
+      {
+        "front": "Kaj je ustanovil Suhodolčan?",
+        "back": "bralno značko (1960/61)",
+        "skill": "s005"
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "t001",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Kdo je napisal knjigo Mornar na kolesu?",
+      "options": [
+        "Aco Mavec",
+        "Leopold Suhodolčan",
+        "Primož Suhodolčan",
+        "Kajetan Kovič"
+      ],
+      "answer": 1,
+      "solution": "Knjigo je napisal **Leopold Suhodolčan**. Aco Mavec je ilustrator, Primož Suhodolčan je drug pisatelj.",
+      "skill": "s005"
+    },
+    {
+      "id": "t002",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Kdo je ilustriral knjigo?",
+      "options": [
+        "Stanko Kotnik",
+        "Leopold Suhodolčan",
+        "Jože Zupan",
+        "Aco Mavec"
+      ],
+      "answer": 3,
+      "solution": "Slike je narisal **Aco Mavec**. Jože Zupan je napisal spremno besedilo na koncu.",
+      "skill": "s005"
+    },
+    {
+      "id": "t003",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Kaj je ata prinesel Poldku v prvi zgodbi?",
+      "options": [
+        "uro",
+        "škornje",
+        "mornarsko obleko",
+        "kolo"
+      ],
+      "answer": 1,
+      "solution": "Prva zgodba se imenuje **Prvi škornji**. Poldek jih je vedno obul narobe.",
+      "skill": "s001"
+    },
+    {
+      "id": "t004",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Kako so klicali glavno osebo, dečka?",
+      "options": [
+        "Lojzek",
+        "Poldek",
+        "Franček",
+        "Andrejko"
+      ],
+      "answer": 1,
+      "solution": "Glavna oseba je pisatelj sam kot deček: **Poldek** (Leopold). Stari ata mu je rekel Poldk.",
+      "skill": "s002"
+    },
+    {
+      "id": "t005",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Kakšen poklic je imel Poldkov ata?",
+      "options": [
+        "mizar",
+        "kmet",
+        "učitelj",
+        "finančni stražnik"
+      ],
+      "answer": 3,
+      "solution": "Ata je bil **finančni stražnik**: čuval je državno mejo. Zato so živeli na Plaču ob meji.",
+      "skill": "s002"
+    },
+    {
+      "id": "t006",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Kaj je bilo Poldkovo kolo v zgodbi Mornar na kolesu?",
+      "options": [
+        "darilo od strica",
+        "kolo sestre Vide",
+        "njegova ladja",
+        "njegov konj"
+      ],
+      "answer": 2,
+      "solution": "Poldek je sanjal o morju, a ga ni bilo blizu, zato je bilo **kolo njegova ladja**.",
+      "skill": "s001"
+    },
+    {
+      "id": "t007",
+      "level": 1,
+      "kind": "text",
+      "prompt": "V katerem kraju se je pisatelj rodil? Ta kraj leži ob reki Sori.",
+      "answer": "Žiri",
+      "solution": "Pisatelj se je rodil v **Žireh**. Tam je stala hiša starega ata s čebelnjakom.",
+      "skill": "s004",
+      "accept": [
+        "v Žireh",
+        "Žireh",
+        "Ziri",
+        "v Zireh"
+      ]
+    },
+    {
+      "id": "t008",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Zakaj sta Poldek in Vida pristala v jarku?",
+      "options": [
+        "Kolo se je pokvarilo.",
+        "Zaletel se je v velikega moža.",
+        "Ustavil ga je pes.",
+        "Na cesti je bil led."
+      ],
+      "answer": 1,
+      "solution": "Pred Svečino je ljudem sledil, se zmedel in **zadel visokega moža**. Kolo ju je vrglo v blaten jarek.",
+      "skill": "s001"
+    },
+    {
+      "id": "t009",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kdo je bil »tisti mož« s trdim klobukom v zgodbi Ena in ena je tri?",
+      "options": [
+        "finančni inšpektor",
+        "prodajalec drv",
+        "Poldkov ata",
+        "šolski nadzornik"
+      ],
+      "answer": 3,
+      "solution": "Poldek je mislil, da prodaja drva, a je bil **šolski nadzornik**. Učiteljica je prebledela.",
+      "skill": "s001"
+    },
+    {
+      "id": "t010",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kaj je bil Poldek za pesnika Muželja?",
+      "options": [
+        "njegov kočijaž",
+        "njegov učenec pri šivanju",
+        "njegova »živa knjiga«",
+        "njegov sel"
+      ],
+      "answer": 2,
+      "solution": "Muželj ni imel poslušalcev, zato se je moral Poldek njegove pesmi učiti na pamet: bil je **živa knjiga**.",
+      "skill": "s002"
+    },
+    {
+      "id": "t011",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kaj je Poldek nosil, ko je družina aprila 1941 bežala od doma?",
+      "options": [
+        "zastavico",
+        "brento",
+        "uro z verižico",
+        "glavo šivalnega stroja"
+      ],
+      "answer": 3,
+      "solution": "Kot najstarejši je nosil najtežje: **glavo singerice**, zavito v odejo.",
+      "skill": "s001"
+    },
+    {
+      "id": "t012",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Zakaj Poldek ni mogel jesti češenj, ki mu jih je prinesel Lojzek?",
+      "options": [
+        "Ker je imel slabo vest.",
+        "Ker ni maral češenj.",
+        "Ker so bile putavske.",
+        "Ker so bile nezrele."
+      ],
+      "answer": 0,
+      "solution": "Tudi otekla ustnica ga je ovirala, a bolj ga je pekla **slaba vest**: Lojzek je goljufal, mali putavec pa je padel z veje. Zato so češnje »grenke«.",
+      "skill": "s001"
+    },
+    {
+      "id": "t013",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kateri konj je Poldka mirno odnesel v hlev, ko ga je Nero vrgel na tla?",
+      "options": [
+        "Šimlja",
+        "Pram",
+        "Budl",
+        "Lis"
+      ],
+      "answer": 1,
+      "solution": "**Pram**, delavni rjavi konj. Poldku je bilo žal, da mu ni nikoli prinesel sladkorja.",
+      "skill": "s002"
+    },
+    {
+      "id": "t014",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kako je Poldek pozimi vedel, koliko je ura, ko je svojo izgubil v snegu?",
+      "options": [
+        "Imel je novo uro.",
+        "Vprašal je mamo.",
+        "Gledal je na cerkveno uro.",
+        "Ugibal je po soncu."
+      ],
+      "answer": 2,
+      "solution": "Nosil je samo verižico in na skrivaj gledal na **cerkveno uro**, kot da gleda na svojo.",
+      "skill": "s001"
+    },
+    {
+      "id": "t015",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Zakaj so Tončka klicali Mojmeladek?",
+      "options": [
+        "Ker je bil sladek do vseh.",
+        "Ker je prodajal med.",
+        "Ker je imel rad mlade.",
+        "Ker je jedel kruh z marmelado."
+      ],
+      "answer": 3,
+      "solution": "Ves čas je jedel bel kruh z **marmelado** in mali Franček je rekel: »Tonček spet je mojmelado!«",
+      "skill": "s001"
+    },
+    {
+      "id": "t016",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "V katerem času se dogajajo zadnje zgodbe v knjigi?",
+      "options": [
+        "na začetku druge svetovne vojne",
+        "danes",
+        "v srednjem veku",
+        "med prvo svetovno vojno"
+      ],
+      "answer": 0,
+      "solution": "Zgodbe Singerica, Zastavica, Lis in Budl se dogajajo **na začetku druge svetovne vojne** (april 1941).",
+      "skill": "s004"
+    },
+    {
+      "id": "t017",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kdo pripoveduje zgodbe v knjigi?",
+      "options": [
+        "vsevedni pripovedovalec, ki ga ni v zgodbi",
+        "Poldkova mama",
+        "pisatelj sam v prvi osebi (»jaz«)",
+        "sestra Vida"
+      ],
+      "answer": 2,
+      "solution": "Pripovedovalec je **prvoosebni**: odrasli pisatelj se spominja svojega otroštva.",
+      "skill": "s003"
+    },
+    {
+      "id": "t018",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Ali je Mornar na kolesu realistična ali fantastična pripoved?",
+      "options": [
+        "basen",
+        "realistična",
+        "fantastična",
+        "pravljica"
+      ],
+      "answer": 1,
+      "solution": "Je **realistična**: vse, kar se zgodi, bi se lahko zgodilo zares. Je tudi avtobiografska.",
+      "skill": "s003"
+    },
+    {
+      "id": "t019",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Pisatelj v knjigi piše o svojem življenju. Kako rečemo taki pripovedi? (ena beseda)",
+      "answer": "avtobiografska",
+      "solution": "Taka pripoved je **avtobiografska** (avto = sam, bio = življenje).",
+      "skill": "s003",
+      "accept": [
+        "avtobiografija",
+        "avtobiografsko",
+        "avtobiografska pripoved"
+      ]
+    },
+    {
+      "id": "t020",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Kako se imenuje samoten kraj ob meji, kjer je ata stražil mejo?",
+      "answer": "Plač",
+      "solution": "To je **Plač**. Od tam je Poldek hodil eno uro daleč v šolo v Svečino.",
+      "skill": "s004",
+      "accept": [
+        "na Plaču",
+        "Plaču"
+      ]
+    },
+    {
+      "id": "t021",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Kako je bilo ime Poldkovi sestri, ki se je z njim vozila na kolesu?",
+      "answer": "Vida",
+      "solution": "Sestri je bilo ime **Vida**.",
+      "skill": "s002"
+    },
+    {
+      "id": "t022",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kaj je Leopold Suhodolčan ustanovil s Stankom Kotnikom?",
+      "options": [
+        "bralno značko",
+        "založbo Karantanija",
+        "gimnazijo",
+        "cirkus"
+      ],
+      "answer": 0,
+      "solution": "Leta 1960/61 sta začela **bralno značko** (Prežihova bralna značka). Knjiga je izšla ob njeni 50-letnici.",
+      "skill": "s005"
+    },
+    {
+      "id": "t023",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kaj je Poldek naredil z Jurijem Polento, preden je sam nesel brento?",
+      "options": [
+        "Naučil ga je brati.",
+        "Pomagal mu je pri delu.",
+        "Posmehoval se mu je z učenimi vprašanji.",
+        "Podaril mu je uro."
+      ],
+      "answer": 2,
+      "solution": "Kot novi gimnazijec se je **norčeval** iz njega (Mura, Albanija). Nato je padel pod brento in Jurij jo je brez besed odnesel.",
+      "skill": "s001"
+    },
+    {
+      "id": "t024",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kateri nauk najbolje velja za zgodbo Jurij Polenta in njegova težka brenta?",
+      "options": [
+        "Brente so prelahke.",
+        "Delo je samo za odrasle.",
+        "Kdor je učen, je več vreden.",
+        "Ne posmehuj se drugim, spoštuj njihovo delo."
+      ],
+      "answer": 3,
+      "solution": "Jurij ni hodil v šolo, a je bil močnejši in boljši. Nauk: **ne posmehuj se drugim**.",
+      "skill": "s006"
+    },
+    {
+      "id": "t025",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kdo je zatožil Lenko, ker je pozabila vozovnico?",
+      "options": [
+        "Mojmeladek",
+        "Dušan",
+        "Peter",
+        "sprevodnik Očka"
+      ],
+      "answer": 0,
+      "solution": "**Mojmeladek** je pošepnil sprevodniku Zavori. Kasneje so mu v predoru počrnili obraz.",
+      "skill": "s002"
+    },
+    {
+      "id": "t026",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Koliko je bil Poldek star v zgodbi Plavalna šola?",
+      "options": [
+        "pet let",
+        "sedem let",
+        "enajst let",
+        "petnajst let"
+      ],
+      "answer": 2,
+      "solution": "Bilo mu je **enajst let**. Plavalna šola je bila Štuhčeva mlaka.",
+      "skill": "s001"
+    }
+  ],
+  "challenge": [
+    {
+      "id": "t027",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Zakaj sta v tej knjigi avtor in pripovedovalec ista oseba? Odgovori v dveh povedih.",
+      "solution": "Knjiga je **avtobiografska**: Leopold Suhodolčan piše o svojem otroštvu. Zgodbe pripoveduje v prvi osebi (»jaz«), zato je on hkrati avtor, pripovedovalec in glavna oseba (Poldek).",
+      "skill": "s003"
+    },
+    {
+      "id": "t028",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Razloži naslov knjige Mornar na kolesu.",
+      "solution": "Poldek je sanjal o morju, a je živel daleč od vode. Ko je dobil **mornarsko obleko**, je bilo **kolo njegova ladja**. Naslov pokaže otroške sanje in domišljijo, ki se srečajo z resničnostjo (jarek).",
+      "skill": "s006"
+    },
+    {
+      "id": "t029",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Opiši Poldka z dvema lastnostma. Za vsako navedi dogodek iz knjige.",
+      "solution": "Primer: **pogumen** (v zgodbi Zastavica ne izpusti zastavice, čeprav ga napadeta dva fanta); **odgovoren** (v Singerici nese najtežje breme). Druge možnosti: sanjač, nepotrpežljiv, ima slabo vest (Grenke češnje).",
+      "skill": "s002"
+    },
+    {
+      "id": "t030",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Katera zgodba je najbolj všeč? Napiši 4–5 povedi: o čem govori in zakaj je všeč.",
+      "solution": "Dober odgovor: ime zgodbe, kratka obnova (začetek, zaplet, konec) in **mnenje z razlogom** (»Všeč mi je, ker ...«).",
+      "skill": "s006",
+      "hints": [
+        "Začni: »Najbolj mi je bila všeč zgodba ..., ker ...«"
+      ]
+    },
+    {
+      "id": "t031",
+      "level": 3,
+      "kind": "choice",
+      "prompt": "S katero mislijo se konča knjiga?",
+      "options": [
+        "»Nikoli več ne bom šel v cirkus.«",
+        "»Jaz sem bil in ostal klovn vse do danes.«",
+        "»Morje sem videl šele čez deset let.«",
+        "»Ura še vedno tiktaka.«"
+      ],
+      "answer": 1,
+      "solution": "Zadnji stavek: »Toda **jaz sem bil in ostal klovn vse do danes**.« Pisatelj je ostal vesel, šaljiv človek.",
+      "skill": "s006"
+    }
+  ],
+  "parent": {
+    "school_method": "Pri domačem branju v 6. razredu učitelji navadno zahtevajo zapis v zvezek (avtor, naslov, ilustrator, založba, kraj in čas, osebe, obnova, sporočilo, mnenje) in nato ustno spraševanje ali govorni nastop. Ocenjujejo poznavanje vsebine, književne pojme (pripovedovalec, realistično/fantastično) in utemeljeno mnenje.",
+    "car_questions": [
+      {
+        "q": "Zakaj je knjiga avtobiografska?",
+        "a": "Ker pisatelj Leopold Suhodolčan piše o svojem otroštvu, v prvi osebi."
+      },
+      {
+        "q": "Zakaj so češnje grenke?",
+        "a": "Ker je Lojzek goljufal, mali putavec je padel z drevesa in Poldka je pekla slaba vest."
+      },
+      {
+        "q": "Kaj je bila živa knjiga?",
+        "a": "Poldek, ki se je moral učiti na pamet pesmi pesnika Muželja."
+      },
+      {
+        "q": "Kaj je Poldek nesel na begu leta 1941?",
+        "a": "Glavo šivalnega stroja singerice."
+      },
+      {
+        "q": "Kdo je bil mož s trdim klobukom?",
+        "a": "Šolski nadzornik, ne prodajalec drv."
+      }
+    ],
+    "tips": [
+      "Naj otrok obnovi eno zgodbo brez knjige, v pravem vrstnem redu.",
+      "Za petico: vsako mnenje naj ima razlog in primer iz knjige."
+    ]
+  },
+  "oral": [
+    {
+      "id": "q001",
+      "skill": "s005",
+      "question": "Predstavi knjigo: avtor, naslov, ilustrator, založba in kakšna knjiga je to.",
+      "key_points": [
+        "Leopold Suhodolčan, Mornar na kolesu",
+        "ilustrator Aco Mavec, založba Karantanija",
+        "zbirka 19 kratkih zgodb",
+        "avtobiografska in realistična"
+      ],
+      "model_answer": "Knjigo Mornar na kolesu je napisal Leopold Suhodolčan, ilustriral pa Aco Mavec. Izdala jo je založba Karantanija. To je zbirka 19 kratkih zgodb o pisateljevem otroštvu, zato je avtobiografska in realistična."
+    },
+    {
+      "id": "q002",
+      "skill": "s003",
+      "question": "Kdo pripoveduje zgodbe? Ali je pripovedovalec isti kot avtor?",
+      "key_points": [
+        "prvoosebni pripovedovalec (»jaz«)",
+        "pisatelj se spominja svojega otroštva",
+        "avtor, pripovedovalec in glavna oseba so ista oseba"
+      ],
+      "model_answer": "Zgodbe pripoveduje prvoosebni pripovedovalec. To je pisatelj sam, ki se kot odrasel spominja otroštva. Ker piše o sebi, so avtor, pripovedovalec in glavna oseba ista oseba."
+    },
+    {
+      "id": "q003",
+      "skill": "s004",
+      "question": "Kje in kdaj se zgodbe dogajajo?",
+      "key_points": [
+        "Žiri (reka Sora)",
+        "Plač ob meji, šola v Svečini",
+        "vas, trg in mesto z gimnazijo",
+        "pred in med 2. svetovno vojno"
+      ],
+      "model_answer": "Zgodbe se dogajajo v Žireh, kjer se je pisatelj rodil, na Plaču ob meji, kjer je ata stražil mejo, in v Svečini, kjer je hodil v šolo. Pozneje tudi v mestu z gimnazijo. Dogajajo se pred drugo svetovno vojno in na njenem začetku."
+    },
+    {
+      "id": "q004",
+      "skill": "s002",
+      "question": "Opiši glavno osebo. Dokaži z dogodki iz knjige.",
+      "key_points": [
+        "Poldek, pisatelj kot deček",
+        "sanjač (kolo je ladja)",
+        "pogumen (Zastavica)",
+        "ima slabo vest (Grenke češnje)"
+      ],
+      "model_answer": "Glavna oseba je Poldek. Je sanjač: kolo mu je bilo ladja. Je pogumen, saj v Zastavici ne izpusti zastavice. Ko naredi narobe, ga peče vest, kot v Grenkih češnjah."
+    },
+    {
+      "id": "q005",
+      "skill": "s001",
+      "question": "Obnovi zgodbo Mornar na kolesu.",
+      "key_points": [
+        "sanje o morju, mornarska obleka",
+        "obljuba, da bo kolo po klancu potiskal",
+        "vozil se je s sestro Vido",
+        "zaletel se je v moža, padla sta v jarek",
+        "umazana sta se vrnila domov"
+      ],
+      "model_answer": "Poldek je sanjal o morju. Ko je dobil mornarsko obleko, se je s sestro Vido odpravil v Svečino. Obljubila sta, da bosta kolo po klancu potiskala, a se je Poldek vseeno peljal in posadil še Vido. Pred Svečino se je zaletel v velikega moža in oba sta padla v blaten jarek. Namesto ponosne vožnje sta se umazana vrnila domov."
+    },
+    {
+      "id": "q006",
+      "skill": "s006",
+      "question": "Kaj je sporočilo knjige?",
+      "key_points": [
+        "otroštvo je dragoceno",
+        "iz napak se učimo",
+        "spoštuj druge",
+        "družina, pomoč v težkih časih"
+      ],
+      "model_answer": "Knjiga pove, da je otroštvo dragoceno in da se iz napak učimo. Uči nas, naj spoštujemo druge, tudi tiste, ki so drugačni, in da si mora družina v težkih časih pomagati."
+    },
+    {
+      "id": "q007",
+      "skill": "s006",
+      "question": "Katera zgodba je bila najbolj všeč in zakaj? Komu bi knjigo priporočili?",
+      "key_points": [
+        "ime zgodbe",
+        "kratka obnova",
+        "razlog z »ker«",
+        "priporočilo"
+      ],
+      "model_answer": "Najbolj mi je bila všeč zgodba Grenke češnje, ker je napeta in ker Poldek na koncu spozna, da goljufija ne prinese sreče. Knjigo priporočam vsem, ki imajo radi resnične in smešne zgodbe."
+    },
+    {
+      "id": "q008",
+      "skill": "s005",
+      "question": "Kaj veste o pisatelju Leopoldu Suhodolčanu?",
+      "key_points": [
+        "rojen 1928 v Žireh, umrl 1980",
+        "učitelj in ravnatelj na Prevaljah",
+        "ustanovil bralno značko",
+        "Naočnik in Očalnik, Rumena podmornica"
+      ],
+      "model_answer": "Leopold Suhodolčan se je rodil leta 1928 v Žireh in umrl leta 1980. Bil je učitelj in ravnatelj na Prevaljah. S Stankom Kotnikom je ustanovil bralno značko. Napisal je še Naočnik in Očalnik ter Rumeno podmornico."
+    }
+  ],
+  "for": [
+    "Erik"
+  ]
+}

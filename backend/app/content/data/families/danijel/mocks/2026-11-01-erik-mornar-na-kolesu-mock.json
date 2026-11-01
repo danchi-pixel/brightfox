@@ -1,0 +1,480 @@
+{
+  "id": "2026-11-01-erik-mornar-na-kolesu-mock",
+  "version": 1,
+  "subject": "slovene",
+  "grade": 6,
+  "title": "Poskusni test: Mornar na kolesu",
+  "intro": "Kot pravi test pri domačem branju: 40 minut, brez knjige in brez namigov. Odgovori v celih povedih, kjer je treba pisati. Rešitve so na koncu.",
+  "minutes": 40,
+  "topics": [
+    "2026-11-01-erik-mornar-na-kolesu"
+  ],
+  "sections": [
+    {
+      "title": "A. O knjigi in pisatelju",
+      "tasks": [
+        {
+          "id": "t001",
+          "kind": "choice",
+          "prompt": "Kdo je napisal knjigo Mornar na kolesu?",
+          "options": [
+            "Aco Mavec",
+            "Leopold Suhodolčan",
+            "Primož Suhodolčan",
+            "Kajetan Kovič"
+          ],
+          "answer": 1,
+          "solution": "Knjigo je napisal **Leopold Suhodolčan**. Aco Mavec je ilustrator, Primož Suhodolčan je drug pisatelj.",
+          "skill": "s005",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t002",
+          "kind": "choice",
+          "prompt": "Kdo je ilustriral knjigo?",
+          "options": [
+            "Stanko Kotnik",
+            "Leopold Suhodolčan",
+            "Jože Zupan",
+            "Aco Mavec"
+          ],
+          "answer": 3,
+          "solution": "Slike je narisal **Aco Mavec**. Jože Zupan je napisal spremno besedilo na koncu.",
+          "skill": "s005",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "m003",
+          "kind": "text",
+          "prompt": "Katera založba je izdala knjigo?",
+          "answer": "Karantanija",
+          "solution": "Založba **Karantanija**.",
+          "skill": "s005",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t022",
+          "kind": "choice",
+          "prompt": "Kaj je Leopold Suhodolčan ustanovil s Stankom Kotnikom?",
+          "options": [
+            "bralno značko",
+            "založbo Karantanija",
+            "gimnazijo",
+            "cirkus"
+          ],
+          "answer": 0,
+          "solution": "Leta 1960/61 sta začela **bralno značko** (Prežihova bralna značka). Knjiga je izšla ob njeni 50-letnici.",
+          "skill": "s005",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "m005",
+          "kind": "choice",
+          "prompt": "Koliko zgodb je v knjigi?",
+          "options": [
+            "19",
+            "30",
+            "7",
+            "12"
+          ],
+          "answer": 0,
+          "solution": "V knjigi je **19 kratkih zgodb**.",
+          "skill": "s005",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "B. Vsebina",
+      "tasks": [
+        {
+          "id": "t003",
+          "kind": "choice",
+          "prompt": "Kaj je ata prinesel Poldku v prvi zgodbi?",
+          "options": [
+            "uro",
+            "škornje",
+            "mornarsko obleko",
+            "kolo"
+          ],
+          "answer": 1,
+          "solution": "Prva zgodba se imenuje **Prvi škornji**. Poldek jih je vedno obul narobe.",
+          "skill": "s001",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t008",
+          "kind": "choice",
+          "prompt": "Zakaj sta Poldek in Vida pristala v jarku?",
+          "options": [
+            "Kolo se je pokvarilo.",
+            "Zaletel se je v velikega moža.",
+            "Ustavil ga je pes.",
+            "Na cesti je bil led."
+          ],
+          "answer": 1,
+          "solution": "Pred Svečino je ljudem sledil, se zmedel in **zadel visokega moža**. Kolo ju je vrglo v blaten jarek.",
+          "skill": "s001",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t009",
+          "kind": "choice",
+          "prompt": "Kdo je bil »tisti mož« s trdim klobukom v zgodbi Ena in ena je tri?",
+          "options": [
+            "finančni inšpektor",
+            "prodajalec drv",
+            "Poldkov ata",
+            "šolski nadzornik"
+          ],
+          "answer": 3,
+          "solution": "Poldek je mislil, da prodaja drva, a je bil **šolski nadzornik**. Učiteljica je prebledela.",
+          "skill": "s001",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t010",
+          "kind": "choice",
+          "prompt": "Kaj je bil Poldek za pesnika Muželja?",
+          "options": [
+            "njegov kočijaž",
+            "njegov učenec pri šivanju",
+            "njegova »živa knjiga«",
+            "njegov sel"
+          ],
+          "answer": 2,
+          "solution": "Muželj ni imel poslušalcev, zato se je moral Poldek njegove pesmi učiti na pamet: bil je **živa knjiga**.",
+          "skill": "s002",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t011",
+          "kind": "choice",
+          "prompt": "Kaj je Poldek nosil, ko je družina aprila 1941 bežala od doma?",
+          "options": [
+            "zastavico",
+            "brento",
+            "uro z verižico",
+            "glavo šivalnega stroja"
+          ],
+          "answer": 3,
+          "solution": "Kot najstarejši je nosil najtežje: **glavo singerice**, zavito v odejo.",
+          "skill": "s001",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t012",
+          "kind": "choice",
+          "prompt": "Zakaj Poldek ni mogel jesti češenj, ki mu jih je prinesel Lojzek?",
+          "options": [
+            "Ker je imel slabo vest.",
+            "Ker ni maral češenj.",
+            "Ker so bile putavske.",
+            "Ker so bile nezrele."
+          ],
+          "answer": 0,
+          "solution": "Tudi otekla ustnica ga je ovirala, a bolj ga je pekla **slaba vest**: Lojzek je goljufal, mali putavec pa je padel z veje. Zato so češnje »grenke«.",
+          "skill": "s001",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t013",
+          "kind": "choice",
+          "prompt": "Kateri konj je Poldka mirno odnesel v hlev, ko ga je Nero vrgel na tla?",
+          "options": [
+            "Šimlja",
+            "Pram",
+            "Budl",
+            "Lis"
+          ],
+          "answer": 1,
+          "solution": "**Pram**, delavni rjavi konj. Poldku je bilo žal, da mu ni nikoli prinesel sladkorja.",
+          "skill": "s002",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t014",
+          "kind": "choice",
+          "prompt": "Kako je Poldek pozimi vedel, koliko je ura, ko je svojo izgubil v snegu?",
+          "options": [
+            "Imel je novo uro.",
+            "Vprašal je mamo.",
+            "Gledal je na cerkveno uro.",
+            "Ugibal je po soncu."
+          ],
+          "answer": 2,
+          "solution": "Nosil je samo verižico in na skrivaj gledal na **cerkveno uro**, kot da gleda na svojo.",
+          "skill": "s001",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t015",
+          "kind": "choice",
+          "prompt": "Zakaj so Tončka klicali Mojmeladek?",
+          "options": [
+            "Ker je bil sladek do vseh.",
+            "Ker je prodajal med.",
+            "Ker je imel rad mlade.",
+            "Ker je jedel kruh z marmelado."
+          ],
+          "answer": 3,
+          "solution": "Ves čas je jedel bel kruh z **marmelado** in mali Franček je rekel: »Tonček spet je mojmelado!«",
+          "skill": "s001",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t025",
+          "kind": "choice",
+          "prompt": "Kdo je zatožil Lenko, ker je pozabila vozovnico?",
+          "options": [
+            "Mojmeladek",
+            "Dušan",
+            "Peter",
+            "sprevodnik Očka"
+          ],
+          "answer": 0,
+          "solution": "**Mojmeladek** je pošepnil sprevodniku Zavori. Kasneje so mu v predoru počrnili obraz.",
+          "skill": "s002",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "m016",
+          "kind": "choice",
+          "prompt": "Kaj je ata držal v roki, ko je prišel inšpektor (Pomladni sel)?",
+          "options": [
+            "knjigo",
+            "šopek zvončkov",
+            "gobe",
+            "službeno kapo"
+          ],
+          "answer": 1,
+          "solution": "Ata je v roki držal **šopek zvončkov**. Inšpektor ga je vprašal, ali pozdravlja kot pastir s pašnika.",
+          "skill": "s001",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "m017",
+          "kind": "choice",
+          "prompt": "Kaj se je zgodilo s kravo Lisko na koncu cirkuške predstave?",
+          "options": [
+            "Prodali so jo cirkusu.",
+            "Pobegnila je v gozd.",
+            "Stopila je v špranjo in poškodovala nogo.",
+            "Dala je mleko v klobuk in odšla."
+          ],
+          "answer": 2,
+          "solution": "Krava je stopila v **špranjo v podu** in poškodovala nogo. Gledalci so zbežali, Poldek je jokal.",
+          "skill": "s001",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "C. Kraj, čas in osebe",
+      "tasks": [
+        {
+          "id": "t007",
+          "kind": "text",
+          "prompt": "V katerem kraju se je pisatelj rodil? Ta kraj leži ob reki Sori.",
+          "answer": "Žiri",
+          "solution": "Pisatelj se je rodil v **Žireh**. Tam je stala hiša starega ata s čebelnjakom.",
+          "skill": "s004",
+          "accept": [
+            "v Žireh",
+            "Žireh",
+            "Ziri",
+            "v Zireh"
+          ],
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t020",
+          "kind": "text",
+          "prompt": "Kako se imenuje samoten kraj ob meji, kjer je ata stražil mejo?",
+          "answer": "Plač",
+          "solution": "To je **Plač**. Od tam je Poldek hodil eno uro daleč v šolo v Svečino.",
+          "skill": "s004",
+          "accept": [
+            "na Plaču",
+            "Plaču"
+          ],
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t016",
+          "kind": "choice",
+          "prompt": "V katerem času se dogajajo zadnje zgodbe v knjigi?",
+          "options": [
+            "na začetku druge svetovne vojne",
+            "danes",
+            "v srednjem veku",
+            "med prvo svetovno vojno"
+          ],
+          "answer": 0,
+          "solution": "Zgodbe Singerica, Zastavica, Lis in Budl se dogajajo **na začetku druge svetovne vojne** (april 1941).",
+          "skill": "s004",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t005",
+          "kind": "choice",
+          "prompt": "Kakšen poklic je imel Poldkov ata?",
+          "options": [
+            "mizar",
+            "kmet",
+            "učitelj",
+            "finančni stražnik"
+          ],
+          "answer": 3,
+          "solution": "Ata je bil **finančni stražnik**: čuval je državno mejo. Zato so živeli na Plaču ob meji.",
+          "skill": "s002",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t021",
+          "kind": "text",
+          "prompt": "Kako je bilo ime Poldkovi sestri, ki se je z njim vozila na kolesu?",
+          "answer": "Vida",
+          "solution": "Sestri je bilo ime **Vida**.",
+          "skill": "s002",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "Č. Književni pojmi",
+      "tasks": [
+        {
+          "id": "t017",
+          "kind": "choice",
+          "prompt": "Kdo pripoveduje zgodbe v knjigi?",
+          "options": [
+            "vsevedni pripovedovalec, ki ga ni v zgodbi",
+            "Poldkova mama",
+            "pisatelj sam v prvi osebi (»jaz«)",
+            "sestra Vida"
+          ],
+          "answer": 2,
+          "solution": "Pripovedovalec je **prvoosebni**: odrasli pisatelj se spominja svojega otroštva.",
+          "skill": "s003",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t018",
+          "kind": "choice",
+          "prompt": "Ali je Mornar na kolesu realistična ali fantastična pripoved?",
+          "options": [
+            "basen",
+            "realistična",
+            "fantastična",
+            "pravljica"
+          ],
+          "answer": 1,
+          "solution": "Je **realistična**: vse, kar se zgodi, bi se lahko zgodilo zares. Je tudi avtobiografska.",
+          "skill": "s003",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t019",
+          "kind": "text",
+          "prompt": "Pisatelj v knjigi piše o svojem življenju. Kako rečemo taki pripovedi? (ena beseda)",
+          "answer": "avtobiografska",
+          "solution": "Taka pripoved je **avtobiografska** (avto = sam, bio = življenje).",
+          "skill": "s003",
+          "accept": [
+            "avtobiografija",
+            "avtobiografsko",
+            "avtobiografska pripoved"
+          ],
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "t027",
+          "kind": "open",
+          "prompt": "Zakaj sta v tej knjigi avtor in pripovedovalec ista oseba? Odgovori v dveh povedih.",
+          "solution": "Knjiga je **avtobiografska**: Leopold Suhodolčan piše o svojem otroštvu. Zgodbe pripoveduje v prvi osebi (»jaz«), zato je on hkrati avtor, pripovedovalec in glavna oseba (Poldek).",
+          "skill": "s003",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 2
+        }
+      ]
+    },
+    {
+      "title": "D. Razmišljanje in mnenje",
+      "tasks": [
+        {
+          "id": "t028",
+          "kind": "open",
+          "prompt": "Razloži naslov knjige Mornar na kolesu.",
+          "solution": "Poldek je sanjal o morju, a je živel daleč od vode. Ko je dobil **mornarsko obleko**, je bilo **kolo njegova ladja**. Naslov pokaže otroške sanje in domišljijo, ki se srečajo z resničnostjo (jarek).",
+          "skill": "s006",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 2
+        },
+        {
+          "id": "t029",
+          "kind": "open",
+          "prompt": "Opiši Poldka z dvema lastnostma. Za vsako navedi dogodek iz knjige.",
+          "solution": "Primer: **pogumen** (v zgodbi Zastavica ne izpusti zastavice, čeprav ga napadeta dva fanta); **odgovoren** (v Singerici nese najtežje breme). Druge možnosti: sanjač, nepotrpežljiv, ima slabo vest (Grenke češnje).",
+          "skill": "s002",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 3
+        },
+        {
+          "id": "t024",
+          "kind": "choice",
+          "prompt": "Kateri nauk najbolje velja za zgodbo Jurij Polenta in njegova težka brenta?",
+          "options": [
+            "Brente so prelahke.",
+            "Delo je samo za odrasle.",
+            "Kdor je učen, je več vreden.",
+            "Ne posmehuj se drugim, spoštuj njihovo delo."
+          ],
+          "answer": 3,
+          "solution": "Jurij ni hodil v šolo, a je bil močnejši in boljši. Nauk: **ne posmehuj se drugim**.",
+          "skill": "s006",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 1
+        },
+        {
+          "id": "m030",
+          "kind": "open",
+          "prompt": "Napiši svoje mnenje o knjigi (4–5 povedi). Ali je knjiga všeč? Zakaj? Komu jo priporočiš?",
+          "solution": "Dober odgovor ima **mnenje** (všeč / ni všeč), vsaj **dva razloga** s primerom iz knjige in **priporočilo**. Za vse 4 točke: cele povedi, knjižni jezik, primer iz zgodbe.",
+          "skill": "s006",
+          "topic": "2026-11-01-erik-mornar-na-kolesu",
+          "points": 4
+        }
+      ]
+    }
+  ],
+  "for": [
+    "Erik"
+  ],
+  "source": "Izvirni poskusni test po knjigi Mornar na kolesu. Učiteljičina oblika in kriteriji niso znani; ocena je samo za domačo vajo."
+}
