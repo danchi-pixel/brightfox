@@ -1,0 +1,1801 @@
+{
+  "id": "2026-11-08-erik-english-food",
+  "version": 1,
+  "format": 2,
+  "for": [
+    "Erik"
+  ],
+  "subject": "english",
+  "grade": 6,
+  "title": "It's delicious! 🍕 (Unit 2) + pisanje",
+  "intro": "Hrana, there is/are, some/any, much/many, too much in naročanje. Na koncu vaja za pisni sestavek, da bo na testu 5!",
+  "source": "Wider World 1 Unit 2 (student's book and workbook pp. 18–29) and Erik's notebook (My family, My friend), photos of 8 Nov 2026. Targets his mistakes: He have got, Hes favourite, In my family live. New tasks, nothing copied.",
+  "skills": [
+    {
+      "id": "food",
+      "title": "Hrana, pijača in obroki"
+    },
+    {
+      "id": "cook",
+      "title": "Kuhanje in kraji, kjer jemo"
+    },
+    {
+      "id": "thereis",
+      "title": "there is / there are"
+    },
+    {
+      "id": "someany",
+      "title": "a / an, some, any"
+    },
+    {
+      "id": "count",
+      "title": "Števno, neštevno: how much / how many, a lot of"
+    },
+    {
+      "id": "toomuch",
+      "title": "too much / too many / not enough"
+    },
+    {
+      "id": "order",
+      "title": "Naročanje hrane in cene"
+    },
+    {
+      "id": "write",
+      "title": "Pisni sestavek (13–15 povedi)"
+    }
+  ],
+  "learn": [
+    {
+      "title": "There is ali there are?",
+      "text": "There is (there's) = ena stvar ali nekaj neštevnega. There are = več stvari. Zanikanje: there isn't / there aren't. Vprašanje: Is there …? Are there …? Kratek odgovor: Yes, there is. / No, there aren't.",
+      "example": "There's a pizzeria in my town. There are two cafés. Is there a burger bar? No, there isn't."
+    },
+    {
+      "title": "Števno ali neštevno?",
+      "text": "Števno (countable) lahko preštejemo: an apple, two apples. Neštevno (uncountable) ne: milk, water, bread, cheese, butter, rice, juice. Neštevno nima množine in nikoli a/an: some bread, NE a bread, NE breads.",
+      "example": "an egg → three eggs, a banana → bananas, but: some milk, some cheese"
+    },
+    {
+      "title": "a / an, some, any",
+      "text": "a/an = ena števna stvar (an pred a, e, i, o, u: an apple, an egg, an onion). some = nekaj, v trdilnih povedih. any = v zanikanih povedih in vprašanjih.",
+      "example": "There's an apple. There are some eggs. There isn't any milk. Are there any biscuits?"
+    },
+    {
+      "title": "How much ali how many?",
+      "text": "How many + množina (števno): How many eggs? How much + neštevno: How much milk? Za 'veliko' v trdilni povedi: a lot of / lots of (oboje). V zanikani: not many (števno), not much (neštevno).",
+      "example": "How many apples are there? There are a lot of apples. How much water is there? There isn't much water."
+    },
+    {
+      "title": "too much, too many, not enough",
+      "text": "too much / too many = preveč (in to ni dobro). too much + neštevno, too many + množina. not enough = premalo.",
+      "example": "There's too much salt in this soup. There are too many chips on my plate. There isn't enough milk."
+    }
+  ],
+  "study": {
+    "goals": [
+      {
+        "id": "g1",
+        "text": "Znam poimenovati 30 živil in pijač ter jih pravilno črkovati.",
+        "skill": "food"
+      },
+      {
+        "id": "g2",
+        "text": "Znam povedati, kaj je v mojem mestu: There is … / There are …",
+        "skill": "thereis"
+      },
+      {
+        "id": "g3",
+        "text": "Vem, kdaj rečem a/an, some ali any.",
+        "skill": "someany"
+      },
+      {
+        "id": "g4",
+        "text": "Ločim števno in neštevno ter vprašam How much / How many.",
+        "skill": "count"
+      },
+      {
+        "id": "g5",
+        "text": "Znam reči, da je nečesa preveč ali premalo.",
+        "skill": "toomuch"
+      },
+      {
+        "id": "g6",
+        "text": "Znam naročiti hrano v kavarni in prebrati ceno.",
+        "skill": "order"
+      },
+      {
+        "id": "g7",
+        "text": "Znam opisati recept s kuharskimi glagoli.",
+        "skill": "cook"
+      },
+      {
+        "id": "g8",
+        "text": "Napišem 13–15 pravilnih povedi o osebi ali o hrani.",
+        "skill": "write"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Hrana in pijača (Food and drink)",
+        "skill": "food",
+        "text": "Besede iz Unit 2. Pazi na črkovanje: **sandwich, yoghurt, biscuits, vegetables, breakfast, delicious, potatoes, tomatoes**.",
+        "table": {
+          "head": [
+            "English",
+            "Slovensko"
+          ],
+          "say": [
+            0
+          ],
+          "rows": [
+            [
+              "apple / apples",
+              "jabolko"
+            ],
+            [
+              "banana",
+              "banana"
+            ],
+            [
+              "grapes",
+              "grozdje"
+            ],
+            [
+              "orange",
+              "pomaranča"
+            ],
+            [
+              "carrot",
+              "korenje"
+            ],
+            [
+              "celery",
+              "zelena"
+            ],
+            [
+              "potato / potatoes",
+              "krompir"
+            ],
+            [
+              "onion",
+              "čebula"
+            ],
+            [
+              "tomato / tomatoes",
+              "paradižnik"
+            ],
+            [
+              "bacon",
+              "slanina"
+            ],
+            [
+              "chicken",
+              "piščanec"
+            ],
+            [
+              "fish",
+              "riba"
+            ],
+            [
+              "burger / cheeseburger",
+              "burger"
+            ],
+            [
+              "bread",
+              "kruh"
+            ],
+            [
+              "butter",
+              "maslo"
+            ],
+            [
+              "cheese",
+              "sir"
+            ],
+            [
+              "egg / eggs",
+              "jajce"
+            ],
+            [
+              "biscuits",
+              "piškoti"
+            ],
+            [
+              "crisps",
+              "čips (v vrečki)"
+            ],
+            [
+              "chips",
+              "pomfri"
+            ],
+            [
+              "muffin",
+              "mafin"
+            ],
+            [
+              "yoghurt",
+              "jogurt"
+            ],
+            [
+              "breakfast cereal",
+              "kosmiči"
+            ],
+            [
+              "sandwich",
+              "sendvič"
+            ],
+            [
+              "milk",
+              "mleko"
+            ],
+            [
+              "orange juice",
+              "pomarančni sok"
+            ],
+            [
+              "cola",
+              "kokakola"
+            ],
+            [
+              "milkshake",
+              "milkšejk"
+            ],
+            [
+              "water",
+              "voda"
+            ],
+            [
+              "ice cream",
+              "sladoled"
+            ],
+            [
+              "baked beans",
+              "fižol v omaki"
+            ],
+            [
+              "fish fingers",
+              "ribje palčke"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "crisps = pomfri",
+            "right": "crisps = čips, chips = pomfri",
+            "why": "V britanski angleščini so chips ocvrti krompirčki."
+          },
+          {
+            "wrong": "sanwich, yogurt, bisquits",
+            "right": "sandwich, yoghurt, biscuits",
+            "why": "Najpogostejše napake pri črkovanju."
+          }
+        ]
+      },
+      {
+        "title": "Obroki (Meals)",
+        "skill": "food",
+        "text": "**breakfast** = zajtrk, **lunch** = kosilo, **dinner** = večerja. Pred obroki ni člena: *I have breakfast at seven.* Čas: *at seven o'clock, at half past twelve*.",
+        "examples": [
+          "I have breakfast at 7 o'clock. A typical breakfast for me is milk and cereal.",
+          "We have lunch at school at half past twelve.",
+          "My favourite meal is dinner."
+        ]
+      },
+      {
+        "title": "Kraji, kjer jemo, in kuhanje",
+        "skill": "cook",
+        "table": {
+          "head": [
+            "English",
+            "Slovensko"
+          ],
+          "say": [
+            0
+          ],
+          "rows": [
+            [
+              "café",
+              "kavarna"
+            ],
+            [
+              "restaurant",
+              "restavracija"
+            ],
+            [
+              "pizzeria",
+              "picerija"
+            ],
+            [
+              "burger bar",
+              "burger bar"
+            ],
+            [
+              "fast food restaurant",
+              "restavracija s hitro hrano"
+            ],
+            [
+              "sandwich bar",
+              "sendvič bar"
+            ],
+            [
+              "vegetarian café",
+              "vegetarijanska kavarna"
+            ],
+            [
+              "bowl",
+              "skleda"
+            ],
+            [
+              "plate",
+              "krožnik"
+            ],
+            [
+              "fork",
+              "vilica"
+            ],
+            [
+              "knife",
+              "nož"
+            ],
+            [
+              "frying pan",
+              "ponev"
+            ],
+            [
+              "salt / pepper",
+              "sol / poper"
+            ],
+            [
+              "boil",
+              "skuhati v vodi"
+            ],
+            [
+              "fry",
+              "ocvreti, popeči"
+            ],
+            [
+              "bake",
+              "speči v pečici"
+            ],
+            [
+              "cut (up)",
+              "narezati"
+            ],
+            [
+              "add",
+              "dodati"
+            ],
+            [
+              "beat",
+              "stepati (jajca)"
+            ],
+            [
+              "mix",
+              "zmešati"
+            ],
+            [
+              "grate",
+              "naribati"
+            ]
+          ]
+        },
+        "examples": [
+          "Beat two eggs in a bowl.",
+          "Cut up the onion and fry it in the oil.",
+          "Boil the water and then add the pasta.",
+          "Bake the cake for twenty minutes."
+        ]
+      },
+      {
+        "title": "there is / there are",
+        "skill": "thereis",
+        "table": {
+          "head": [
+            "Oblika",
+            "ednina (1)",
+            "množina (2+)"
+          ],
+          "say": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "+",
+              "There's a café.",
+              "There are some cafés."
+            ],
+            [
+              "−",
+              "There isn't a café.",
+              "There aren't any cafés."
+            ],
+            [
+              "?",
+              "Is there a café?",
+              "Are there any cafés?"
+            ],
+            [
+              "kratki odgovor",
+              "Yes, there is. / No, there isn't.",
+              "Yes, there are. / No, there aren't."
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "In my town have two pizzerias.",
+            "right": "There are two pizzerias in my town.",
+            "why": "»V mestu imamo / so« → There are … (ne prevajaj dobesedno)."
+          },
+          {
+            "wrong": "Yes, there's.",
+            "right": "Yes, there is.",
+            "why": "V kratkem pritrdilnem odgovoru ni skrajšave."
+          },
+          {
+            "wrong": "There is two cafés.",
+            "right": "There are two cafés.",
+            "why": "Več stvari → are."
+          }
+        ]
+      },
+      {
+        "title": "a / an, some, any",
+        "skill": "someany",
+        "table": {
+          "head": [
+            "Oblika",
+            "števno (apple)",
+            "neštevno (milk)"
+          ],
+          "say": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "+",
+              "There's an apple. There are some apples.",
+              "There's some milk."
+            ],
+            [
+              "−",
+              "There aren't any apples.",
+              "There isn't any milk."
+            ],
+            [
+              "?",
+              "Are there any apples?",
+              "Is there any milk?"
+            ]
+          ]
+        },
+        "examples": [
+          "an apple, an egg, an onion, an orange",
+          "a banana, a sandwich, a burger"
+        ],
+        "watch_out": [
+          {
+            "wrong": "There aren't some eggs.",
+            "right": "There aren't any eggs.",
+            "why": "V zanikanju → any."
+          },
+          {
+            "wrong": "a egg",
+            "right": "an egg",
+            "why": "Pred samoglasnikom (a, e, i, o, u) → an."
+          },
+          {
+            "wrong": "There's a bread.",
+            "right": "There's some bread.",
+            "why": "Bread je neštevno: brez a."
+          }
+        ]
+      },
+      {
+        "title": "how much / how many, a lot of",
+        "skill": "count",
+        "table": {
+          "head": [
+            "Oblika",
+            "števno (eggs)",
+            "neštevno (cheese)"
+          ],
+          "say": [
+            1,
+            2
+          ],
+          "rows": [
+            [
+              "?",
+              "How many eggs are there?",
+              "How much cheese is there?"
+            ],
+            [
+              "veliko",
+              "There are a lot of / lots of eggs.",
+              "There's a lot of / lots of cheese."
+            ],
+            [
+              "malo (−)",
+              "There aren't many eggs.",
+              "There isn't much cheese."
+            ]
+          ]
+        },
+        "text": "Neštevne besede iz knjige: **milk, water, juice, cola, bread, butter, cheese, bacon, ketchup, oil, salt, rice, pasta**. Te imajo *is*, ne *are*: *How much juice is there?*",
+        "watch_out": [
+          {
+            "wrong": "How much eggs are there?",
+            "right": "How many eggs are there?",
+            "why": "Eggs lahko preštejemo → many."
+          },
+          {
+            "wrong": "How many milk is there?",
+            "right": "How much milk is there?",
+            "why": "Milk je neštevno → much."
+          }
+        ]
+      },
+      {
+        "title": "too much / too many / not enough",
+        "skill": "toomuch",
+        "examples": [
+          "There's too much meat on that plate. (preveč mesa)",
+          "There are too many chips. (preveč krompirčkov)",
+          "There isn't enough salt. (premalo soli)",
+          "There aren't enough chips. (premalo krompirčkov)"
+        ],
+        "text": "Ko nečesa ni dovolj, rečemo **not enough**. Ko je nečesa preveč: **too much** (neštevno) ali **too many** (množina)."
+      },
+      {
+        "title": "V kavarni (Ordering food)",
+        "skill": "order",
+        "table": {
+          "head": [
+            "Natakar (waiter)",
+            "Gost (customer)"
+          ],
+          "say": [
+            0,
+            1
+          ],
+          "rows": [
+            [
+              "What would you like?",
+              "A burger, please. / I'd like a burger, please."
+            ],
+            [
+              "Anything else?",
+              "Can I have some ketchup with that?"
+            ],
+            [
+              "Is that all?",
+              "Yes, thanks. / No, I'd like some ice cream too."
+            ],
+            [
+              "Here you are.",
+              "Thank you."
+            ],
+            [
+              "Is everything OK?",
+              "It's delicious!"
+            ],
+            [
+              "That's £24.80, please.",
+              "How much is that?"
+            ]
+          ]
+        },
+        "text": "Cene: £2.70 = *two pounds seventy (pence)*, 35p = *thirty-five pence*, £1.56 = *one pound fifty-six*.",
+        "examples": [
+          "Let's buy some fruit. Good idea!",
+          "How much are the bananas? They're only 64p.",
+          "I'm starving! (zelo lačen) · Of course. · Keep an eye on it."
+        ]
+      },
+      {
+        "title": "Pisanje: kako dobiti 5",
+        "skill": "write",
+        "text": "Na pisnem testu je skoraj gotovo sestavek: **opis osebe** (My family / My best friend / My hero) ali **hrana** (My favourite food / A day of meals). V zvezku je bilo »13 do 15 stavkov«.\n\n**Načrt:** 1) uvod (kdo/kaj), 2) videz ali dejstva, 3) kaj zna (can), kaj ima (have got), 4) kaj rad je in kje (there is/are, some, a lot of), 5) zaključek: *I love … / He's a great friend.*\n\nPoveži povedi z **and**, **but**, **because**, **too**. Na koncu preveri vsako poved: velika začetnica, pika, he/she → **has**, **His** (ne He's) za 'njegov'.",
+        "examples": [
+          "My best friend is Luka. He's eleven years old and he's from Slovenia.",
+          "He's got short brown hair and green eyes.",
+          "He can play football very well, but he can't swim.",
+          "His favourite food is pizza. He doesn't like fish.",
+          "There are a lot of good pizzerias in our town.",
+          "He's funny and friendly. He's a great friend!"
+        ],
+        "watch_out": [
+          {
+            "wrong": "He have got green eyes.",
+            "right": "He has got green eyes.",
+            "why": "he / she / it → has got."
+          },
+          {
+            "wrong": "Hes favourite food is pizza.",
+            "right": "His favourite food is pizza.",
+            "why": "Njegov = His. He's = he is."
+          },
+          {
+            "wrong": "In my family live four people.",
+            "right": "There are four people in my family.",
+            "why": "»Nas je …« → There are …"
+          },
+          {
+            "wrong": "My favourite football are Messi.",
+            "right": "My favourite football player is Messi.",
+            "why": "En igralec → is; football player, ne samo football."
+          },
+          {
+            "wrong": "i like pizza",
+            "right": "I like pizza.",
+            "why": "I je vedno velik, poved se konča s piko."
+          }
+        ]
+      }
+    ],
+    "cards": [
+      {
+        "front": "jabolko",
+        "back": "apple",
+        "skill": "food"
+      },
+      {
+        "front": "grozdje",
+        "back": "grapes",
+        "skill": "food"
+      },
+      {
+        "front": "korenje",
+        "back": "carrot",
+        "skill": "food"
+      },
+      {
+        "front": "zelena",
+        "back": "celery",
+        "skill": "food"
+      },
+      {
+        "front": "krompir",
+        "back": "potatoes",
+        "skill": "food"
+      },
+      {
+        "front": "čebula",
+        "back": "onion",
+        "skill": "food"
+      },
+      {
+        "front": "paradižnik",
+        "back": "tomato",
+        "skill": "food"
+      },
+      {
+        "front": "slanina",
+        "back": "bacon",
+        "skill": "food"
+      },
+      {
+        "front": "piščanec",
+        "back": "chicken",
+        "skill": "food"
+      },
+      {
+        "front": "kruh",
+        "back": "bread",
+        "skill": "food"
+      },
+      {
+        "front": "maslo",
+        "back": "butter",
+        "skill": "food"
+      },
+      {
+        "front": "sir",
+        "back": "cheese",
+        "skill": "food"
+      },
+      {
+        "front": "jajce",
+        "back": "egg",
+        "skill": "food"
+      },
+      {
+        "front": "piškoti",
+        "back": "biscuits",
+        "skill": "food"
+      },
+      {
+        "front": "čips",
+        "back": "crisps",
+        "skill": "food"
+      },
+      {
+        "front": "pomfri",
+        "back": "chips",
+        "skill": "food"
+      },
+      {
+        "front": "jogurt",
+        "back": "yoghurt",
+        "skill": "food"
+      },
+      {
+        "front": "kosmiči",
+        "back": "breakfast cereal",
+        "skill": "food"
+      },
+      {
+        "front": "sendvič",
+        "back": "sandwich",
+        "skill": "food"
+      },
+      {
+        "front": "mleko",
+        "back": "milk",
+        "skill": "food"
+      },
+      {
+        "front": "pomarančni sok",
+        "back": "orange juice",
+        "skill": "food"
+      },
+      {
+        "front": "voda",
+        "back": "water",
+        "skill": "food"
+      },
+      {
+        "front": "sladoled",
+        "back": "ice cream",
+        "skill": "food"
+      },
+      {
+        "front": "zelenjava",
+        "back": "vegetables",
+        "skill": "food"
+      },
+      {
+        "front": "sadje",
+        "back": "fruit",
+        "skill": "food"
+      },
+      {
+        "front": "meso",
+        "back": "meat",
+        "skill": "food"
+      },
+      {
+        "front": "zajtrk",
+        "back": "breakfast",
+        "skill": "food"
+      },
+      {
+        "front": "kosilo",
+        "back": "lunch",
+        "skill": "food"
+      },
+      {
+        "front": "večerja",
+        "back": "dinner",
+        "skill": "food"
+      },
+      {
+        "front": "okusno",
+        "back": "delicious",
+        "skill": "food"
+      },
+      {
+        "front": "zelo lačen",
+        "back": "starving",
+        "skill": "food"
+      },
+      {
+        "front": "kavarna",
+        "back": "café",
+        "skill": "cook"
+      },
+      {
+        "front": "restavracija",
+        "back": "restaurant",
+        "skill": "cook"
+      },
+      {
+        "front": "skleda",
+        "back": "bowl",
+        "skill": "cook"
+      },
+      {
+        "front": "krožnik",
+        "back": "plate",
+        "skill": "cook"
+      },
+      {
+        "front": "vilica",
+        "back": "fork",
+        "skill": "cook"
+      },
+      {
+        "front": "ponev",
+        "back": "frying pan",
+        "skill": "cook"
+      },
+      {
+        "front": "sol",
+        "back": "salt",
+        "skill": "cook"
+      },
+      {
+        "front": "poper",
+        "back": "pepper",
+        "skill": "cook"
+      },
+      {
+        "front": "skuhati v vodi",
+        "back": "boil",
+        "skill": "cook"
+      },
+      {
+        "front": "ocvreti",
+        "back": "fry",
+        "skill": "cook"
+      },
+      {
+        "front": "speči v pečici",
+        "back": "bake",
+        "skill": "cook"
+      },
+      {
+        "front": "narezati",
+        "back": "cut up",
+        "skill": "cook"
+      },
+      {
+        "front": "dodati",
+        "back": "add",
+        "skill": "cook"
+      },
+      {
+        "front": "stepati jajca",
+        "back": "beat",
+        "skill": "cook"
+      },
+      {
+        "front": "naribati",
+        "back": "grate",
+        "skill": "cook"
+      },
+      {
+        "front": "preveč (soli)",
+        "back": "too much",
+        "skill": "toomuch"
+      },
+      {
+        "front": "preveč (krompirčkov)",
+        "back": "too many",
+        "skill": "toomuch"
+      },
+      {
+        "front": "premalo",
+        "back": "not enough",
+        "skill": "toomuch"
+      },
+      {
+        "front": "Kaj bi radi?",
+        "back": "What would you like?",
+        "skill": "order"
+      },
+      {
+        "front": "Še kaj?",
+        "back": "Anything else?",
+        "skill": "order"
+      },
+      {
+        "front": "Izvolite.",
+        "back": "Here you are.",
+        "skill": "order"
+      },
+      {
+        "front": "Koliko stane?",
+        "back": "How much is that?",
+        "skill": "order"
+      },
+      {
+        "front": "£2.70",
+        "back": "two pounds seventy",
+        "skill": "order"
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "crisps-chips",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Kaj so v britanski angleščini »chips«?",
+      "options": [
+        "čips v vrečki",
+        "pomfri",
+        "piškoti"
+      ],
+      "answer": 1,
+      "hints": [
+        "Fish and chips je znana angleška jed."
+      ],
+      "solution": "**Chips** = pomfri (ocvrti krompirčki). Čips v vrečki = **crisps**.",
+      "skill": "food"
+    },
+    {
+      "id": "odd-veg",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Katera beseda NE spada zraven? carrot, celery, potato, bacon",
+      "options": [
+        "carrot",
+        "celery",
+        "potato",
+        "bacon"
+      ],
+      "answer": 3,
+      "solution": "**Bacon** (slanina) je meso. Ostale so zelenjava.",
+      "skill": "food"
+    },
+    {
+      "id": "sp-sandwich",
+      "level": 1,
+      "kind": "text",
+      "prompt": "Prevedi in pravilno črkuj: sendvič",
+      "answer": "sandwich",
+      "solution": "**sandwich** (s-a-n-d-w-i-c-h). Pazi na d in w!",
+      "skill": "food",
+      "traps": [
+        {
+          "answer": "sanwich",
+          "why": "Manjka d: san-D-wich."
+        },
+        {
+          "answer": "sendvich",
+          "why": "V angleščini: sandwich."
+        }
+      ]
+    },
+    {
+      "id": "sp-biscuits",
+      "level": 1,
+      "kind": "text",
+      "prompt": "Prevedi in pravilno črkuj: piškoti",
+      "answer": "biscuits",
+      "accept": [
+        "cookies"
+      ],
+      "solution": "**biscuits** (b-i-s-c-u-i-t-s).",
+      "skill": "food",
+      "traps": [
+        {
+          "answer": "biskits",
+          "why": "Piše se biscuits: b-i-s-c-u-i-t-s."
+        }
+      ]
+    },
+    {
+      "id": "sp-breakfast",
+      "level": 1,
+      "kind": "text",
+      "prompt": "Prevedi: zajtrk",
+      "answer": "breakfast",
+      "solution": "**breakfast**. Kosilo = lunch, večerja = dinner.",
+      "skill": "food"
+    },
+    {
+      "id": "meal-evening",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "In the evening we have …",
+      "options": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "answer": 2,
+      "solution": "Zvečer je **dinner** (večerja).",
+      "skill": "food"
+    },
+    {
+      "id": "place-pizza",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "You can eat pizza in a …",
+      "options": [
+        "pizzeria",
+        "sandwich bar",
+        "bowl"
+      ],
+      "answer": 0,
+      "solution": "Pico ješ v **pizzeria**. Bowl je skleda.",
+      "skill": "cook"
+    },
+    {
+      "id": "cook-eggs",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "______ two eggs in a bowl. (stepi)",
+      "options": [
+        "Bake",
+        "Beat",
+        "Boil"
+      ],
+      "answer": 1,
+      "solution": "**Beat** = stepati. Bake = peči v pečici, boil = kuhati v vodi.",
+      "skill": "cook"
+    },
+    {
+      "id": "there-is-are-1",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "There ______ two cafés in my street.",
+      "options": [
+        "is",
+        "are"
+      ],
+      "answer": 1,
+      "solution": "Dva kavarni = množina → **There are** two cafés.",
+      "skill": "thereis"
+    },
+    {
+      "id": "a-an",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "There's ______ egg in the fridge.",
+      "options": [
+        "a",
+        "an",
+        "some"
+      ],
+      "answer": 1,
+      "hints": [
+        "Pred a, e, i, o, u pišemo an."
+      ],
+      "solution": "Egg se začne s samoglasnikom e → **an egg**.",
+      "skill": "someany"
+    },
+    {
+      "id": "count-milk",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Katera beseda je NEŠTEVNA (je ne moremo prešteti)?",
+      "options": [
+        "banana",
+        "milk",
+        "egg",
+        "burger"
+      ],
+      "answer": 1,
+      "solution": "**Milk** je neštevno: some milk, NE two milks. Banane, jajca in burgerje lahko preštejemo.",
+      "skill": "count"
+    },
+    {
+      "id": "there-neg",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Napiši zanikano: There's a burger bar near our school.",
+      "answer": "There isn't a burger bar near our school.",
+      "accept": [
+        "There is not a burger bar near our school.",
+        "There isn't a burger bar near our school"
+      ],
+      "solution": "There is → **There isn't** a burger bar near our school.",
+      "skill": "thereis",
+      "traps": [
+        {
+          "answer": "There aren't a burger bar near our school.",
+          "why": "En burger bar → isn't."
+        }
+      ]
+    },
+    {
+      "id": "there-q",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Napiši vprašanje: there / any vegetarian cafés / in your town / ?",
+      "answer": "Are there any vegetarian cafés in your town?",
+      "accept": [
+        "Are there any vegetarian cafés in your town",
+        "Are there any vegetarian cafes in your town?"
+      ],
+      "solution": "Množina → **Are there any** vegetarian cafés in your town?",
+      "skill": "thereis"
+    },
+    {
+      "id": "short-answer",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Is there a pizzeria in your town? (✓)",
+      "options": [
+        "Yes, there's.",
+        "Yes, there is.",
+        "Yes, it is."
+      ],
+      "answer": 1,
+      "solution": "Kratki pritrdilni odgovor je brez skrajšave: **Yes, there is.**",
+      "skill": "thereis"
+    },
+    {
+      "id": "some-any-1",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni z some ali any: There aren't ______ biscuits in the box.",
+      "answer": "any",
+      "solution": "Zanikana poved → **any**: There aren't any biscuits.",
+      "skill": "someany",
+      "traps": [
+        {
+          "answer": "some",
+          "why": "V zanikanju (aren't) pišemo any."
+        }
+      ]
+    },
+    {
+      "id": "some-any-2",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni z a, an, some ali any: There's ______ bread on the table.",
+      "answer": "some",
+      "solution": "Bread je neštevno → **some** bread (nikoli a bread).",
+      "skill": "someany",
+      "traps": [
+        {
+          "answer": "a",
+          "why": "Bread je neštevno, zato some."
+        }
+      ]
+    },
+    {
+      "id": "some-any-3",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni z a, an, some ali any: Is there ______ milk in the fridge?",
+      "answer": "any",
+      "solution": "Vprašanje → **any**: Is there any milk?",
+      "skill": "someany"
+    },
+    {
+      "id": "much-many-1",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni z much ali many: How ______ eggs are there?",
+      "answer": "many",
+      "solution": "Eggs lahko preštejemo → How **many** eggs?",
+      "skill": "count",
+      "traps": [
+        {
+          "answer": "much",
+          "why": "Jajca preštejemo → many."
+        }
+      ]
+    },
+    {
+      "id": "much-many-2",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni z much ali many: How ______ juice is there?",
+      "answer": "much",
+      "solution": "Juice je neštevno → How **much** juice is there?",
+      "skill": "count"
+    },
+    {
+      "id": "not-much",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "There isn't ______ water. Let's buy some!",
+      "options": [
+        "many",
+        "much",
+        "a"
+      ],
+      "answer": 1,
+      "solution": "Water je neštevno → **not much** water.",
+      "skill": "count"
+    },
+    {
+      "id": "too-salt",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "The soup isn't good. There's ______ salt in it!",
+      "options": [
+        "too many",
+        "too much",
+        "enough"
+      ],
+      "answer": 1,
+      "solution": "Salt je neštevno → **too much** salt.",
+      "skill": "toomuch"
+    },
+    {
+      "id": "too-chips",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "I can't eat it all. There are ______ chips on my plate.",
+      "options": [
+        "too much",
+        "too many",
+        "not enough"
+      ],
+      "answer": 1,
+      "solution": "Chips je množina → **too many** chips.",
+      "skill": "toomuch"
+    },
+    {
+      "id": "enough",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni (premalo): There isn't ______ milk in my glass.",
+      "answer": "enough",
+      "solution": "Premalo = **not enough**: There isn't enough milk.",
+      "skill": "toomuch"
+    },
+    {
+      "id": "order-1",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Waiter: What would you like? You: …",
+      "options": [
+        "I'd like a hot dog, please.",
+        "I like hot dogs.",
+        "Here you are."
+      ],
+      "answer": 0,
+      "solution": "Ko naročaš: **I'd like … , please.** (I like = rad imam na splošno.)",
+      "skill": "order"
+    },
+    {
+      "id": "order-2",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Waiter: Anything else? You: …",
+      "options": [
+        "Yes, can I have some chips?",
+        "Yes, there is.",
+        "It's £3."
+      ],
+      "answer": 0,
+      "solution": "Anything else? = Še kaj? → **Yes, can I have some chips?** ali No, thanks.",
+      "skill": "order"
+    },
+    {
+      "id": "price",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Napiši z besedami: £2.50",
+      "answer": "two pounds fifty",
+      "accept": [
+        "two pounds fifty pence",
+        "two pounds and fifty pence",
+        "Two pounds fifty"
+      ],
+      "solution": "£2.50 = **two pounds fifty** (pence).",
+      "skill": "order"
+    },
+    {
+      "id": "listen-food",
+      "level": 2,
+      "kind": "text",
+      "prompt": "🔊 Poslušaj in zapiši poved.",
+      "answer": "There are some eggs but there isn't any milk.",
+      "accept": [
+        "There are some eggs, but there isn't any milk.",
+        "There are some eggs but there is not any milk."
+      ],
+      "say": "There are some eggs but there isn't any milk.",
+      "solution": "**There are some eggs but there isn't any milk.**",
+      "skill": "someany"
+    },
+    {
+      "id": "tr-town",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Prevedi: V mojem mestu sta dve piceriji.",
+      "answer": "There are two pizzerias in my town.",
+      "accept": [
+        "In my town there are two pizzerias.",
+        "There are two pizzerias in my town"
+      ],
+      "solution": "**There are two pizzerias in my town.** (NE: In my town have …)",
+      "skill": "thereis",
+      "traps": [
+        {
+          "answer": "In my town have two pizzerias.",
+          "why": "»So / imamo« → There are …"
+        }
+      ]
+    },
+    {
+      "id": "write-has",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Popravi napako: My friend have got a dog.",
+      "answer": "My friend has got a dog.",
+      "accept": [
+        "My friend's got a dog."
+      ],
+      "solution": "My friend = he/she → **has got**.",
+      "skill": "write"
+    },
+    {
+      "id": "write-his",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Popravi napako: Hes favourite food is pizza.",
+      "answer": "His favourite food is pizza.",
+      "solution": "Njegov = **His**. He's = he is.",
+      "skill": "write"
+    },
+    {
+      "id": "write-family",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Popravi napako: In my family live four people.",
+      "answer": "There are four people in my family.",
+      "accept": [
+        "There are four people in my family"
+      ],
+      "solution": "Pravilno: **There are four people in my family.**",
+      "skill": "write"
+    }
+  ],
+  "challenge": [
+    {
+      "id": "ch-tr-1",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Prevedi: Ali je v hladilniku kaj sira?",
+      "answer": "Is there any cheese in the fridge?",
+      "hints": [
+        "Neštevno → is, vprašanje → any."
+      ],
+      "solution": "**Is there any cheese in the fridge?** Sir je neštevno (is), v vprašanju any.",
+      "skill": "someany"
+    },
+    {
+      "id": "ch-tr-2",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Prevedi: Koliko banan je na mizi?",
+      "answer": "How many bananas are there on the table?",
+      "accept": [
+        "How many bananas are on the table?"
+      ],
+      "solution": "**How many bananas are there on the table?**",
+      "skill": "count"
+    },
+    {
+      "id": "ch-tr-3",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Prevedi: Na mojem krožniku je preveč krompirčkov.",
+      "answer": "There are too many chips on my plate.",
+      "accept": [
+        "There are too many potatoes on my plate."
+      ],
+      "solution": "**There are too many chips on my plate.**",
+      "skill": "toomuch"
+    },
+    {
+      "id": "ch-tr-4",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Prevedi: Ni dovolj kruha za sendviče.",
+      "answer": "There isn't enough bread for the sandwiches.",
+      "accept": [
+        "There is not enough bread for the sandwiches."
+      ],
+      "solution": "**There isn't enough bread for the sandwiches.**",
+      "skill": "toomuch"
+    },
+    {
+      "id": "ch-fix-1",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Popravi napako: How much apples are there?",
+      "answer": "How many apples are there?",
+      "solution": "Jabolka preštejemo → **How many apples are there?**",
+      "skill": "count"
+    },
+    {
+      "id": "ch-fix-2",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Popravi napako: There aren't some onions.",
+      "answer": "There aren't any onions.",
+      "solution": "Zanikanje → **any**.",
+      "skill": "someany"
+    },
+    {
+      "id": "ch-recipe",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Dopolni recept z glagoli add, cut, fry: ______ up the onion, ______ it in oil and ______ salt.",
+      "answer": "cut, fry, add",
+      "accept": [
+        "cut fry add",
+        "Cut, fry, add"
+      ],
+      "solution": "**Cut** up the onion, **fry** it in oil and **add** salt.",
+      "skill": "cook"
+    },
+    {
+      "id": "ch-dialogue",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Napiši kratek dialog v kavarni (6 vrstic): natakar in ti. Uporabi What would you like?, I'd like …, Anything else?, How much is that?",
+      "solution": "Primer:\nWaiter: Hi! What would you like?\nYou: I'd like a cheese sandwich, please.\nWaiter: Anything else?\nYou: Can I have an orange juice too?\nWaiter: Here you are.\nYou: Thanks. How much is that?\nWaiter: That's £4.50, please.",
+      "skill": "order"
+    },
+    {
+      "id": "ch-town",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Napiši 5 povedi o hrani v svojem mestu. Uporabi There is, There are, There isn't, There aren't any in a lot of.",
+      "solution": "Primer: There's a big pizzeria in my town. There are two burger bars. There isn't a Japanese restaurant. There aren't any vegetarian cafés. There are a lot of good bakeries.",
+      "skill": "thereis"
+    },
+    {
+      "id": "ch-friend",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Pisni sestavek: My best friend (13–15 povedi). Napiši: ime, starost, od kod je, videz (have got), kaj zna (can), hrana, ki jo ima rad, zakaj je dober prijatelj. Poveži z and / but.",
+      "solution": "Model (14 povedi): My best friend is Luka. He's eleven years old. He's from Ljubljana in Slovenia. He's tall and slim. He's got short brown hair and green eyes. He's got a younger sister, Ana. He can play football very well and he can run fast, but he can't swim. His favourite football player is Messi. His favourite food is pizza with cheese and ham. He doesn't like fish. There's a good pizzeria near our school and we often go there. Luka is funny, clever and friendly. He's always happy. He's a great friend!\n\nPreveri: has got (ne have), His (ne He's), velike začetnice, piko na koncu.",
+      "skill": "write"
+    },
+    {
+      "id": "ch-food",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Pisni sestavek: My favourite food and meals (13–15 povedi). Napiši: kdaj imaš zajtrk/kosilo/večerjo in kaj ješ, najljubša hrana, kaj ne maraš, kaj je v hladilniku (some/any), najljubši kraj za hrano.",
+      "solution": "Model: I have breakfast at seven o'clock. A typical breakfast for me is milk and cereal or eggs and toast. I have lunch at school at half past twelve. My favourite lunch is chicken with potatoes. I have dinner with my family at seven in the evening. My favourite food is pizza. I don't like fish and I don't like celery. Vegetables are good for you, so I eat carrots and tomatoes. In our fridge there's some milk, some cheese and a lot of yoghurts. There aren't any sweets because my mum doesn't buy them. My favourite place to eat is a pizzeria in our town. There are a lot of good pizzas there. Pizza is delicious!",
+      "skill": "write"
+    }
+  ],
+  "parent": {
+    "school_method": "Wider World 1, Unit 2 (It's delicious!): food and drink, meals, places to eat, cooking verbs, there is/there are + some/any, countable and uncountable nouns, how much/how many, a lot of, too much/too many/not enough, ordering in a café, prices. The written test most likely also covers the Starter unit and Unit 1 (topics already in BrightFox) and has a short writing task; his notebook shows the teacher asks for 13–15 sentences.",
+    "typical_mistakes": [
+      "\"He have got\" → \"He has got\" (in his own 'My friend' text).",
+      "\"Hes favourite …\" → \"His favourite …\".",
+      "\"In my family live four people\" → \"There are four people in my family\".",
+      "some in negatives (\"There aren't some eggs\") → any.",
+      "How much eggs → How many eggs; a bread → some bread.",
+      "Spelling: sandwich, biscuits, yoghurt, vegetables, delicious; capital I and full stops."
+    ],
+    "car_questions": [
+      {
+        "q": "Countable or uncountable: milk? apples? bread?",
+        "a": "milk – uncountable, apples – countable, bread – uncountable."
+      },
+      {
+        "q": "How much or how many: ___ eggs?",
+        "a": "How many eggs?"
+      },
+      {
+        "q": "Say in English: V hladilniku ni mleka.",
+        "a": "There isn't any milk in the fridge."
+      },
+      {
+        "q": "Order a burger and a cola like in a café.",
+        "a": "I'd like a burger and a cola, please."
+      },
+      {
+        "q": "What's 'chips' and what's 'crisps'?",
+        "a": "Chips = pomfri, crisps = čips."
+      },
+      {
+        "q": "Say £3.20 in words.",
+        "a": "Three pounds twenty."
+      }
+    ],
+    "tips": [
+      "The night before, let him write one 13–15 sentence text by hand and check it with the checklist in the study plan.",
+      "Ask for full sentences, not single words.",
+      "While cooking or shopping, ask: How much milk is there? Are there any eggs?"
+    ]
+  },
+  "oral": [
+    {
+      "id": "o-breakfast",
+      "skill": "food",
+      "question": "What time do you have breakfast, and what do you usually eat?",
+      "key_points": [
+        "A time with at (at seven o'clock).",
+        "Two foods or drinks spelled correctly."
+      ],
+      "model_answer": "I have breakfast at seven o'clock. I usually have milk and cereal, and sometimes eggs."
+    },
+    {
+      "id": "o-town",
+      "skill": "thereis",
+      "question": "What places to eat are there in your town? Use there is and there are.",
+      "key_points": [
+        "There's a … (one place).",
+        "There are some/two … (more places).",
+        "One negative: There isn't / aren't any …"
+      ],
+      "model_answer": "There's a pizzeria and there are two cafés in my town. There isn't a Japanese restaurant."
+    },
+    {
+      "id": "o-fridge",
+      "skill": "someany",
+      "question": "What is there in your fridge? Say two things there are and one thing there isn't.",
+      "key_points": [
+        "some with things there are.",
+        "any with the negative.",
+        "a/an only with one countable thing."
+      ],
+      "model_answer": "There's some milk and there are some eggs, but there isn't any cheese."
+    },
+    {
+      "id": "o-cafe",
+      "skill": "order",
+      "question": "You are in a café. The waiter asks: What would you like? Answer and order a drink too.",
+      "key_points": [
+        "I'd like … , please / Can I have …?",
+        "a drink",
+        "please"
+      ],
+      "model_answer": "I'd like a cheese sandwich, please. Can I have an orange juice too?"
+    },
+    {
+      "id": "o-friend",
+      "skill": "write",
+      "question": "Describe your best friend in four sentences: age, appearance, what he or she can do, and favourite food.",
+      "key_points": [
+        "He's/She's … years old.",
+        "has got (not have got) for appearance.",
+        "can / can't.",
+        "His/Her favourite food is …"
+      ],
+      "model_answer": "My best friend is eleven years old. He's got short brown hair. He can play football but he can't swim. His favourite food is pizza."
+    }
+  ],
+  "video": {
+    "title": "⚽ Tekma: It's delicious!",
+    "scenes": [
+      {
+        "type": "intro",
+        "emoji": "🍕",
+        "title": "It's delicious!",
+        "sub": "Unit 2 · hrana, some/any, much/many",
+        "foxy": "Živjo, {name}! Danes je tekma v kuhinji. Gremo po zmago na testu!"
+      },
+      {
+        "type": "pairs",
+        "skill": "food",
+        "title": "Postava: hrana",
+        "say": [
+          1
+        ],
+        "foxy": "Najprej besede. Poslušaj angleško.",
+        "pairs": [
+          [
+            "sendvič",
+            "sandwich"
+          ],
+          [
+            "piškoti",
+            "biscuits"
+          ],
+          [
+            "pomfri",
+            "chips"
+          ],
+          [
+            "čips",
+            "crisps"
+          ],
+          [
+            "jogurt",
+            "yoghurt"
+          ],
+          [
+            "krompir",
+            "potatoes"
+          ],
+          [
+            "zelenjava",
+            "vegetables"
+          ],
+          [
+            "zajtrk",
+            "breakfast"
+          ],
+          [
+            "okusno",
+            "delicious"
+          ]
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "food",
+        "question": "Fish and ___ (ribe s pomfrijem)",
+        "options": [
+          "crisps",
+          "chips"
+        ],
+        "answer": 1,
+        "explain": "Chips = pomfri. Crisps = čips iz vrečke."
+      },
+      {
+        "type": "rule",
+        "skill": "thereis",
+        "title": "There is ali there are?",
+        "foxy": "Prva akcija!",
+        "steps": [
+          {
+            "sl": "Ena stvar:",
+            "en": "There's a café."
+          },
+          {
+            "sl": "Več stvari:",
+            "en": "There are two pizzerias."
+          },
+          {
+            "sl": "Zanikano:",
+            "en": "There isn't a burger bar. There aren't any cafés."
+          },
+          {
+            "sl": "Ne prevajaj »v mestu imamo« dobesedno!",
+            "en": "There are two pizzerias in my town."
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "thereis",
+        "question": "___ three cafés in my street.",
+        "options": [
+          "There is",
+          "There are"
+        ],
+        "answer": 1,
+        "explain": "Tri kavarne = množina → There are."
+      },
+      {
+        "type": "rule",
+        "skill": "someany",
+        "title": "a/an, some, any",
+        "foxy": "Zdaj taktika!",
+        "steps": [
+          {
+            "sl": "a/an = ena števna stvar",
+            "en": "an apple, an egg, a banana"
+          },
+          {
+            "sl": "some = nekaj (trdilno)",
+            "en": "There are some eggs."
+          },
+          {
+            "sl": "any = zanikano in vprašanja",
+            "en": "There isn't any milk. Is there any cheese?"
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "someany",
+        "question": "There aren't ___ biscuits.",
+        "options": [
+          "some",
+          "any"
+        ],
+        "answer": 1,
+        "explain": "Zanikano → any."
+      },
+      {
+        "type": "quiz",
+        "skill": "someany",
+        "question": "There's ___ bread.",
+        "options": [
+          "a",
+          "some"
+        ],
+        "answer": 1,
+        "explain": "Bread je neštevno → some bread."
+      },
+      {
+        "type": "intro",
+        "emoji": "⏱️",
+        "title": "Polčas!",
+        "sub": "much ali many?",
+        "foxy": "Kratek odmor, potem drugi polčas."
+      },
+      {
+        "type": "rule",
+        "skill": "count",
+        "title": "How much ali how many?",
+        "steps": [
+          {
+            "sl": "Preštejemo → many",
+            "en": "How many eggs are there?"
+          },
+          {
+            "sl": "Ne preštejemo → much",
+            "en": "How much milk is there?"
+          },
+          {
+            "sl": "Veliko (oboje):",
+            "en": "There are a lot of apples. There's a lot of cheese."
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "count",
+        "question": "How ___ water is there?",
+        "options": [
+          "much",
+          "many"
+        ],
+        "answer": 0,
+        "explain": "Water je neštevno → much."
+      },
+      {
+        "type": "quiz",
+        "skill": "toomuch",
+        "question": "There are too ___ chips!",
+        "options": [
+          "much",
+          "many"
+        ],
+        "answer": 1,
+        "explain": "Chips je množina → too many."
+      },
+      {
+        "type": "rule",
+        "skill": "write",
+        "title": "Pisanje za 5",
+        "foxy": "In še zadnja akcija: sestavek!",
+        "steps": [
+          {
+            "sl": "he / she → has got",
+            "en": "He has got green eyes."
+          },
+          {
+            "sl": "Njegov = His",
+            "en": "His favourite food is pizza."
+          },
+          {
+            "sl": "Nas je štiri →",
+            "en": "There are four people in my family."
+          },
+          {
+            "sl": "Poveži povedi z and in but.",
+            "en": "He can run but he can't swim."
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "write",
+        "question": "___ favourite player is Messi.",
+        "options": [
+          "He's",
+          "His"
+        ],
+        "answer": 1,
+        "explain": "Njegov → His."
+      },
+      {
+        "type": "recap",
+        "title": "Končni žvižg!",
+        "foxy": "Bravo, {name}! Zmaga je naša.",
+        "points": [
+          "There is (1) / There are (2+)",
+          "some + trdilno, any − in ?",
+          "many = preštejemo, much = ne",
+          "too much / too many / not enough",
+          "he/she has got, His = njegov"
+        ]
+      }
+    ]
+  }
+}
