@@ -1,1110 +1,828 @@
 {
   "id": "2026-11-08-alan-sport-gimnasticne-vaje",
-  "version": 1,
+  "version": 2,
   "format": 2,
   "subject": "other",
   "grade": 4,
-  "title": "Šport: 10 gimnastičnih vaj za ocenjevanje 🤸",
-  "intro": "Ocenjevanje gimnastičnih vaj je od 13. novembra. Nauči se pravila, izraze in svojih 10 vaj, potem jih vsak dan pokaži z glasnim štetjem. 10 minut na dan je dovolj.",
-  "source": "Alanov list »ŠPORT – 1. ocenjevanje (gimnastične vaje)«, od 13. 11. 2026: 10 vaj (1 vrat, 3 roke, 3 trup, 3 noge), največ 1 kroženje, štetje na glas, oddaja zapisa. Vaje in naloge so izvirne.",
+  "title": "Šport: vadba 10 gimnastičnih vaj za nastop 🤸",
+  "intro": "Ni testa: od 13. novembra učitelju pokažeš svojih 10 vaj. Tu je vsaka vaja korak za korakom s štetjem in vadba doma, 10 minut na dan.",
+  "source": "Alanov list »ŠPORT – 1. ocenjevanje (gimnastične vaje)«, od 13. 11. 2026: praktični nastop z 10 izvirnimi vajami (1–3–3–3, 2 R + 1 K, največ 1 kroženje), glasno štetje, oddaja lista z opisi.",
   "for": [
     "Alan"
   ],
   "skills": [
     {
-      "id": "telo",
-      "title": "Deli telesa in vrstni red vaj"
+      "id": "vrat",
+      "title": "Vaja za vrat in glavo"
     },
     {
-      "id": "vrsta",
-      "title": "Raztezna ali krepilna vaja"
+      "id": "roke",
+      "title": "Vaje za roke in ramenski obroč"
     },
     {
-      "id": "izrazi",
-      "title": "Položaji in gibi (izrazi)"
+      "id": "trup",
+      "title": "Vaje za trup"
     },
     {
-      "id": "opis",
-      "title": "Zapis in opis vaje"
+      "id": "noge",
+      "title": "Vaje za noge in kolčni obroč"
     },
     {
       "id": "stetje",
-      "title": "Štetje in ponovitve"
+      "title": "Glasno štetje v ritmu"
     },
     {
-      "id": "pravila",
-      "title": "Pravila naloge"
+      "id": "program",
+      "title": "Ves program na pamet"
     },
     {
-      "id": "izvedba",
-      "title": "Pravilna in varna izvedba"
+      "id": "list",
+      "title": "List z vajami za oddajo"
     }
   ],
   "learn": [
     {
-      "title": "Kaj zahteva učitelj?",
-      "text": "Pripravi 10 gimnastičnih vaj: 1 za vrat in glavo, 3 za roke in ramenski obroč, 3 za trup in 3 za noge in kolčni obroč. Pri rokah, trupu in nogah sta 2 raztezni in 1 krepilna. Največ ena vaja je kroženje.",
-      "example": "1 + 3 + 3 + 3 = 10 vaj"
+      "title": "Ni pisnega testa!",
+      "text": "Ocenjevanje je nastop: učitelju pokažeš svojih 10 vaj. Ni vprašanj, ni kviza. Pomembno je, da vaje izvedeš pravilno, natančno in ob glasnem štetju ter da prej oddaš list, na katerem so vaje opisane.",
+      "example": "Ocenjevanje: od 13. 11. (točen dan učitelj pove teden prej)"
     },
     {
-      "title": "Kako se izvaja?",
-      "text": "Pravilno, natančno in ob glasnem štetju: 8–10 ponovitev ali določen čas. Vaje gredo od glave navzdol.",
-      "example": "»Ena, dva, tri, štiri …«"
+      "title": "Tvojih 10 vaj, od glave navzdol",
+      "text": "1 Odkloni glave (R) · 2 Zamahi z rokami (R) · 3 Kroženje z rokami (R) · 4 Sklece na kolenih (K) · 5 Odkloni trupa (R) · 6 Zasuki trupa (R) · 7 Trebušnjaki (K) · 8 Predkloni v sedu (R) · 9 Izpadni korak (R) · 10 Počepi z dvigom na prste (K)",
+      "example": "vrat 1 + roke 3 + trup 3 + noge 3 = 10 vaj"
     },
     {
-      "title": "List oddaj prej",
-      "text": "Vse vaje zapiši in opiši. Pri vsaki označi R (raztezna) ali K (krepilna). List oddaj učitelju pred ocenjevanjem. Točen datum pove učitelj teden dni prej."
+      "title": "Vadba doma: 10 minut na dan",
+      "text": "Vsak dan enkrat ves program: vsaka vaja 8 ali 10 ponovitev z glasnim štetjem. Začni v začetnem položaju in se vanj vrni. Raje počasi in natančno kot hitro. Najprej s listom, potem na pamet.",
+      "example": "Štej v četvericah, prva številka pove ponovitev: »ena, dva, tri, štiri – dve, dva, tri, štiri – tri, dva, tri, štiri …«"
     }
   ],
   "study": {
     "goals": [
       {
-        "id": "g-pravila",
-        "text": "Znam povedati pravila: 10 vaj, 1–3–3–3, največ 1 kroženje.",
-        "skill": "pravila"
+        "id": "g-program",
+        "text": "Znam vseh 10 vaj na pamet v pravem vrstnem redu, od glave navzdol.",
+        "skill": "program"
       },
       {
-        "id": "g-vrsta",
-        "text": "Pri vsaki vaji vem, ali je raztezna ali krepilna.",
-        "skill": "vrsta"
+        "id": "g-vrat-roke",
+        "text": "Vaje 1–4 (vrat, roke) izvedem pravilno in natančno.",
+        "skill": "roke"
       },
       {
-        "id": "g-izrazi",
-        "text": "Poznam izraze: predročenje, odročenje, vzročenje, stoja razkoračno, odklon, zasuk.",
-        "skill": "izrazi"
+        "id": "g-trup",
+        "text": "Vaje 5–7 (trup) izvedem pravilno in natančno.",
+        "skill": "trup"
       },
       {
-        "id": "g-zapis",
-        "text": "Imam zapisanih vseh 10 vaj z ZP, potekom, ponovitvami in R/K.",
-        "skill": "opis"
-      },
-      {
-        "id": "g-na-pamet",
-        "text": "Znam vseh 10 vaj na pamet v pravem vrstnem redu.",
-        "skill": "telo"
+        "id": "g-noge",
+        "text": "Vaje 8–10 (noge) izvedem pravilno in natančno.",
+        "skill": "noge"
       },
       {
         "id": "g-stetje",
-        "text": "Vsako vajo naredim 8–10-krat in glasno štejem v ritmu.",
+        "text": "Pri vsaki vaji glasno štejem v ritmu, 8–10 ponovitev.",
         "skill": "stetje"
       },
       {
-        "id": "g-pravilno",
-        "text": "Vaje delam počasi, z ravnim hrbtom in brez sunkov.",
-        "skill": "izvedba"
+        "id": "g-zp",
+        "text": "Vsako vajo začnem in končam v začetnem položaju.",
+        "skill": "program"
+      },
+      {
+        "id": "g-list",
+        "text": "Moj list z 10 vajami je napisan in oddan učitelju.",
+        "skill": "list"
       }
     ],
     "sections": [
       {
-        "title": "Naloga z lista",
-        "skill": "pravila",
-        "text": "ŠPORT – 1. ocenjevanje, od 13. novembra 2026. Pripravi 10 gimnastičnih vaj, izberi izvirne vaje (največ eno kroženje), izvajaj jih pravilno ob glasnem štetju, vse zapiši in opiši ter list oddaj pred ocenjevanjem.",
+        "title": "Kaj gleda učitelj",
+        "skill": "program",
+        "text": "Na ocenjevanju učitelj gleda tole. Prve štiri vrstice so z lista, zadnji dve sta dober dodatek, s katerim nastop deluje res pripravljeno.",
         "table": {
           "head": [
-            "del telesa",
-            "vaj",
-            "raztezne",
-            "krepilne"
+            "kaj",
+            "kako to pokažeš"
           ],
           "rows": [
             [
-              "vrat in glava",
-              "1",
-              "1",
-              "–"
+              "pravih 10 vaj",
+              "1 vrat, 3 roke, 3 trup, 3 noge; pri rokah, trupu in nogah 2 R + 1 K"
             ],
             [
-              "roke in ramenski obroč",
-              "3",
-              "2",
-              "1"
+              "največ eno kroženje",
+              "kroženje imaš samo pri vaji 3"
             ],
             [
-              "trup",
-              "3",
-              "2",
-              "1"
+              "pravilno in natančno",
+              "pravi položaji, iztegnjene roke in noge, enako levo in desno"
             ],
             [
-              "noge in kolčni obroč",
-              "3",
-              "2",
-              "1"
+              "glasno štetje",
+              "glasno, v ritmu giba, 8–10 ponovitev"
             ],
             [
-              "skupaj",
-              "10",
-              "7",
-              "3"
+              "začetni položaj",
+              "vsako vajo začneš in končaš v začetnem položaju"
+            ],
+            [
+              "na pamet",
+              "vaje si sledijo brez lista in brez ustavljanja"
             ]
           ]
         }
       },
       {
-        "title": "Raztezna ali krepilna?",
-        "skill": "vrsta",
-        "text": "Raztezna vaja (R) mišice podaljša, telo postane gibljivo: odkloni, zasuki, predkloni, zamahi. Krepilna vaja (K) mišice okrepi, ker telo dviguje svojo težo: sklece, trebušnjaki, počepi.",
+        "title": "Glasno štetje",
+        "skill": "stetje",
+        "text": "Vsaka ponovitev ima 4 dobe: ena, dva, tri, štiri. Vsaka številka je en del giba, zato štej v ritmu giba, ne hitreje. Da ne izgubiš števila ponovitev, prva številka pove, katera ponovitev je na vrsti. Štej glasno, da te sliši cela telovadnica.",
         "examples": [
-          "R: predklon v sedu raznožno",
-          "K: sklece na kolenih",
-          "K: počepi",
-          "R: odkloni trupa"
+          "ena, dva, tri, štiri – dve, dva, tri, štiri – tri, dva, tri, štiri … osem, dva, tri, štiri",
+          "Pri vajah z 10 ponovitvami do: deset, dva, tri, štiri"
+        ],
+        "watch_out": [
+          {
+            "wrong": "Štetje je tiho ali v sebi.",
+            "right": "Štetje je glasno.",
+            "why": "Na listu piše: ob glasnem štetju."
+          },
+          {
+            "wrong": "Štetje je hitrejše od giba.",
+            "right": "Ena številka = en del giba.",
+            "why": "Tako je vaja natančna."
+          }
         ]
       },
       {
-        "title": "Položaji rok",
-        "skill": "izrazi",
+        "title": "1. Odkloni glave (R)",
+        "skill": "vrat",
+        "text": "Za vrat in glava · raztezna vaja · 8 ponovitev. Začetni položaj (ZP): stoja razkoračno, roke v bok, pogled naprej. Zakaj raztezna: raztegne mišice ob strani vratu. Preveri: rami ostaneta spodaj in mirni; gib je počasen, brez sunkov; glava se ne vrti v krogu.",
         "table": {
           "head": [
-            "izraz",
-            "kaj pomeni"
-          ],
-          "rows": [
-            [
-              "predročenje",
-              "roke naprej v višini ramen"
-            ],
-            [
-              "odročenje",
-              "roke v stran v višini ramen"
-            ],
-            [
-              "vzročenje",
-              "roke gor nad glavo"
-            ],
-            [
-              "priročenje",
-              "roke ob telesu"
-            ],
-            [
-              "roke v bok",
-              "dlani na bokih"
-            ],
-            [
-              "predročenje skrčeno",
-              "komolci pokrčeni, dlani pred prsmi"
-            ]
-          ]
-        }
-      },
-      {
-        "title": "Položaji telesa in gibi",
-        "skill": "izrazi",
-        "table": {
-          "head": [
-            "izraz",
-            "kaj pomeni"
-          ],
-          "rows": [
-            [
-              "stoja razkoračno",
-              "noge narazen, v širini ramen"
-            ],
-            [
-              "stoja spetno",
-              "stopala skupaj"
-            ],
-            [
-              "sed raznožno",
-              "sedimo, noge iztegnjene narazen"
-            ],
-            [
-              "leža na hrbtu",
-              "ležimo na hrbtu"
-            ],
-            [
-              "opora klečno",
-              "na kolenih in dlaneh"
-            ],
-            [
-              "predklon",
-              "nagib naprej"
-            ],
-            [
-              "odklon",
-              "nagib v stran"
-            ],
-            [
-              "zasuk",
-              "vrtenje zgornjega dela telesa"
-            ],
-            [
-              "kroženje",
-              "gib v krogu (največ 1 vaja!)"
-            ],
-            [
-              "vzmet",
-              "majhen dodaten gib v isto smer"
-            ]
-          ]
-        }
-      },
-      {
-        "title": "Alanovih 10 vaj",
-        "skill": "telo",
-        "text": "To je predlog. Alan lahko vajo zamenja s svojo, če ostane enako število razteznih in krepilnih vaj.",
-        "table": {
-          "head": [
-            "št.",
-            "vaja",
-            "R/K",
-            "ponovitve"
+            "štetje",
+            "gib"
           ],
           "rows": [
             [
               "1",
-              "Odkloni glave",
-              "raztezna",
-              "8 ponovitev"
+              "odklon glave v levo (uho proti levi rami)"
             ],
             [
               "2",
-              "Zamahi z rokami nazaj",
-              "raztezna",
-              "8 ponovitev"
+              "glava nazaj na sredino"
             ],
             [
               "3",
-              "Kroženje z rokami nazaj (edino kroženje)",
-              "raztezna",
-              "8 krogov"
+              "odklon glave v desno (uho proti desni rami)"
             ],
             [
               "4",
-              "Sklece na kolenih",
-              "krepilna",
-              "8–10 ponovitev"
-            ],
-            [
-              "5",
-              "Odkloni trupa",
-              "raztezna",
-              "8 ponovitev"
-            ],
-            [
-              "6",
-              "Zasuki trupa",
-              "raztezna",
-              "8 ponovitev"
-            ],
-            [
-              "7",
-              "Trebušnjaki (dvigi trupa)",
-              "krepilna",
-              "10 ponovitev"
-            ],
-            [
-              "8",
-              "Predkloni v sedu raznožno",
-              "raztezna",
-              "8 ponovitev"
-            ],
-            [
-              "9",
-              "Izpadni korak z vzmetenjem",
-              "raztezna",
-              "8 ponovitev (4 na vsako nogo)"
-            ],
-            [
-              "10",
-              "Počepi",
-              "krepilna",
-              "10 ponovitev"
+              "glava nazaj na sredino"
             ]
           ]
-        }
-      },
-      {
-        "title": "Opisi vaj 1–4 (vrat, roke)",
-        "skill": "opis",
-        "text": "1. Odkloni glave (R) – ZP: Stoja razkoračno, roke v bok. 1 – glavo nagni v levo (uho proti rami), 2 – vzravnaj, 3 – nagni v desno, 4 – vzravnaj. 8 ponovitev. 2. Zamahi z rokami nazaj (R) – ZP: Stoja razkoračno, roke v predročenje skrčeno (komolci v višini ramen). 1 – zamah s komolci nazaj, 2 – vrnitev, 3 – iztegni roki v odročenje in zamahni nazaj, 4 – vrnitev. 8 ponovitev. 3. Kroženje z rokami nazaj (edino kroženje) (R) – ZP: Stoja razkoračno, roke v odročenje. 1–8 – z iztegnjenima rokama naredi 8 velikih krogov nazaj. 8 krogov. 4. Sklece na kolenih (K) – ZP: Opora klečno: dlani pod rameni, telo od kolen do glave ravno. 1 – pokrči roke, prsi se približajo tlom, 2 – iztegni roke. 8–10 ponovitev."
-      },
-      {
-        "title": "Opisi vaj 5–7 (trup)",
-        "skill": "opis",
-        "text": "5. Odkloni trupa (R) – ZP: Stoja razkoračno, leva roka v bok, desna vzročeno. 1–2 – dvakrat se nagni v levo (vzmet), 3–4 – zamenjaj roki in se dvakrat nagni v desno. 8 ponovitev. 6. Zasuki trupa (R) – ZP: Stoja razkoračno, roke v predročenje skrčeno. 1–2 – dvakrat zasukaj zgornji del telesa v levo, 3–4 – dvakrat v desno. Boki in noge mirujejo. 8 ponovitev. 7. Trebušnjaki (dvigi trupa) (K) – ZP: Leža na hrbtu, noge pokrčene, stopala na tleh, roke prekrižane na prsih. 1 – dvigni glavo in ramena od tal, 2 – počasi se spusti. 10 ponovitev."
-      },
-      {
-        "title": "Opisi vaj 8–10 (noge)",
-        "skill": "opis",
-        "text": "8. Predkloni v sedu raznožno (R) – ZP: Sed raznožno, roke vzročeno, hrbet raven. 1 – predklon k levi nogi, 2 – vzravnava, 3 – predklon k desni nogi, 4 – vzravnava. 8 ponovitev. 9. Izpadni korak z vzmetenjem (R) – ZP: Stoja spetno, roke v bok. 1 – izpadni korak naprej z levo, 2–3 – dvakrat se vzmeti navzdol, 4 – vrnitev. 5–8 – enako z desno. 8 ponovitev (4 na vsako nogo). 10. Počepi (K) – ZP: Stoja razkoračno v širini bokov, roke ob telesu (priročenje). 1 – počep, roke v predročenje, pete ostanejo na tleh, 2 – vzravnava. 10 ponovitev."
-      },
-      {
-        "title": "Štetje in pravilna izvedba",
-        "skill": "izvedba",
-        "text": "Štej glasno in v ritmu, vsako število je en del giba. Začni šele, ko stojiš v začetnem položaju. Hrbet naj bo raven, gibi počasni in brez sunkov. Pri počepu pete ostanejo na tleh. Pri vratu nikoli ne sunkaj z glavo. Med vajami mirno dihaj. Na koncu vsake vaje se vrni v začetni položaj.",
+        },
         "watch_out": [
           {
-            "wrong": "Štejem tiho ali prehitro.",
-            "right": "Štejem glasno, v ritmu giba.",
-            "why": "Učitelj ocenjuje tudi glasno štetje."
+            "wrong": "Rama se dvigne proti ušesu.",
+            "right": "Uho gre proti rami, rama ostane spodaj.",
+            "why": "Tako se vrat res raztegne."
           },
           {
-            "wrong": "Dve kroženji (roke in boki).",
-            "right": "Samo eno kroženje.",
-            "why": "Na listu piše: največ eno kroženje."
+            "wrong": "Hitro sunkanje z glavo.",
+            "right": "Počasen, mehak gib.",
+            "why": "Vrat je občutljiv, sunki lahko bolijo."
           },
           {
-            "wrong": "Tri raztezne vaje za trup.",
-            "right": "Dve raztezni in ena krepilna.",
-            "why": "Pri rokah, trupu in nogah je vedno 2 R + 1 K."
+            "wrong": "Kroženje z glavo.",
+            "right": "Samo odkloni levo in desno.",
+            "why": "Edino kroženje je pri rokah (vaja 3)."
           }
         ]
-      }
-    ],
-    "cards": [
-      {
-        "front": "Koliko vaj skupaj?",
-        "back": "10 vaj",
-        "skill": "pravila"
       },
       {
-        "front": "Vaje za vrat in glavo",
-        "back": "1 vaja",
-        "skill": "telo"
+        "title": "2. Zamahi z rokami (R)",
+        "skill": "roke",
+        "text": "Za roke in ramenski obroč · raztezna vaja · 8 ponovitev. Začetni položaj (ZP): stoja razkoračno, predročenje skrčeno (komolci v višini ramen, dlani pred prsmi). Zakaj raztezna: odpre prsni koš ter raztegne prsne mišice in ramena. Preveri: komolci so v višini ramen; pri 3 sta roki res iztegnjeni; trup miruje, se ne ziba.",
+        "table": {
+          "head": [
+            "štetje",
+            "gib"
+          ],
+          "rows": [
+            [
+              "1",
+              "zamah s komolci nazaj"
+            ],
+            [
+              "2",
+              "nazaj v predročenje skrčeno"
+            ],
+            [
+              "3",
+              "iztegni roki v odročenje in zamahni nazaj"
+            ],
+            [
+              "4",
+              "nazaj v predročenje skrčeno"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Komolci padejo navzdol.",
+            "right": "Komolci ostanejo v višini ramen.",
+            "why": "Tako se raztegne pravi del."
+          },
+          {
+            "wrong": "Pri 3 so roke pokrčene.",
+            "right": "Pri 3 roki iztegni v odročenje.",
+            "why": "Natančnost se ocenjuje."
+          }
+        ]
       },
       {
-        "front": "Vaje za roke in ramenski obroč",
-        "back": "3 vaje: 2 R + 1 K",
-        "skill": "telo"
+        "title": "3. Kroženje z rokami nazaj (R)",
+        "skill": "roke",
+        "text": "Za roke in ramenski obroč · raztezna vaja · 8 ponovitev (2 kroga v vsaki ponovitvi). Začetni položaj (ZP): stoja razkoračno, priročenje. Zakaj raztezna: razgiba ramenski sklep. Preveri: roki sta ves čas iztegnjeni; krogi so veliki, roki gresta tik ob ušesih; to je EDINO kroženje v programu.",
+        "table": {
+          "head": [
+            "štetje",
+            "gib"
+          ],
+          "rows": [
+            [
+              "1",
+              "iztegnjeni roki gresta skozi predročenje v vzročenje"
+            ],
+            [
+              "2",
+              "roki gresta nazaj in dol v priročenje (en krog)"
+            ],
+            [
+              "3",
+              "drugi krog: skozi predročenje v vzročenje"
+            ],
+            [
+              "4",
+              "nazaj in dol v priročenje"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Majhni hitri krožci.",
+            "right": "Veliki počasni krogi.",
+            "why": "Veliki krogi pokažejo gibljivost ramen."
+          },
+          {
+            "wrong": "Še eno kroženje pri bokih ali glavi.",
+            "right": "Samo to eno kroženje.",
+            "why": "Na listu piše: največ eno kroženje."
+          }
+        ]
       },
       {
-        "front": "Vaje za trup",
-        "back": "3 vaje (2 raztezni, 1 krepilna)",
-        "skill": "telo"
+        "title": "4. Počasne sklece na kolenih (K)",
+        "skill": "roke",
+        "text": "Za roke in ramenski obroč · krepilna vaja · 8 ponovitev. Začetni položaj (ZP): opora ležno na kolenih: kolena na tleh, dlani pod rameni, telo od kolen do glave v ravni črti. Zakaj krepilna: telo dviguje svojo težo, zato okrepi roke, prsi in ramena. Preveri: telo je ravno (boki ne visijo, zadnjica ni gor); komolci gredo nazaj ob telesu; gib je počasen.",
+        "table": {
+          "head": [
+            "štetje",
+            "gib"
+          ],
+          "rows": [
+            [
+              "1",
+              "počasi pokrči roke (prsi gredo proti tlom)"
+            ],
+            [
+              "2",
+              "prsi tik nad tlemi"
+            ],
+            [
+              "3",
+              "počasi iztegni roke"
+            ],
+            [
+              "4",
+              "nazaj v začetni položaj"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Boki visijo proti tlom.",
+            "right": "Telo je ravno kot deska.",
+            "why": "Pravilna drža je del ocene."
+          },
+          {
+            "wrong": "Komolci gredo široko v stran.",
+            "right": "Komolci gredo nazaj ob telesu.",
+            "why": "Tako ramena ne trpijo."
+          },
+          {
+            "wrong": "Samo glava gre proti tlom.",
+            "right": "Prsi gredo proti tlom, glava v podaljšku hrbta.",
+            "why": "Sicer to ni prava skleca."
+          }
+        ]
       },
       {
-        "front": "Vaje za noge in kolčni obroč",
-        "back": "3 vaje – 2 raztezni in 1 krepilna",
-        "skill": "telo"
+        "title": "5. Odkloni trupa z vzročenjem (R)",
+        "skill": "trup",
+        "text": "Za trup · raztezna vaja · 8 ponovitev. Začetni položaj (ZP): stoja razkoračno, vzročenje, dlani sklenjeni nad glavo. Zakaj raztezna: raztegne mišice ob strani trupa. Preveri: odklon je v stran, ne naprej; roki ostaneta iztegnjeni ob ušesih; noge mirujejo.",
+        "table": {
+          "head": [
+            "štetje",
+            "gib"
+          ],
+          "rows": [
+            [
+              "1",
+              "odklon trupa v levo"
+            ],
+            [
+              "2",
+              "še malo dlje v levo (vzmet)"
+            ],
+            [
+              "3",
+              "odklon trupa v desno"
+            ],
+            [
+              "4",
+              "še malo dlje v desno (vzmet)"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Nagib naprej namesto v stran.",
+            "right": "Čisto v stran, kot med dvema stenama.",
+            "why": "Drugače to ni odklon."
+          },
+          {
+            "wrong": "Roki se pokrčita.",
+            "right": "Roki iztegnjeni nad glavo.",
+            "why": "Natančnost."
+          }
+        ]
       },
       {
-        "front": "Koliko kroženj je dovoljenih?",
-        "back": "največ eno",
-        "skill": "pravila"
+        "title": "6. Zasuki trupa s pogledom nazaj (R)",
+        "skill": "trup",
+        "text": "Za trup · raztezna vaja · 8 ponovitev. Začetni položaj (ZP): stoja razkoračno, predročenje skrčeno. Zakaj raztezna: raztegne mišice trupa in hrbta. Preveri: boki in noge mirujejo; zasuka se samo zgornji del telesa; komolci ostanejo v višini ramen.",
+        "table": {
+          "head": [
+            "štetje",
+            "gib"
+          ],
+          "rows": [
+            [
+              "1",
+              "zasuk trupa v levo, pogled gre za komolcem"
+            ],
+            [
+              "2",
+              "še malo dlje v levo (vzmet)"
+            ],
+            [
+              "3",
+              "zasuk trupa v desno, pogled za komolcem"
+            ],
+            [
+              "4",
+              "še malo dlje v desno (vzmet)"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Z zasukom se obrnejo tudi boki in stopala.",
+            "right": "Boki gledajo naprej, zasuka se samo trup.",
+            "why": "Tako se trup raztegne."
+          },
+          {
+            "wrong": "Komolci padejo.",
+            "right": "Komolci v višini ramen.",
+            "why": "Natančnost."
+          }
+        ]
       },
       {
-        "front": "Koliko ponovitev?",
-        "back": "8–10 ali določen čas",
-        "skill": "stetje"
+        "title": "7. Trebušnjaki z dotikom kolen (K)",
+        "skill": "trup",
+        "text": "Za trup · krepilna vaja · 10 ponovitev. Začetni položaj (ZP): leža na hrbtu skrčno (kolena pokrčena, stopala na tleh), dlani na stegnih. Zakaj krepilna: okrepi trebušne mišice. Preveri: dvigneta se samo glava in ramena; stopala ostanejo na tleh; brez sunka in brez vlečenja za vrat.",
+        "table": {
+          "head": [
+            "štetje",
+            "gib"
+          ],
+          "rows": [
+            [
+              "1",
+              "dvigni glavo in ramena, dlani drsijo do kolen"
+            ],
+            [
+              "2",
+              "zadrži"
+            ],
+            [
+              "3",
+              "počasi se spusti"
+            ],
+            [
+              "4",
+              "glava in ramena na tleh"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Sunek s celim telesom.",
+            "right": "Počasen dvig samo ramen.",
+            "why": "Delajo naj trebušne mišice."
+          },
+          {
+            "wrong": "Stopala se dvigujejo.",
+            "right": "Stopala ves čas na tleh.",
+            "why": "Pravilna izvedba."
+          }
+        ]
       },
       {
-        "front": "Kako štejem?",
-        "back": "glasno, v ritmu giba",
-        "skill": "stetje"
+        "title": "8. Predkloni v sedu raznožno (R)",
+        "skill": "noge",
+        "text": "Za noge in kolčni obroč · raztezna vaja · 8 ponovitev. Začetni položaj (ZP): sed raznožno, vzročenje, hrbet raven. Zakaj raztezna: raztegne zadnjo in notranjo stran stegen. Preveri: kolena so iztegnjena (pogačice gledajo gor); predklon gre iz bokov, hrbet je raven; brez sunkov.",
+        "table": {
+          "head": [
+            "štetje",
+            "gib"
+          ],
+          "rows": [
+            [
+              "1",
+              "predklon k levi nogi (dlani proti stopalu)"
+            ],
+            [
+              "2",
+              "predklon naprej na sredino"
+            ],
+            [
+              "3",
+              "predklon k desni nogi"
+            ],
+            [
+              "4",
+              "vzravnava v začetni položaj"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Kolena se pokrčijo.",
+            "right": "Kolena iztegnjena, raje manj globoko.",
+            "why": "Raztezanje dela le z iztegnjenimi nogami."
+          },
+          {
+            "wrong": "Okrogel hrbet, samo glava gre dol.",
+            "right": "Prsi gredo proti nogi, hrbet raven.",
+            "why": "Natančnost."
+          }
+        ]
       },
       {
-        "front": "R",
-        "back": "raztezna vaja",
-        "skill": "vrsta"
+        "title": "9. Izpadni korak z vzmetenjem (R)",
+        "skill": "noge",
+        "text": "Za noge in kolčni obroč · raztezna vaja · 8 ponovitev: izmenično z levo in desno (4 na vsako nogo). Začetni položaj (ZP): stoja spetno, roke v bok. Zakaj raztezna: raztegne mišice spredaj na kolku zadnje noge. Preveri: koleno sprednje noge je nad stopalom, ne čez prste; trup je pokončen; noge izmenjuješ: leva, desna.",
+        "table": {
+          "head": [
+            "štetje",
+            "gib"
+          ],
+          "rows": [
+            [
+              "1",
+              "izpadni korak naprej z levo"
+            ],
+            [
+              "2",
+              "vzmet navzdol"
+            ],
+            [
+              "3",
+              "še en vzmet navzdol"
+            ],
+            [
+              "4",
+              "nazaj v začetni položaj"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Koleno gre daleč čez prste.",
+            "right": "Koleno nad stopalom.",
+            "why": "Tako koleno ni obremenjeno."
+          },
+          {
+            "wrong": "Trup pade naprej.",
+            "right": "Trup pokončen, roke v bok.",
+            "why": "Natančnost."
+          }
+        ]
       },
       {
-        "front": "K",
-        "back": "krepilna vaja",
-        "skill": "vrsta"
-      },
-      {
-        "front": "ZP",
-        "back": "začetni položaj",
-        "skill": "opis"
-      },
-      {
-        "front": "roke naprej v višini ramen",
-        "back": "predročenje",
-        "skill": "izrazi"
-      },
-      {
-        "front": "roke v stran",
-        "back": "odročenje",
-        "skill": "izrazi"
-      },
-      {
-        "front": "roke gor",
-        "back": "vzročenje",
-        "skill": "izrazi"
-      },
-      {
-        "front": "roke ob telesu",
-        "back": "priročenje",
-        "skill": "izrazi"
-      },
-      {
-        "front": "noge narazen",
-        "back": "stoja razkoračno",
-        "skill": "izrazi"
-      },
-      {
-        "front": "stopala skupaj",
-        "back": "stoja spetno",
-        "skill": "izrazi"
-      },
-      {
-        "front": "nagib v stran",
-        "back": "odklon",
-        "skill": "izrazi"
-      },
-      {
-        "front": "vrtenje trupa",
-        "back": "zasuk",
-        "skill": "izrazi"
-      },
-      {
-        "front": "nagib naprej",
-        "back": "predklon",
-        "skill": "izrazi"
-      },
-      {
-        "front": "Vaja 1 (Vrat in glava)",
-        "back": "1. Odkloni glave – R",
-        "skill": "telo"
-      },
-      {
-        "front": "Vaja 2 (Roke in ramenski obroč)",
-        "back": "2. Zamahi z rokami nazaj – R",
-        "skill": "telo"
-      },
-      {
-        "front": "Vaja 3 (Roke in ramenski obroč)",
-        "back": "3. Kroženje z rokami nazaj (edino kroženje) – R",
-        "skill": "telo"
-      },
-      {
-        "front": "Vaja 4 (Roke in ramenski obroč)",
-        "back": "4. Sklece na kolenih – K",
-        "skill": "telo"
-      },
-      {
-        "front": "Vaja 5 (Trup)",
-        "back": "5. Odkloni trupa – R",
-        "skill": "telo"
-      },
-      {
-        "front": "Vaja 6 (Trup)",
-        "back": "6. Zasuki trupa – R",
-        "skill": "telo"
-      },
-      {
-        "front": "Vaja 7 (Trup)",
-        "back": "7. Trebušnjaki (dvigi trupa) – K",
-        "skill": "telo"
-      },
-      {
-        "front": "Vaja 8 (Noge in kolčni obroč)",
-        "back": "8. Predkloni v sedu raznožno – R",
-        "skill": "telo"
-      },
-      {
-        "front": "Vaja 9 (Noge in kolčni obroč)",
-        "back": "9. Izpadni korak z vzmetenjem – R",
-        "skill": "telo"
-      },
-      {
-        "front": "Vaja 10 (Noge in kolčni obroč)",
-        "back": "10. Počepi – K",
-        "skill": "telo"
+        "title": "10. Počepi z dvigom na prste (K)",
+        "skill": "noge",
+        "text": "Za noge in kolčni obroč · krepilna vaja · 10 ponovitev. Začetni položaj (ZP): stoja razkoračno v širini bokov, priročenje. Zakaj krepilna: okrepi stegna, zadnjico in meča. Preveri: pri počepu so pete na tleh; kolena gredo v smeri prstov; hrbet raven, pogled naprej.",
+        "table": {
+          "head": [
+            "štetje",
+            "gib"
+          ],
+          "rows": [
+            [
+              "1",
+              "počep, roki v predročenje"
+            ],
+            [
+              "2",
+              "vzravnava, roki v priročenje"
+            ],
+            [
+              "3",
+              "dvig na prste, roki v vzročenje"
+            ],
+            [
+              "4",
+              "nazaj v začetni položaj"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Pete se pri počepu dvignejo.",
+            "right": "Pete ostanejo na tleh.",
+            "why": "Pravilna izvedba."
+          },
+          {
+            "wrong": "Kolena gredo skupaj navznoter.",
+            "right": "Kolena gredo nad prsti.",
+            "why": "Varno za kolena."
+          }
+        ]
       }
     ]
   },
   "tasks": [
     {
-      "id": "v01-koliko",
+      "id": "vaja-01",
       "level": 1,
-      "skill": "pravila",
-      "kind": "text",
-      "prompt": "Koliko gimnastičnih vaj mora Alan pripraviti za ocenjevanje? Zapiši s številko.",
-      "answer": "10",
+      "skill": "vrat",
+      "kind": "open",
+      "prompt": "Nauči se vajo 1. Odkloni glave (R). ZP: stoja razkoračno, roke v bok, pogled naprej. Štetje: 1 – odklon glave v levo (uho proti levi rami), 2 – glava nazaj na sredino, 3 – odklon glave v desno (uho proti desni rami), 4 – glava nazaj na sredino. Najprej jo naredi 4-krat počasi in med tem beri korake. Potem še 8 ponovitev brez branja, z glasnim štetjem.",
       "hints": [
-        "Poglej prvo točko na listu."
+        "Pazi: uho gre proti rami, rama ostane spodaj.",
+        "Naredi jo pred ogledalom ali naj nekdo gleda."
       ],
-      "solution": "Pripraviti je treba **10** vaj: 1 + 3 + 3 + 3.",
-      "accept": [
-        "deset"
-      ]
+      "solution": "Preveri: rami ostaneta spodaj in mirni; gib je počasen, brez sunkov; glava se ne vrti v krogu; glasno štetje do 8. Če vse drži, klikni Znam."
     },
     {
-      "id": "v02-vrat",
+      "id": "vaja-02",
       "level": 1,
-      "skill": "telo",
-      "kind": "choice",
-      "prompt": "Koliko vaj je za vrat in glavo?",
-      "options": [
-        "1",
-        "2",
-        "3"
-      ],
-      "answer": 0,
+      "skill": "roke",
+      "kind": "open",
+      "prompt": "Nauči se vajo 2. Zamahi z rokami (R). ZP: stoja razkoračno, predročenje skrčeno (komolci v višini ramen, dlani pred prsmi). Štetje: 1 – zamah s komolci nazaj, 2 – nazaj v predročenje skrčeno, 3 – iztegni roki v odročenje in zamahni nazaj, 4 – nazaj v predročenje skrčeno. Najprej jo naredi 4-krat počasi in med tem beri korake. Potem še 8 ponovitev brez branja, z glasnim štetjem.",
       "hints": [
-        "Ta del telesa ima najmanj vaj."
+        "Pazi: komolci ostanejo v višini ramen.",
+        "Naredi jo pred ogledalom ali naj nekdo gleda."
       ],
-      "solution": "Za vrat in glavo je **ena** vaja."
+      "solution": "Preveri: komolci so v višini ramen; pri 3 sta roki res iztegnjeni; trup miruje, se ne ziba; glasno štetje do 8. Če vse drži, klikni Znam."
     },
     {
-      "id": "v03-vrstni-red",
+      "id": "vaja-03",
       "level": 1,
-      "skill": "telo",
-      "kind": "choice",
-      "prompt": "V kakšnem vrstnem redu si sledijo vaje?",
-      "options": [
-        "noge → trup → roke → vrat",
-        "vrat in glava → roke in ramena → trup → noge in boki",
-        "trup → vrat → noge → roke"
-      ],
-      "answer": 1,
+      "skill": "roke",
+      "kind": "open",
+      "prompt": "Nauči se vajo 3. Kroženje z rokami nazaj (R). ZP: stoja razkoračno, priročenje. Štetje: 1 – iztegnjeni roki gresta skozi predročenje v vzročenje, 2 – roki gresta nazaj in dol v priročenje (en krog), 3 – drugi krog: skozi predročenje v vzročenje, 4 – nazaj in dol v priročenje. Najprej jo naredi 4-krat počasi in med tem beri korake. Potem še 8 ponovitev (2 kroga v vsaki ponovitvi) brez branja, z glasnim štetjem.",
       "hints": [
-        "Začni na vrhu telesa in pojdi navzdol."
+        "Pazi: veliki počasni krogi.",
+        "Naredi jo pred ogledalom ali naj nekdo gleda."
       ],
-      "solution": "Vaje gredo **od glave navzdol**: vrat in glava, roke in ramenski obroč, trup, noge in kolčni obroč."
+      "solution": "Preveri: roki sta ves čas iztegnjeni; krogi so veliki, roki gresta tik ob ušesih; to je EDINO kroženje v programu; glasno štetje do 8. Če vse drži, klikni Znam."
     },
     {
-      "id": "v04-raztezna",
+      "id": "vaja-04",
       "level": 1,
-      "skill": "vrsta",
-      "kind": "choice",
-      "prompt": "Kaj naredi **raztezna** vaja?",
-      "options": [
-        "Mišice podaljša in sprosti, telo postane bolj gibljivo.",
-        "Mišice naredi močnejše z dviganjem teže telesa.",
-        "Pospeši srce kot tek."
-      ],
-      "answer": 0,
+      "skill": "roke",
+      "kind": "open",
+      "prompt": "Nauči se vajo 4. Počasne sklece na kolenih (K). ZP: opora ležno na kolenih: kolena na tleh, dlani pod rameni, telo od kolen do glave v ravni črti. Štetje: 1 – počasi pokrči roke (prsi gredo proti tlom), 2 – prsi tik nad tlemi, 3 – počasi iztegni roke, 4 – nazaj v začetni položaj. Najprej jo naredi 4-krat počasi in med tem beri korake. Potem še 8 ponovitev brez branja, z glasnim štetjem.",
       "hints": [
-        "Pomisli na besedo »raztegniti«."
+        "Pazi: telo je ravno kot deska.",
+        "Naredi jo pred ogledalom ali naj nekdo gleda."
       ],
-      "solution": "Raztezna vaja mišice **raztegne**, zato je telo bolj gibljivo."
+      "solution": "Preveri: telo je ravno (boki ne visijo, zadnjica ni gor); komolci gredo nazaj ob telesu; gib je počasen; glasno štetje do 8. Če vse drži, klikni Znam."
     },
     {
-      "id": "v05-krepilna",
+      "id": "vaja-05",
       "level": 1,
-      "skill": "vrsta",
-      "kind": "choice",
-      "prompt": "Kaj naredi **krepilna** vaja?",
-      "options": [
-        "Mišice samo sprosti.",
-        "Mišice okrepi, da postanejo močnejše.",
-        "Nauči nas šteti do 10."
-      ],
-      "answer": 1,
+      "skill": "trup",
+      "kind": "open",
+      "prompt": "Nauči se vajo 5. Odkloni trupa z vzročenjem (R). ZP: stoja razkoračno, vzročenje, dlani sklenjeni nad glavo. Štetje: 1 – odklon trupa v levo, 2 – še malo dlje v levo (vzmet), 3 – odklon trupa v desno, 4 – še malo dlje v desno (vzmet). Najprej jo naredi 4-krat počasi in med tem beri korake. Potem še 8 ponovitev brez branja, z glasnim štetjem.",
       "hints": [
-        "Krepiti pomeni narediti močnejše."
+        "Pazi: čisto v stran, kot med dvema stenama.",
+        "Naredi jo pred ogledalom ali naj nekdo gleda."
       ],
-      "solution": "Krepilna vaja mišice **okrepi**. Primeri: sklece, trebušnjaki, počepi."
+      "solution": "Preveri: odklon je v stran, ne naprej; roki ostaneta iztegnjeni ob ušesih; noge mirujejo; glasno štetje do 8. Če vse drži, klikni Znam."
     },
     {
-      "id": "v06-krozenje",
+      "id": "vaja-06",
+      "level": 1,
+      "skill": "trup",
+      "kind": "open",
+      "prompt": "Nauči se vajo 6. Zasuki trupa s pogledom nazaj (R). ZP: stoja razkoračno, predročenje skrčeno. Štetje: 1 – zasuk trupa v levo, pogled gre za komolcem, 2 – še malo dlje v levo (vzmet), 3 – zasuk trupa v desno, pogled za komolcem, 4 – še malo dlje v desno (vzmet). Najprej jo naredi 4-krat počasi in med tem beri korake. Potem še 8 ponovitev brez branja, z glasnim štetjem.",
+      "hints": [
+        "Pazi: boki gledajo naprej, zasuka se samo trup.",
+        "Naredi jo pred ogledalom ali naj nekdo gleda."
+      ],
+      "solution": "Preveri: boki in noge mirujejo; zasuka se samo zgornji del telesa; komolci ostanejo v višini ramen; glasno štetje do 8. Če vse drži, klikni Znam."
+    },
+    {
+      "id": "vaja-07",
+      "level": 1,
+      "skill": "trup",
+      "kind": "open",
+      "prompt": "Nauči se vajo 7. Trebušnjaki z dotikom kolen (K). ZP: leža na hrbtu skrčno (kolena pokrčena, stopala na tleh), dlani na stegnih. Štetje: 1 – dvigni glavo in ramena, dlani drsijo do kolen, 2 – zadrži, 3 – počasi se spusti, 4 – glava in ramena na tleh. Najprej jo naredi 4-krat počasi in med tem beri korake. Potem še 10 ponovitev brez branja, z glasnim štetjem.",
+      "hints": [
+        "Pazi: počasen dvig samo ramen.",
+        "Naredi jo pred ogledalom ali naj nekdo gleda."
+      ],
+      "solution": "Preveri: dvigneta se samo glava in ramena; stopala ostanejo na tleh; brez sunka in brez vlečenja za vrat; glasno štetje do 10. Če vse drži, klikni Znam."
+    },
+    {
+      "id": "vaja-08",
+      "level": 1,
+      "skill": "noge",
+      "kind": "open",
+      "prompt": "Nauči se vajo 8. Predkloni v sedu raznožno (R). ZP: sed raznožno, vzročenje, hrbet raven. Štetje: 1 – predklon k levi nogi (dlani proti stopalu), 2 – predklon naprej na sredino, 3 – predklon k desni nogi, 4 – vzravnava v začetni položaj. Najprej jo naredi 4-krat počasi in med tem beri korake. Potem še 8 ponovitev brez branja, z glasnim štetjem.",
+      "hints": [
+        "Pazi: kolena iztegnjena, raje manj globoko.",
+        "Naredi jo pred ogledalom ali naj nekdo gleda."
+      ],
+      "solution": "Preveri: kolena so iztegnjena (pogačice gledajo gor); predklon gre iz bokov, hrbet je raven; brez sunkov; glasno štetje do 8. Če vse drži, klikni Znam."
+    },
+    {
+      "id": "vaja-09",
+      "level": 1,
+      "skill": "noge",
+      "kind": "open",
+      "prompt": "Nauči se vajo 9. Izpadni korak z vzmetenjem (R). ZP: stoja spetno, roke v bok. Štetje: 1 – izpadni korak naprej z levo, 2 – vzmet navzdol, 3 – še en vzmet navzdol, 4 – nazaj v začetni položaj. Najprej jo naredi 4-krat počasi in med tem beri korake. Potem še 8 ponovitev: izmenično z levo in desno (4 na vsako nogo) brez branja, z glasnim štetjem.",
+      "hints": [
+        "Pazi: koleno nad stopalom.",
+        "Naredi jo pred ogledalom ali naj nekdo gleda."
+      ],
+      "solution": "Preveri: koleno sprednje noge je nad stopalom, ne čez prste; trup je pokončen; noge izmenjuješ: leva, desna; glasno štetje do 8. Če vse drži, klikni Znam."
+    },
+    {
+      "id": "vaja-10",
+      "level": 1,
+      "skill": "noge",
+      "kind": "open",
+      "prompt": "Nauči se vajo 10. Počepi z dvigom na prste (K). ZP: stoja razkoračno v širini bokov, priročenje. Štetje: 1 – počep, roki v predročenje, 2 – vzravnava, roki v priročenje, 3 – dvig na prste, roki v vzročenje, 4 – nazaj v začetni položaj. Najprej jo naredi 4-krat počasi in med tem beri korake. Potem še 10 ponovitev brez branja, z glasnim štetjem.",
+      "hints": [
+        "Pazi: pete ostanejo na tleh.",
+        "Naredi jo pred ogledalom ali naj nekdo gleda."
+      ],
+      "solution": "Preveri: pri počepu so pete na tleh; kolena gredo v smeri prstov; hrbet raven, pogled naprej; glasno štetje do 10. Če vse drži, klikni Znam."
+    },
+    {
+      "id": "skupaj-vrat-roke",
       "level": 2,
-      "skill": "pravila",
-      "kind": "choice",
-      "prompt": "Koliko vaj s **kroženjem** je dovoljenih?",
-      "options": [
-        "nobena",
-        "največ ena",
-        "največ tri",
-        "vse"
-      ],
-      "answer": 1,
+      "skill": "roke",
+      "kind": "open",
+      "prompt": "Vaje 1–4 naredi zapored: odkloni glave, zamahi z rokami, kroženje z rokami, sklece na kolenih. Vsako z glasnim štetjem in vsako začni v začetnem položaju.",
       "hints": [
-        "Na listu piše »največ«."
+        "Med vajami samo mirno vdihni in zavzemi nov začetni položaj."
       ],
-      "solution": "Uporabiti je dovoljeno **največ eno** kroženje. Alan ima kroženje z rokami nazaj, vse druge vaje so brez kroženja."
+      "solution": "Preveri: pravi vrstni red; glasno štetje (8 ponovitev); rami mirni pri vratu; komolci v višini ramen pri zamahih; veliki krogi; ravno telo pri sklecah."
     },
     {
-      "id": "v07-roke-delitev",
+      "id": "skupaj-trup",
       "level": 2,
-      "skill": "vrsta",
-      "kind": "choice",
-      "prompt": "Za roke in ramenski obroč so 3 vaje. Kako se delijo?",
-      "options": [
-        "3 raztezne",
-        "2 raztezni in 1 krepilna",
-        "1 raztezna in 2 krepilni"
-      ],
-      "answer": 1,
-      "hints": [
-        "Enako velja za trup in noge."
-      ],
-      "solution": "Pri rokah, trupu in nogah je vedno **2 raztezni + 1 krepilna**."
+      "skill": "trup",
+      "kind": "open",
+      "prompt": "Vaje 5–7 naredi zapored: odkloni trupa, zasuki trupa, trebušnjaki. Vsako z glasnim štetjem.",
+      "solution": "Preveri: odkloni čisto v stran; pri zasukih boki mirujejo; pri trebušnjakih se dvignejo samo glava in ramena, 10 ponovitev."
     },
     {
-      "id": "v08-sklece",
+      "id": "skupaj-noge",
       "level": 2,
-      "skill": "vrsta",
-      "kind": "choice",
-      "prompt": "Sklece na kolenih so …",
-      "options": [
-        "raztezna vaja",
-        "krepilna vaja"
-      ],
-      "answer": 1,
-      "hints": [
-        "Ali roke pri sklecah dvigujejo težo telesa?"
-      ],
-      "solution": "Sklece so **krepilna** vaja: roke dvigujejo težo telesa."
+      "skill": "noge",
+      "kind": "open",
+      "prompt": "Vaje 8–10 naredi zapored: predkloni v sedu raznožno, izpadni korak, počepi z dvigom na prste. Vsako z glasnim štetjem.",
+      "solution": "Preveri: kolena iztegnjena pri predklonih; koleno nad stopalom pri izpadnem koraku (izmenično leva, desna); pete na tleh pri počepih, 10 ponovitev."
     },
     {
-      "id": "v09-predklon",
-      "level": 2,
-      "skill": "vrsta",
-      "kind": "choice",
-      "prompt": "Predkloni v sedu raznožno so …",
-      "options": [
-        "raztezna vaja",
-        "krepilna vaja"
-      ],
-      "answer": 0,
-      "hints": [
-        "Kaj se zgodi z mišicami zadaj na nogah?"
-      ],
-      "solution": "To je **raztezna** vaja: raztegne mišice zadaj na nogah in v bokih."
-    },
-    {
-      "id": "v10-pocep-del",
-      "level": 2,
-      "skill": "telo",
-      "kind": "choice",
-      "prompt": "Za kateri del telesa so počepi?",
-      "options": [
-        "vrat in glava",
-        "roke in ramena",
-        "noge in kolčni obroč"
-      ],
-      "answer": 2,
-      "hints": [
-        "Pri počepu se pokrčijo kolena."
-      ],
-      "solution": "Počepi so krepilna vaja za **noge in kolčni obroč**."
-    },
-    {
-      "id": "v11-trebusnjaki-del",
-      "level": 2,
-      "skill": "telo",
-      "kind": "choice",
-      "prompt": "Trebušnjaki krepijo …",
-      "options": [
-        "trup",
-        "vrat",
-        "stopala"
-      ],
-      "answer": 0,
-      "hints": [
-        "Kje so trebušne mišice?"
-      ],
-      "solution": "Trebušnjaki so krepilna vaja za **trup**."
-    },
-    {
-      "id": "v12-predrocenje",
-      "level": 2,
-      "skill": "izrazi",
-      "kind": "text",
-      "prompt": "Roke so iztegnjene naprej, v višini ramen. Kako se imenuje ta položaj rok?",
-      "answer": "predročenje",
-      "hints": [
-        "Roka je »pred« telesom: pred…"
-      ],
-      "solution": "To je **predročenje**."
-    },
-    {
-      "id": "v13-odrocenje",
-      "level": 2,
-      "skill": "izrazi",
-      "kind": "text",
-      "prompt": "Roke so iztegnjene v stran, v višini ramen. Kako se imenuje ta položaj?",
-      "answer": "odročenje",
-      "hints": [
-        "Roka gre »od« telesa v stran."
-      ],
-      "solution": "To je **odročenje**."
-    },
-    {
-      "id": "v14-vzrocenje",
-      "level": 2,
-      "skill": "izrazi",
-      "kind": "text",
-      "prompt": "Roke so iztegnjene navzgor nad glavo. Kako se imenuje ta položaj?",
-      "answer": "vzročenje",
-      "hints": [
-        "Roka gre »gor« (vz…)."
-      ],
-      "solution": "To je **vzročenje**."
-    },
-    {
-      "id": "v15-razkoracno",
-      "level": 2,
-      "skill": "izrazi",
-      "kind": "choice",
-      "prompt": "Kaj pomeni **stoja razkoračno**?",
-      "options": [
-        "Stojimo z razmaknjenimi nogami.",
-        "Stojimo s stopali skupaj.",
-        "Sedimo z nogami narazen."
-      ],
-      "answer": 0,
-      "hints": [
-        "Razkorak = noge narazen."
-      ],
-      "solution": "Stoja razkoračno: noge so **razmaknjene** (približno v širini ramen). Stoja spetno pa pomeni stopala skupaj."
-    },
-    {
-      "id": "v16-odklon-zasuk",
-      "level": 2,
-      "skill": "izrazi",
-      "kind": "choice",
-      "prompt": "Kakšna je razlika med odklonom in zasukom trupa?",
-      "options": [
-        "Pri odklonu se nagnemo v stran, pri zasuku se zavrtimo levo ali desno.",
-        "Ni razlike.",
-        "Pri odklonu se zavrtimo, pri zasuku skočimo."
-      ],
-      "answer": 0,
-      "hints": [
-        "Odklon = nagib v stran, zasuk = vrtenje."
-      ],
-      "solution": "**Odklon**: nagib v stran. **Zasuk**: zgornji del telesa se zavrti, boki ostanejo pri miru."
-    },
-    {
-      "id": "v17-ponovitve",
+      "id": "stetje-glasno",
       "level": 2,
       "skill": "stetje",
-      "kind": "choice",
-      "prompt": "Koliko ponovitev zahteva učitelj pri vsaki vaji?",
-      "options": [
-        "2–3",
-        "8–10",
-        "30"
-      ],
-      "answer": 1,
-      "hints": [
-        "Številka je na listu v točki 3."
-      ],
-      "solution": "Vsako vajo naredi **8–10-krat** ali določen čas (npr. 20 sekund)."
-    },
-    {
-      "id": "v18-stetje",
-      "level": 2,
-      "skill": "stetje",
-      "kind": "choice",
-      "prompt": "Kako je treba šteti med vajo?",
-      "options": [
-        "Tiho v glavi.",
-        "Glasno, v ritmu giba.",
-        "Sploh ni treba šteti."
-      ],
-      "answer": 1,
-      "hints": [
-        "Na listu piše »ob glasnem štetju«."
-      ],
-      "solution": "Šteti je treba **glasno** in v ritmu: »ena, dva, tri, štiri …« Vsako število je en del giba."
-    },
-    {
-      "id": "v19-zp",
-      "level": 2,
-      "skill": "opis",
-      "kind": "choice",
-      "prompt": "Kaj pomeni kratica **ZP** v opisu vaje?",
-      "options": [
-        "zadnja ponovitev",
-        "začetni položaj",
-        "zelo počasi"
-      ],
-      "answer": 1,
-      "hints": [
-        "Vsak opis se začne s tem, kako stojimo, sedimo ali ležimo."
-      ],
-      "solution": "ZP = **začetni položaj**: kako je telo postavljeno, preden začnemo."
-    },
-    {
-      "id": "v20-opis",
-      "level": 2,
-      "skill": "opis",
-      "kind": "choice",
-      "prompt": "Kaj vse sodi v zapis ene vaje?",
-      "options": [
-        "samo ime vaje",
-        "ime, začetni položaj, potek po štetju, število ponovitev in oznaka R ali K",
-        "samo risba"
-      ],
-      "answer": 1,
-      "hints": [
-        "Spomni se točke 4 na listu."
-      ],
-      "solution": "Zapis: **ime**, **začetni položaj**, **potek po štetju**, **ponovitve** in **raztezna/krepilna**."
-    },
-    {
-      "id": "v21-glava-kroz",
-      "level": 2,
-      "skill": "izvedba",
-      "kind": "choice",
-      "prompt": "Zakaj je pri vratu bolje izbrati odklone glave kot hitro kroženje glave?",
-      "options": [
-        "Ker je kroženje glave prelahko.",
-        "Ker je hitro kroženje z glavo lahko neprijetno za vrat, odkloni pa so mirni in varni.",
-        "Ker učitelj ne mara glave."
-      ],
-      "answer": 1,
-      "hints": [
-        "Pomisli na varnost vratu."
-      ],
-      "solution": "Vrat je občutljiv. **Počasni odkloni** so varni, kroženje pa bi porabilo edino dovoljeno kroženje."
-    },
-    {
-      "id": "v22-pocep-pravilno",
-      "level": 2,
-      "skill": "izvedba",
-      "kind": "choice",
-      "prompt": "Kaj je pravilno pri počepu?",
-      "options": [
-        "Pete se dvignejo, hrbet je okrogel.",
-        "Pete ostanejo na tleh, hrbet je raven, kolena gledajo naprej.",
-        "Kolena se stikajo."
-      ],
-      "answer": 1,
-      "hints": [
-        "Pomisli na ravno držo."
-      ],
-      "solution": "Pri počepu so **pete na tleh**, **hrbet raven** in kolena gledajo v smeri prstov."
-    },
-    {
-      "id": "v23-svoja-vaja",
-      "level": 3,
-      "skill": "opis",
       "kind": "open",
-      "prompt": "Opiši na glas ali v zvezek vajo »odkloni trupa«: začetni položaj, potek po štetju in ali je raztezna ali krepilna.",
-      "hints": [
-        "Začni z »ZP: stoja razkoračno …«."
-      ],
-      "solution": "ZP: stoja razkoračno, leva roka v bok, desna vzročeno. 1–2 – dvakrat se nagni v levo, 3–4 – zamenjaj roki in se dvakrat nagni v desno. 8 ponovitev. **Raztezna** vaja za trup."
+      "prompt": "Vaja štetja: naredi vajo 2 (zamahi) in vajo 10 (počepi) in štej tako, da prva številka pove ponovitev: »ena, dva, tri, štiri – dve, dva, tri, štiri …«. Štej glasno, kot da te mora slišati cela telovadnica.",
+      "solution": "Preveri: štetje je glasno; vsaka številka je en del giba (ne hitreje); pri zamahih do »osem, dva, tri, štiri«, pri počepih do »deset, dva, tri, štiri«."
     },
     {
-      "id": "v24-pokazi",
-      "level": 3,
-      "skill": "izvedba",
+      "id": "list-napisi",
+      "level": 2,
+      "skill": "list",
       "kind": "open",
-      "prompt": "Pokaži staršu vseh 10 vaj zapored z glasnim štetjem. Starš preveri: pravi vrstni red, 8–10 ponovitev, glasno štetje, raven hrbet.",
+      "prompt": "Na roko napiši svoj list z vajami za učitelja (predlogo imajo starši). Pri vsaki vaji: ime vaje, začetni položaj, potek po štetju, število ponovitev in R ali K.",
       "hints": [
-        "Imej list z vajami ob sebi, dokler vaj ne znaš na pamet."
+        "Vaje piši od glave navzdol: vrat, roke, trup, noge."
       ],
-      "solution": "Znam izberi, če so vse vaje v pravem vrstnem redu (vrat → roke → trup → noge), šteješ glasno in v ritmu in nobena vaja ni izpuščena."
+      "solution": "Preveri: 10 vaj (1 vrat, 3 roke, 3 trup, 3 noge); pri rokah, trupu in nogah 2 R + 1 K; samo eno kroženje; pri vsaki vaji ZP, potek, ponovitve in R/K; ime in razred zgoraj. Potem list oddaj učitelju pred ocenjevanjem."
+    },
+    {
+      "id": "vseh-10-s-listom",
+      "level": 2,
+      "skill": "program",
+      "kind": "open",
+      "prompt": "Vseh 10 vaj naredi zapored. List lahko še gleda starš in ti pove naslednjo vajo, če se zatakne.",
+      "solution": "Preveri: vseh 10 vaj v pravem vrstnem redu; glasno štetje pri vsaki; vsaka se začne in konča v ZP. Traja približno 7–8 minut."
+    },
+    {
+      "id": "posnetek",
+      "level": 3,
+      "skill": "program",
+      "kind": "open",
+      "prompt": "Naj te starš posname, ko delaš vseh 10 vaj. Potem posnetek skupaj poglejta in poiščita dve stvari, ki ju je treba popraviti.",
+      "solution": "Na posnetku poglej: ali je štetje dobro slišno; ali so roke in kolena iztegnjeni, kjer morajo biti; ali so pete na tleh pri počepih; ali je hrbet raven. Popravi dve stvari in vajo ponovi."
+    },
+    {
+      "id": "vseh-10-na-pamet",
+      "level": 3,
+      "skill": "program",
+      "kind": "open",
+      "prompt": "Vseh 10 vaj naredi zapored brez lista in brez pomoči, z glasnim štetjem, kot na ocenjevanju.",
+      "solution": "Preveri: ni ustavljanja ali iskanja naslednje vaje; pravi vrstni red od glave navzdol; glasno štetje pri vseh vajah; natančni gibi. Če vse drži, je program pripravljen za ocenjevanje."
     }
   ],
   "challenge": [
     {
-      "id": "l01-skupaj-raztezne",
+      "id": "nastop-druzina",
       "level": 3,
-      "skill": "vrsta",
-      "kind": "text",
-      "prompt": "Koliko od 10 vaj je razteznih, če ima vrat 1 raztezno vajo in imajo roke, trup in noge vsak po 2 raztezni? Zapiši število.",
-      "answer": "7",
-      "hints": [
-        "1 + 2 + 2 + 2"
-      ],
-      "solution": "1 + 2 + 2 + 2 = **7** razteznih in 3 krepilne vaje.",
-      "accept": [
-        "sedem"
-      ]
-    },
-    {
-      "id": "l02-krepilne",
-      "level": 3,
-      "skill": "vrsta",
-      "kind": "text",
-      "prompt": "Koliko je krepilnih vaj med desetimi? Zapiši število.",
-      "answer": "3",
-      "hints": [
-        "Ena pri rokah, ena pri trupu, ena pri nogah."
-      ],
-      "solution": "**3** krepilne vaje: sklece, trebušnjaki, počepi.",
-      "accept": [
-        "tri"
-      ]
-    },
-    {
-      "id": "l03-izvirna",
-      "level": 3,
-      "skill": "opis",
+      "skill": "program",
       "kind": "open",
-      "prompt": "Izmisli si **novo** raztezno vajo za noge, ki je ni na Alanovem listu. Zapiši ZP, potek po štetju in ponovitve.",
+      "prompt": "Nastop pred družino: povej »Pričenjam« in pokaži vseh 10 vaj, kot da gleda učitelj. Gledalci med tem ne pomagajo.",
       "hints": [
-        "Npr. stoja na eni nogi in raztezanje stegna, ali predklon v stoji razkoračno."
+        "Pred začetkom globoko vdihni in se postavi v ZP prve vaje."
       ],
-      "solution": "Primer: **Raztezanje stegna stoje.** ZP: stoja spetno ob steni, z roko se drži stene. 1 – pokrči desno nogo in primi stopalo za seboj, 2–7 – drži in štej, 8 – spusti. Nato leva noga. 4-krat na vsako nogo. Raztezna."
+      "solution": "Uspešno, če so vse vaje v pravem vrstnem redu, z glasnim štetjem, brez ustavljanja in z natančnimi gibi. Gledalci povedo eno stvar, ki je bila odlična, in eno za popraviti."
     },
     {
-      "id": "l04-popravi",
+      "id": "generalka-ucitelj",
       "level": 3,
-      "skill": "izvedba",
+      "skill": "program",
       "kind": "open",
-      "prompt": "Sošolec dela sklece z ukrivljenim hrbtom, hitro in brez štetja. Povej tri nasvete, kako jih izboljša.",
-      "hints": [
-        "Pomisli na hrbet, hitrost in štetje."
-      ],
-      "solution": "1) Telo naj bo **ravno** od kolen do glave. 2) Giblje naj se **počasi in nadzorovano**. 3) Šteje naj **glasno** v ritmu (1 – dol, 2 – gor)."
+      "prompt": "Generalka: starš je učitelj in točkuje vsako vajo po Poskusnem testu (Generalka: nastop z 10 vajami).",
+      "solution": "Cilj: vsaj 22 od 25 točk. Vaje z 0 ali 1 točko vadi še naslednji dan, posebej."
     },
     {
-      "id": "l05-krozenja",
+      "id": "natancno-ogledalo",
       "level": 3,
-      "skill": "pravila",
-      "kind": "text",
-      "prompt": "Alanova vaja 3 je kroženje z rokami. Koliko kroženj še sme dodati v drugih vajah? Zapiši število.",
-      "answer": "0",
-      "hints": [
-        "Dovoljeno je največ eno kroženje."
-      ],
-      "solution": "**0**: edino dovoljeno kroženje je že pri vaji 3.",
-      "accept": [
-        "nič",
-        "nobenega"
-      ]
+      "skill": "stetje",
+      "kind": "open",
+      "prompt": "Pred ogledalom naredi vseh 10 vaj z glasnim štetjem in pri vsaki vaji preveri eno stvar iz »Preveri« v snovi.",
+      "solution": "Uspešno, če pri vsaki od 10 vaj ena točka iz »Preveri« drži, štetje pa je ves čas glasno in v ritmu."
     }
   ],
   "parent": {
-    "school_method": "Ocenjevanje gimnastičnih vaj od 13. 11. 2026 (točen datum učitelj pove teden prej). Ocenjuje se pravilna in natančna izvedba, glasno štetje (8–10 ponovitev ali čas), pravilno število vaj po delih telesa (1–3–3–3, pri vsakem delu 2 R + 1 K), največ 1 kroženje in oddan list z opisi vaj. Predlog 10 vaj je v temi; Alan jih sme zamenjati z izvirnimi, če ostanejo pravila. Izrazi (predročenje, stoja razkoračno …) so običajni izrazi pri športu, lista ne vsebuje točnih meril.",
+    "school_method": "Ni pisnega ne ustnega spraševanja: ocenjevanje je praktični nastop od 13. 11. 2026 (točen dan učitelj pove teden prej). Alan pokaže 10 gimnastičnih vaj (1 vrat in glava, 3 roke in ramenski obroč, 3 trup, 3 noge in kolčni obroč; pri zadnjih treh 2 raztezni + 1 krepilna), največ eno kroženje, pravilno, natančno in ob glasnem štetju (8–10 ponovitev). Pred ocenjevanjem odda list, kjer je vsaka vaja opisana in označena R ali K. Lista z merili nimamo, zato točke v generalki niso učiteljeve. Na listu piše, naj bodo vaje izvirne; zato so Alanove vaje malo spremenjene osnovne vaje (npr. počep z dvigom na prste).",
     "typical_mistakes": [
-      "Preveč kroženj (npr. glava in roke).",
-      "Napačno razmerje: 3 raztezne vaje za trup brez krepilne.",
-      "Tiho ali prehitro štetje; štetje ni v ritmu giba.",
-      "Pozabljen začetni položaj ali vrnitev vanj.",
-      "Ukrivljen hrbet pri sklecah in počepih, dvignjene pete.",
-      "List z vajami ni napisan ali oddan pravočasno."
-    ],
-    "car_questions": [
-      {
-        "q": "Koliko vaj in za katere dele telesa?",
-        "a": "10: 1 vrat in glava, 3 roke in ramena, 3 trup, 3 noge in boki."
-      },
-      {
-        "q": "Kakšna je razlika med raztezno in krepilno vajo?",
-        "a": "Raztezna mišice raztegne (gibljivost), krepilna jih okrepi (moč)."
-      },
-      {
-        "q": "Koliko kroženj sme biti?",
-        "a": "Največ eno."
-      },
-      {
-        "q": "Kaj je predročenje? Odročenje? Vzročenje?",
-        "a": "Roke naprej / v stran / gor."
-      },
-      {
-        "q": "Naštej svoje tri krepilne vaje.",
-        "a": "Sklece na kolenih, trebušnjaki, počepi."
-      },
-      {
-        "q": "Kaj napišeš pri vsaki vaji?",
-        "a": "Ime, ZP, potek po štetju, ponovitve, R ali K."
-      }
+      "Tiho štetje ali štetje hitreje od giba.",
+      "Pozabljen začetni položaj na začetku ali koncu vaje.",
+      "Pokrčene roke ali kolena, kjer morajo biti iztegnjeni.",
+      "Odklon trupa naprej namesto v stran; pri zasukih se obračajo tudi boki.",
+      "Boki visijo pri sklecah, pete se dvigajo pri počepih.",
+      "List ni oddan pravočasno ali manjka R/K pri vaji."
     ],
     "tips": [
-      "Do torka naj Alan na roko prepiše in odda svoj list (predloga je v temi).",
-      "Vsak dan 10 minut: vseh 10 vaj zapored z glasnim štetjem.",
-      "Snemajte s telefonom in skupaj poglejte hrbet, pete in ritem štetja.",
-      "Zadnji dan samo ena mirna generalka, brez utrujanja."
+      "Vadba je kratka: 10 minut na dan, ves program enkrat. Več ni treba.",
+      "Prvih nekaj dni naj Alan vadi s snovjo v BrightFoxu (vsaka vaja ima svojo stran s štetjem), potem na pamet.",
+      "List naj Alan na roko prepiše iz predloge »2-list-z-vajami-za-oddajo.md« in ga odda čim prej, najkasneje v sredo.",
+      "Enkrat ga posnemite s telefonom: na posnetku Alan sam najhitreje vidi, kaj popraviti.",
+      "Generalka (Poskusni test) je točkovnik za vas: vi gledate, Alan nastopa."
     ]
   },
-  "oral": [
-    {
-      "id": "q-pravila",
-      "skill": "pravila",
-      "question": "Povej, koliko vaj si pripraviš in za katere dele telesa.",
-      "key_points": [
-        "10 vaj",
-        "1 za vrat in glavo",
-        "3 za roke in ramenski obroč",
-        "3 za trup",
-        "3 za noge in kolčni obroč"
-      ],
-      "model_answer": "Pripravim 10 vaj: eno za vrat in glavo, tri za roke in ramenski obroč, tri za trup in tri za noge in kolčni obroč."
-    },
-    {
-      "id": "q-r-k",
-      "skill": "vrsta",
-      "question": "Kaj je razlika med raztezno in krepilno vajo? Navedi primer za vsako.",
-      "key_points": [
-        "raztezna raztegne mišice / gibljivost",
-        "krepilna okrepi mišice / moč",
-        "primer raztezne",
-        "primer krepilne"
-      ],
-      "model_answer": "Raztezna vaja mišice raztegne, da je telo bolj gibljivo, na primer predklon v sedu raznožno. Krepilna vaja mišice okrepi, na primer sklece."
-    },
-    {
-      "id": "q-krozenje",
-      "skill": "pravila",
-      "question": "Koliko kroženj je dovoljenih in katero je v tvojem programu?",
-      "key_points": [
-        "največ eno",
-        "kroženje z rokami nazaj"
-      ],
-      "model_answer": "Dovoljeno je največ eno kroženje. V mojem programu je kroženje z rokami nazaj."
-    },
-    {
-      "id": "q-opis-sklece",
-      "skill": "opis",
-      "question": "Opiši sklece na kolenih: začetni položaj, potek in število ponovitev.",
-      "key_points": [
-        "opora klečno",
-        "dlani pod rameni, telo ravno",
-        "1 – pokrči roke, 2 – iztegni",
-        "8–10 ponovitev",
-        "krepilna"
-      ],
-      "model_answer": "ZP je opora klečno, dlani pod rameni, telo ravno. Na 1 pokrčim roke, na 2 jih iztegnem. Naredim 8 do 10 ponovitev. To je krepilna vaja za roke."
-    },
-    {
-      "id": "q-opis-predklon",
-      "skill": "opis",
-      "question": "Opiši predklone v sedu raznožno.",
-      "key_points": [
-        "sed raznožno, roke vzročeno",
-        "1 – k levi nogi, 2 – vzravnava",
-        "3 – k desni nogi, 4 – vzravnava",
-        "raztezna vaja za noge in boke"
-      ],
-      "model_answer": "ZP je sed raznožno, roke vzročeno, hrbet raven. Na 1 se predklonim k levi nogi, na 2 se vzravnam, na 3 se predklonim k desni nogi, na 4 se vzravnam. Osemkrat. To je raztezna vaja za noge in kolčni obroč."
-    },
-    {
-      "id": "q-izrazi",
-      "skill": "izrazi",
-      "question": "Razloži izraze predročenje, odročenje, vzročenje in stoja razkoračno.",
-      "key_points": [
-        "predročenje: roke naprej",
-        "odročenje: roke v stran",
-        "vzročenje: roke gor",
-        "stoja razkoračno: noge narazen"
-      ],
-      "model_answer": "Predročenje pomeni roke naprej v višini ramen, odročenje roke v stran, vzročenje roke gor nad glavo. Stoja razkoračno pomeni, da stojim z nogami narazen."
-    },
-    {
-      "id": "q-pravilno",
-      "skill": "izvedba",
-      "question": "Na kaj paziš, da vajo izvedeš pravilno in natančno?",
-      "key_points": [
-        "glasno štetje v ritmu",
-        "8–10 ponovitev",
-        "raven hrbet",
-        "počasi, brez sunkov",
-        "začetni položaj na začetku in koncu"
-      ],
-      "model_answer": "Štejem glasno in v ritmu, naredim 8 do 10 ponovitev, hrbet je raven, gibi so počasni in brez sunkov, začnem in končam v začetnem položaju."
-    },
-    {
-      "id": "q-trup",
-      "skill": "telo",
-      "question": "Katere tri vaje imaš za trup in katera je krepilna?",
-      "key_points": [
-        "odkloni trupa",
-        "zasuki trupa",
-        "trebušnjaki",
-        "trebušnjaki so krepilni"
-      ],
-      "model_answer": "Za trup imam odklone trupa, zasuke trupa in trebušnjake. Trebušnjaki so krepilna vaja, odkloni in zasuki pa raztezni."
-    }
-  ],
   "terms": [
     {
-      "term": "raztezna vaja",
-      "meaning": "vaja, ki mišice raztegne in poveča gibljivost (R)"
+      "term": "raztezna vaja (R)",
+      "meaning": "vaja, ki mišice raztegne in poveča gibljivost"
     },
     {
-      "term": "krepilna vaja",
-      "meaning": "vaja, ki mišice okrepi (K)"
+      "term": "krepilna vaja (K)",
+      "meaning": "vaja, ki mišice okrepi, ker telo dviguje svojo težo"
     },
     {
       "term": "ramenski obroč",
@@ -1115,24 +833,24 @@
       "meaning": "boki in kolki, kjer se noge pritrdijo na trup"
     },
     {
-      "term": "kroženje",
-      "meaning": "gib v krogu; v programu največ ena taka vaja"
+      "term": "začetni položaj (ZP)",
+      "meaning": "položaj telesa pred začetkom vaje in na koncu vaje"
     },
     {
       "term": "izvirna vaja",
-      "meaning": "vaja, ki jo učenec izbere ali sestavi sam"
-    },
-    {
-      "term": "začetni položaj (ZP)",
-      "meaning": "položaj telesa pred začetkom vaje"
+      "meaning": "vaja, ki jo učenec sestavi ali spremeni po svoje"
     },
     {
       "term": "predročenje",
       "meaning": "roke iztegnjene naprej v višini ramen"
     },
     {
+      "term": "predročenje skrčeno",
+      "meaning": "komolci pokrčeni v višini ramen, dlani pred prsmi"
+    },
+    {
       "term": "odročenje",
-      "meaning": "roke iztegnjene v stran"
+      "meaning": "roke iztegnjene v stran v višini ramen"
     },
     {
       "term": "vzročenje",
@@ -1155,16 +873,20 @@
       "meaning": "sed z iztegnjenimi nogami narazen"
     },
     {
-      "term": "opora klečno",
-      "meaning": "položaj na kolenih in dlaneh"
+      "term": "leža na hrbtu skrčno",
+      "meaning": "leža na hrbtu s pokrčenimi koleni in stopali na tleh"
+    },
+    {
+      "term": "opora ležno na kolenih",
+      "meaning": "kolena in dlani na tleh, telo od kolen do glave ravno"
     },
     {
       "term": "odklon",
-      "meaning": "nagib telesa ali glave v stran"
+      "meaning": "nagib glave ali trupa v stran"
     },
     {
       "term": "zasuk",
-      "meaning": "vrtenje zgornjega dela telesa"
+      "meaning": "zasuk zgornjega dela telesa, boki mirujejo"
     },
     {
       "term": "predklon",
@@ -1172,7 +894,11 @@
     },
     {
       "term": "vzmet",
-      "meaning": "majhen dodatni gib v isto smer"
+      "meaning": "majhen dodaten gib v isto smer"
+    },
+    {
+      "term": "doba",
+      "meaning": "en del giba pri štetju; ena ponovitev ima 4 dobe"
     }
   ]
 }
