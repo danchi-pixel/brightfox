@@ -1,0 +1,208 @@
+{
+  "id": "2026-11-08-alan-sport-gimnasticne-vaje-mock",
+  "version": 1,
+  "subject": "other",
+  "grade": 4,
+  "title": "Generalka: gimnastične vaje (Šport)",
+  "intro": "Kot pravo ocenjevanje: najprej kratek kviz, potem zapis in izvedba vseh 10 vaj. Za izvedbo potrebuješ prostor in starša, ki gleda in preverja. Brez lista in brez namigov. Približno 30 minut.",
+  "source": "Izvirna generalka po Alanovem listu za Šport (13. 11. 2026). Merila učitelja niso znana; točke so samo za domačo vajo.",
+  "for": [
+    "Alan"
+  ],
+  "minutes": 30,
+  "topics": [
+    "2026-11-08-alan-sport-gimnasticne-vaje"
+  ],
+  "sections": [
+    {
+      "title": "A. Pravila in izrazi",
+      "tasks": [
+        {
+          "id": "m01",
+          "topic": "2026-11-08-alan-sport-gimnasticne-vaje",
+          "skill": "pravila",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Koliko vaj pripraviš? Zapiši s številko.",
+          "answer": "10",
+          "accept": [
+            "deset"
+          ],
+          "solution": "**10** vaj."
+        },
+        {
+          "id": "m02",
+          "topic": "2026-11-08-alan-sport-gimnasticne-vaje",
+          "skill": "telo",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Pravilna razdelitev vaj je …",
+          "options": [
+            "vrat 1, roke 3, trup 3, noge 3",
+            "vrat 3, roke 3, trup 3, noge 1",
+            "vrat 2, roke 2, trup 3, noge 3"
+          ],
+          "answer": 0,
+          "solution": "Vrat in glava 1, roke 3, trup 3, noge 3."
+        },
+        {
+          "id": "m03",
+          "topic": "2026-11-08-alan-sport-gimnasticne-vaje",
+          "skill": "pravila",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Koliko kroženj je dovoljenih?",
+          "options": [
+            "nobeno",
+            "največ eno",
+            "največ dve"
+          ],
+          "answer": 1,
+          "solution": "**Največ eno** kroženje."
+        },
+        {
+          "id": "m04",
+          "topic": "2026-11-08-alan-sport-gimnasticne-vaje",
+          "skill": "vrsta",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Pri trupu so …",
+          "options": [
+            "3 raztezne",
+            "2 raztezni in 1 krepilna",
+            "3 krepilne"
+          ],
+          "answer": 1,
+          "solution": "2 raztezni in 1 krepilna."
+        },
+        {
+          "id": "m05",
+          "topic": "2026-11-08-alan-sport-gimnasticne-vaje",
+          "skill": "vrsta",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Trebušnjaki so …",
+          "options": [
+            "raztezna vaja",
+            "krepilna vaja"
+          ],
+          "answer": 1,
+          "solution": "**Krepilna** vaja za trup."
+        },
+        {
+          "id": "m06",
+          "topic": "2026-11-08-alan-sport-gimnasticne-vaje",
+          "skill": "vrsta",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Zasuki trupa so …",
+          "options": [
+            "raztezna vaja",
+            "krepilna vaja"
+          ],
+          "answer": 0,
+          "solution": "**Raztezna** vaja za trup."
+        },
+        {
+          "id": "m07",
+          "topic": "2026-11-08-alan-sport-gimnasticne-vaje",
+          "skill": "izrazi",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Roke gor nad glavo se imenujejo …",
+          "answer": "vzročenje",
+          "solution": "**Vzročenje**."
+        },
+        {
+          "id": "m08",
+          "topic": "2026-11-08-alan-sport-gimnasticne-vaje",
+          "skill": "izrazi",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Roke v stran v višini ramen se imenujejo …",
+          "answer": "odročenje",
+          "solution": "**Odročenje**."
+        },
+        {
+          "id": "m09",
+          "topic": "2026-11-08-alan-sport-gimnasticne-vaje",
+          "skill": "stetje",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Koliko ponovitev narediš pri vaji?",
+          "options": [
+            "2–4",
+            "8–10",
+            "20–30"
+          ],
+          "answer": 1,
+          "solution": "**8–10** ponovitev ali določen čas."
+        }
+      ]
+    },
+    {
+      "title": "B. Zapis vaj",
+      "tasks": [
+        {
+          "id": "m10",
+          "topic": "2026-11-08-alan-sport-gimnasticne-vaje",
+          "skill": "opis",
+          "points": 3,
+          "kind": "open",
+          "prompt": "Brez lista zapiši vseh 10 vaj v pravem vrstnem redu. Pri vsaki označi R ali K.",
+          "solution": "1 Odkloni glave R, 2 Zamahi z rokami R, 3 Kroženje z rokami R, 4 Sklece na kolenih K, 5 Odkloni trupa R, 6 Zasuki trupa R, 7 Trebušnjaki K, 8 Predkloni v sedu raznožno R, 9 Izpadni korak R, 10 Počepi K. Za 3 točke: vseh 10 in pravilni R/K; za 2: do dve napaki; za 1: do štiri napake."
+        },
+        {
+          "id": "m11",
+          "topic": "2026-11-08-alan-sport-gimnasticne-vaje",
+          "skill": "opis",
+          "points": 2,
+          "kind": "open",
+          "prompt": "Natančno opiši eno krepilno vajo: ZP, potek po štetju, ponovitve.",
+          "solution": "Npr. Počepi. ZP: stoja razkoračno v širini bokov, priročenje. 1 – počep, roke v predročenje, pete na tleh, 2 – vzravnava. 10 ponovitev. Krepilna vaja za noge. 2 točki, če so ZP, potek in ponovitve pravilni."
+        }
+      ]
+    },
+    {
+      "title": "C. Izvedba (starš gleda)",
+      "tasks": [
+        {
+          "id": "m12",
+          "topic": "2026-11-08-alan-sport-gimnasticne-vaje",
+          "skill": "izvedba",
+          "points": 2,
+          "kind": "open",
+          "prompt": "Izvedi vajo za vrat in tri vaje za roke z glasnim štetjem.",
+          "solution": "Starš preveri za vsako vajo: pravi ZP, 8–10 ponovitev, glasno štetje v ritmu, natančen gib. 2 točki: vse pravilno; 1 točka: ena ali dve napaki."
+        },
+        {
+          "id": "m13",
+          "topic": "2026-11-08-alan-sport-gimnasticne-vaje",
+          "skill": "izvedba",
+          "points": 2,
+          "kind": "open",
+          "prompt": "Izvedi tri vaje za trup z glasnim štetjem.",
+          "solution": "Pri odklonih se nagibaš v stran (ne naprej), pri zasukih boki mirujejo, pri trebušnjakih se dvignejo samo glava in ramena. 2 točki: vse pravilno."
+        },
+        {
+          "id": "m14",
+          "topic": "2026-11-08-alan-sport-gimnasticne-vaje",
+          "skill": "izvedba",
+          "points": 2,
+          "kind": "open",
+          "prompt": "Izvedi tri vaje za noge in kolčni obroč z glasnim štetjem.",
+          "solution": "Hrbet raven pri predklonih, koleno nad stopalom pri izpadnem koraku, pete na tleh pri počepih. 2 točki: vse pravilno."
+        },
+        {
+          "id": "m15",
+          "topic": "2026-11-08-alan-sport-gimnasticne-vaje",
+          "skill": "stetje",
+          "points": 2,
+          "kind": "open",
+          "prompt": "Starš oceni štetje pri vseh vajah: glasno, v ritmu, brez zatikanja.",
+          "solution": "2 točki: glasno in v ritmu pri vseh vajah; 1 točka: tiho ali prehitro pri nekaterih vajah; 0: brez štetja."
+        }
+      ]
+    }
+  ]
+}
