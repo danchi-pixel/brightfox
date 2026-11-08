@@ -1,11 +1,11 @@
 {
   "id": "2026-11-08-erik-english-test-mock",
-  "version": 1,
+  "version": 2,
   "subject": "english",
   "grade": 6,
   "title": "Poskusni pisni test: Starter, Unit 1 in Unit 2",
-  "intro": "Kot pravi pisni test: 45 minut, brez namigov. Najprej reši, kar znaš, potem se vrni k težjim nalogam. Sestavek naj ima 13–15 povedi. Rešitve so na koncu.",
-  "source": "Written by Claude from Erik's Wider World 1 photos (Starter unit, Unit 1, Unit 2, notebook; 17 Oct and 8 Nov 2026) in the usual test layout: vocabulary, grammar, translation, reading, writing.",
+  "intro": "Kot pravi pisni test: 45 minut, brez namigov. Najprej reši, kar znaš, potem se vrni k težjim nalogam. Sestavek naj ima 13–15 povedi: napiši ga na papir in ga na koncu primerjaj z vzorcem. Rešitve so na koncu.",
+  "source": "v2: layout follows the Wider World 1 workbook exercise types in his photos (complete, choose, negatives, questions, find the mistake, True/False/Doesn't say reading) plus the teacher's writing task 'My family, 13–15 sentences'. No old test was available.",
   "for": [
     "Erik"
   ],
@@ -15,54 +15,103 @@
     "2026-10-17-erik-english-people",
     "2026-11-08-erik-english-food"
   ],
+  "scale": {
+    "2": 50,
+    "3": 63,
+    "4": 76,
+    "5": 90
+  },
   "sections": [
     {
       "title": "A. Besedišče (Vocabulary)",
       "tasks": [
         {
-          "id": "m-wed",
-          "topic": "2026-10-17-erik-english-days",
-          "skill": "days",
+          "id": "m-odd-food",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "food",
           "points": 1,
-          "kind": "text",
-          "prompt": "Which day comes after Tuesday?",
-          "answer": "Wednesday",
-          "solution": "Tuesday → **Wednesday**. Pazi na črkovanje: W-e-d-n-e-s-d-a-y.",
-          "traps": [
-            {
-              "answer": "Wensday",
-              "why": "Piše se Wednesday."
-            }
-          ]
-        },
-        {
-          "id": "m-aug",
-          "topic": "2026-10-17-erik-english-days",
-          "skill": "months",
-          "points": 1,
-          "kind": "text",
-          "prompt": "The eighth month of the year is ______.",
-          "answer": "August",
-          "solution": "8. mesec = **August**.",
-          "traps": [
-            {
-              "answer": "autumn",
-              "why": "Autumn je jesen (letni čas). 8. mesec: August."
-            }
-          ]
-        },
-        {
-          "id": "m-12th",
-          "topic": "2026-10-17-erik-english-days",
-          "skill": "ord",
-          "points": 1,
-          "kind": "text",
-          "prompt": "Napiši z besedo: 12th",
-          "answer": "twelfth",
-          "accept": [
-            "Twelfth"
+          "kind": "choice",
+          "prompt": "Which word is NOT food or drink?",
+          "options": [
+            "celery",
+            "yoghurt",
+            "plate",
+            "orange juice"
           ],
-          "solution": "12th = **twelfth** (f pred th!)."
+          "answer": 2,
+          "solution": "**plate** je krožnik. Ostalo je hrana ali pijača."
+        },
+        {
+          "id": "m-sandwich",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "food",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Prevedi in pravilno črkuj: sendvič",
+          "answer": "sandwich",
+          "exact": true,
+          "traps": [
+            {
+              "answer": "sanwich",
+              "why": "Manjka d: sandwich."
+            }
+          ],
+          "solution": "**sandwich**"
+        },
+        {
+          "id": "m-lunch",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "food",
+          "points": 1,
+          "kind": "text",
+          "prompt": "The meal in the middle of the day is ______.",
+          "answer": "lunch",
+          "solution": "Kosilo = **lunch**."
+        },
+        {
+          "id": "m-boil",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "cook",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "______ the water and then add the pasta.",
+          "options": [
+            "Beat",
+            "Boil",
+            "Grate"
+          ],
+          "answer": 1,
+          "solution": "Vodo zavremo: **Boil**."
+        },
+        {
+          "id": "m-pan",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "cook",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "You fry eggs in a …",
+          "options": [
+            "bowl",
+            "frying pan",
+            "fork"
+          ],
+          "answer": 1,
+          "solution": "**frying pan** = ponev."
+        },
+        {
+          "id": "m-place",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "cook",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "There's no meat here. You can eat in a …",
+          "options": [
+            "burger bar",
+            "vegetarian café",
+            "fast food restaurant"
+          ],
+          "answer": 1,
+          "solution": "Brez mesa → **vegetarian café**."
         },
         {
           "id": "m-aunt",
@@ -75,6 +124,19 @@
           "solution": "Očetova sestra = **aunt**."
         },
         {
+          "id": "m-cousin",
+          "topic": "2026-10-17-erik-english-people",
+          "skill": "fam",
+          "points": 1,
+          "kind": "text",
+          "prompt": "My aunt's children are my ______.",
+          "answer": "cousins",
+          "accept": [
+            "cousin"
+          ],
+          "solution": "**cousins** (več otrok → množina)."
+        },
+        {
           "id": "m-french",
           "topic": "2026-10-17-erik-english-people",
           "skill": "nat",
@@ -82,117 +144,60 @@
           "kind": "text",
           "prompt": "Država → narodnost: France → ______",
           "answer": "French",
-          "solution": "France → **French** (z veliko začetnico)."
+          "solution": "France → **French**."
         },
         {
-          "id": "m-japanese",
-          "topic": "2026-10-17-erik-english-people",
-          "skill": "nat",
-          "points": 1,
-          "kind": "text",
-          "prompt": "Država → narodnost: Japan → ______",
-          "answer": "Japanese",
-          "solution": "Japan → **Japanese**."
-        },
-        {
-          "id": "m-trainers",
+          "id": "m-brave",
           "topic": "2026-10-17-erik-english-people",
           "skill": "desc",
           "points": 1,
           "kind": "choice",
-          "prompt": "Which word is NOT clothes?",
+          "prompt": "She isn't scared of anything. She's very …",
           "options": [
-            "jacket",
-            "trainers",
-            "kind",
-            "jeans"
+            "nervous",
+            "quiet",
+            "brave"
           ],
           "answer": 2,
-          "solution": "**Kind** je osebnostni pridevnik (prijazen), ostalo so oblačila."
+          "solution": "Ne boji se → **brave** (pogumna)."
         },
         {
-          "id": "m-chips",
-          "topic": "2026-11-08-erik-english-food",
-          "skill": "food",
-          "points": 1,
-          "kind": "choice",
-          "prompt": "Ocvrti krompirček (pomfri) je v britanski angleščini …",
-          "options": [
-            "crisps",
-            "chips",
-            "biscuits"
-          ],
-          "answer": 1,
-          "solution": "Pomfri = **chips**. Crisps = čips."
-        },
-        {
-          "id": "m-sandwich",
-          "topic": "2026-11-08-erik-english-food",
-          "skill": "food",
+          "id": "m-12th",
+          "topic": "2026-10-17-erik-english-days",
+          "skill": "ord",
           "points": 1,
           "kind": "text",
-          "prompt": "Prevedi in pravilno črkuj: sendvič",
-          "answer": "sandwich",
-          "solution": "**sandwich**",
-          "traps": [
-            {
-              "answer": "sanwich",
-              "why": "Manjka d: sandwich."
-            }
-          ]
+          "prompt": "Napiši z besedo: 12th",
+          "answer": "twelfth",
+          "solution": "12th = **twelfth**."
         },
         {
-          "id": "m-dinner",
-          "topic": "2026-11-08-erik-english-food",
-          "skill": "food",
-          "points": 1,
-          "kind": "text",
-          "prompt": "The meal in the evening is ______.",
-          "answer": "dinner",
-          "solution": "Večerja = **dinner**."
-        },
-        {
-          "id": "m-plate",
-          "topic": "2026-11-08-erik-english-food",
-          "skill": "cook",
+          "id": "m-at-night",
+          "topic": "2026-10-17-erik-english-days",
+          "skill": "prep",
           "points": 1,
           "kind": "choice",
-          "prompt": "You put your food on a …",
+          "prompt": "I sleep ___ night, and I have breakfast ___ the morning.",
           "options": [
-            "plate",
-            "fork",
-            "pepper"
-          ],
-          "answer": 0,
-          "solution": "Krožnik = **plate**."
-        },
-        {
-          "id": "m-boil",
-          "topic": "2026-11-08-erik-english-food",
-          "skill": "cook",
-          "points": 1,
-          "kind": "choice",
-          "prompt": "______ the water and add the pasta.",
-          "options": [
-            "Beat",
-            "Boil",
-            "Grate"
+            "in / at",
+            "at / in",
+            "on / in"
           ],
           "answer": 1,
-          "solution": "Vodo zavremo: **Boil**."
+          "solution": "**at** night, **in** the morning."
         }
       ]
     },
     {
-      "title": "B. Slovnica (Grammar)",
+      "title": "B. Slovnica: Starter in Unit 1 (Grammar)",
       "tasks": [
         {
           "id": "m-are",
-          "topic": "2026-10-17-erik-english-people",
-          "skill": "hasgot",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "tobe",
           "points": 1,
           "kind": "choice",
-          "prompt": "Marco and Luca ______ Italian.",
+          "prompt": "My parents ______ teachers.",
           "options": [
             "is",
             "are",
@@ -202,36 +207,93 @@
           "solution": "Dva → **are**."
         },
         {
+          "id": "m-them",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "tobe",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Dopolni z zaimkom: These are my cats. I love ______.",
+          "answer": "them",
+          "traps": [
+            {
+              "answer": "they",
+              "why": "Za glagolom → them."
+            }
+          ],
+          "solution": "Za glagolom → **them**."
+        },
+        {
+          "id": "m-these",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "tobe",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "______ shoes here are new. (blizu, več)",
+          "options": [
+            "This",
+            "These",
+            "That"
+          ],
+          "answer": 1,
+          "solution": "Več stvari blizu → **These**."
+        },
+        {
+          "id": "m-women",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "tobe",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Množina: one woman → two ______",
+          "answer": "women",
+          "solution": "woman → **women**."
+        },
+        {
+          "id": "m-mice",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "tobe",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Množina: one mouse → two ______",
+          "answer": "mice",
+          "traps": [
+            {
+              "answer": "mouses",
+              "why": "Posebna množina: mice."
+            }
+          ],
+          "solution": "mouse → **mice**."
+        },
+        {
           "id": "m-has",
           "topic": "2026-10-17-erik-english-people",
           "skill": "hasgot",
           "points": 1,
           "kind": "text",
-          "prompt": "Dopolni s have got v pravi obliki: My cousin ______ blue eyes.",
+          "prompt": "Dopolni s have got v pravi obliki: My brother ______ curly hair.",
           "answer": "has got",
           "accept": [
             "'s got"
           ],
-          "solution": "My cousin = he/she → **has got**.",
           "traps": [
             {
               "answer": "have got",
-              "why": "He/she → has got."
+              "why": "He → has got."
             }
-          ]
+          ],
+          "solution": "My brother = he → **has got**."
         },
         {
-          "id": "m-havent",
+          "id": "m-hasnt",
           "topic": "2026-10-17-erik-english-people",
           "skill": "hasgot",
           "points": 1,
           "kind": "text",
-          "prompt": "Zanikaj: We've got a dog. → We ______ a dog.",
-          "answer": "haven't got",
+          "prompt": "Zanikaj: Ana's got a bike. → Ana ______ a bike.",
+          "answer": "hasn't got",
           "accept": [
-            "have not got"
+            "has not got"
           ],
-          "solution": "We → **haven't got**."
+          "solution": "Ana = she → **hasn't got**."
         },
         {
           "id": "m-q-hasgot",
@@ -239,12 +301,22 @@
           "skill": "hasgot",
           "points": 2,
           "kind": "text",
-          "prompt": "Sestavi vprašanje: your sister / a phone / got / has / ?",
-          "answer": "Has your sister got a phone?",
+          "prompt": "Sestavi vprašanje: your friend / a dog / got / has / ?",
+          "answer": "Has your friend got a dog?",
           "accept": [
-            "Has your sister got a phone"
+            "Has your friend got a dog"
           ],
-          "solution": "**Has your sister got a phone?**"
+          "solution": "**Has your friend got a dog?**"
+        },
+        {
+          "id": "m-can-short",
+          "topic": "2026-10-17-erik-english-people",
+          "skill": "can",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Dopolni kratek odgovor: »Can your dad cook?« »Yes, ______.«",
+          "answer": "he can",
+          "solution": "**Yes, he can.**"
         },
         {
           "id": "m-his",
@@ -259,29 +331,41 @@
             "Him"
           ],
           "answer": 1,
-          "solution": "Njegovo ime → **His** name."
+          "solution": "Njegovo ime → **His**."
         },
         {
-          "id": "m-can-q",
+          "id": "m-tr-can",
           "topic": "2026-10-17-erik-english-people",
           "skill": "can",
           "points": 2,
           "kind": "text",
-          "prompt": "Sestavi vprašanje in kratek NIKALNI odgovor: you / swim / can / ? (✗)",
-          "answer": "Can you swim? No, I can't.",
+          "prompt": "Prevedi: Moja sestra zna plavati, ne zna pa kuhati.",
+          "answer": "My sister can swim but she can't cook.",
           "accept": [
-            "Can you swim? No, I cannot.",
-            "Can you swim No, I can't."
+            "My sister can swim, but she can't cook.",
+            "My sister can swim but she cannot cook.",
+            "My sister can swim but can't cook."
           ],
-          "solution": "**Can you swim? No, I can't.**"
-        },
+          "traps": [
+            {
+              "answer": "My sister cans swim but she can't cook.",
+              "why": "Can nima -s."
+            }
+          ],
+          "solution": "**My sister can swim but she can't cook.**"
+        }
+      ]
+    },
+    {
+      "title": "C. Slovnica: Unit 2 (Grammar)",
+      "tasks": [
         {
           "id": "m-there-are",
           "topic": "2026-11-08-erik-english-food",
           "skill": "thereis",
           "points": 1,
           "kind": "choice",
-          "prompt": "______ three pizzerias in my town.",
+          "prompt": "______ two cafés in our street.",
           "options": [
             "There is",
             "There are",
@@ -291,17 +375,17 @@
           "solution": "Več → **There are**."
         },
         {
-          "id": "m-there-isnt",
+          "id": "m-there-q",
           "topic": "2026-11-08-erik-english-food",
           "skill": "thereis",
-          "points": 1,
+          "points": 2,
           "kind": "text",
-          "prompt": "Zanikaj: There's a café in our street. → ______ a café in our street.",
-          "answer": "There isn't",
+          "prompt": "Napiši vprašanje: there / a pizzeria / near your school / ?",
+          "answer": "Is there a pizzeria near your school?",
           "accept": [
-            "There is not"
+            "Is there a pizzeria near your school"
           ],
-          "solution": "**There isn't** a café."
+          "solution": "**Is there a pizzeria near your school?**"
         },
         {
           "id": "m-any",
@@ -309,15 +393,15 @@
           "skill": "someany",
           "points": 1,
           "kind": "text",
-          "prompt": "Dopolni (a, an, some, any): There aren't ______ eggs.",
+          "prompt": "Dopolni (a, an, some, any): There aren't ______ eggs in the fridge.",
           "answer": "any",
-          "solution": "Zanikano → **any**.",
           "traps": [
             {
               "answer": "some",
               "why": "V zanikanju → any."
             }
-          ]
+          ],
+          "solution": "Zanikano → **any**."
         },
         {
           "id": "m-an",
@@ -325,9 +409,9 @@
           "skill": "someany",
           "points": 1,
           "kind": "text",
-          "prompt": "Dopolni (a, an, some, any): I've got ______ apple.",
+          "prompt": "Dopolni (a, an, some, any): I've got ______ orange.",
           "answer": "an",
-          "solution": "**an** apple (samoglasnik)."
+          "solution": "**an** orange (samoglasnik)."
         },
         {
           "id": "m-some",
@@ -335,9 +419,15 @@
           "skill": "someany",
           "points": 1,
           "kind": "text",
-          "prompt": "Dopolni (a, an, some, any): There's ______ cheese in the fridge.",
+          "prompt": "Dopolni (a, an, some, any): There's ______ bread on the table.",
           "answer": "some",
-          "solution": "Cheese je neštevno → **some**."
+          "traps": [
+            {
+              "answer": "a",
+              "why": "Bread je neštevno: some bread."
+            }
+          ],
+          "solution": "Bread je neštevno → **some**."
         },
         {
           "id": "m-many",
@@ -355,7 +445,7 @@
           "skill": "count",
           "points": 1,
           "kind": "text",
-          "prompt": "Dopolni z much ali many: How ______ milk is there?",
+          "prompt": "Dopolni z much ali many: How ______ water is there?",
           "answer": "much",
           "solution": "Neštevno → **much**."
         },
@@ -365,7 +455,7 @@
           "skill": "toomuch",
           "points": 1,
           "kind": "choice",
-          "prompt": "I'm not hungry. There are ______ chips on my plate!",
+          "prompt": "I can't eat it all. There are ______ chips on my plate!",
           "options": [
             "too much",
             "too many",
@@ -373,75 +463,128 @@
           ],
           "answer": 1,
           "solution": "Množina → **too many**."
+        },
+        {
+          "id": "m-enough",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "toomuch",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "The tea isn't sweet. There isn't ______ sugar in it.",
+          "options": [
+            "too much",
+            "enough",
+            "many"
+          ],
+          "answer": 1,
+          "solution": "Premalo → **enough**."
+        },
+        {
+          "id": "m-order",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "order",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Waiter: What would you like? You: …",
+          "options": [
+            "I like cheese sandwich.",
+            "I'd like a cheese sandwich, please.",
+            "Give me sandwich."
+          ],
+          "answer": 1,
+          "solution": "Vljudno naročilo: **I'd like a cheese sandwich, please.**"
         }
       ]
     },
     {
-      "title": "C. Prevodi (Translation)",
+      "title": "D. Poišči in popravi napako (Find and correct the mistake)",
       "tasks": [
         {
-          "id": "m-tr-1",
-          "topic": "2026-10-17-erik-english-people",
-          "skill": "fam",
-          "points": 2,
+          "id": "m-fix-1",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "fix",
+          "points": 1,
           "kind": "text",
-          "prompt": "Prevedi: V moji družini so štirje ljudje.",
+          "prompt": "Popravi poved: In my family live four people.",
           "answer": "There are four people in my family.",
           "accept": [
             "There are four people in my family"
           ],
-          "solution": "**There are four people in my family.** (NE: In my family live …)",
-          "traps": [
-            {
-              "answer": "In my family live four people.",
-              "why": "Pravilno: There are four people in my family."
-            }
-          ]
+          "solution": "**There are four people in my family.**"
         },
         {
-          "id": "m-tr-2",
-          "topic": "2026-10-17-erik-english-people",
-          "skill": "can",
-          "points": 2,
-          "kind": "text",
-          "prompt": "Prevedi: Moj brat zna igrati nogomet, ne zna pa plavati.",
-          "answer": "My brother can play football but he can't swim.",
-          "accept": [
-            "My brother can play football, but he can't swim.",
-            "My brother can play football but he cannot swim."
-          ],
-          "solution": "**My brother can play football but he can't swim.**"
-        },
-        {
-          "id": "m-tr-3",
+          "id": "m-fix-2",
           "topic": "2026-11-08-erik-english-food",
-          "skill": "someany",
-          "points": 2,
+          "skill": "fix",
+          "points": 1,
           "kind": "text",
-          "prompt": "Prevedi: Ali je v hladilniku kaj mleka?",
-          "answer": "Is there any milk in the fridge?",
-          "solution": "**Is there any milk in the fridge?**"
+          "prompt": "Popravi poved: He have green eyes.",
+          "answer": "He's got green eyes.",
+          "accept": [
+            "He has got green eyes.",
+            "He has green eyes.",
+            "He's got green eyes",
+            "He has got green eyes"
+          ],
+          "solution": "**He's got green eyes.** / He has got green eyes."
         },
         {
-          "id": "m-tr-4",
-          "topic": "2026-10-17-erik-english-days",
-          "skill": "dates",
-          "points": 2,
+          "id": "m-fix-3",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "fix",
+          "points": 1,
           "kind": "text",
-          "prompt": "Prevedi: Moj rojstni dan je 3. maja.",
-          "answer": "My birthday is on the third of May.",
+          "prompt": "Popravi poved: Hes favourite food is pizza.",
+          "answer": "His favourite food is pizza.",
           "accept": [
-            "My birthday is on 3rd May.",
-            "My birthday is on May 3rd.",
-            "My birthday is on the 3rd of May.",
-            "My birthday is on May the third."
+            "His favourite food is pizza"
           ],
-          "solution": "**My birthday is on 3rd May / on the third of May.**"
+          "solution": "**His favourite food is pizza.**"
+        },
+        {
+          "id": "m-fix-4",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "fix",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Popravi poved: My sister play the piano.",
+          "answer": "My sister plays the piano.",
+          "accept": [
+            "My sister plays the piano",
+            "My sister can play the piano."
+          ],
+          "solution": "She → plays: **My sister plays the piano.**"
+        },
+        {
+          "id": "m-fix-5",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "fix",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Popravi poved: My uncle wife is Polish.",
+          "answer": "My uncle's wife is Polish.",
+          "accept": [
+            "My uncle's wife is Polish"
+          ],
+          "solution": "Čigava žena → **My uncle's wife is Polish.**"
+        },
+        {
+          "id": "m-fix-6",
+          "topic": "2026-11-08-erik-english-food",
+          "skill": "fix",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Popravi poved: How much apples are there?",
+          "answer": "How many apples are there?",
+          "accept": [
+            "How many apples are there"
+          ],
+          "solution": "Preštejemo → **How many apples are there?**"
         }
       ]
     },
     {
-      "title": "D. Branje (Reading)",
+      "title": "E. Branje: True, False or Doesn't say? (Reading)",
       "tasks": [
         {
           "id": "m-r1",
@@ -449,72 +592,103 @@
           "skill": "nat",
           "points": 1,
           "kind": "choice",
-          "prompt": "Read: »Hi, I'm Nina. I'm twelve and I'm from Dublin, so I'm Irish. There are four people in my family. My brother Tom has got red hair and he can play the guitar, but he can't sing. For breakfast I usually have yoghurt and some fruit. There's a great pizzeria near our house, but there aren't any vegetarian cafés.« What nationality is Nina?",
+          "prompt": "Read: »Hi! I'm Lucas and I'm twelve. I'm from Lisbon, so I'm Portuguese. There are five people in my family: my mum, my dad, my two sisters and me. My older sister Ana has got long dark hair and she can speak three languages. My little sister can't read yet. She's only four! My dad can cook very well. On Sundays he makes a big lunch, usually fish with potatoes. There's a small café in our street, but there aren't any pizzerias, and I love pizza!« Lucas is Spanish.",
           "options": [
-            "English",
-            "Irish",
-            "Scottish"
+            "True",
+            "False",
+            "Doesn't say"
           ],
           "answer": 1,
-          "solution": "She's from Dublin → **Irish**."
+          "solution": "He's from Lisbon → Portuguese. **False.**"
         },
         {
           "id": "m-r2",
           "topic": "2026-10-17-erik-english-people",
-          "skill": "can",
+          "skill": "fam",
           "points": 1,
           "kind": "choice",
-          "prompt": "Read: »Hi, I'm Nina. I'm twelve and I'm from Dublin, so I'm Irish. There are four people in my family. My brother Tom has got red hair and he can play the guitar, but he can't sing. For breakfast I usually have yoghurt and some fruit. There's a great pizzeria near our house, but there aren't any vegetarian cafés.« What can't Tom do?",
+          "prompt": "Read: »Hi! I'm Lucas and I'm twelve. I'm from Lisbon, so I'm Portuguese. There are five people in my family: my mum, my dad, my two sisters and me. My older sister Ana has got long dark hair and she can speak three languages. My little sister can't read yet. She's only four! My dad can cook very well. On Sundays he makes a big lunch, usually fish with potatoes. There's a small café in our street, but there aren't any pizzerias, and I love pizza!« There are five people in Lucas's family.",
           "options": [
-            "play the guitar",
-            "sing",
-            "swim"
+            "True",
+            "False",
+            "Doesn't say"
           ],
-          "answer": 1,
-          "solution": "He can play the guitar, but he **can't sing**."
+          "answer": 0,
+          "solution": "»There are five people in my family« → **True.**"
         },
         {
           "id": "m-r3",
+          "topic": "2026-10-17-erik-english-people",
+          "skill": "can",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Read: »Hi! I'm Lucas and I'm twelve. I'm from Lisbon, so I'm Portuguese. There are five people in my family: my mum, my dad, my two sisters and me. My older sister Ana has got long dark hair and she can speak three languages. My little sister can't read yet. She's only four! My dad can cook very well. On Sundays he makes a big lunch, usually fish with potatoes. There's a small café in our street, but there aren't any pizzerias, and I love pizza!« Ana can speak three languages.",
+          "options": [
+            "True",
+            "False",
+            "Doesn't say"
+          ],
+          "answer": 0,
+          "solution": "»she can speak three languages« → **True.**"
+        },
+        {
+          "id": "m-r4",
+          "topic": "2026-10-17-erik-english-people",
+          "skill": "hasgot",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Read: »Hi! I'm Lucas and I'm twelve. I'm from Lisbon, so I'm Portuguese. There are five people in my family: my mum, my dad, my two sisters and me. My older sister Ana has got long dark hair and she can speak three languages. My little sister can't read yet. She's only four! My dad can cook very well. On Sundays he makes a big lunch, usually fish with potatoes. There's a small café in our street, but there aren't any pizzerias, and I love pizza!« Ana has got blue eyes.",
+          "options": [
+            "True",
+            "False",
+            "Doesn't say"
+          ],
+          "answer": 2,
+          "solution": "Besedilo omenja samo lase, ne oči → **Doesn't say.**"
+        },
+        {
+          "id": "m-r5",
           "topic": "2026-11-08-erik-english-food",
           "skill": "food",
           "points": 1,
           "kind": "choice",
-          "prompt": "Read: »Hi, I'm Nina. I'm twelve and I'm from Dublin, so I'm Irish. There are four people in my family. My brother Tom has got red hair and he can play the guitar, but he can't sing. For breakfast I usually have yoghurt and some fruit. There's a great pizzeria near our house, but there aren't any vegetarian cafés.« What does Nina have for breakfast?",
+          "prompt": "Read: »Hi! I'm Lucas and I'm twelve. I'm from Lisbon, so I'm Portuguese. There are five people in my family: my mum, my dad, my two sisters and me. My older sister Ana has got long dark hair and she can speak three languages. My little sister can't read yet. She's only four! My dad can cook very well. On Sundays he makes a big lunch, usually fish with potatoes. There's a small café in our street, but there aren't any pizzerias, and I love pizza!« Lucas's dad usually makes chicken on Sundays.",
           "options": [
-            "eggs and bacon",
-            "yoghurt and fruit",
-            "pizza"
+            "True",
+            "False",
+            "Doesn't say"
           ],
           "answer": 1,
-          "solution": "**Yoghurt and some fruit.**"
+          "solution": "Fish with potatoes → **False.**"
         },
         {
-          "id": "m-r4",
+          "id": "m-r6",
           "topic": "2026-11-08-erik-english-food",
           "skill": "thereis",
           "points": 1,
           "kind": "choice",
-          "prompt": "Read: »Hi, I'm Nina. I'm twelve and I'm from Dublin, so I'm Irish. There are four people in my family. My brother Tom has got red hair and he can play the guitar, but he can't sing. For breakfast I usually have yoghurt and some fruit. There's a great pizzeria near our house, but there aren't any vegetarian cafés.« True or false: There's a vegetarian café near Nina's house.",
+          "prompt": "Read: »Hi! I'm Lucas and I'm twelve. I'm from Lisbon, so I'm Portuguese. There are five people in my family: my mum, my dad, my two sisters and me. My older sister Ana has got long dark hair and she can speak three languages. My little sister can't read yet. She's only four! My dad can cook very well. On Sundays he makes a big lunch, usually fish with potatoes. There's a small café in our street, but there aren't any pizzerias, and I love pizza!« There's a pizzeria in Lucas's street.",
           "options": [
             "True",
-            "False"
+            "False",
+            "Doesn't say"
           ],
           "answer": 1,
-          "solution": "**False** – there aren't any vegetarian cafés."
+          "solution": "»there aren't any pizzerias« → **False.**"
         }
       ]
     },
     {
-      "title": "E. Pisanje (Writing)",
+      "title": "F. Pisanje (Writing)",
       "tasks": [
         {
           "id": "m-write",
           "topic": "2026-11-08-erik-english-food",
           "skill": "write",
-          "points": 10,
+          "points": 12,
           "kind": "open",
-          "prompt": "Napiši sestavek (13–15 povedi) na eno temo: A) My best friend ALI B) My favourite food and meals. Uporabi: be, have got, can, there is/are, some/any, and, but. Na koncu preveri: velike začetnice, pike, he/she has, His.",
-          "solution": "Točkovanje kot pri učiteljici: vsebina 3 (vse zahtevano), slovnica 3 (has got, His, There are, some/any), besedišče in črkovanje 2, povezovanje (and, but, because) in urejenost 2.\n\nModel A: My best friend is Luka. He's eleven years old and he's from Slovenia. He's tall and slim. He's got short brown hair and green eyes. He's got a younger sister. He can play football very well, but he can't swim. His favourite football player is Messi. His favourite food is pizza. He doesn't like fish. There's a good pizzeria near our school. We often go there after school. Luka is funny and friendly. He's a great friend!\n\nModel B: I have breakfast at seven o'clock. I usually have milk and cereal. I have lunch at school at half past twelve. My favourite lunch is chicken with potatoes. In the evening I have dinner with my family. My favourite food is pizza. I don't like celery. There's some milk and a lot of yoghurt in our fridge, but there aren't any sweets. My favourite place to eat is a pizzeria in our town. The pizzas there are delicious!"
+          "prompt": "Napiši sestavek My family (13–15 povedi). Če želiš, lahko namesto tega opišeš svojega najboljšega prijatelja (My best friend). Napiši: koliko vas je, vsakega člana (ime, starost, od kod), videz (has got), kaj zna (can / can't), kaj radi jeste ali počnete in zaključek. Poveži z and in but. Na koncu preštej povedi in preveri pike, velike začetnice, has got, His/Her.",
+          "solution": "Točkovanje (12): vsebina 3 (vse zahtevano, 13–15 povedi), slovnica 4 (There are … in my family, has got, can, His/Her, glagol + s pri he/she), besedišče in črkovanje 3, povezovanje in pike 2.\n\nModel: There are four people in my family: my mum, my dad, my brother and me. We've also got two cats. My mum's name is Daniela. She's from Mexico. She's kind and she can cook very well. My dad's name is Danijel. He's tall and he's got short dark hair. He can take great photos. My brother's name is Alan. He's got curly hair and brown eyes. He can ride his bike very well, but he can't swim. Our favourite food is pizza. At weekends we watch films together. I love my family very much."
         }
       ]
     }

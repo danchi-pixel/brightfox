@@ -1,15 +1,15 @@
 {
   "id": "2026-11-08-erik-english-food",
-  "version": 1,
+  "version": 2,
   "format": 2,
   "for": [
     "Erik"
   ],
   "subject": "english",
   "grade": 6,
-  "title": "It's delicious! 🍕 (Unit 2) + pisanje",
-  "intro": "Hrana, there is/are, some/any, much/many, too much in naročanje. Na koncu vaja za pisni sestavek, da bo na testu 5!",
-  "source": "Wider World 1 Unit 2 (student's book and workbook pp. 18–29) and Erik's notebook (My family, My friend), photos of 8 Nov 2026. Targets his mistakes: He have got, Hes favourite, In my family live. New tasks, nothing copied.",
+  "title": "Pisni test: Unit 2 🍕 + ponovitev in sestavek",
+  "intro": "Vse za pisni test: hrana in slovnica iz Unit 2, kratka ponovitev Starter in Unit 1 (to be, zaimki, množina, have got, can) in sestavek My family (13–15 povedi) brez tipičnih napak.",
+  "source": "v2 (8 Nov 2026): rebuilt from all 33 Ang 2 photos: Wider World 1 SB Starter–2.7, WB Starter–2.5, notebook (teacher's task 'My family, 13 do 15 stavkov', Erik's own texts, to be, plurals, have got), and the seasons/on-in-at worksheet.",
   "skills": [
     {
       "id": "food",
@@ -17,7 +17,7 @@
     },
     {
       "id": "cook",
-      "title": "Kuhanje in kraji, kjer jemo"
+      "title": "Kraji, kjer jemo, kuhanje, trgovina"
     },
     {
       "id": "thereis",
@@ -25,11 +25,11 @@
     },
     {
       "id": "someany",
-      "title": "a / an, some, any"
+      "title": "a / an, some, any (števno, neštevno)"
     },
     {
       "id": "count",
-      "title": "Števno, neštevno: how much / how many, a lot of"
+      "title": "how much / how many, a lot of"
     },
     {
       "id": "toomuch",
@@ -40,8 +40,20 @@
       "title": "Naročanje hrane in cene"
     },
     {
+      "id": "tobe",
+      "title": "Starter: to be, zaimki, this/these, množina"
+    },
+    {
+      "id": "unit1",
+      "title": "Unit 1: have got, can, 's"
+    },
+    {
+      "id": "fix",
+      "title": "Popravi tipične napake"
+    },
+    {
       "id": "write",
-      "title": "Pisni sestavek (13–15 povedi)"
+      "title": "Sestavek My family (13–15 povedi)"
     }
   ],
   "learn": [
@@ -69,6 +81,21 @@
       "title": "too much, too many, not enough",
       "text": "too much / too many = preveč (in to ni dobro). too much + neštevno, too many + množina. not enough = premalo.",
       "example": "There's too much salt in this soup. There are too many chips on my plate. There isn't enough milk."
+    },
+    {
+      "title": "Starter v eni minuti",
+      "text": "to be: I am, you/we/they are, he/she/it is. Zanikano: isn't, aren't. Vprašanje: Is he …? Are they …? Zaimki: I → me → my, he → him → his, she → her → her, we → us → our, they → them → their. this/these = blizu, that/those = daleč. Množina: child → children, man → men, woman → women, mouse → mice, knife → knives.",
+      "example": "They aren't from London. Look at them! Their names are Ana and Tom. These apples are good."
+    },
+    {
+      "title": "Unit 1 v eni minuti",
+      "text": "have got: I/you/we/they have got, he/she/it HAS got. Zanikano: haven't got / hasn't got. Vprašanje: Has he got …? Yes, he has. can: enako za vse (he can, NE he cans). Vprašanje: Can you swim? Yes, I can. / No, I can't. Čigavo: my sister's name, Luke's car.",
+      "example": "My brother has got curly hair. He can play football but he can't swim. My mum's name is Daniela."
+    },
+    {
+      "title": "Sestavek v 6 korakih",
+      "text": "1 Uvod (There are four people in my family.) 2 Vsak član: ime, starost, od kod (My dad's name is …) 3 Videz s has got 4 Kaj zna s can / can't 5 Kaj rad ima, hrana (His favourite food is …) 6 Zaključek (I love my family.) Poveži z and, but, because. Vsaka poved: velika začetnica in pika.",
+      "example": "My brother's name is Alan. He's nine years old. He's got curly hair and he can ride a bike very well."
     }
   ],
   "study": {
@@ -104,13 +131,13 @@
         "skill": "order"
       },
       {
-        "id": "g7",
-        "text": "Znam opisati recept s kuharskimi glagoli.",
-        "skill": "cook"
+        "id": "g9",
+        "text": "Ponovim Starter in Unit 1: to be, me/him/them, množina, have got, can.",
+        "skill": "tobe"
       },
       {
         "id": "g8",
-        "text": "Napišem 13–15 pravilnih povedi o osebi ali o hrani.",
+        "text": "Napišem 13–15 pravilnih povedi o svoji družini ali prijatelju.",
         "skill": "write"
       }
     ],
@@ -282,7 +309,7 @@
         ]
       },
       {
-        "title": "Kraji, kjer jemo, in kuhanje",
+        "title": "Kraji, kjer jemo, kuhanje in trgovina",
         "skill": "cook",
         "table": {
           "head": [
@@ -376,6 +403,26 @@
             [
               "grate",
               "naribati"
+            ],
+            [
+              "brownies",
+              "čokoladne rezine (brownies)"
+            ],
+            [
+              "chocolate chip cookies",
+              "piškoti s koščki čokolade"
+            ],
+            [
+              "cheese and onion crisps",
+              "čips s sirom in čebulo"
+            ],
+            [
+              "fish fingers",
+              "ribje palčke"
+            ],
+            [
+              "beans",
+              "fižol (v omaki)"
             ]
           ]
         },
@@ -596,42 +643,249 @@
         ]
       },
       {
-        "title": "Pisanje: kako dobiti 5",
-        "skill": "write",
-        "text": "Na pisnem testu je skoraj gotovo sestavek: **opis osebe** (My family / My best friend / My hero) ali **hrana** (My favourite food / A day of meals). V zvezku je bilo »13 do 15 stavkov«.\n\n**Načrt:** 1) uvod (kdo/kaj), 2) videz ali dejstva, 3) kaj zna (can), kaj ima (have got), 4) kaj rad je in kje (there is/are, some, a lot of), 5) zaključek: *I love … / He's a great friend.*\n\nPoveži povedi z **and**, **but**, **because**, **too**. Na koncu preveri vsako poved: velika začetnica, pika, he/she → **has**, **His** (ne He's) za 'njegov'.",
+        "title": "Starter: to be, zaimki, množina",
+        "text": "To je osnova za vsak test. Glagol to be ima tri oblike: am, is, are. Zaimki se spreminjajo glede na vlogo v povedi. Pri množini se večina besed konča na -s, nekaj pa jih je posebnih: nauči se jih na pamet.",
+        "table": {
+          "head": [
+            "oseba",
+            "to be",
+            "koga? (me)",
+            "čigav? (my)"
+          ],
+          "rows": [
+            [
+              "I",
+              "I'm / I'm not",
+              "me",
+              "my"
+            ],
+            [
+              "you",
+              "you're / you aren't",
+              "you",
+              "your"
+            ],
+            [
+              "he",
+              "he's / he isn't",
+              "him",
+              "his"
+            ],
+            [
+              "she",
+              "she's / she isn't",
+              "her",
+              "her"
+            ],
+            [
+              "it",
+              "it's / it isn't",
+              "it",
+              "its"
+            ],
+            [
+              "we",
+              "we're / we aren't",
+              "us",
+              "our"
+            ],
+            [
+              "they",
+              "they're / they aren't",
+              "them",
+              "their"
+            ]
+          ],
+          "say": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
         "examples": [
-          "My best friend is Luka. He's eleven years old and he's from Slovenia.",
-          "He's got short brown hair and green eyes.",
-          "He can play football very well, but he can't swim.",
-          "His favourite food is pizza. He doesn't like fish.",
-          "There are a lot of good pizzerias in our town.",
-          "He's funny and friendly. He's a great friend!"
+          "Is Katie from London? No, she isn't.",
+          "Are Marie and George students? Yes, they are.",
+          "Danny and Sue are nice. Look at them!",
+          "This book is great. Those watches are old.",
+          "one child → two children, one man → two men, one woman → two women",
+          "one mouse → two mice, one wolf → two wolves, one knife → two knives"
         ],
         "watch_out": [
           {
-            "wrong": "He have got green eyes.",
-            "right": "He has got green eyes.",
-            "why": "he / she / it → has got."
+            "wrong": "Is very brave.",
+            "right": "He's very brave.",
+            "why": "V angleščini poved vedno potrebuje osebek (he, she, it)."
           },
           {
-            "wrong": "Hes favourite food is pizza.",
-            "right": "His favourite food is pizza.",
-            "why": "Njegov = His. He's = he is."
+            "wrong": "Look at they!",
+            "right": "Look at them!",
+            "why": "Za glagolom in za at, to, for → me, him, her, us, them."
           },
           {
-            "wrong": "In my family live four people.",
-            "right": "There are four people in my family.",
-            "why": "»Nas je …« → There are …"
+            "wrong": "childs, mans, knifes",
+            "right": "children, men, knives",
+            "why": "Posebna množina: nauči se jo na pamet."
           },
           {
-            "wrong": "My favourite football are Messi.",
-            "right": "My favourite football player is Messi.",
-            "why": "En igralec → is; football player, ne samo football."
+            "wrong": "This apples are good.",
+            "right": "These apples are good.",
+            "why": "Več stvari blizu → these, več stvari daleč → those."
+          }
+        ]
+      },
+      {
+        "title": "Unit 1: have got, can, 's",
+        "text": "To potrebuješ v sestavku o družini. He, she, it in en človek (my brother, my mum) dobijo HAS got. Can je za vse osebe enak. Čigavo je, povemo z 's: my sister's husband (mož moje sestre).",
+        "table": {
+          "head": [
+            "oblika",
+            "have got",
+            "can"
+          ],
+          "rows": [
+            [
+              "+",
+              "He's got green eyes.",
+              "She can swim."
+            ],
+            [
+              "−",
+              "He hasn't got a dog.",
+              "She can't fly."
+            ],
+            [
+              "?",
+              "Has he got a sister?",
+              "Can she cook?"
+            ],
+            [
+              "kratko",
+              "Yes, he has. / No, he hasn't.",
+              "Yes, she can. / No, she can't."
+            ]
+          ],
+          "say": [
+            1,
+            2
+          ]
+        },
+        "examples": [
+          "My brother has got curly hair.",
+          "We haven't got a car, but we've got two cats.",
+          "My mum can cook very well, but she can't sing.",
+          "My friend's name is Timon. Luke's car is from the USA.",
+          "Appearance: tall, short, slim, curly hair, long dark hair, blue eyes",
+          "Personality: brave, clever, friendly, funny, nervous, quiet, nice"
+        ],
+        "watch_out": [
+          {
+            "wrong": "He have green eyes.",
+            "right": "He's got green eyes.",
+            "why": "He/she/my brother → has got."
           },
           {
-            "wrong": "i like pizza",
-            "right": "I like pizza.",
-            "why": "I je vedno velik, poved se konča s piko."
+            "wrong": "My sister husband is Charlie.",
+            "right": "My sister's husband is Charlie.",
+            "why": "Čigav → 's."
+          },
+          {
+            "wrong": "She cans swim.",
+            "right": "She can swim.",
+            "why": "Can nima -s."
+          }
+        ]
+      },
+      {
+        "title": "Popravi svoje napake",
+        "text": "Te napake so iz tvojih sestavkov v zvezku. Na testu stanejo največ točk, zato jih pred oddajo poišči v svojem besedilu.",
+        "table": {
+          "head": [
+            "narobe",
+            "prav"
+          ],
+          "rows": [
+            [
+              "In my family live four people.",
+              "There are four people in my family."
+            ],
+            [
+              "He have green eyes.",
+              "He's got green eyes."
+            ],
+            [
+              "Hes favourite player is Mbappé.",
+              "His favourite player is Mbappé."
+            ],
+            [
+              "He like football.",
+              "He likes football."
+            ],
+            [
+              "At night she play video games.",
+              "At night she plays video games."
+            ],
+            [
+              "I like play football.",
+              "I like playing football. / I like to play football."
+            ],
+            [
+              "Hildi likes too much food.",
+              "Hildi likes food very much."
+            ],
+            [
+              "My mum is very good she cooks for us.",
+              "My mum is very good. She cooks for us."
+            ],
+            [
+              "He is from Slovenija.",
+              "He's from Slovenia. He's Slovenian."
+            ],
+            [
+              "blue pants, mom",
+              "blue trousers, mum (britanska angleščina)"
+            ]
+          ],
+          "say": [
+            1
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "too much = zelo",
+            "right": "very much = zelo",
+            "why": "too much pomeni preveč (in to ni dobro)."
+          },
+          {
+            "wrong": "she play, he like",
+            "right": "she plays, he likes",
+            "why": "Pri he/she/it dobi glagol -s."
+          }
+        ]
+      },
+      {
+        "title": "Sestavek za 5: My family",
+        "text": "Učiteljica je v zvezek dala nalogo »My family, 13 do 15 stavkov«. Na testu pričakuj podobno: opis družine ali osebe. Uporabi zgradbo iz učbenika (Writing box 1.7): uvod, starost in od kod, videz, kaj zna, kaj ima rad, osebnost, zaključek. Preštej povedi: 13–15. Vsaka ima osebek in glagol, veliko začetnico in piko.",
+        "examples": [
+          "There are four people in my family: my mum, my dad, my brother Alan and me.",
+          "We've also got two pets, a cat called Fali and a dog called Hildi.",
+          "My mum's name is Daniela. She's from Mexico.",
+          "She's very kind and she can cook very well.",
+          "My brother's name is Alan. He's got curly hair.",
+          "He can ride a bike very well, but he can't swim.",
+          "My favourite food is pizza, but there isn't any pizza at home today!",
+          "I love my family very much."
+        ],
+        "watch_out": [
+          {
+            "wrong": "My mom, dad, brother, me.",
+            "right": "There are four people in my family: my mum, my dad, my brother and me.",
+            "why": "Vsaka poved potrebuje glagol."
+          },
+          {
+            "wrong": "i like football",
+            "right": "I like football.",
+            "why": "I je vedno velik, na koncu je pika."
           }
         ]
       }
@@ -906,6 +1160,106 @@
         "front": "£2.70",
         "back": "two pounds seventy",
         "skill": "order"
+      },
+      {
+        "front": "otroci",
+        "back": "children",
+        "skill": "tobe"
+      },
+      {
+        "front": "moški (več)",
+        "back": "men",
+        "skill": "tobe"
+      },
+      {
+        "front": "ženske (več)",
+        "back": "women",
+        "skill": "tobe"
+      },
+      {
+        "front": "miši",
+        "back": "mice",
+        "skill": "tobe"
+      },
+      {
+        "front": "noži",
+        "back": "knives",
+        "skill": "tobe"
+      },
+      {
+        "front": "volkovi",
+        "back": "wolves",
+        "skill": "tobe"
+      },
+      {
+        "front": "ta (blizu, več)",
+        "back": "these",
+        "skill": "tobe"
+      },
+      {
+        "front": "tisti (daleč, več)",
+        "back": "those",
+        "skill": "tobe"
+      },
+      {
+        "front": "pogumen",
+        "back": "brave",
+        "skill": "unit1"
+      },
+      {
+        "front": "pameten",
+        "back": "clever",
+        "skill": "unit1"
+      },
+      {
+        "front": "prijazen, druželjuben",
+        "back": "friendly",
+        "skill": "unit1"
+      },
+      {
+        "front": "zabaven, smešen",
+        "back": "funny",
+        "skill": "unit1"
+      },
+      {
+        "front": "živčen",
+        "back": "nervous",
+        "skill": "unit1"
+      },
+      {
+        "front": "tih",
+        "back": "quiet",
+        "skill": "unit1"
+      },
+      {
+        "front": "kodrasti lasje",
+        "back": "curly hair",
+        "skill": "unit1"
+      },
+      {
+        "front": "vitek",
+        "back": "slim",
+        "skill": "unit1"
+      },
+      {
+        "front": "bratranec, sestrična",
+        "back": "cousin",
+        "skill": "unit1"
+      },
+      {
+        "front": "teta",
+        "back": "aunt",
+        "skill": "unit1"
+      },
+      {
+        "front": "hlače",
+        "back": "trousers",
+        "skill": "unit1"
+      },
+      {
+        "front": "superge",
+        "back": "trainers",
+        "skill": "unit1"
       }
     ]
   },
@@ -989,20 +1343,6 @@
       "skill": "food"
     },
     {
-      "id": "meal-evening",
-      "level": 1,
-      "kind": "choice",
-      "prompt": "In the evening we have …",
-      "options": [
-        "breakfast",
-        "lunch",
-        "dinner"
-      ],
-      "answer": 2,
-      "solution": "Zvečer je **dinner** (večerja).",
-      "skill": "food"
-    },
-    {
       "id": "place-pizza",
       "level": 1,
       "kind": "choice",
@@ -1074,6 +1414,45 @@
       "answer": 1,
       "solution": "**Milk** je neštevno: some milk, NE two milks. Banane, jajca in burgerje lahko preštejemo.",
       "skill": "count"
+    },
+    {
+      "id": "be-are",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Marie and George ______ students.",
+      "options": [
+        "is",
+        "are",
+        "am"
+      ],
+      "answer": 1,
+      "hints": [
+        "Koliko ljudi je? Namesto imen rečemo they."
+      ],
+      "solution": "Dva človeka = they → **are**: Marie and George **are** students.",
+      "skill": "tobe"
+    },
+    {
+      "id": "plural-children",
+      "level": 1,
+      "kind": "text",
+      "prompt": "Množina: one child → two ______",
+      "answer": "children",
+      "hints": [
+        "Ni childs. Beseda se spremeni."
+      ],
+      "traps": [
+        {
+          "answer": "childs",
+          "why": "Posebna množina: children."
+        },
+        {
+          "answer": "childrens",
+          "why": "Children je že množina, brez -s."
+        }
+      ],
+      "solution": "child → **children** (posebna množina, brez -s).",
+      "skill": "tobe"
     },
     {
       "id": "there-neg",
@@ -1185,20 +1564,6 @@
       "skill": "count"
     },
     {
-      "id": "not-much",
-      "level": 2,
-      "kind": "choice",
-      "prompt": "There isn't ______ water. Let's buy some!",
-      "options": [
-        "many",
-        "much",
-        "a"
-      ],
-      "answer": 1,
-      "solution": "Water je neštevno → **not much** water.",
-      "skill": "count"
-    },
-    {
       "id": "too-salt",
       "level": 2,
       "kind": "choice",
@@ -1250,20 +1615,6 @@
       "skill": "order"
     },
     {
-      "id": "order-2",
-      "level": 2,
-      "kind": "choice",
-      "prompt": "Waiter: Anything else? You: …",
-      "options": [
-        "Yes, can I have some chips?",
-        "Yes, there is.",
-        "It's £3."
-      ],
-      "answer": 0,
-      "solution": "Anything else? = Še kaj? → **Yes, can I have some chips?** ali No, thanks.",
-      "skill": "order"
-    },
-    {
       "id": "price",
       "level": 2,
       "kind": "text",
@@ -1311,6 +1662,136 @@
       ]
     },
     {
+      "id": "obj-them",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni z zaimkom: Danny and Sue are my friends. I like ______ a lot.",
+      "answer": "them",
+      "hints": [
+        "Za glagolom ne rečemo they. I → me, he → him, they → …"
+      ],
+      "traps": [
+        {
+          "answer": "they",
+          "why": "Za glagolom (like) → them."
+        },
+        {
+          "answer": "their",
+          "why": "Their = njihov. Tukaj: them."
+        }
+      ],
+      "solution": "Danny and Sue = they; za glagolom pa → **them**: I like **them** a lot.",
+      "skill": "tobe"
+    },
+    {
+      "id": "these-those",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Bananas are in your hand. ______ bananas are yellow.",
+      "options": [
+        "This",
+        "These",
+        "That",
+        "Those"
+      ],
+      "answer": 1,
+      "hints": [
+        "Blizu ali daleč? Ena ali več?"
+      ],
+      "solution": "Več stvari, blizu → **These** bananas are yellow.",
+      "skill": "tobe"
+    },
+    {
+      "id": "plural-knives",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Množina: one knife → two ______",
+      "answer": "knives",
+      "hints": [
+        "Kot wolf → wolves."
+      ],
+      "traps": [
+        {
+          "answer": "knifes",
+          "why": "f → ves: knives."
+        }
+      ],
+      "solution": "knife → **knives** (f → ves), kot wolf → wolves.",
+      "skill": "tobe"
+    },
+    {
+      "id": "be-question",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Napiši vprašanje: Katie is in Paris. → ______ in Paris?",
+      "answer": "Is Katie in Paris?",
+      "accept": [
+        "Is Katie in Paris"
+      ],
+      "hints": [
+        "Is gre na začetek."
+      ],
+      "solution": "Pri to be zamenjaj vrstni red: **Is Katie in Paris?**",
+      "skill": "tobe"
+    },
+    {
+      "id": "hasgot-neg",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Zanikaj: Grant's got a black jacket. → Grant ______ a black jacket.",
+      "answer": "hasn't got",
+      "accept": [
+        "has not got"
+      ],
+      "hints": [
+        "Grant's got = Grant has got. Zanikaj has."
+      ],
+      "traps": [
+        {
+          "answer": "haven't got",
+          "why": "Grant = he → hasn't got."
+        }
+      ],
+      "solution": "Grant = he → **hasn't got**.",
+      "skill": "unit1"
+    },
+    {
+      "id": "can-question",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Sestavi vprašanje: your brother / play / can / football / ?",
+      "answer": "Can your brother play football?",
+      "accept": [
+        "Can your brother play football"
+      ],
+      "hints": [
+        "Začni s Can."
+      ],
+      "traps": [
+        {
+          "answer": "Can you brother play football?",
+          "why": "you = ti, your = tvoj: Can your brother …?"
+        }
+      ],
+      "solution": "Can gre na začetek: **Can your brother play football?**",
+      "skill": "unit1"
+    },
+    {
+      "id": "poss-s",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Popravi poved: My friend brother is Tim.",
+      "answer": "My friend's brother is Tim.",
+      "accept": [
+        "My friend's brother is Tim"
+      ],
+      "hints": [
+        "Manjka 's."
+      ],
+      "solution": "Čigav brat? Prijateljev → **My friend's brother is Tim.**",
+      "skill": "unit1"
+    },
+    {
       "id": "write-has",
       "level": 2,
       "kind": "text",
@@ -1342,6 +1823,61 @@
       ],
       "solution": "Pravilno: **There are four people in my family.**",
       "skill": "write"
+    },
+    {
+      "id": "fix-plays",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Popravi poved (iz zvezka): At night she play video games.",
+      "answer": "At night she plays video games.",
+      "accept": [
+        "At night she plays video games"
+      ],
+      "hints": [
+        "He, she, it → glagol + s."
+      ],
+      "traps": [
+        {
+          "answer": "At night she play video games.",
+          "why": "She → plays."
+        }
+      ],
+      "solution": "She → glagol dobi -s: **At night she plays video games.**",
+      "skill": "fix"
+    },
+    {
+      "id": "fix-subject",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Popravi drugo poved: Batman is my hero. Is very brave.",
+      "answer": "He's very brave.",
+      "accept": [
+        "He is very brave.",
+        "He's very brave",
+        "He is very brave"
+      ],
+      "hints": [
+        "Kdo je pogumen? Dodaj he."
+      ],
+      "solution": "Angleška poved potrebuje osebek: **He's very brave.**",
+      "skill": "fix"
+    },
+    {
+      "id": "fix-stop",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Katera poved je pravilno zapisana?",
+      "options": [
+        "My mum is a very good cook she cooks for all the family.",
+        "My mum is a very good cook. She cooks for all the family.",
+        "my mum is a very good cook. she cooks for all the family."
+      ],
+      "answer": 1,
+      "hints": [
+        "Poišči pike in velike začetnice."
+      ],
+      "solution": "Dve misli = dve povedi: **My mum is a very good cook. She cooks for all the family.**",
+      "skill": "fix"
     }
   ],
   "challenge": [
@@ -1433,70 +1969,173 @@
       "skill": "order"
     },
     {
-      "id": "ch-town",
+      "id": "ch-q-eggs",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Napiši vprašanje za ta odgovor: »There are six eggs.«",
+      "answer": "How many eggs are there?",
+      "accept": [
+        "How many eggs are there"
+      ],
+      "traps": [
+        {
+          "answer": "How much eggs are there?",
+          "why": "Eggs preštejemo → How many."
+        }
+      ],
+      "solution": "Preštejemo → **How many eggs are there?**",
+      "skill": "count"
+    },
+    {
+      "id": "ch-tr-family",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Prevedi: V moji družini smo štirje in imamo dve mački.",
+      "answer": "There are four people in my family and we've got two cats.",
+      "accept": [
+        "There are four people in my family and we have got two cats.",
+        "There are four people in my family and we've got two cats",
+        "There are four people in my family and we have two cats.",
+        "There are four people in my family, and we've got two cats."
+      ],
+      "traps": [
+        {
+          "answer": "In my family live four people and we've got two cats.",
+          "why": "Nas je štiri → There are four people in my family."
+        }
+      ],
+      "solution": "**There are four people in my family and we've got two cats.**",
+      "skill": "write"
+    },
+    {
+      "id": "ch-tr-brother",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Prevedi: Moj brat ima kodraste lase in zna dobro voziti kolo.",
+      "answer": "My brother has got curly hair and he can ride a bike well.",
+      "accept": [
+        "My brother's got curly hair and he can ride a bike well.",
+        "My brother has got curly hair and he can ride a bike very well.",
+        "My brother has got curly hair and can ride a bike well.",
+        "My brother has curly hair and he can ride a bike well."
+      ],
+      "traps": [
+        {
+          "answer": "My brother have got curly hair and he can ride a bike well.",
+          "why": "My brother = he → has got."
+        }
+      ],
+      "solution": "**My brother has got curly hair and he can ride a bike well.**",
+      "skill": "unit1"
+    },
+    {
+      "id": "ch-fix-likes",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Popravi celo poved (iz zvezka): My brother like ride the bike.",
+      "answer": "My brother likes riding his bike.",
+      "accept": [
+        "My brother likes riding the bike.",
+        "My brother likes to ride his bike.",
+        "My brother likes to ride the bike.",
+        "My brother likes riding a bike.",
+        "My brother likes to ride a bike."
+      ],
+      "solution": "He → likes, za like pa -ing: **My brother likes riding his bike.**",
+      "skill": "fix"
+    },
+    {
+      "id": "ch-hes-his",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Dopolni obe vrzeli (He's ali His): ___ eleven years old. ___ favourite player is Oblak.",
+      "answer": "He's, His",
+      "accept": [
+        "He's His",
+        "He is, His",
+        "He's; His"
+      ],
+      "solution": "**He's** eleven years old. **His** favourite player is Oblak. He's = he is, His = njegov.",
+      "skill": "fix"
+    },
+    {
+      "id": "ch-listen",
+      "level": 3,
+      "kind": "text",
+      "prompt": "🔊 Poslušaj in zapiši celo poved.",
+      "answer": "There isn't any milk, but there are some eggs.",
+      "accept": [
+        "There isn't any milk but there are some eggs."
+      ],
+      "say": "There isn't any milk, but there are some eggs.",
+      "solution": "**There isn't any milk, but there are some eggs.**",
+      "skill": "someany"
+    },
+    {
+      "id": "ch-family",
       "level": 3,
       "kind": "open",
-      "prompt": "Napiši 5 povedi o hrani v svojem mestu. Uporabi There is, There are, There isn't, There aren't any in a lot of.",
-      "solution": "Primer: There's a big pizzeria in my town. There are two burger bars. There isn't a Japanese restaurant. There aren't any vegetarian cafés. There are a lot of good bakeries.",
-      "skill": "thereis"
+      "prompt": "Pisni sestavek, kot ga je dala učiteljica: My family (13–15 povedi). Napiši: koliko vas je, vsakega člana (ime, starost, od kod, videz s has got, kaj zna s can), hišne ljubljenčke, kaj radi jeste ali počnete skupaj in zaključek. Poveži z and, but, because. Preštej povedi.",
+      "solution": "Primer (14 povedi): There are four people in my family: my mum, my dad, my brother Alan and me. We've also got two pets, a cat called Fali and a dog called Hildi. My mum's name is Daniela and she's from Mexico. She's kind and funny. She can cook very well and her food is delicious. My dad's name is Danijel. He works on his computer and he can take great photos. My brother's name is Alan. He's got curly hair and brown eyes. He can ride his bike very well, but he can't swim. He likes playing football with me. Fali is shy and she's always hiding, but Hildi loves food. At weekends we watch films together. I love my family very much.\n\nPreveri: 13–15 povedi, has got pri he/she, His/Her, plays/likes, pike in velike začetnice.",
+      "skill": "write"
     },
     {
       "id": "ch-friend",
       "level": 3,
       "kind": "open",
-      "prompt": "Pisni sestavek: My best friend (13–15 povedi). Napiši: ime, starost, od kod je, videz (have got), kaj zna (can), hrana, ki jo ima rad, zakaj je dober prijatelj. Poveži z and / but.",
+      "prompt": "Pisni sestavek: My best friend (13–15 povedi). Napiši: ime, starost, od kod je, videz (has got), kaj zna (can / can't), kaj rad ima, hrano in zakaj je dober prijatelj. Uporabi His/Her in and, but.",
       "solution": "Model (14 povedi): My best friend is Luka. He's eleven years old. He's from Ljubljana in Slovenia. He's tall and slim. He's got short brown hair and green eyes. He's got a younger sister, Ana. He can play football very well and he can run fast, but he can't swim. His favourite football player is Messi. His favourite food is pizza with cheese and ham. He doesn't like fish. There's a good pizzeria near our school and we often go there. Luka is funny, clever and friendly. He's always happy. He's a great friend!\n\nPreveri: has got (ne have), His (ne He's), velike začetnice, piko na koncu.",
-      "skill": "write"
-    },
-    {
-      "id": "ch-food",
-      "level": 3,
-      "kind": "open",
-      "prompt": "Pisni sestavek: My favourite food and meals (13–15 povedi). Napiši: kdaj imaš zajtrk/kosilo/večerjo in kaj ješ, najljubša hrana, kaj ne maraš, kaj je v hladilniku (some/any), najljubši kraj za hrano.",
-      "solution": "Model: I have breakfast at seven o'clock. A typical breakfast for me is milk and cereal or eggs and toast. I have lunch at school at half past twelve. My favourite lunch is chicken with potatoes. I have dinner with my family at seven in the evening. My favourite food is pizza. I don't like fish and I don't like celery. Vegetables are good for you, so I eat carrots and tomatoes. In our fridge there's some milk, some cheese and a lot of yoghurts. There aren't any sweets because my mum doesn't buy them. My favourite place to eat is a pizzeria in our town. There are a lot of good pizzas there. Pizza is delicious!",
       "skill": "write"
     }
   ],
   "parent": {
-    "school_method": "Wider World 1, Unit 2 (It's delicious!): food and drink, meals, places to eat, cooking verbs, there is/there are + some/any, countable and uncountable nouns, how much/how many, a lot of, too much/too many/not enough, ordering in a café, prices. The written test most likely also covers the Starter unit and Unit 1 (topics already in BrightFox) and has a short writing task; his notebook shows the teacher asks for 13–15 sentences.",
+    "school_method": "Wider World 1: the photos cover the Starter unit, Unit 1 (People are people) and Unit 2 (It's delicious!) up to 2.7 in the student's book, and the workbook up to 2.5. Unit 2: food, meals, places to eat, cooking, supermarket foods, prices; there is/are, a/an/some/any, countable/uncountable, how much/many, too much/many, not enough. His notebook adds to be, plurals (mice, knives, wolves), question words, have got, can and the on/in/at worksheet. The teacher's writing task is 'My family, 13 do 15 stavkov'.",
     "typical_mistakes": [
-      "\"He have got\" → \"He has got\" (in his own 'My friend' text).",
-      "\"Hes favourite …\" → \"His favourite …\".",
-      "\"In my family live four people\" → \"There are four people in my family\".",
-      "some in negatives (\"There aren't some eggs\") → any.",
-      "How much eggs → How many eggs; a bread → some bread.",
-      "Spelling: sandwich, biscuits, yoghurt, vegetables, delicious; capital I and full stops."
+      "\"In my family live four people\" → \"There are four people in my family\" (in both of his family texts).",
+      "\"He have / He like / she play\" → \"He has got / He likes / she plays\".",
+      "\"Hes favourite\" → \"His favourite\"; dropping the subject: \"Is very brave\" → \"He's very brave\".",
+      "Run-on sentences without a full stop; lines with no verb (\"My mom, dad, brother, me.\").",
+      "\"too much\" used for \"very much\" (\"Hildi likes too much food\").",
+      "some in negatives (\"There aren't some eggs\"); \"How much eggs\"; spelling: sandwich, biscuits, yoghurt."
     ],
     "car_questions": [
       {
-        "q": "Countable or uncountable: milk? apples? bread?",
-        "a": "milk – uncountable, apples – countable, bread – uncountable."
+        "q": "Countable or uncountable: milk? apples? bread? cheese?",
+        "a": "milk U, apples C, bread U, cheese U."
       },
       {
-        "q": "How much or how many: ___ eggs?",
-        "a": "How many eggs?"
+        "q": "Say in English: V hladilniku ni mleka, je pa nekaj jajc.",
+        "a": "There isn't any milk in the fridge, but there are some eggs."
       },
       {
-        "q": "Say in English: V hladilniku ni mleka.",
-        "a": "There isn't any milk in the fridge."
+        "q": "How much or how many: ___ eggs? ___ water?",
+        "a": "How many eggs? How much water?"
       },
       {
-        "q": "Order a burger and a cola like in a café.",
-        "a": "I'd like a burger and a cola, please."
+        "q": "Say in English: V moji družini smo štirje.",
+        "a": "There are four people in my family."
       },
       {
-        "q": "What's 'chips' and what's 'crisps'?",
-        "a": "Chips = pomfri, crisps = čips."
+        "q": "He's or His: ___ eleven. ___ name is Alan.",
+        "a": "He's eleven. His name is Alan."
       },
       {
-        "q": "Say £3.20 in words.",
-        "a": "Three pounds twenty."
+        "q": "Plural: child, woman, mouse, knife?",
+        "a": "children, women, mice, knives."
+      },
+      {
+        "q": "Order a burger and a cola in a café.",
+        "a": "I'd like a burger and a cola, please. / Can I have a burger and a cola, please?"
+      },
+      {
+        "q": "Say £2.70 and 35p.",
+        "a": "Two pounds seventy. Thirty-five p (pence)."
       }
     ],
     "tips": [
-      "The night before, let him write one 13–15 sentence text by hand and check it with the checklist in the study plan.",
-      "Ask for full sentences, not single words.",
-      "While cooking or shopping, ask: How much milk is there? Are there any eggs?"
+      "The writing is worth the most: have him write 'My family' by hand once more and check it against the list in the study plan.",
+      "Count the sentences with him: 13–15, each with a subject, a verb and a full stop.",
+      "While cooking, ask: How much milk is there? Are there any eggs? Is there too much salt?"
     ]
   },
   "oral": [
@@ -1544,26 +2183,51 @@
       "model_answer": "I'd like a cheese sandwich, please. Can I have an orange juice too?"
     },
     {
+      "id": "o-family",
+      "skill": "write",
+      "question": "Tell me about your family in five sentences. How many people are there? Describe one person.",
+      "key_points": [
+        "There are … people in my family (not 'In my family live').",
+        "has got for appearance of one person.",
+        "can or can't.",
+        "His/Her for njegov/njen.",
+        "Full sentences with a verb."
+      ],
+      "model_answer": "There are four people in my family. My brother's name is Alan. He's got curly hair. He can ride a bike but he can't swim. His favourite food is pizza."
+    },
+    {
       "id": "o-friend",
       "skill": "write",
-      "question": "Describe your best friend in four sentences: age, appearance, what he or she can do, and favourite food.",
+      "question": "Describe your best friend: age, appearance, what he or she can do, and favourite food.",
       "key_points": [
         "He's/She's … years old.",
         "has got (not have got) for appearance.",
         "can / can't.",
         "His/Her favourite food is …"
       ],
-      "model_answer": "My best friend is eleven years old. He's got short brown hair. He can play football but he can't swim. His favourite food is pizza."
+      "model_answer": "My best friend is Timon. He's eleven years old. He's got short brown hair and green eyes. He can play football but he can't swim. His favourite food is pizza."
+    },
+    {
+      "id": "o-plural",
+      "skill": "tobe",
+      "question": "Say the plurals: child, man, woman, mouse, knife, wolf.",
+      "key_points": [
+        "children",
+        "men, women",
+        "mice",
+        "knives, wolves"
+      ],
+      "model_answer": "children, men, women, mice, knives, wolves"
     }
   ],
   "video": {
-    "title": "⚽ Tekma: It's delicious!",
+    "title": "⚽ Tekma: pisni test (Unit 2)",
     "scenes": [
       {
         "type": "intro",
         "emoji": "🍕",
         "title": "It's delicious!",
-        "sub": "Unit 2 · hrana, some/any, much/many",
+        "sub": "Unit 2 + ponovitev + sestavek",
         "foxy": "Živjo, {name}! Danes je tekma v kuhinji. Gremo po zmago na testu!"
       },
       {
@@ -1751,38 +2415,84 @@
       },
       {
         "type": "rule",
-        "skill": "write",
-        "title": "Pisanje za 5",
-        "foxy": "In še zadnja akcija: sestavek!",
+        "skill": "tobe",
+        "title": "Starter: hitra ponovitev",
+        "foxy": "Ponovimo osnove iz Starterja.",
         "steps": [
           {
+            "sl": "Za glagolom → me, him, her, us, them",
+            "en": "I like them."
+          },
+          {
+            "sl": "Blizu, več → these",
+            "en": "These apples are good."
+          },
+          {
+            "sl": "Posebna množina",
+            "en": "children, men, women, mice, knives"
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "skill": "tobe",
+        "question": "one mouse, two ___",
+        "options": [
+          "mouses",
+          "mice"
+        ],
+        "answer": 1,
+        "explain": "mouse → mice (posebna množina)."
+      },
+      {
+        "type": "rule",
+        "skill": "write",
+        "title": "Sestavek za 5",
+        "foxy": "Zadnja akcija: sestavek o družini!",
+        "steps": [
+          {
+            "sl": "Nas je štiri →",
+            "en": "There are four people in my family."
+          },
+          {
             "sl": "he / she → has got",
-            "en": "He has got green eyes."
+            "en": "My brother has got curly hair."
+          },
+          {
+            "sl": "he / she → glagol + s",
+            "en": "She plays video games. He likes football."
           },
           {
             "sl": "Njegov = His",
             "en": "His favourite food is pizza."
           },
           {
-            "sl": "Nas je štiri →",
-            "en": "There are four people in my family."
-          },
-          {
-            "sl": "Poveži povedi z and in but.",
-            "en": "He can run but he can't swim."
+            "sl": "Vsaka poved: osebek, glagol, pika.",
+            "en": "He's very brave."
           }
         ]
       },
       {
         "type": "quiz",
-        "skill": "write",
-        "question": "___ favourite player is Messi.",
+        "skill": "fix",
+        "question": "At night she ___ video games.",
         "options": [
-          "He's",
-          "His"
+          "play",
+          "plays"
         ],
         "answer": 1,
-        "explain": "Njegov → His."
+        "explain": "She → plays."
+      },
+      {
+        "type": "quiz",
+        "skill": "write",
+        "question": "___ four people in my family.",
+        "options": [
+          "Live",
+          "There are"
+        ],
+        "answer": 1,
+        "explain": "Nas je štiri → There are four people in my family."
       },
       {
         "type": "recap",
@@ -1792,8 +2502,9 @@
           "There is (1) / There are (2+)",
           "some + trdilno, any − in ?",
           "many = preštejemo, much = ne",
-          "too much / too many / not enough",
-          "he/she has got, His = njegov"
+          "too much = preveč, very much = zelo",
+          "he/she has got, likes, plays · His = njegov",
+          "13–15 povedi, vsaka s piko"
         ]
       }
     ]
