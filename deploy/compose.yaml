@@ -19,11 +19,14 @@ services:
     restart: unless-stopped
     # Run as the server's footballadmin user so data files belong to that account.
     user: "${APP_UID:?set in .env}:${APP_GID:?set in .env}"
-    # ANTHROPIC_API_KEY lives here (mode 600), written by scripts/set-anthropic-key.sh.
+    # ANTHROPIC_API_KEY lives here (mode 600), written by scripts/set-anthropic-key.sh. A key a parent enters in
+    # the app (AI settings) is kept in data/secrets/anthropic_api_key and wins over this one.
     # Empty = Foxy shows "not set up yet" and nothing is sent anywhere.
     env_file: [secrets.env]
     environment:
       UCILNICA_ALLOWED_HOSTS: *hosts
+      # Only this family's parents may change Foxy's key in the app (AI settings); others see just "set / not set".
+      UCILNICA_AI_KEY_FAMILIES: danijel
       TZ: Europe/Ljubljana
     volumes:
       - ./data:/data

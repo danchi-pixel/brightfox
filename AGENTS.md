@@ -40,6 +40,8 @@ own space. It is built for many families from day one, so it can be sold later.
 6. **Never type or store passwords or API keys** for anyone.
    - Logins are set by the person, in a hidden prompt or in the app.
    - The API key goes in with `deploy\set-anthropic-key.ps1`, which uses a hidden prompt on the server.
+     A parent can also enter it themselves on the **AI settings** page (`/ai`; stored in
+     `data/secrets/anthropic_api_key`, mode 600, which wins over the server's key; `backend/app/llm/api_key.py`).
 7. **Database migrations only add things** (new tables or columns) once something is in production.
    - Never let Alembic batch-recreate a table that others reference: SQLite with `foreign_keys=ON`
      cascade-deletes the child rows.

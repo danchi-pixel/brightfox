@@ -29,6 +29,8 @@ class Settings:
     behind_proxy: bool = False  # trust X-Forwarded-* from the reverse proxy (Caddy)
     static_dir: Path | None = None  # serve the built web app from here (single-container deployment)
     local_family: str | None = None  # explicit local launcher only; production keeps version approvals
+    # Family slugs whose parents may change the shared Anthropic key in the app; None = every parent (local).
+    ai_key_families: list[str] | None = None
 
     @property
     def db_path(self) -> Path:
@@ -66,6 +68,9 @@ def load_settings() -> Settings:
     static = os.environ.get("UCILNICA_STATIC_DIR")
     s.static_dir = Path(static).resolve() if static else None
     s.local_family = os.environ.get("UCILNICA_LOCAL_FAMILY") or None
+    key_families = os.environ.get("UCILNICA_AI_KEY_FAMILIES")
+    if key_families is not None:
+        s.ai_key_families = [f.strip() for f in key_families.split(",") if f.strip()]
     if s.local_family and (s.host not in ("127.0.0.1", "localhost", "::1") or s.behind_proxy or s.cookie_secure or s.static_dir):
         raise ValueError("Automatic local assignment requires a loopback development server, without a proxy or static build.")
     return s

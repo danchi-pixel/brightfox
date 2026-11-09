@@ -286,6 +286,15 @@ export interface AiSettings {
   budget_usd: number | null;
 }
 
+/** Foxy's Anthropic API key: only whether there is one, where it's kept and its last 4 characters. */
+export interface AiKeyStatus {
+  configured: boolean;
+  source: "app" | "server" | "none";
+  can_manage: boolean;
+  hint: string | null;
+  updated_at: string | null;
+}
+
 /* ------------------------------------------------------------- tests, mastery, gaps, review */
 
 export type MasteryLabel = "know" | "almost" | "not_yet" | "not_started";
@@ -444,6 +453,7 @@ export const qk = {
   family: ["uc", "family"] as const,
   accounts: ["uc", "accounts"] as const,
   ai: ["uc", "ai"] as const,
+  aiKey: ["uc", "ai-key"] as const,
   exams: (lid: number) => ["uc", "exams", lid] as const,
   exam: (lid: number, eid: number) => ["uc", "exam", lid, eid] as const,
   mastery: (lid: number) => ["uc", "mastery", lid] as const,
@@ -580,6 +590,10 @@ export function useAiSettings() {
   return useQuery({ queryKey: qk.ai, queryFn: () => api.get<AiSettings>(`/api/family/ai?today=${todayISO()}`) });
 }
 
+export function useAiKey() {
+  return useQuery({ queryKey: qk.aiKey, queryFn: () => api.get<AiKeyStatus>("/api/family/ai/key") });
+}
+
 export const ucApi = {
   newChat: (lid: number, body: { subject?: Subject; topic_id?: string; task_id?: string; text: string; images: string[] }) =>
     api.post<ChatView>(`/api/learners/${lid}/chats`, { ...body, today: todayISO() }),
@@ -601,6 +615,9 @@ export const ucApi = {
   deleteAccount: (uid: number) => api.del(`/api/family/accounts/${uid}`),
   setAi: (body: { routes?: { job: string; model: string; effort?: string | null }[]; budget_usd?: number | null }) =>
     api.put<AiSettings>("/api/family/ai", body),
+  setAiKey: (key: string) => api.put<AiKeyStatus>("/api/family/ai/key", { key }),
+  removeAiKey: () => api.del<AiKeyStatus>("/api/family/ai/key"),
+  testAiKey: () => api.post<{ result: string; ok: boolean; message: string }>("/api/family/ai/key/test"),
   changePassword: (current_password: string, new_password: string) => api.post("/api/auth/change-password", { current_password, new_password }),
   addExam: (lid: number, body: ExamIn) => api.post<Exam>(`/api/learners/${lid}/exams`, body),
   updateExam: (lid: number, eid: number, body: ExamIn) => api.put<Exam>(`/api/learners/${lid}/exams/${eid}`, body),

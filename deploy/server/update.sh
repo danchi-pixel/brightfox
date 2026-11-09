@@ -61,8 +61,8 @@ for _ in $(seq 1 60); do
   state="$(docker inspect --format '{{.State.Health.Status}}' "$(docker compose ps -q ucilnica)" 2>/dev/null || echo unknown)"
   if [ "$state" = healthy ]; then
     log "Done - Ucilnica is healthy"
-    if ! grep -q '^ANTHROPIC_API_KEY=sk-ant-' secrets.env; then
-      log "Note: no Anthropic API key yet, so Foxy shows 'not set up'. On the PC: deploy\\set-anthropic-key.ps1"
+    if ! grep -q '^ANTHROPIC_API_KEY=sk-ant-' secrets.env && [ ! -s data/secrets/anthropic_api_key ]; then
+      log "Note: no Anthropic API key yet, so Foxy shows 'not set up'. Enter it in the app (AI settings) or on the PC: deploy\\set-anthropic-key.ps1"
     fi
     # Tidy up: dangling images and build cache not used for a week (the previous image stays for rollback).
     docker image prune -f >/dev/null 2>&1 || true

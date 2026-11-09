@@ -214,6 +214,59 @@ def set_ai(body: AiIn, db: Session = Depends(get_db), ctx: AdminCtx = Depends(ad
 
 
 # --------------------------------------------------------------------------- #
+# Foxy's Anthropic API key (one for the whole installation; see llm/api_key.py)
+# --------------------------------------------------------------------------- #
+def _key_manager(ctx: AdminCtx) -> None:
+    from ..llm import api_key
+
+    if not api_key.may_manage(ctx.family.slug):
+        raise HTTPException(403, "The AI key for this installation is managed by its owner.")
+
+
+@router.get("/ai/key")
+def get_ai_key(ctx: AdminCtx = Depends(admin_ctx)) -> dict[str, Any]:
+    from ..llm import api_key
+
+    return api_key.status(ctx.family.slug)
+
+
+class AiKeyIn(BaseModel):
+    key: str = Field(repr=False)  # no length limit here: a 422 would echo the input; clean() checks it
+
+
+@router.put("/ai/key")
+def set_ai_key(body: AiKeyIn, ctx: AdminCtx = Depends(admin_ctx)) -> dict[str, Any]:
+    from ..llm import api_key
+
+    _key_manager(ctx)
+    key = api_key.clean(body.key)
+    if key is None:
+        raise HTTPException(400, "That doesn't look like an Anthropic API key (it starts with sk-ant-).")
+    api_key.save(key)
+    return api_key.status(ctx.family.slug)
+
+
+@router.delete("/ai/key")
+def delete_ai_key(ctx: AdminCtx = Depends(admin_ctx)) -> dict[str, Any]:
+    from ..llm import api_key
+
+    _key_manager(ctx)
+    api_key.remove()
+    return api_key.status(ctx.family.slug)
+
+
+@router.post("/ai/key/test")
+def test_ai_key(ctx: AdminCtx = Depends(admin_ctx)) -> dict[str, Any]:
+    from ..llm import service as llm_service
+
+    _key_manager(ctx)
+    result = llm_service.check_key()
+    messages = {"ok": "The key works.", "auth": "Anthropic refused this key (wrong, revoked or without access).",
+                "unavailable": "Couldn't reach Anthropic right now. Try again in a minute.", "missing": "No key is set."}
+    return {"result": result, "ok": result == "ok", "message": messages.get(result, "Unknown result.")}
+
+
+# --------------------------------------------------------------------------- #
 # Accounts
 # --------------------------------------------------------------------------- #
 def _account_out(u: User, names: dict[int, str]) -> dict[str, Any]:

@@ -1,8 +1,8 @@
 /**
- * The frame around the pages: parents get a navigation (Overview, Topics, Foxy, Family, Guide); a learner gets their
+ * The frame around the pages: parents get a navigation (Overview, Topics, Foxy, AI settings, Family, Guide); a learner gets their
  * classroom with a small top bar (name, sign out). Phones get a bottom bar for parents.
  */
-import { BookOpenCheck, Bot, House, LifeBuoy, LogOut, Users } from "lucide-react";
+import { BookOpenCheck, Bot, House, KeyRound, LifeBuoy, LogOut, Users } from "lucide-react";
 import { NavLink, Outlet } from "react-router";
 import { useAuth } from "@/lib/auth";
 import { APP_NAME } from "@/lib/brand";
@@ -13,6 +13,7 @@ const PARENT_NAV = [
   { to: "/", label: "Overview", icon: House, end: true },
   { to: "/topics", label: "Topics", icon: BookOpenCheck, end: false },
   { to: "/foxy", label: "Foxy", icon: Bot, end: false },
+  { to: "/ai", label: "AI settings", icon: KeyRound, end: false },
   { to: "/family", label: "Family", icon: Users, end: false },
   { to: "/guide", label: "Guide", icon: LifeBuoy, end: false },
 ];
@@ -44,7 +45,7 @@ export function AppShell() {
             </nav>
           )}
           <div className="flex-1" />
-          <span className="hidden text-sm text-muted-foreground sm:inline">{isAdmin ? me.family?.name : me.learner_name}</span>
+          <span className={cn("hidden text-sm text-muted-foreground", isAdmin ? "lg:inline" : "sm:inline")}>{isAdmin ? me.family?.name : me.learner_name}</span>
           {!isAdmin && (
             <button onClick={() => void signOut()} className="inline-flex items-center gap-1.5 rounded-xl px-2.5 py-1.5 text-sm text-muted-foreground hover:bg-muted" title={translate(language, "signOut")}>
               <LogOut className="size-4" />
@@ -57,13 +58,13 @@ export function AppShell() {
         <Outlet />
       </main>
       {isAdmin && (
-        <nav className="pb-safe fixed inset-x-0 bottom-0 z-20 grid grid-cols-5 border-t border-border bg-card/95 backdrop-blur sm:hidden">
+        <nav className="pb-safe fixed inset-x-0 bottom-0 z-20 grid grid-cols-6 border-t border-border bg-card/95 backdrop-blur sm:hidden">
           {PARENT_NAV.map((n) => (
             <NavLink
               key={n.to}
               to={n.to}
               end={n.end}
-              className={({ isActive }) => cn("flex flex-col items-center gap-0.5 py-2 text-[11px] font-medium", isActive ? "text-primary" : "text-muted-foreground")}
+              className={({ isActive }) => cn("flex flex-col items-center gap-0.5 py-2 text-center text-[11px] leading-tight font-medium", isActive ? "text-primary" : "text-muted-foreground")}
             >
               <n.icon className="size-5" />
               {n.label}

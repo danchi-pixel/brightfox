@@ -19,6 +19,7 @@ import VideoPage from "@/features/learner/VideoPage";
 import FamilyPage from "@/features/parent/FamilyPage";
 import OverviewPage from "@/features/parent/OverviewPage";
 import FoxyPage from "@/features/parent/FoxyPage";
+import AiSettingsPage from "@/features/parent/AiSettingsPage";
 import GuidePage from "@/features/parent/GuidePage";
 import TestsPage from "@/features/parent/TestsPage";
 import TopicsPage from "@/features/parent/TopicsPage";
@@ -51,6 +52,7 @@ const router = createBrowserRouter([
       { path: "/", element: <Home /> },
       { path: "/topics", element: <ParentOnly><TopicsPage /></ParentOnly> },
       { path: "/foxy", element: <ParentOnly><FoxyPage /></ParentOnly> },
+      { path: "/ai", element: <ParentOnly><AiSettingsPage /></ParentOnly> },
       { path: "/tests", element: <ParentOnly><TestsPage /></ParentOnly> },
       { path: "/family", element: <ParentOnly><FamilyPage /></ParentOnly> },
       { path: "/guide", element: <ParentOnly><GuidePage /></ParentOnly> },

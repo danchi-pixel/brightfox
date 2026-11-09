@@ -12,11 +12,11 @@
 from __future__ import annotations
 
 import base64
-import os
+import threading
 import time
-from functools import lru_cache
-from typing import Any
+from typing import Any, Literal
 
+from . import api_key
 from .base import (LLMAuthError, LLMBadRequest, LLMRateLimited, LLMReply, LLMRequest, LLMUnavailable, Turn)
 from .models import ModelSpec, cost_usd
 
@@ -24,7 +24,7 @@ FALLBACK_BETA = "server-side-fallback-2026-07-01"
 
 
 def configured() -> bool:
-    return bool(os.environ.get("ANTHROPIC_API_KEY", "").strip())
+    return api_key.current()[0] is not None
 
 
 def build_messages(turns: list[Turn]) -> list[dict[str, Any]]:
@@ -43,11 +43,41 @@ def build_messages(turns: list[Turn]) -> list[dict[str, Any]]:
     return out
 
 
-@lru_cache(maxsize=1)
+_client_lock = threading.Lock()
+_cached: tuple[str, Any] | None = None  # (key, client): rebuilt when the key changes, so no restart is needed
+
+
 def _client():
     import anthropic
 
-    return anthropic.Anthropic(timeout=120.0, max_retries=2)
+    global _cached
+    key = api_key.current()[0]
+    if not key:
+        raise LLMAuthError("No Anthropic API key is set.")
+    with _client_lock:
+        if _cached is None or _cached[0] != key:
+            _cached = (key, anthropic.Anthropic(api_key=key, timeout=120.0, max_retries=2))
+        return _cached[1]
+
+
+KeyCheck = Literal["ok", "auth", "unavailable", "missing"]
+
+
+def check_key() -> KeyCheck:
+    """A free check of the key in use (lists one model; no tokens are paid for). Never raises the error text,
+    which could quote the request."""
+    import anthropic
+
+    key = api_key.current()[0]
+    if not key:
+        return "missing"
+    try:
+        anthropic.Anthropic(api_key=key, timeout=15.0, max_retries=0).models.list(limit=1)
+    except (anthropic.AuthenticationError, anthropic.PermissionDeniedError):
+        return "auth"
+    except anthropic.APIError:
+        return "unavailable"
+    return "ok"
 
 
 def complete(req: LLMRequest, spec: ModelSpec, effort: str) -> LLMReply:

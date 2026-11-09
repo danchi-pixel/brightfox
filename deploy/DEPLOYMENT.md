@@ -35,6 +35,7 @@ Internet ──► :80/:443  PitchDriven's caddy  (HTTPS via Let's Encrypt, secu
 | `compose.yaml` | the stack (copied from `src/deploy/` on each update) |
 | `.env` | `APP_UID` / `APP_GID` (mode 600, written by `update.sh`) |
 | `secrets.env` | `ANTHROPIC_API_KEY` (mode 600, written by `scripts/set-anthropic-key.sh`); empty at first |
+| `data/secrets/anthropic_api_key` | Foxy's key when a parent enters it in the app (**AI settings**; folder 700, file 600). It wins over `secrets.env`; removing it in the app falls back to `secrets.env`. Only the `danijel` family may change it (`UCILNICA_AI_KEY_FAMILIES` in `compose.yaml`). **Not in the backups** (they hold only the database and `files/`), so `pull-backup.ps1` never copies it to the PC; after a move to a new server, enter it again. |
 | `src/` | the source the current image was built from (`src.old`, `src.failed` after an update or rollback) |
 | `data/` (mode 700) | **all persistent data**: `ucilnica.db`, `files/<family>/<learner>/`, `backups/` |
 | `scripts/` | `update.sh`, `backup.sh`, `set-anthropic-key.sh` |

@@ -35,6 +35,19 @@ def configured() -> bool:
     return _configured()
 
 
+# The "Test key" button. Tests swap it too, so they never reach the API.
+_key_check: Callable[[], str] = anthropic_provider.check_key
+
+
+def set_test_key_check(check: Callable[[], str] | None) -> None:
+    global _key_check
+    _key_check = check or anthropic_provider.check_key
+
+
+def check_key() -> str:
+    return _key_check()
+
+
 def route(db: Session, family_id: int, job: str) -> tuple[ModelSpec, str]:
     """The family's chosen model for a job if it is still allowed, else the default."""
     default = JOBS[job]
