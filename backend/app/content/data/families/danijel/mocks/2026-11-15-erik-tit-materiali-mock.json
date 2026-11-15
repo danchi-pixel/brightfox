@@ -1,0 +1,460 @@
+{
+  "id": "2026-11-15-erik-tit-materiali-mock",
+  "version": 2,
+  "subject": "other",
+  "grade": 6,
+  "title": "Poskusni test: TiT – papir, les, polimeri, kovine",
+  "intro": "Kot pravi test: 40 minut, brez zvezka in brez namigov. Kjer je treba razložiti, napiši cele povedi in dodaj primer. Odgovore na odprta vprašanja napiši na papir in jih primerjaj z rešitvami.",
+  "source": "Izvirni poskusni test po Erikovem zvezku TiT (popravljen prepis, 15. 11. 2026). Učiteljičina oblika testa ni znana; ocena je samo za domačo vajo.",
+  "for": [
+    "Erik"
+  ],
+  "minutes": 40,
+  "topics": [
+    "2026-11-15-erik-tit-materiali"
+  ],
+  "scale": {
+    "2": 50,
+    "3": 63,
+    "4": 76,
+    "5": 90
+  },
+  "sections": [
+    {
+      "title": "A. Papir, recikliranje in polizdelki",
+      "tasks": [
+        {
+          "id": "m-celuloza",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "papir",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Najpomembnejša surovina za izdelavo papirja je ______.",
+          "answer": "celuloza",
+          "solution": "**celuloza**",
+          "accept": [
+            "celulozo"
+          ]
+        },
+        {
+          "id": "m-karton-max",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "papir",
+          "points": 1,
+          "kind": "number",
+          "prompt": "Karton ima od 150 do največ koliko g/m²?",
+          "answer": 500,
+          "solution": "Karton: **150–500 g/m²**.",
+          "unit": "g/m²"
+        },
+        {
+          "id": "m-lepenka",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "papir",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Kaj velja za lepenko?",
+          "options": [
+            "tanka, enoplastna, do 150 g/m²",
+            "do 5 mm debela, večplastna, plasti so enake",
+            "eno- do troplastna, plasti različne kakovosti"
+          ],
+          "answer": 1,
+          "solution": "Lepenka: **do 5 mm, večplastna, enake plasti**, nad 500 g/m². Prvi odgovor je papir, tretji karton."
+        },
+        {
+          "id": "m-transport",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "papir",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Kateri material je lahek in trden ter ga uporabljamo za transportno embalažo?",
+          "options": [
+            "list papirja",
+            "valovita lepenka",
+            "higienski papir"
+          ],
+          "answer": 1,
+          "solution": "**Valovita lepenka**."
+        },
+        {
+          "id": "m-recikl",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "recikl",
+          "points": 2,
+          "kind": "open",
+          "prompt": "Kaj zajema recikliranje? Naštej tri korake in en namen.",
+          "solution": "Koraki: **ločeno zbiranje odpadkov, ponovna predelava, ponovna uporaba** (1 točka). Namen: manj izčrpavamo naravne surovine / varčujemo z energijo / varujemo okolje (1 točka)."
+        },
+        {
+          "id": "m-polizdelek",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "recikl",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Kateri je polizdelek?",
+          "options": [
+            "miza",
+            "jeklena pločevina",
+            "železova ruda",
+            "zvezek"
+          ],
+          "answer": 1,
+          "solution": "**Jeklena pločevina** je polizdelek. Ruda je surovina, miza in zvezek sta izdelka."
+        },
+        {
+          "id": "m-veriga",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "recikl",
+          "points": 2,
+          "kind": "open",
+          "prompt": "Dopolni verigi: nafta → ______ → vrečka in lesovina → ______ → zvezek.",
+          "solution": "nafta → **plastična folija** → vrečka; lesovina → **list papirja** → zvezek. (vsak 1 točka)"
+        }
+      ]
+    },
+    {
+      "title": "B. Gozd in les",
+      "tasks": [
+        {
+          "id": "m-gozd",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "gozd",
+          "points": 1,
+          "kind": "number",
+          "prompt": "Približno koliko odstotkov Slovenije je poraslo z gozdovi?",
+          "answer": 60,
+          "solution": "Približno **60 %**.",
+          "unit": "%"
+        },
+        {
+          "id": "m-pomen",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "gozd",
+          "points": 2,
+          "kind": "open",
+          "prompt": "Napiši dva primera gospodarskega in dva primera ekološkega pomena gozda.",
+          "solution": "Gospodarski (npr.): les za izdelke in gradivo, delovna mesta, vir energije, turizem, izvoz. Ekološki (npr.): proizvodnja kisika, čiščenje zraka, zadrževanje vode, varovanje tal pred erozijo, življenjski prostor živali. (pol točke za vsak primer)"
+        },
+        {
+          "id": "m-iglavci",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "les",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "V kateri vrstici so samo iglavci?",
+          "options": [
+            "smreka, bor, macesen",
+            "bukev, hrast, jesen",
+            "smreka, bukev, bor"
+          ],
+          "answer": 0,
+          "solution": "Iglavci: **smreka, bor, macesen**."
+        },
+        {
+          "id": "m-hrast",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "les",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Zelo trd in trajen les za sode in stopnice je …",
+          "options": [
+            "smreka",
+            "jesen",
+            "hrast"
+          ],
+          "answer": 2,
+          "solution": "**hrast**"
+        },
+        {
+          "id": "m-bukev",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "les",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Iz katerega lesa so parket in igrače (trden, dober za upogibanje)?",
+          "options": [
+            "bukev",
+            "macesen",
+            "bor"
+          ],
+          "answer": 0,
+          "solution": "**bukev**"
+        },
+        {
+          "id": "m-pro-slab",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "les-pro",
+          "points": 2,
+          "kind": "open",
+          "prompt": "Napiši dve prednosti in dve slabosti lesa.",
+          "solution": "Prednosti (npr.): naravna in obnovljiva surovina, enostavna obdelava, dobra trdnost glede na maso, prijeten videz, recikliranje. Slabosti (npr.): občutljiv na vlago in škodljivce, lahko gori, spreminja obliko zaradi vlage, nekatere vrste počasi rastejo. (pol točke za vsako)"
+        },
+        {
+          "id": "m-trajnost",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "les-pro",
+          "points": 2,
+          "kind": "open",
+          "prompt": "Kdaj je les trajnostni material? Napiši dva pogoja.",
+          "solution": "Npr.: drevesa po poseku nadomestimo z novimi; izdelke uporabljamo dolgo časa; les ponovno uporabimo in recikliramo; prednost dajemo lokalnemu lesu. (1 točka za vsak pogoj)"
+        }
+      ]
+    },
+    {
+      "title": "C. Umetne snovi (polimeri)",
+      "tasks": [
+        {
+          "id": "m-monomer",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "polimeri",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Polimeri so dolge verige manjših delov, ki jim rečemo ______.",
+          "answer": "monomeri",
+          "solution": "**monomeri**",
+          "accept": [
+            "monomerov",
+            "monomer"
+          ]
+        },
+        {
+          "id": "m-termoplast",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "polimeri",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Kateri polimeri se pri segrevanju zmehčajo in jih lahko večkrat preoblikujemo?",
+          "options": [
+            "duroplasti",
+            "termoplasti",
+            "elastomeri"
+          ],
+          "answer": 1,
+          "solution": "**termoplasti**"
+        },
+        {
+          "id": "m-duroplast",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "polimeri",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Električna vtičnica je iz bakelita (PF). Kateri vrsti polimerov pripada?",
+          "options": [
+            "termoplasti",
+            "duroplasti",
+            "silikoni"
+          ],
+          "answer": 1,
+          "solution": "**duroplasti** – po utrditvi jih ne moremo več preoblikovati."
+        },
+        {
+          "id": "m-silikon",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "polimeri",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Kateri polimeri so odporni na toploto, vlago in kemikalije?",
+          "options": [
+            "elastomeri",
+            "silikoni",
+            "termoplasti"
+          ],
+          "answer": 1,
+          "solution": "**silikoni**"
+        },
+        {
+          "id": "m-pet",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "kratice",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Napiši kratico polimera, iz katerega je plastenka za pijačo.",
+          "answer": "PET",
+          "solution": "**PET** (polietilen tereftalat)."
+        },
+        {
+          "id": "m-pvc",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "kratice",
+          "points": 1,
+          "kind": "text",
+          "prompt": "Vodovodna cev je iz polimera s kratico ______.",
+          "answer": "PVC",
+          "solution": "**PVC** (polivinilklorid)."
+        },
+        {
+          "id": "m-pp",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "kratice",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Posodica za jogurt je iz …",
+          "options": [
+            "PE – polietilen",
+            "PP – polipropilen",
+            "ABS"
+          ],
+          "answer": 1,
+          "solution": "**PP – polipropilen**."
+        },
+        {
+          "id": "m-naravni",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "nar-sint",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Kateri je naravni polimer?",
+          "options": [
+            "škrob",
+            "PVC",
+            "PET"
+          ],
+          "answer": 0,
+          "solution": "**škrob** (tudi celuloza, beljakovine, kavčuk, hitin)."
+        },
+        {
+          "id": "m-okolje",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "nar-sint",
+          "points": 2,
+          "kind": "open",
+          "prompt": "Napiši dva načina, kako plastika škodi okolju.",
+          "solution": "Npr.: odpadna plastika onesnažuje kopno in morje; mikroplastika prehaja v prehranjevalne verige; pri sežiganju nastajajo škodljivi plini. (1 točka za vsak)"
+        }
+      ]
+    },
+    {
+      "title": "Č. Kovine",
+      "tasks": [
+        {
+          "id": "m-zelezne",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "kovine",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Kaj spada med železne (črne) kovine?",
+          "options": [
+            "baker",
+            "jeklo",
+            "aluminij"
+          ],
+          "answer": 1,
+          "solution": "**jeklo** – zlitina železa."
+        },
+        {
+          "id": "m-lahke",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "kovine",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Katere kovine so lahke?",
+          "options": [
+            "baker, svinec, cink",
+            "aluminij, magnezij, titan",
+            "zlato, srebro, platina"
+          ],
+          "answer": 1,
+          "solution": "Lahke: **aluminij, magnezij, titan**."
+        },
+        {
+          "id": "m-plemenite",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "kovine",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Katere kovine so plemenite?",
+          "options": [
+            "volfram, krom",
+            "zlato, srebro, platina",
+            "kositer, nikelj"
+          ],
+          "answer": 1,
+          "solution": "Plemenite: **zlato, srebro, platina**."
+        },
+        {
+          "id": "m-baker",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "kov-upor",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Kovina, ki je odličen prevodnik elektrike in toplote, je …",
+          "options": [
+            "baker",
+            "svinec",
+            "kositer"
+          ],
+          "answer": 0,
+          "solution": "**baker**"
+        },
+        {
+          "id": "m-cink",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "kov-upor",
+          "points": 1,
+          "kind": "choice",
+          "prompt": "Strešni žlebovi in ograje so pocinkani. Kaj naredi cink?",
+          "options": [
+            "prevaja elektriko",
+            "ščiti železo pred rjavenjem",
+            "naredi železo tekoče"
+          ],
+          "answer": 1,
+          "solution": "Cink **ščiti železo pred rjavenjem**."
+        },
+        {
+          "id": "m-izdelki",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "kov-upor",
+          "points": 2,
+          "kind": "open",
+          "prompt": "Napiši kovino za vsak izdelek: pločevinka za pijačo, termometer, ribiška utež, kolesarski okvir.",
+          "solution": "pločevinka za pijačo – **aluminij**; termometer – **živo srebro**; ribiška utež – **svinec**; kolesarski okvir – **jeklo**. (pol točke za vsako)"
+        },
+        {
+          "id": "m-ogljik",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "zlitine",
+          "points": 1,
+          "kind": "number",
+          "prompt": "Lito železo vsebuje več kot koliko odstotkov ogljika?",
+          "answer": 2,
+          "solution": "Več kot **2 %**.",
+          "unit": "%"
+        }
+      ]
+    },
+    {
+      "title": "D. Razloži",
+      "tasks": [
+        {
+          "id": "m-razlika-pkl",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "papir",
+          "points": 3,
+          "kind": "open",
+          "prompt": "Razloži razliko med papirjem, kartonom in lepenko (debelina, plasti, gramatura).",
+          "solution": "Papir: tanek, enoplasten, do 150 g/m². Karton: debelejši, eno-, dvo- ali troplasten, plasti različne kakovosti, 150–500 g/m². Lepenka: najdebelejša (do 5 mm), večplastna, plasti enake, nad 500 g/m². (1 točka za vsak material)"
+        },
+        {
+          "id": "m-jeklo",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "zlitine",
+          "points": 2,
+          "kind": "open",
+          "prompt": "Kakšna je razlika med litim železom in jeklom? Zakaj železu dodamo ogljik?",
+          "solution": "Lito železo ima **več kot 2 %** ogljika, jeklo **manj kot 2 %** (1 točka). Ogljik dodamo, da spremenimo lastnosti železa, ker je čisto železo mehko in ni primerno za vse namene (1 točka)."
+        },
+        {
+          "id": "m-rja",
+          "topic": "2026-11-15-erik-tit-materiali",
+          "skill": "zlitine",
+          "points": 3,
+          "kind": "open",
+          "prompt": "Razloži: »Vsaka rja je korozija, ni pa vsaka korozija rja.« Za vsako navedi primer.",
+          "solution": "Korozija je propadanje kovine zaradi vpliva okolja, npr. **pozelenel baker** (1 točka + primer). Rja je korozijski produkt železa in jekla, npr. **zarjavel žebelj** (1 točka + primer). Rja je torej le ena vrsta korozije (1 točka)."
+        }
+      ]
+    }
+  ]
+}

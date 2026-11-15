@@ -1,0 +1,2084 @@
+{
+  "id": "2026-11-15-erik-tit-materiali",
+  "version": 2,
+  "format": 2,
+  "subject": "other",
+  "grade": 6,
+  "title": "TiT: papir, les, polimeri in kovine 🧰",
+  "intro": "Vse za test iz tehnike in tehnologije: papir, karton in lepenka, les in gozd, umetne snovi (polimeri) in kovine. Najprej Uči se in kartice, potem vaje. Za 5 znaj razložiti razliko in dodati primer.",
+  "source": "6 strani popravljenega prepisa zvezka TiT (mapa Tit, 15. 11. 2026), z Erikovimi ročnimi popravki. V 6. vrstici tabele lesa je jesen (preverjeno v zvezku).",
+  "for": [
+    "Erik"
+  ],
+  "skills": [
+    {
+      "id": "papir",
+      "title": "Papir, karton in lepenka"
+    },
+    {
+      "id": "recikl",
+      "title": "Recikliranje in polizdelki"
+    },
+    {
+      "id": "gozd",
+      "title": "Gozd in njegov pomen"
+    },
+    {
+      "id": "les",
+      "title": "Vrste lesa in njihova uporaba"
+    },
+    {
+      "id": "les-pro",
+      "title": "Prednosti, slabosti in trajnost lesa"
+    },
+    {
+      "id": "polimeri",
+      "title": "Kaj so polimeri in vrste polimerov"
+    },
+    {
+      "id": "kratice",
+      "title": "Polimeri: kratice in izdelki"
+    },
+    {
+      "id": "nar-sint",
+      "title": "Naravni in sintetični polimeri, plastika in okolje"
+    },
+    {
+      "id": "kovine",
+      "title": "Delitev kovin"
+    },
+    {
+      "id": "kov-upor",
+      "title": "Kovine: lastnosti in uporaba"
+    },
+    {
+      "id": "zlitine",
+      "title": "Lito železo, jeklo, korozija in rja"
+    }
+  ],
+  "learn": [
+    {
+      "title": "Kaj bo na testu",
+      "text": "Test iz tehnike in tehnologije (TiT) zajema snov iz zvezka: papir (papir, karton, lepenka, recikliranje), les (gozd, vrste lesa, prednosti in slabosti, trajnost), umetne snovi oziroma polimere (vrste, kratice, naravni in sintetični, vpliv na okolje), kovine (delitev, uporaba, lito železo in jeklo, korozija in rja) ter polizdelke.",
+      "example": "Štiri gradiva: PAPIR → LES → POLIMERI (plastika) → KOVINE, vmes še polizdelki."
+    },
+    {
+      "title": "Papir v enem stavku",
+      "text": "Papir je tanek in enoplasten (do 150 g/m²), karton je debelejši, eno-, dvo- ali troplasten (150–500 g/m²), lepenka je najdebelejša, do 5 mm, večplastna z enakimi plastmi (nad 500 g/m²). Glavna surovina za papir je celuloza.",
+      "example": "Zvezek = papir · škatla za čevlje = karton · škatla za selitev = valovita lepenka"
+    },
+    {
+      "title": "Les v enem stavku",
+      "text": "Slovenija je približno 60 % pokrita z gozdovi. Gozd ima gospodarski pomen (les, delovna mesta, energija, turizem, izvoz) in ekološki pomen (kisik, čist zrak, zadrževanje vode, varovanje tal pred erozijo, življenjski prostor živali). Iglavci: smreka, bor, macesen. Listavci: bukev, hrast, jesen.",
+      "example": "Les je trajnostni material, kadar drevesa po poseku nadomestimo z novimi."
+    },
+    {
+      "title": "Polimeri v enem stavku",
+      "text": "Polimeri so snovi iz dolgih verig manjših delov, ki jim rečemo monomeri. Vrste: termoplasti (pri segrevanju se zmehčajo, večkrat jih preoblikujemo), duroplasti (po utrditvi jih ne moremo več preoblikovati), elastomeri (elastični, vrnejo se v prvotno obliko) in silikoni (odporni na toploto, vlago in kemikalije).",
+      "example": "PET plastenka · PE vrečka · PVC vodovodna cev · PP posodica za jogurt"
+    },
+    {
+      "title": "Kovine v enem stavku",
+      "text": "Kovine delimo na železne (črne: železo in njegove zlitine, npr. jeklo in lito železo) in neželezne (barvne): težke, lahke, plemenite in redke. Lito železo ima več kot 2 % ogljika, jeklo manj kot 2 %. Korozija je propadanje kovine zaradi vpliva okolja, rja je korozija železa in jekla.",
+      "example": "Vsaka rja je korozija, ni pa vsaka korozija rja."
+    },
+    {
+      "title": "Kako do petice",
+      "text": "Vsak dan 20–30 minut: najprej 📖 Uči se (en ali dva razdelka), nato kartice, nato ✏️ Vaja. Ko gre vaja brez napak, odpri 🏆 Ligo prvakov in 🎤 Ustno. Dan pred testom reši poskusni test. Za 5 ni dovolj našteti: znaj tudi RAZLOŽITI (zakaj, kakšna je razlika) in navesti PRIMER.",
+      "example": "Vprašanje »Kakšna je razlika med rjo in korozijo?« → razlika + primer (zelen baker, zarjavel žebelj)."
+    }
+  ],
+  "study": {
+    "goals": [
+      {
+        "id": "g-papir",
+        "skill": "papir",
+        "text": "Ločim papir, karton in lepenko po debelini, plasteh, gramaturi in uporabi."
+      },
+      {
+        "id": "g-recikl",
+        "skill": "recikl",
+        "text": "Razložim recikliranje in polizdelek ter navedem verigo surovina → polizdelek → izdelek."
+      },
+      {
+        "id": "g-les",
+        "skill": "les",
+        "text": "Povem pomen gozda in za 6 vrst lesa skupino, lastnosti in uporabo."
+      },
+      {
+        "id": "g-les-pro",
+        "skill": "les-pro",
+        "text": "Naštejem prednosti in slabosti lesa ter kdaj je les trajnostni material."
+      },
+      {
+        "id": "g-polimeri",
+        "skill": "polimeri",
+        "text": "Razložim, kaj so polimeri, in ločim termoplaste, duroplaste, elastomere in silikone."
+      },
+      {
+        "id": "g-kratice",
+        "skill": "kratice",
+        "text": "Poznam kratice PET, PE, PVC, PP, ABS, SBR, PF in SI ter izdelek za vsako."
+      },
+      {
+        "id": "g-nar-sint",
+        "skill": "nar-sint",
+        "text": "Primerjam naravne in sintetične polimere in razložim, kako plastika škodi okolju."
+      },
+      {
+        "id": "g-kovine",
+        "skill": "kovine",
+        "text": "Razvrstim kovine, povem njihovo uporabo in razliko med litim železom in jeklom, rjo in korozijo."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Papir, karton, lepenka",
+        "skill": "papir",
+        "text": "Danes papir uporabljamo za tiskarstvo (zvezki, knjige, učbeniki), higienski papir (WC papir, papirnate brisače), embalažo (kartonske škatle) in denar. Najpomembnejša surovina za papir je celuloza. Papir, karton in lepenko ločimo po debelini, plastnosti in teži (gramaturi). Gramatura pove, koliko gramov tehta 1 m² papirja (g/m²). Debelino presodimo po videzu in otipu: karton je debelejši od papirja in tanjši od lepenke. Pri kartonu se plasti med seboj razlikujejo po kakovosti, pri lepenki so plasti med seboj enake.",
+        "table": {
+          "head": [
+            "lastnost",
+            "pisarniški papir",
+            "karton",
+            "lepenka"
+          ],
+          "rows": [
+            [
+              "debelina",
+              "tanek",
+              "debelejši",
+              "najdebelejša, do 5 mm"
+            ],
+            [
+              "plasti",
+              "enoplasten",
+              "eno-, dvo- ali troplasten, plasti so različne",
+              "večplastna, plasti so enake"
+            ],
+            [
+              "gramatura",
+              "do 150 g/m²",
+              "150–500 g/m²",
+              "nad 500 g/m²"
+            ],
+            [
+              "uporaba",
+              "listi za pisanje in tiskanje",
+              "embalaža, platnice",
+              "škatle za transport, platnice knjig"
+            ]
+          ]
+        },
+        "examples": [
+          "list papirja: tanek, primeren za tiskanje → zvezki, risbe, dokumenti",
+          "karton: debelejši od papirja → embalaža, mape, škatle",
+          "valovita lepenka: lahka in trdna → transportna embalaža; je enoslojna ali dvoslojna",
+          "kartonska cev: trdna in lahka → navijanje materialov"
+        ],
+        "watch_out": [
+          {
+            "wrong": "Lepenka ima 500 g/m².",
+            "right": "Lepenka ima NAD 500 g/m².",
+            "why": "Do 500 g/m² je še karton (150–500)."
+          },
+          {
+            "wrong": "Plasti kartona se razlikujejo po barvi.",
+            "right": "Plasti kartona se razlikujejo po kakovosti.",
+            "why": "Tako je popravljeno v zvezku."
+          },
+          {
+            "wrong": "Plasti lepenke so različne.",
+            "right": "Plasti lepenke so med seboj enake.",
+            "why": "Različne plasti ima karton, enake lepenka."
+          }
+        ]
+      },
+      {
+        "title": "Recikliranje in polizdelki",
+        "skill": "recikl",
+        "text": "Recikliranje je proces, ki zajema ločeno zbiranje odpadkov, ponovno predelavo in ponovno uporabo izdelkov. Namen: manj izčrpavamo naravne surovine, ker za nove izdelke uporabimo odpadna gradiva. Tako ohranjamo naravne vire, varčujemo z energijo in posledično varujemo okolje. Polizdelek je material ali izdelek, ki je že delno predelan, vendar še ni končni izdelek. Iz njega naredimo uporabne predmete.",
+        "table": {
+          "head": [
+            "surovina",
+            "polizdelek",
+            "izdelek"
+          ],
+          "rows": [
+            [
+              "drevo",
+              "deska",
+              "miza"
+            ],
+            [
+              "železova ruda",
+              "jeklena pločevina",
+              "avtomobilska vrata"
+            ],
+            [
+              "nafta",
+              "plastična folija",
+              "vrečka"
+            ],
+            [
+              "lesovina",
+              "list papirja",
+              "zvezek"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Deska je izdelek.",
+            "right": "Deska je polizdelek, miza je izdelek.",
+            "why": "Deska je delno predelana, iz nje šele naredimo uporaben predmet."
+          },
+          {
+            "wrong": "Recikliranje = samo ločevanje smeti.",
+            "right": "Ločeno zbiranje + ponovna predelava + ponovna uporaba.",
+            "why": "Recikliranje ima vse tri korake."
+          }
+        ]
+      },
+      {
+        "title": "Gozd in njegov pomen",
+        "skill": "gozd",
+        "text": "Slovenija je približno 60 % porasla z gozdovi. Gozd proizvaja kisik, veže ogljikov dioksid, nudi življenjski prostor rastlinam in živalim, daje les kot pomembno surovino in omogoča rekreacijo in turizem. Odgovoren odnos do gozda: skrbna sečnja in pogozdovanje, ne odmetavamo odpadkov, spoštujemo živali in rastline, uporabljamo les iz trajnostno gospodarjenih gozdov.",
+        "table": {
+          "head": [
+            "gospodarski pomen",
+            "ekološki pomen"
+          ],
+          "rows": [
+            [
+              "les za izdelke in gradivo",
+              "proizvodnja kisika"
+            ],
+            [
+              "delovna mesta v gozdarstvu in lesarstvu",
+              "čiščenje zraka"
+            ],
+            [
+              "vir energije (drva, peleti)",
+              "zadrževanje vode"
+            ],
+            [
+              "razvoj turizma",
+              "varovanje tal pred erozijo"
+            ],
+            [
+              "izvoz lesa in izdelkov",
+              "življenjski prostor živali"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Turizem je ekološki pomen gozda.",
+            "right": "Turizem je gospodarski pomen.",
+            "why": "Gospodarski = prinaša denar in delo. Ekološki = koristi naravi."
+          }
+        ]
+      },
+      {
+        "title": "Najpogostejše domače vrste lesa",
+        "skill": "les",
+        "text": "Iglavci imajo iglice, listavci liste. Zapomni si: iglavci = smreka, bor, macesen; listavci = bukev, hrast, jesen.",
+        "table": {
+          "head": [
+            "les",
+            "skupina",
+            "lastnosti",
+            "uporaba"
+          ],
+          "rows": [
+            [
+              "smreka",
+              "iglavci",
+              "mehka, lahka, enostavna za obdelavo",
+              "pohištvo, okna, vrata"
+            ],
+            [
+              "bor",
+              "iglavci",
+              "trpežen, odporen proti vlagi",
+              "ostrešja, gradbeništvo"
+            ],
+            [
+              "macesen",
+              "iglavci",
+              "elastičen, trajen",
+              "obloge"
+            ],
+            [
+              "bukev",
+              "listavci",
+              "trden, dober za upogibanje",
+              "pohištvo, parket, igrače"
+            ],
+            [
+              "hrast",
+              "listavci",
+              "zelo trd in trajen",
+              "pohištvo, sodi, stopnice"
+            ],
+            [
+              "jesen",
+              "listavci",
+              "žilav in elastičen",
+              "športni rekviziti, pohištvo"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Macesen je listavec.",
+            "right": "Macesen je iglavec.",
+            "why": "Macesen ima iglice (jeseni porumenijo in odpadejo), a je iglavec."
+          },
+          {
+            "wrong": "Bukev je iglavec.",
+            "right": "Bukev je listavec.",
+            "why": "Iz bukve so parket, igrače in pohištvo."
+          }
+        ]
+      },
+      {
+        "title": "Prednosti, slabosti in trajnost lesa",
+        "skill": "les-pro",
+        "text": "Les je trajnostni material, kadar: drevesa po poseku nadomestimo z novimi, izdelke uporabljamo dolgo časa, les ponovno uporabimo in recikliramo ter prednost dajemo lokalnemu lesu.",
+        "table": {
+          "head": [
+            "prednosti lesa",
+            "slabosti lesa"
+          ],
+          "rows": [
+            [
+              "naravna in obnovljiva surovina",
+              "občutljiv na vlago in škodljivce"
+            ],
+            [
+              "enostavna obdelava",
+              "lahko gori"
+            ],
+            [
+              "dobra trdnost glede na maso",
+              "spreminja obliko zaradi vlage"
+            ],
+            [
+              "prijeten videz",
+              "nekatere vrste počasi rastejo"
+            ],
+            [
+              "možnost recikliranja",
+              "–"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Les ni obnovljiv.",
+            "right": "Les je naravna in obnovljiva surovina.",
+            "why": "Posekana drevesa nadomestimo z novimi."
+          }
+        ]
+      },
+      {
+        "title": "Kaj so polimeri? Vrste polimerov",
+        "skill": "polimeri",
+        "text": "Umetne snovi (polimeri) so plastika. Polimeri so snovi, sestavljene iz dolgih verig manjših delov, imenovanih monomeri. Predstavljaj si krožce (monomere), ki se povežejo v dolgo verigo (polimer). Primere za vrste najdeš v tabeli kratic: vtičnica iz bakelita (PF) je duroplast, avtomobilska guma (SBR) je elastomer, tesnila (SI) so iz silikona.",
+        "table": {
+          "head": [
+            "vrsta",
+            "značilnost",
+            "primer"
+          ],
+          "rows": [
+            [
+              "termoplasti",
+              "pri segrevanju se zmehčajo, večkrat jih preoblikujemo",
+              "polietilen (PE), polipropilen (PP)"
+            ],
+            [
+              "duroplasti",
+              "po utrditvi jih ne moremo več preoblikovati",
+              "bakelit (PF): električna vtičnica"
+            ],
+            [
+              "elastomeri",
+              "so elastični, po raztezanju se vrnejo v prvotno obliko",
+              "guma (SBR): avtomobilska guma"
+            ],
+            [
+              "silikoni",
+              "so odporni na toploto, vlago in kemikalije",
+              "silikon (SI): tesnila"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Duroplaste lahko pretalimo in znova oblikujemo.",
+            "right": "Večkrat preoblikujemo samo termoplaste.",
+            "why": "Duroplasti po utrditvi ostanejo trdi."
+          },
+          {
+            "wrong": "Monomer je dolga veriga.",
+            "right": "Monomer je majhen del, polimer je dolga veriga.",
+            "why": "mono = en, poli = veliko"
+          }
+        ]
+      },
+      {
+        "title": "Najpogostejši polimeri in kratice",
+        "skill": "kratice",
+        "text": "Za vsako kratico znaj izdelek in polno ime. Najlažje si jih zapomniš z izdelkom: PET = plastenka, PE = vrečka, PVC = cev, PP = jogurt.",
+        "table": {
+          "head": [
+            "izdelek",
+            "kratica",
+            "ime polimera"
+          ],
+          "rows": [
+            [
+              "plastenka za pijačo",
+              "PET",
+              "polietilen tereftalat"
+            ],
+            [
+              "nakupovalna vrečka",
+              "PE",
+              "polietilen"
+            ],
+            [
+              "vodovodna cev",
+              "PVC",
+              "polivinilklorid"
+            ],
+            [
+              "posodica za jogurt",
+              "PP",
+              "polipropilen"
+            ],
+            [
+              "ohišje računalniške miške",
+              "ABS",
+              "akrilonitril-butadien-stiren"
+            ],
+            [
+              "avtomobilska guma",
+              "SBR",
+              "stiren-butadien kavčuk"
+            ],
+            [
+              "električna vtičnica",
+              "PF (bakelit)",
+              "fenol-formaldehidna smola"
+            ],
+            [
+              "tesnila",
+              "SI",
+              "silikon"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "PE = polipropilen",
+            "right": "PE = polietilen, PP = polipropilen",
+            "why": "E kot Etilen, P kot Propilen."
+          },
+          {
+            "wrong": "PET = polietilen",
+            "right": "PET = polietilen tereftalat (plastenka)",
+            "why": "T na koncu je tereftalat."
+          }
+        ]
+      },
+      {
+        "title": "Naravni in sintetični polimeri, plastika in okolje",
+        "skill": "nar-sint",
+        "text": "Naravni polimeri nastajajo v naravi, tvorijo jih živi organizmi: celuloza, škrob, beljakovine, kavčuk, hitin. Sintetične polimere izdeluje človek, večinoma iz nafte, zemeljskega plina ali premoga: PE, PP, PVC, PET. Vpliv plastike na okolje: velika količina odpadne plastike onesnažuje kopno in morje, mikroplastika prehaja v prehranjevalne verige, pri sežiganju nekaterih plastik nastajajo škodljivi plini. Zato je pomembno zmanjševati uporabo plastike za enkratno uporabo.",
+        "table": {
+          "head": [
+            "primerjava",
+            "naravni polimeri",
+            "sintetični polimeri"
+          ],
+          "rows": [
+            [
+              "kdo jih naredi",
+              "živi organizmi",
+              "človek (iz nafte, plina, premoga)"
+            ],
+            [
+              "primeri",
+              "celuloza, škrob, beljakovine, kavčuk, hitin",
+              "PE, PP, PVC, PET"
+            ],
+            [
+              "prednosti",
+              "obnovljivi viri, biološko razgradljivi, manj obremenjujejo okolje",
+              "lahki, poceni, odporni proti koroziji, enostavna proizvodnja"
+            ],
+            [
+              "slabosti",
+              "manj obstojni, pogosto dražji",
+              "počasno razgrajevanje, odpadki, škodljivi vplivi na okolje"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Kavčuk je sintetični polimer.",
+            "right": "Kavčuk je naravni polimer.",
+            "why": "Naravni kavčuk je sok drevesa (kavčukovca)."
+          }
+        ]
+      },
+      {
+        "title": "Delitev kovin",
+        "skill": "kovine",
+        "text": "Kovine delimo na železne (črne) in neželezne (barvne). Železne so železo in njegove zlitine (jeklo, lito železo). Neželezne delimo na težke, lahke, plemenite in redke.",
+        "table": {
+          "head": [
+            "skupina",
+            "kovine"
+          ],
+          "rows": [
+            [
+              "železne (črne)",
+              "železo in njegove zlitine: jeklo, lito železo"
+            ],
+            [
+              "neželezne – težke",
+              "baker, svinec, nikelj, cink, kositer, živo srebro"
+            ],
+            [
+              "neželezne – lahke",
+              "aluminij, magnezij, titan"
+            ],
+            [
+              "neželezne – plemenite",
+              "zlato, srebro, platina"
+            ],
+            [
+              "neželezne – redke",
+              "volfram, krom"
+            ]
+          ]
+        },
+        "examples": [
+          "Trik za lahke: »ALuminij, MAgnezij, TItan« – iz njih so letala in kolesa.",
+          "Trik za plemenite: zlato, srebro, platina – iz njih je nakit."
+        ],
+        "watch_out": [
+          {
+            "wrong": "Aluminij je težka kovina.",
+            "right": "Aluminij je lahka kovina.",
+            "why": "Lahke: aluminij, magnezij, titan."
+          },
+          {
+            "wrong": "Jeklo je neželezna kovina.",
+            "right": "Jeklo je železna (črna) kovina.",
+            "why": "Jeklo je zlitina železa z ogljikom."
+          }
+        ]
+      },
+      {
+        "title": "Kovine: lastnosti in uporaba",
+        "skill": "kov-upor",
+        "table": {
+          "head": [
+            "kovina",
+            "lastnost",
+            "izdelki"
+          ],
+          "rows": [
+            [
+              "jeklo",
+              "trdo, žilavo, dobro za konstrukcije in orodja",
+              "vijaki, kolesarski okvirji, kuhinjski noži"
+            ],
+            [
+              "železova litina",
+              "trdna, dobro se ulije v kalupe",
+              "lonci, pokrovi jaškov, radiatorji"
+            ],
+            [
+              "baker",
+              "odličen prevodnik elektrike in toplote",
+              "električni vodniki, vodovodne cevi, posoda"
+            ],
+            [
+              "svinec",
+              "zelo težka in mehka kovina",
+              "akumulatorji, ribiške uteži, zaščita pred rentgenom"
+            ],
+            [
+              "nikelj",
+              "odporen proti koroziji",
+              "(v zvezku prazno)"
+            ],
+            [
+              "cink",
+              "ščiti železo pred rjavenjem",
+              "pocinkana ograja, strešni žlebovi, vedra"
+            ],
+            [
+              "kositer",
+              "za prevleke in spajkanje",
+              "pločevinke za živila"
+            ],
+            [
+              "živo srebro",
+              "tekoča kovina pri sobni temperaturi",
+              "laboratorijski termometri, barometri"
+            ],
+            [
+              "aluminij",
+              "lahek, odporen proti koroziji",
+              "pločevinke za pijačo, lestve"
+            ],
+            [
+              "zlato",
+              "ne rjavi, zelo cenjeno",
+              "nakit, kovanci, elektronski kontakti"
+            ],
+            [
+              "srebro",
+              "dober prevodnik elektrike",
+              "nakit, jedilni pribor"
+            ],
+            [
+              "krom",
+              "trd in odporen proti koroziji",
+              "kromirane pipe, avtomobilski deli, jedilni pribor"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Najboljši prevodnik v tabeli je svinec.",
+            "right": "Baker je odličen prevodnik elektrike in toplote.",
+            "why": "Zato so električni vodniki iz bakra."
+          },
+          {
+            "wrong": "Živo srebro je trdno.",
+            "right": "Živo srebro je tekoče pri sobni temperaturi.",
+            "why": "To je edina kovina v tabeli, ki je tekoča."
+          }
+        ]
+      },
+      {
+        "title": "Lito železo, jeklo, korozija in rja",
+        "skill": "zlitine",
+        "text": "Lito železo in jeklo sta dve vrsti železo-ogljikovih zlitin. Glavna razlika je v vsebnosti ogljika: lito železo je bolj bogato z ogljikom in vsebuje več kot 2 % ogljika, jeklo pa manj kot 2 %. Ogljik dodamo zato, da spremenimo lastnosti železa: čisto železo je mehka kovina in ni primerno za uporabo na različnih področjih. Korozija je propadanje kovine zaradi vpliva okolja (pozelenel baker). Rja je korozijski produkt železa in jekla (zarjavel žebelj). Vsaka rja je korozija, ni pa vsaka korozija rja.",
+        "table": {
+          "head": [
+            "primerjava",
+            "lito železo",
+            "jeklo"
+          ],
+          "rows": [
+            [
+              "ogljik",
+              "več kot 2 %",
+              "manj kot 2 %"
+            ],
+            [
+              "lastnosti",
+              "trdno, dobro se ulije v kalupe",
+              "trdo in žilavo"
+            ],
+            [
+              "izdelki",
+              "lonci, pokrovi jaškov, radiatorji",
+              "vijaki, kolesarski okvirji, noži"
+            ]
+          ]
+        },
+        "watch_out": [
+          {
+            "wrong": "Jeklo ima več ogljika kot lito železo.",
+            "right": "Lito železo ima več ogljika (nad 2 %).",
+            "why": "Jeklo ima manj kot 2 % ogljika."
+          },
+          {
+            "wrong": "Pozelenel baker je zarjavel.",
+            "right": "Pozelenel baker je korodiral.",
+            "why": "Rja je samo pri železu in jeklu."
+          },
+          {
+            "wrong": "Vsaka korozija je rja.",
+            "right": "Vsaka rja je korozija, ni pa vsaka korozija rja.",
+            "why": "Korozija je širši pojem."
+          }
+        ]
+      },
+      {
+        "title": "Pazi na pravopis (iz zvezka)",
+        "skill": "papir",
+        "text": "Te besede so bile v popravkih zapisane narobe. Na testu jih napiši pravilno, ker učiteljica lahko odbije točke za pravopis.",
+        "table": {
+          "head": [
+            "narobe",
+            "prav"
+          ],
+          "rows": [
+            [
+              "plastnice knjig",
+              "platnice knjig"
+            ],
+            [
+              "laboritorijski termometri",
+              "laboratorijski termometri"
+            ],
+            [
+              "duoslojna",
+              "dvoslojna"
+            ],
+            [
+              "železo ogljikove zlitine",
+              "železo-ogljikove zlitine"
+            ],
+            [
+              "sinetični polimeri",
+              "sintetični polimeri"
+            ],
+            [
+              "je spremenil lastnosti železu",
+              "da spremenimo lastnosti železa"
+            ]
+          ]
+        }
+      }
+    ],
+    "cards": [
+      {
+        "front": "Najpomembnejša surovina za papir",
+        "back": "celuloza",
+        "skill": "papir"
+      },
+      {
+        "front": "Po čem ločimo papir, karton in lepenko?",
+        "back": "po debelini, plastnosti in teži (gramaturi)",
+        "skill": "papir"
+      },
+      {
+        "front": "Gramatura",
+        "back": "masa 1 m² papirja v gramih (g/m²)",
+        "skill": "papir"
+      },
+      {
+        "front": "Gramatura papirja",
+        "back": "do 150 g/m²",
+        "skill": "papir"
+      },
+      {
+        "front": "Gramatura kartona",
+        "back": "150–500 g/m²",
+        "skill": "papir"
+      },
+      {
+        "front": "Gramatura lepenke",
+        "back": "nad 500 g/m²",
+        "skill": "papir"
+      },
+      {
+        "front": "Papir: debelina in plasti",
+        "back": "tanek, enoplasten",
+        "skill": "papir"
+      },
+      {
+        "front": "Karton: plasti",
+        "back": "eno-, dvo- ali troplasten; plasti se razlikujejo po kakovosti",
+        "skill": "papir"
+      },
+      {
+        "front": "Lepenka: debelina in plasti",
+        "back": "do 5 mm, večplastna, plasti so enake",
+        "skill": "papir"
+      },
+      {
+        "front": "Valovita lepenka",
+        "back": "lahka in trdna, enoslojna ali dvoslojna; transportna embalaža",
+        "skill": "papir"
+      },
+      {
+        "front": "Kartonska cev",
+        "back": "trdna in lahka; za navijanje materialov",
+        "skill": "papir"
+      },
+      {
+        "front": "Za kaj danes uporabljamo papir? (4)",
+        "back": "tiskarstvo, higienski papir, embalaža, denar",
+        "skill": "papir"
+      },
+      {
+        "front": "Recikliranje (3 koraki)",
+        "back": "ločeno zbiranje, ponovna predelava, ponovna uporaba",
+        "skill": "recikl"
+      },
+      {
+        "front": "Namen recikliranja",
+        "back": "manj izčrpavamo naravne surovine, varčujemo z energijo, varujemo okolje",
+        "skill": "recikl"
+      },
+      {
+        "front": "Polizdelek",
+        "back": "delno predelan material, ki še ni končni izdelek",
+        "skill": "recikl"
+      },
+      {
+        "front": "drevo → ? → miza",
+        "back": "deska (polizdelek)",
+        "skill": "recikl"
+      },
+      {
+        "front": "železova ruda → ? → avtomobilska vrata",
+        "back": "jeklena pločevina (polizdelek)",
+        "skill": "recikl"
+      },
+      {
+        "front": "nafta → ? → vrečka",
+        "back": "plastična folija (polizdelek)",
+        "skill": "recikl"
+      },
+      {
+        "front": "lesovina → ? → zvezek",
+        "back": "list papirja (polizdelek)",
+        "skill": "recikl"
+      },
+      {
+        "front": "Koliko Slovenije pokrivajo gozdovi?",
+        "back": "približno 60 %",
+        "skill": "gozd"
+      },
+      {
+        "front": "Gospodarski pomen gozda (5)",
+        "back": "les, delovna mesta, energija (drva, peleti), turizem, izvoz",
+        "skill": "gozd"
+      },
+      {
+        "front": "Ekološki pomen gozda (5)",
+        "back": "kisik, čist zrak, zadrževanje vode, tla pred erozijo, dom živali",
+        "skill": "gozd"
+      },
+      {
+        "front": "Odgovoren odnos do gozda",
+        "back": "skrbna sečnja in pogozdovanje, brez odpadkov, spoštovanje živali in rastlin",
+        "skill": "gozd"
+      },
+      {
+        "front": "Domači iglavci (3)",
+        "back": "smreka, bor, macesen",
+        "skill": "les"
+      },
+      {
+        "front": "Domači listavci (3)",
+        "back": "bukev, hrast, jesen",
+        "skill": "les"
+      },
+      {
+        "front": "smreka",
+        "back": "iglavec; mehka, lahka; pohištvo, okna, vrata",
+        "skill": "les"
+      },
+      {
+        "front": "bor",
+        "back": "iglavec; trpežen, odporen proti vlagi; ostrešja, gradbeništvo",
+        "skill": "les"
+      },
+      {
+        "front": "macesen",
+        "back": "iglavec; elastičen, trajen; obloge",
+        "skill": "les"
+      },
+      {
+        "front": "bukev",
+        "back": "listavec; trden, dober za upogibanje; pohištvo, parket, igrače",
+        "skill": "les"
+      },
+      {
+        "front": "hrast",
+        "back": "listavec; zelo trd in trajen; pohištvo, sodi, stopnice",
+        "skill": "les"
+      },
+      {
+        "front": "jesen",
+        "back": "listavec; žilav in elastičen; športni rekviziti, pohištvo",
+        "skill": "les"
+      },
+      {
+        "front": "Prednosti lesa (5)",
+        "back": "obnovljiv, enostavna obdelava, trden glede na maso, lep videz, recikliranje",
+        "skill": "les-pro"
+      },
+      {
+        "front": "Slabosti lesa (4)",
+        "back": "vlaga in škodljivci, gori, spreminja obliko, počasna rast",
+        "skill": "les-pro"
+      },
+      {
+        "front": "Kdaj je les trajnostni material?",
+        "back": "nova drevesa, dolga uporaba, ponovna uporaba in recikliranje, lokalni les",
+        "skill": "les-pro"
+      },
+      {
+        "front": "Polimer",
+        "back": "snov iz dolgih verig manjših delov (monomerov)",
+        "skill": "polimeri"
+      },
+      {
+        "front": "Monomer",
+        "back": "majhen del, iz katerega je sestavljen polimer",
+        "skill": "polimeri"
+      },
+      {
+        "front": "Termoplasti",
+        "back": "pri segrevanju se zmehčajo, večkrat jih preoblikujemo",
+        "skill": "polimeri"
+      },
+      {
+        "front": "Duroplasti",
+        "back": "po utrditvi jih ne moremo več preoblikovati",
+        "skill": "polimeri"
+      },
+      {
+        "front": "Elastomeri",
+        "back": "elastični, po raztezanju se vrnejo v prvotno obliko",
+        "skill": "polimeri"
+      },
+      {
+        "front": "Silikoni",
+        "back": "odporni na toploto, vlago in kemikalije",
+        "skill": "polimeri"
+      },
+      {
+        "front": "PET",
+        "back": "polietilen tereftalat – plastenka za pijačo",
+        "skill": "kratice"
+      },
+      {
+        "front": "PE",
+        "back": "polietilen – nakupovalna vrečka",
+        "skill": "kratice"
+      },
+      {
+        "front": "PVC",
+        "back": "polivinilklorid – vodovodna cev",
+        "skill": "kratice"
+      },
+      {
+        "front": "PP",
+        "back": "polipropilen – posodica za jogurt",
+        "skill": "kratice"
+      },
+      {
+        "front": "ABS",
+        "back": "akrilonitril-butadien-stiren – ohišje miške",
+        "skill": "kratice"
+      },
+      {
+        "front": "SBR",
+        "back": "stiren-butadien kavčuk – avtomobilska guma",
+        "skill": "kratice"
+      },
+      {
+        "front": "PF (bakelit)",
+        "back": "fenol-formaldehidna smola – električna vtičnica",
+        "skill": "kratice"
+      },
+      {
+        "front": "SI",
+        "back": "silikon – tesnila",
+        "skill": "kratice"
+      },
+      {
+        "front": "Naravni polimeri (primeri)",
+        "back": "celuloza, škrob, beljakovine, kavčuk, hitin",
+        "skill": "nar-sint"
+      },
+      {
+        "front": "Iz česa so sintetični polimeri?",
+        "back": "večinoma iz nafte, zemeljskega plina ali premoga",
+        "skill": "nar-sint"
+      },
+      {
+        "front": "Prednosti naravnih polimerov",
+        "back": "obnovljivi viri, biološko razgradljivi, manj obremenjujejo okolje",
+        "skill": "nar-sint"
+      },
+      {
+        "front": "Slabosti naravnih polimerov",
+        "back": "manj obstojni, pogosto dražji",
+        "skill": "nar-sint"
+      },
+      {
+        "front": "Prednosti sintetičnih polimerov",
+        "back": "lahki, poceni, odporni proti koroziji, enostavna proizvodnja",
+        "skill": "nar-sint"
+      },
+      {
+        "front": "Slabosti sintetičnih polimerov",
+        "back": "počasno razgrajevanje, odpadki, škodljivi vplivi na okolje",
+        "skill": "nar-sint"
+      },
+      {
+        "front": "Vpliv plastike na okolje",
+        "back": "onesnažuje kopno in morje, mikroplastika, strupeni plini pri sežiganju",
+        "skill": "nar-sint"
+      },
+      {
+        "front": "Železne (črne) kovine",
+        "back": "železo in njegove zlitine (jeklo, lito železo)",
+        "skill": "kovine"
+      },
+      {
+        "front": "Neželezne težke kovine",
+        "back": "baker, svinec, nikelj, cink, kositer, živo srebro",
+        "skill": "kovine"
+      },
+      {
+        "front": "Neželezne lahke kovine",
+        "back": "aluminij, magnezij, titan",
+        "skill": "kovine"
+      },
+      {
+        "front": "Plemenite kovine",
+        "back": "zlato, srebro, platina",
+        "skill": "kovine"
+      },
+      {
+        "front": "Redke kovine",
+        "back": "volfram, krom",
+        "skill": "kovine"
+      },
+      {
+        "front": "baker",
+        "back": "odličen prevodnik elektrike in toplote – vodniki, cevi",
+        "skill": "kov-upor"
+      },
+      {
+        "front": "svinec",
+        "back": "zelo težek in mehek – akumulatorji, uteži, zaščita pred rentgenom",
+        "skill": "kov-upor"
+      },
+      {
+        "front": "cink",
+        "back": "ščiti železo pred rjavenjem – pocinkana ograja, žlebovi",
+        "skill": "kov-upor"
+      },
+      {
+        "front": "kositer",
+        "back": "prevleke in spajkanje – pločevinke za živila",
+        "skill": "kov-upor"
+      },
+      {
+        "front": "živo srebro",
+        "back": "tekoče pri sobni temperaturi – termometri, barometri",
+        "skill": "kov-upor"
+      },
+      {
+        "front": "aluminij",
+        "back": "lahek, odporen proti koroziji – pločevinke za pijačo, lestve",
+        "skill": "kov-upor"
+      },
+      {
+        "front": "krom",
+        "back": "trd, odporen proti koroziji – kromirane pipe",
+        "skill": "kov-upor"
+      },
+      {
+        "front": "jeklo",
+        "back": "trdo, žilavo – vijaki, kolesarski okvirji, noži",
+        "skill": "kov-upor"
+      },
+      {
+        "front": "Ogljik v litem železu",
+        "back": "več kot 2 %",
+        "skill": "zlitine"
+      },
+      {
+        "front": "Ogljik v jeklu",
+        "back": "manj kot 2 %",
+        "skill": "zlitine"
+      },
+      {
+        "front": "Zakaj železu dodamo ogljik?",
+        "back": "da spremenimo lastnosti: čisto železo je mehko",
+        "skill": "zlitine"
+      },
+      {
+        "front": "Korozija",
+        "back": "propadanje kovine zaradi vpliva okolja (pozelenel baker)",
+        "skill": "zlitine"
+      },
+      {
+        "front": "Rja",
+        "back": "korozijski produkt železa in jekla (zarjavel žebelj)",
+        "skill": "zlitine"
+      },
+      {
+        "front": "Rja ali korozija?",
+        "back": "vsaka rja je korozija, ni pa vsaka korozija rja",
+        "skill": "zlitine"
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "surovina-papir",
+      "level": 1,
+      "kind": "text",
+      "prompt": "Katera je najpomembnejša surovina za izdelavo papirja? (ena beseda)",
+      "answer": "celuloza",
+      "solution": "Najpomembnejša surovina za papir je **celuloza**.",
+      "skill": "papir",
+      "accept": [
+        "celulozo"
+      ],
+      "hints": [
+        "Dobimo jo iz lesa."
+      ]
+    },
+    {
+      "id": "najdebelejsi",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Kateri material je najdebelejši?",
+      "options": [
+        "pisarniški papir",
+        "karton",
+        "lepenka"
+      ],
+      "answer": 2,
+      "solution": "**Lepenka** je najdebelejša (do 5 mm). Karton je debelejši od papirja in tanjši od lepenke.",
+      "skill": "papir"
+    },
+    {
+      "id": "iglavec",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Katero drevo je iglavec?",
+      "options": [
+        "bukev",
+        "hrast",
+        "smreka",
+        "jesen"
+      ],
+      "answer": 2,
+      "solution": "**Smreka** je iglavec. Iglavci so smreka, bor in macesen. Bukev, hrast in jesen so listavci.",
+      "skill": "les"
+    },
+    {
+      "id": "listavec",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Katero drevo je listavec?",
+      "options": [
+        "bor",
+        "macesen",
+        "bukev",
+        "smreka"
+      ],
+      "answer": 2,
+      "solution": "**Bukev** je listavec. Listavci: bukev, hrast, jesen.",
+      "skill": "les"
+    },
+    {
+      "id": "gozd-60",
+      "level": 1,
+      "kind": "number",
+      "prompt": "Približno koliko odstotkov Slovenije je poraslo z gozdovi?",
+      "answer": 60,
+      "solution": "Slovenija je približno **60 %** porasla z gozdovi.",
+      "skill": "gozd",
+      "unit": "%",
+      "hints": [
+        "Več kot polovica."
+      ]
+    },
+    {
+      "id": "kratica-plastenka",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Iz katerega polimera je plastenka za pijačo?",
+      "options": [
+        "PVC",
+        "PET",
+        "PP",
+        "SI"
+      ],
+      "answer": 1,
+      "solution": "Plastenka je iz **PET** (polietilen tereftalat).",
+      "skill": "kratice"
+    },
+    {
+      "id": "tekoca-kovina",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Katera kovina je pri sobni temperaturi tekoča?",
+      "options": [
+        "svinec",
+        "kositer",
+        "živo srebro",
+        "aluminij"
+      ],
+      "answer": 2,
+      "solution": "**Živo srebro** je tekoča kovina pri sobni temperaturi. Uporaba: laboratorijski termometri, barometri.",
+      "skill": "kov-upor"
+    },
+    {
+      "id": "lahka-kovina",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Katera kovina je LAHKA neželezna kovina?",
+      "options": [
+        "baker",
+        "aluminij",
+        "svinec",
+        "zlato"
+      ],
+      "answer": 1,
+      "solution": "Lahke kovine so **aluminij**, magnezij in titan.",
+      "skill": "kovine"
+    },
+    {
+      "id": "rja-kje",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Pri katerih kovinah nastane rja?",
+      "options": [
+        "pri bakru",
+        "pri železu in jeklu",
+        "pri zlatu",
+        "pri aluminiju"
+      ],
+      "answer": 1,
+      "solution": "Rja je korozijski produkt **železa in jekla** (zarjavel žebelj). Baker pozeleni, a to ni rja.",
+      "skill": "zlitine"
+    },
+    {
+      "id": "polizdelek-deska",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "drevo → ______ → miza. Kaj manjka?",
+      "options": [
+        "žaganje",
+        "deska",
+        "papir",
+        "les"
+      ],
+      "answer": 1,
+      "solution": "Drevo → **deska** (polizdelek) → miza (izdelek).",
+      "skill": "recikl"
+    },
+    {
+      "id": "termoplast-def",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Kateri polimeri se pri segrevanju zmehčajo in jih lahko večkrat preoblikujemo?",
+      "options": [
+        "termoplasti",
+        "duroplasti",
+        "elastomeri",
+        "silikoni"
+      ],
+      "answer": 0,
+      "solution": "To so **termoplasti** (npr. PE, PP). Termo = toplota.",
+      "skill": "polimeri"
+    },
+    {
+      "id": "gramatura-karton",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Koliko tehta 1 m² kartona (gramatura)?",
+      "options": [
+        "do 150 g/m²",
+        "150–500 g/m²",
+        "nad 500 g/m²"
+      ],
+      "answer": 1,
+      "solution": "Papir do 150 g/m², **karton 150–500 g/m²**, lepenka nad 500 g/m².",
+      "skill": "papir"
+    },
+    {
+      "id": "gramatura-papir",
+      "level": 2,
+      "kind": "number",
+      "prompt": "Gramatura pisarniškega papirja je največ koliko g/m²?",
+      "answer": 150,
+      "solution": "Pisarniški papir ima **do 150 g/m²**.",
+      "skill": "papir",
+      "unit": "g/m²"
+    },
+    {
+      "id": "lepenka-plasti",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kaj velja za plasti LEPENKE?",
+      "options": [
+        "plasti so si med seboj enake",
+        "plasti se razlikujejo po kakovosti",
+        "ima samo eno plast"
+      ],
+      "answer": 0,
+      "solution": "Lepenka je večplastna, **plasti so med seboj enake**. Pri kartonu se plasti razlikujejo po kakovosti. Papir je enoplasten.",
+      "skill": "papir"
+    },
+    {
+      "id": "karton-plasti",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Po čem se med seboj razlikujejo plasti kartona?",
+      "options": [
+        "po barvi",
+        "po kakovosti",
+        "po vonju"
+      ],
+      "answer": 1,
+      "solution": "Plasti kartona se razlikujejo **po kakovosti** (tako je popravljeno v zvezku).",
+      "skill": "papir"
+    },
+    {
+      "id": "selitev",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Iz česa je škatla za selitev ali transport?",
+      "options": [
+        "pisarniški papir",
+        "tanki karton",
+        "valovita lepenka"
+      ],
+      "answer": 2,
+      "solution": "Za transportno embalažo uporabljamo **(valovito) lepenko**, ker je lahka in trdna.",
+      "skill": "papir"
+    },
+    {
+      "id": "recikliranje-def",
+      "level": 2,
+      "kind": "open",
+      "prompt": "Kaj je recikliranje in kakšen je njegov namen? Odgovori v dveh povedih.",
+      "solution": "Recikliranje je proces, ki zajema **ločeno zbiranje odpadkov, ponovno predelavo in ponovno uporabo** izdelkov. Namen je, da **manj izčrpavamo naravne surovine**, varčujemo z energijo in tako varujemo okolje.",
+      "skill": "recikl",
+      "hints": [
+        "Trije koraki: zbiranje, predelava, uporaba."
+      ]
+    },
+    {
+      "id": "polizdelek-def",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kaj je polizdelek?",
+      "options": [
+        "končni izdelek, ki ga kupimo v trgovini",
+        "material, ki je že delno predelan, a še ni končni izdelek",
+        "surovina iz narave, npr. ruda"
+      ],
+      "answer": 1,
+      "solution": "Polizdelek je **delno predelan material**, iz katerega šele naredimo uporaben predmet (npr. deska, pločevina, folija, list papirja).",
+      "skill": "recikl"
+    },
+    {
+      "id": "ekoloski",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kaj je EKOLOŠKI pomen gozda?",
+      "options": [
+        "izvoz lesa",
+        "delovna mesta",
+        "varovanje tal pred erozijo",
+        "razvoj turizma"
+      ],
+      "answer": 2,
+      "solution": "**Varovanje tal pred erozijo** je ekološki pomen. Ostali so gospodarski pomen.",
+      "skill": "gozd"
+    },
+    {
+      "id": "gospodarski",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kaj je GOSPODARSKI pomen gozda?",
+      "options": [
+        "proizvodnja kisika",
+        "zadrževanje vode",
+        "vir energije (drva, peleti)",
+        "čiščenje zraka"
+      ],
+      "answer": 2,
+      "solution": "**Vir energije (drva, peleti)** je gospodarski pomen, ker prinaša denar in delo.",
+      "skill": "gozd"
+    },
+    {
+      "id": "les-sodi",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Iz katerega lesa so sodi in stopnice? Je zelo trd in trajen.",
+      "options": [
+        "smreka",
+        "hrast",
+        "jesen",
+        "bor"
+      ],
+      "answer": 1,
+      "solution": "**Hrast** je zelo trd in trajen: pohištvo, sodi, stopnice.",
+      "skill": "les"
+    },
+    {
+      "id": "les-okna",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kateri les je mehek, lahek in enostaven za obdelavo? Iz njega so okna in vrata.",
+      "options": [
+        "smreka",
+        "bukev",
+        "hrast",
+        "macesen"
+      ],
+      "answer": 0,
+      "solution": "**Smreka**: mehka, lahka, enostavna za obdelavo; pohištvo, okna, vrata.",
+      "skill": "les"
+    },
+    {
+      "id": "les-upogib",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kateri les je trden in dober za upogibanje? Iz njega so parket in igrače.",
+      "options": [
+        "bor",
+        "bukev",
+        "jesen",
+        "macesen"
+      ],
+      "answer": 1,
+      "solution": "**Bukev**: trden, dober za upogibanje; pohištvo, parket, igrače.",
+      "skill": "les"
+    },
+    {
+      "id": "les-slabost",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kaj je SLABOST lesa?",
+      "options": [
+        "prijeten videz",
+        "lahko gori",
+        "možnost recikliranja",
+        "obnovljiva surovina"
+      ],
+      "answer": 1,
+      "solution": "Slabosti: občutljiv na vlago in škodljivce, **lahko gori**, spreminja obliko zaradi vlage, nekatere vrste počasi rastejo.",
+      "skill": "les-pro"
+    },
+    {
+      "id": "duroplast",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Električna vtičnica je iz bakelita. Bakelita po utrditvi ne moremo več preoblikovati. Kateri vrsti polimerov pripada?",
+      "options": [
+        "termoplasti",
+        "duroplasti",
+        "elastomeri"
+      ],
+      "answer": 1,
+      "solution": "**Duroplasti** se po utrditvi ne dajo več preoblikovati. Zato vtičnica ob segrevanju ne postane mehka.",
+      "skill": "polimeri"
+    },
+    {
+      "id": "elastomer",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Avtomobilska guma se po raztezanju vrne v prvotno obliko. Kateri vrsti polimerov pripada?",
+      "options": [
+        "termoplasti",
+        "duroplasti",
+        "elastomeri",
+        "silikoni"
+      ],
+      "answer": 2,
+      "solution": "Guma je **elastomer**: je elastična in se vrne v prvotno obliko.",
+      "skill": "polimeri"
+    },
+    {
+      "id": "kratica-pvc",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Napiši kratico za polivinilklorid (vodovodna cev).",
+      "answer": "PVC",
+      "solution": "Polivinilklorid = **PVC**.",
+      "skill": "kratice",
+      "traps": [
+        {
+          "answer": "PP",
+          "why": "PP je polipropilen (posodica za jogurt)."
+        }
+      ]
+    },
+    {
+      "id": "kratica-pp",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kaj pomeni kratica PP?",
+      "options": [
+        "polietilen",
+        "polipropilen",
+        "polivinilklorid",
+        "polietilen tereftalat"
+      ],
+      "answer": 1,
+      "solution": "PP = **polipropilen** (posodica za jogurt). PE = polietilen (vrečka).",
+      "skill": "kratice"
+    },
+    {
+      "id": "kratica-abs",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Iz katerega polimera je ohišje računalniške miške?",
+      "options": [
+        "ABS",
+        "SBR",
+        "SI",
+        "PE"
+      ],
+      "answer": 0,
+      "solution": "Ohišje miške je iz **ABS** (akrilonitril-butadien-stiren).",
+      "skill": "kratice"
+    },
+    {
+      "id": "naravni",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Kateri polimer je NARAVNI?",
+      "options": [
+        "polietilen",
+        "PVC",
+        "celuloza",
+        "polipropilen"
+      ],
+      "answer": 2,
+      "solution": "**Celuloza** je naravni polimer (prav tako škrob, beljakovine, kavčuk, hitin).",
+      "skill": "nar-sint"
+    },
+    {
+      "id": "sinteticni-iz",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Iz česa večinoma izdelujemo sintetične polimere?",
+      "options": [
+        "iz lesa in bombaža",
+        "iz nafte, zemeljskega plina ali premoga",
+        "iz železove rude"
+      ],
+      "answer": 1,
+      "solution": "Sintetične polimere izdeluje človek, večinoma **iz nafte, zemeljskega plina ali premoga**.",
+      "skill": "nar-sint"
+    },
+    {
+      "id": "baker",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Zakaj so električni vodniki iz bakra?",
+      "options": [
+        "ker je baker zelo težak",
+        "ker je odličen prevodnik elektrike",
+        "ker baker ne korodira"
+      ],
+      "answer": 1,
+      "solution": "Baker je **odličen prevodnik elektrike in toplote**.",
+      "skill": "kov-upor"
+    },
+    {
+      "id": "cink",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Katera kovina ščiti železo pred rjavenjem (pocinkana ograja, strešni žlebovi)?",
+      "options": [
+        "cink",
+        "kositer",
+        "svinec",
+        "krom"
+      ],
+      "answer": 0,
+      "solution": "**Cink**: ščiti železo pred rjavenjem. Pocinkano = prevlečeno s cinkom.",
+      "skill": "kov-upor"
+    },
+    {
+      "id": "svinec",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Katera kovina ščiti pred rentgenskimi žarki in je v ribiških utežeh?",
+      "options": [
+        "aluminij",
+        "svinec",
+        "srebro",
+        "titan"
+      ],
+      "answer": 1,
+      "solution": "**Svinec** je zelo težka in mehka kovina: akumulatorji, ribiške uteži, zaščita pred rentgenskimi žarki.",
+      "skill": "kov-upor"
+    },
+    {
+      "id": "ogljik",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Koliko ogljika vsebuje jeklo?",
+      "options": [
+        "več kot 2 %",
+        "manj kot 2 %",
+        "nič"
+      ],
+      "answer": 1,
+      "solution": "Jeklo ima **manj kot 2 %** ogljika, lito železo več kot 2 %.",
+      "skill": "zlitine"
+    },
+    {
+      "id": "baker-zelen",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Baker na strehi pozeleni. Kako rečemo temu pojavu?",
+      "options": [
+        "rja",
+        "korozija",
+        "recikliranje"
+      ],
+      "answer": 1,
+      "solution": "To je **korozija** (propadanje kovine zaradi vpliva okolja). Rja je samo pri železu in jeklu.",
+      "skill": "zlitine"
+    },
+    {
+      "id": "razlika-plst",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Razloži, kako ločimo pisarniški papir, karton in lepenko. Omeni debelino, plasti in gramaturo.",
+      "solution": "**Papir** je tanek, enoplasten, do 150 g/m². **Karton** je debelejši, eno-, dvo- ali troplasten, plasti se razlikujejo po kakovosti, 150–500 g/m². **Lepenka** je najdebelejša (do 5 mm), večplastna, plasti so enake, nad 500 g/m².",
+      "skill": "papir",
+      "hints": [
+        "Za vsakega: debelina + plasti + g/m²."
+      ]
+    },
+    {
+      "id": "trajnost-les",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Kdaj je les trajnostni material? Naštej štiri pogoje.",
+      "solution": "Les je trajnostni material, kadar: **drevesa po poseku nadomestimo z novimi**, **izdelke uporabljamo dolgo časa**, **les ponovno uporabimo in recikliramo** in **prednost dajemo lokalnemu lesu**.",
+      "skill": "les-pro"
+    },
+    {
+      "id": "rja-korozija",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Razloži povedi: »Vsaka rja je korozija, ni pa vsaka korozija rja.« Dodaj primer.",
+      "solution": "**Korozija** je propadanje kovine zaradi vpliva okolja, pri vseh kovinah (npr. pozelenel baker). **Rja** je korozija samo železa in jekla (zarjavel žebelj). Rja je torej vrsta korozije, korozija pa je lahko tudi pri drugih kovinah.",
+      "skill": "zlitine"
+    },
+    {
+      "id": "plastika-okolje",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Kako plastika vpliva na okolje? Navedi tri vplive in kaj lahko naredimo sami.",
+      "solution": "Odpadna plastika **onesnažuje kopno in morje**, **mikroplastika prehaja v prehranjevalne verige**, pri **sežiganju** nekaterih plastik nastajajo **škodljivi plini**. Zato zmanjšujemo uporabo plastike za enkratno uporabo (npr. platnena vrečka, steklenička za večkratno uporabo) in plastiko ločujemo.",
+      "skill": "nar-sint"
+    }
+  ],
+  "challenge": [
+    {
+      "id": "c-lepenka-500",
+      "level": 3,
+      "kind": "choice",
+      "prompt": "Material ima 600 g/m² in je debel 4 mm. Plasti so enake. Kaj je to?",
+      "options": [
+        "karton",
+        "lepenka",
+        "pisarniški papir"
+      ],
+      "answer": 1,
+      "solution": "Nad 500 g/m², do 5 mm, enake plasti = **lepenka**.",
+      "skill": "papir"
+    },
+    {
+      "id": "c-karton-300",
+      "level": 3,
+      "kind": "choice",
+      "prompt": "Material ima 300 g/m² in tri plasti različne kakovosti. Kaj je to?",
+      "options": [
+        "papir",
+        "karton",
+        "lepenka"
+      ],
+      "answer": 1,
+      "solution": "150–500 g/m² in plasti različne kakovosti = **karton**.",
+      "skill": "papir"
+    },
+    {
+      "id": "c-veriga",
+      "level": 3,
+      "kind": "choice",
+      "prompt": "Kateri niz je pravilen: surovina → polizdelek → izdelek?",
+      "options": [
+        "nafta → vrečka → plastična folija",
+        "železova ruda → jeklena pločevina → avtomobilska vrata",
+        "zvezek → list papirja → lesovina"
+      ],
+      "answer": 1,
+      "solution": "**železova ruda → jeklena pločevina → avtomobilska vrata**. Pri ostalih je vrstni red zamešan.",
+      "skill": "recikl"
+    },
+    {
+      "id": "c-macesen",
+      "level": 3,
+      "kind": "choice",
+      "prompt": "Kateri iglavec je elastičen in trajen in ga uporabljamo za obloge?",
+      "options": [
+        "smreka",
+        "bor",
+        "macesen"
+      ],
+      "answer": 2,
+      "solution": "**Macesen**: elastičen, trajen; obloge.",
+      "skill": "les"
+    },
+    {
+      "id": "c-bor",
+      "level": 3,
+      "kind": "choice",
+      "prompt": "Kateri les je trpežen in odporen proti vlagi ter ga uporabljamo za ostrešja in v gradbeništvu?",
+      "options": [
+        "bor",
+        "jesen",
+        "bukev"
+      ],
+      "answer": 0,
+      "solution": "**Bor**: trpežen, odporen proti vlagi; ostrešja, gradbeništvo.",
+      "skill": "les"
+    },
+    {
+      "id": "c-silikon",
+      "level": 3,
+      "kind": "choice",
+      "prompt": "Tesnilo okrog kopalne kadi mora prenesti vročo vodo, vlago in čistila. Kateri polimer je najboljši?",
+      "options": [
+        "silikon",
+        "polietilen",
+        "bakelit"
+      ],
+      "answer": 0,
+      "solution": "**Silikoni** so odporni na toploto, vlago in kemikalije. Kratica: SI.",
+      "skill": "polimeri"
+    },
+    {
+      "id": "c-pe",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Napiši polno ime polimera s kratico PE.",
+      "answer": "polietilen",
+      "solution": "PE = **polietilen** (nakupovalna vrečka).",
+      "skill": "kratice",
+      "traps": [
+        {
+          "answer": "polipropilen",
+          "why": "To je PP. PE = polietilen."
+        }
+      ]
+    },
+    {
+      "id": "c-sbr",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Napiši kratico polimera za avtomobilsko gumo.",
+      "answer": "SBR",
+      "solution": "Avtomobilska guma = **SBR** (stiren-butadien kavčuk).",
+      "skill": "kratice"
+    },
+    {
+      "id": "c-hitin",
+      "level": 3,
+      "kind": "choice",
+      "prompt": "Kaj NI naravni polimer?",
+      "options": [
+        "škrob",
+        "hitin",
+        "kavčuk",
+        "polivinilklorid"
+      ],
+      "answer": 3,
+      "solution": "**Polivinilklorid (PVC)** je sintetičen. Škrob, hitin in kavčuk tvorijo živi organizmi.",
+      "skill": "nar-sint"
+    },
+    {
+      "id": "c-prednost-sint",
+      "level": 3,
+      "kind": "choice",
+      "prompt": "Kaj je PREDNOST sintetičnih polimerov?",
+      "options": [
+        "biološko razgradljivi",
+        "obnovljivi viri",
+        "odporni proti koroziji",
+        "počasno razgrajevanje"
+      ],
+      "answer": 2,
+      "solution": "Prednosti sintetičnih: lahki, poceni, **odporni proti koroziji**, enostavna proizvodnja. Počasno razgrajevanje je slabost.",
+      "skill": "nar-sint"
+    },
+    {
+      "id": "c-jesen",
+      "level": 3,
+      "kind": "choice",
+      "prompt": "Kateri listavec je žilav in elastičen ter ga uporabljamo za športne rekvizite?",
+      "options": [
+        "jesen",
+        "hrast",
+        "smreka"
+      ],
+      "answer": 0,
+      "solution": "**Jesen**: listavec, žilav in elastičen; športni rekviziti, pohištvo.",
+      "skill": "les"
+    },
+    {
+      "id": "c-skupina",
+      "level": 3,
+      "kind": "choice",
+      "prompt": "V kateri skupini so samo težke neželezne kovine?",
+      "options": [
+        "baker, svinec, cink",
+        "aluminij, magnezij, titan",
+        "zlato, srebro, platina",
+        "volfram, krom, aluminij"
+      ],
+      "answer": 0,
+      "solution": "Težke: **baker, svinec**, nikelj, **cink**, kositer, živo srebro.",
+      "skill": "kovine"
+    },
+    {
+      "id": "c-redke",
+      "level": 3,
+      "kind": "choice",
+      "prompt": "Kateri dve kovini sta v zvezku zapisani kot REDKI?",
+      "options": [
+        "zlato in platina",
+        "volfram in krom",
+        "magnezij in titan"
+      ],
+      "answer": 1,
+      "solution": "Redke kovine: **volfram in krom**.",
+      "skill": "kovine"
+    },
+    {
+      "id": "c-zlitine",
+      "level": 3,
+      "kind": "text",
+      "prompt": "Lito železo in jeklo sta zlitini železa in katerega elementa?",
+      "answer": "ogljik",
+      "solution": "Obe sta **železo-ogljikovi** zlitini. Razlika je v deležu ogljika.",
+      "skill": "zlitine",
+      "accept": [
+        "ogljika",
+        "z ogljikom",
+        "C"
+      ]
+    },
+    {
+      "id": "c-zakaj-ogljik",
+      "level": 3,
+      "kind": "choice",
+      "prompt": "Zakaj železu dodajamo ogljik?",
+      "options": [
+        "da je bolj sijoče",
+        "ker je čisto železo mehko in ni primerno za vse namene",
+        "da ne bi rjavelo"
+      ],
+      "answer": 1,
+      "solution": "Z ogljikom **spremenimo lastnosti železa**: čisto železo je mehka kovina in ni primerno za uporabo na različnih področjih.",
+      "skill": "zlitine"
+    },
+    {
+      "id": "c-pomen-gozda",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Naštej po tri primere gospodarskega in ekološkega pomena gozda.",
+      "solution": "Gospodarski: **les za izdelke in gradivo, delovna mesta, vir energije (drva, peleti), turizem, izvoz**. Ekološki: **kisik, čiščenje zraka, zadrževanje vode, varovanje tal pred erozijo, življenjski prostor živali**.",
+      "skill": "gozd",
+      "hints": [
+        "Gospodarski = denar in delo. Ekološki = narava."
+      ]
+    },
+    {
+      "id": "c-material-izberi",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Za vsak izdelek napiši material: kolesarski okvir, električni vodnik, pločevinka za pijačo, nakit.",
+      "solution": "kolesarski okvir – **jeklo**; električni vodnik – **baker**; pločevinka za pijačo – **aluminij**; nakit – **zlato ali srebro**.",
+      "skill": "kov-upor"
+    }
+  ],
+  "parent": {
+    "school_method": "Tehnika in tehnologija, 6. razred: gradiva. Erikov zvezek obsega papir (papir, karton, lepenka, recikliranje), les (gozd, vrste lesa, prednosti in slabosti, trajnost), umetne snovi (vrste polimerov, kratice, naravni in sintetični, plastika in okolje), kovine (delitev, uporaba, lito železo in jeklo, korozija in rja) ter polizdelke. Pri pisnem testu iz TiT so običajne naloge: naštej, razvrsti v skupine, dopolni tabelo, poveži izdelek z materialom, kratice in »razloži razliko«.",
+    "typical_mistakes": [
+      "Lepenka ima 500 g/m² → pravilno je NAD 500 g/m² (karton 150–500).",
+      "Mešanje PE (polietilen, vrečka) in PP (polipropilen, jogurt).",
+      "Rja in korozija sta isto → rja je samo pri železu in jeklu, pozelenel baker je korozija.",
+      "Jeklo ima več ogljika → lito železo ima več (nad 2 %), jeklo manj kot 2 %.",
+      "Pravopis iz popravkov: platnice (ne plastnice), laboratorijski, dvoslojna, sintetični."
+    ],
+    "car_questions": [
+      {
+        "q": "Papir, karton, lepenka: koliko g/m²?",
+        "a": "Papir do 150, karton 150–500, lepenka nad 500 g/m²."
+      },
+      {
+        "q": "Trije iglavci in trije listavci?",
+        "a": "Iglavci: smreka, bor, macesen. Listavci: bukev, hrast, jesen."
+      },
+      {
+        "q": "Kaj je polizdelek? Primer.",
+        "a": "Delno predelan material, ki še ni končni izdelek: drevo → deska → miza."
+      },
+      {
+        "q": "PET, PE, PVC, PP: kateri izdelek?",
+        "a": "PET plastenka, PE vrečka, PVC vodovodna cev, PP posodica za jogurt."
+      },
+      {
+        "q": "Termoplast ali duroplast: vtičnica iz bakelita?",
+        "a": "Duroplast: po utrditvi ga ne moremo več preoblikovati."
+      },
+      {
+        "q": "Lahke kovine? Plemenite kovine?",
+        "a": "Lahke: aluminij, magnezij, titan. Plemenite: zlato, srebro, platina."
+      },
+      {
+        "q": "Razlika med litim železom in jeklom?",
+        "a": "Lito železo ima več kot 2 % ogljika, jeklo manj kot 2 %."
+      },
+      {
+        "q": "Je pozelenel baker zarjavel?",
+        "a": "Ne, to je korozija. Rja je samo pri železu in jeklu."
+      }
+    ],
+    "tips": [
+      "Doma poiščite predmete in vprašajte, iz česa so: vrečka (PE), plastenka (PET), lonec, žlica, škatla, parket.",
+      "Za 5 naj ob vsakem odgovoru doda primer: »karton, na primer škatla za čevlje«.",
+      "Tabele (les, kovine, kratice) naj enkrat prepiše na pamet in sam preveri z zvezkom."
+    ]
+  },
+  "oral": [
+    {
+      "id": "o-papir",
+      "skill": "papir",
+      "question": "Kako ločimo papir, karton in lepenko?",
+      "key_points": [
+        "debelina: papir tanek, karton debelejši, lepenka najdebelejša (do 5 mm)",
+        "plasti: papir eno, karton eno do tri različne kakovosti, lepenka več enakih",
+        "gramatura: do 150, 150–500, nad 500 g/m²"
+      ],
+      "model_answer": "Ločimo jih po debelini, plastnosti in gramaturi. Papir je tanek in enoplasten, do 150 g/m². Karton je debelejši, ima eno, dve ali tri plasti različne kakovosti in 150–500 g/m². Lepenka je najdebelejša, do 5 mm, ima več enakih plasti in nad 500 g/m²."
+    },
+    {
+      "id": "o-recikl",
+      "skill": "recikl",
+      "question": "Kaj je recikliranje in zakaj je pomembno?",
+      "key_points": [
+        "ločeno zbiranje, ponovna predelava, ponovna uporaba",
+        "manj izčrpavamo naravne surovine",
+        "varčujemo z energijo in varujemo okolje"
+      ],
+      "model_answer": "Recikliranje zajema ločeno zbiranje odpadkov, njihovo ponovno predelavo in ponovno uporabo. Tako manj izčrpavamo naravne surovine, ohranjamo naravne vire, varčujemo z energijo in posledično varujemo okolje."
+    },
+    {
+      "id": "o-polizdelek",
+      "skill": "recikl",
+      "question": "Kaj je polizdelek? Navedi primer.",
+      "key_points": [
+        "delno predelan material, še ni končni izdelek",
+        "primer verige: drevo → deska → miza"
+      ],
+      "model_answer": "Polizdelek je material, ki je že delno predelan, vendar še ni končni izdelek. Na primer: iz drevesa naredimo desko, ki je polizdelek, iz deske pa mizo, ki je izdelek."
+    },
+    {
+      "id": "o-gozd",
+      "skill": "gozd",
+      "question": "Zakaj je gozd pomemben?",
+      "key_points": [
+        "gospodarski pomen: les, delovna mesta, energija, turizem, izvoz",
+        "ekološki pomen: kisik, čist zrak, voda, tla, živali",
+        "Slovenija je okoli 60 % gozdnata"
+      ],
+      "model_answer": "Slovenija je približno 60 % porasla z gozdovi. Gozd ima gospodarski pomen, ker daje les, delovna mesta, energijo in turizem. Ima tudi ekološki pomen: proizvaja kisik, čisti zrak, zadržuje vodo, varuje tla pred erozijo in je dom živali."
+    },
+    {
+      "id": "o-les",
+      "skill": "les",
+      "question": "Naštej tri iglavce in tri listavce ter za enega povej uporabo.",
+      "key_points": [
+        "iglavci: smreka, bor, macesen",
+        "listavci: bukev, hrast, jesen",
+        "uporaba za vsaj eno vrsto, npr. hrast – sodi, stopnice"
+      ],
+      "model_answer": "Iglavci so smreka, bor in macesen, listavci pa bukev, hrast in jesen. Hrast je zelo trd in trajen, zato iz njega izdelujemo pohištvo, sode in stopnice."
+    },
+    {
+      "id": "o-les-pro",
+      "skill": "les-pro",
+      "question": "Kakšne so prednosti in slabosti lesa?",
+      "key_points": [
+        "vsaj tri prednosti (obnovljiv, enostavna obdelava, trden glede na maso, lep videz, recikliranje)",
+        "vsaj dve slabosti (vlaga in škodljivci, gori, spreminja obliko, počasna rast)"
+      ],
+      "model_answer": "Les je naraven in obnovljiv, enostavno ga obdelamo, glede na maso je trden, ima prijeten videz in ga lahko recikliramo. Slabosti so, da je občutljiv na vlago in škodljivce, lahko gori, zaradi vlage spreminja obliko in nekatere vrste počasi rastejo."
+    },
+    {
+      "id": "o-polimeri",
+      "skill": "polimeri",
+      "question": "Kaj so polimeri in katere vrste poznaš?",
+      "key_points": [
+        "dolge verige manjših delov – monomerov",
+        "termoplasti, duroplasti, elastomeri, silikoni",
+        "za vsaj dve vrsti značilnost ali primer"
+      ],
+      "model_answer": "Polimeri so snovi iz dolgih verig manjših delov, monomerov. Termoplasti se pri segrevanju zmehčajo in jih lahko večkrat preoblikujemo, na primer PE. Duroplastov po utrditvi ne moremo več preoblikovati, na primer bakelit. Elastomeri so elastični, na primer guma. Silikoni so odporni na toploto, vlago in kemikalije."
+    },
+    {
+      "id": "o-nar-sint",
+      "skill": "nar-sint",
+      "question": "Kakšna je razlika med naravnimi in sintetičnimi polimeri?",
+      "key_points": [
+        "naravne tvorijo živi organizmi (celuloza, škrob, kavčuk)",
+        "sintetične izdeluje človek iz nafte, plina, premoga (PE, PVC)",
+        "prednost ali slabost vsaj ene skupine"
+      ],
+      "model_answer": "Naravni polimeri nastajajo v naravi, tvorijo jih živi organizmi, na primer celuloza, škrob in kavčuk. So obnovljivi in biološko razgradljivi, a manj obstojni. Sintetične izdeluje človek, večinoma iz nafte, na primer PE in PVC. So lahki in poceni, a se počasi razgrajujejo in onesnažujejo okolje."
+    },
+    {
+      "id": "o-kovine",
+      "skill": "kovine",
+      "question": "Kako delimo kovine? Za vsako skupino povej primer.",
+      "key_points": [
+        "železne (črne): železo, jeklo, lito železo",
+        "neželezne: težke (baker), lahke (aluminij), plemenite (zlato), redke (krom)"
+      ],
+      "model_answer": "Kovine delimo na železne ali črne, to so železo in njegove zlitine, ter neželezne ali barvne. Neželezne so težke, na primer baker, lahke, na primer aluminij, plemenite, na primer zlato, in redke, na primer krom."
+    },
+    {
+      "id": "o-zlitine",
+      "skill": "zlitine",
+      "question": "Kakšna je razlika med litim železom in jeklom?",
+      "key_points": [
+        "obe sta železo-ogljikovi zlitini",
+        "lito železo več kot 2 % ogljika, jeklo manj kot 2 %",
+        "ogljik spremeni lastnosti mehkega železa"
+      ],
+      "model_answer": "Lito železo in jeklo sta železo-ogljikovi zlitini. Razlikujeta se po ogljiku: lito železo ga ima več kot 2 %, jeklo manj kot 2 %. Ogljik dodamo, ker je čisto železo mehko in ni primerno za vse namene."
+    },
+    {
+      "id": "o-rja",
+      "skill": "zlitine",
+      "question": "Kaj je korozija in kaj rja?",
+      "key_points": [
+        "korozija: propadanje kovine zaradi okolja (pozelenel baker)",
+        "rja: korozija železa in jekla (zarjavel žebelj)",
+        "vsaka rja je korozija, ni pa vsaka korozija rja"
+      ],
+      "model_answer": "Korozija je propadanje kovine zaradi vpliva okolja, na primer pozelenel baker. Rja je korozijski produkt železa in jekla, na primer zarjavel žebelj. Vsaka rja je korozija, ni pa vsaka korozija rja."
+    }
+  ]
+}
