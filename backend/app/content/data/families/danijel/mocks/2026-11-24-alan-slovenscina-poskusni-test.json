@@ -1,0 +1,279 @@
+{
+  "id": "2026-11-24-alan-slovenscina-poskusni-test",
+  "version": 1,
+  "subject": "slovene",
+  "grade": 4,
+  "title": "Poskusni test: slovenščina, 4. razred",
+  "intro": "Pripravi zvezek in svinčnik. Rešuj brez zapiskov; odprte naloge napiši v zvezek. Rešitve primerjaj šele na koncu. Pri vsaki odprti nalogi označi Znam le, če izpolniš vsa njena merila. Točke so za vajo, ne šolska ocena.",
+  "source": "Nova različica po posredovanem preverjanju »Od cveta do medu«: enake spretnosti, novo besedilo in primeri.",
+  "for": [
+    "Alan"
+  ],
+  "minutes": 40,
+  "topics": [
+    "2026-11-24-alan-slovenscina-branje",
+    "2026-11-24-alan-slovenscina-pravopis"
+  ],
+  "sections": [
+    {
+      "title": "1. Berem in razumem",
+      "tasks": [
+        {
+          "id": "m-papir",
+          "skill": "podatki",
+          "kind": "open",
+          "prompt": "NOV LIST IZ STAREGA PAPIRJA\nV papirni delavnici uporabljajo star časopisni papir. Najprej ga natrgajo in namočijo v vodi, da se zmehča. Nato ga zmeljejo v kašo. Kašo razporedijo po situ, skozi katero odteče del vode. Mokro plast položijo med krpi in jo stisnejo, da odstranijo še več vode. List nato posušijo na zraku. Suh papir uporabijo za voščilnice. Tako star papir dobi novo nalogo.\n\nKateri papir uporabljajo v delavnici? Odgovori v celi povedi v zvezek.",
+          "solution": "V delavnici uporabljajo star časopisni papir. Znam: pravilna vsebina in cela poved z veliko začetnico in ločilom; besede so lahko drugačne.",
+          "topic": "2026-11-24-alan-slovenscina-branje",
+          "points": 1
+        },
+        {
+          "id": "m-namakanje",
+          "skill": "razlogi",
+          "kind": "open",
+          "prompt": "NOV LIST IZ STAREGA PAPIRJA\nV papirni delavnici uporabljajo star časopisni papir. Najprej ga natrgajo in namočijo v vodi, da se zmehča. Nato ga zmeljejo v kašo. Kašo razporedijo po situ, skozi katero odteče del vode. Mokro plast položijo med krpi in jo stisnejo, da odstranijo še več vode. List nato posušijo na zraku. Suh papir uporabijo za voščilnice. Tako star papir dobi novo nalogo.\n\nZakaj papir namočijo? Odgovori v celi povedi v zvezek.",
+          "solution": "Papir namočijo, da se zmehča. Znam: pravilna vsebina in cela poved z veliko začetnico in ločilom; besede so lahko drugačne.",
+          "topic": "2026-11-24-alan-slovenscina-branje",
+          "points": 1
+        },
+        {
+          "id": "m-sito",
+          "skill": "razlogi",
+          "kind": "open",
+          "prompt": "NOV LIST IZ STAREGA PAPIRJA\nV papirni delavnici uporabljajo star časopisni papir. Najprej ga natrgajo in namočijo v vodi, da se zmehča. Nato ga zmeljejo v kašo. Kašo razporedijo po situ, skozi katero odteče del vode. Mokro plast položijo med krpi in jo stisnejo, da odstranijo še več vode. List nato posušijo na zraku. Suh papir uporabijo za voščilnice. Tako star papir dobi novo nalogo.\n\nKaj se zgodi z vodo, ko kašo razporedijo po situ? Odgovori v celi povedi v zvezek.",
+          "solution": "Del vode odteče skozi sito. Znam: pravilna vsebina in cela poved z veliko začetnico in ločilom; besede so lahko drugačne.",
+          "topic": "2026-11-24-alan-slovenscina-branje",
+          "points": 1
+        },
+        {
+          "id": "m-stiskanje",
+          "skill": "razlogi",
+          "kind": "open",
+          "prompt": "NOV LIST IZ STAREGA PAPIRJA\nV papirni delavnici uporabljajo star časopisni papir. Najprej ga natrgajo in namočijo v vodi, da se zmehča. Nato ga zmeljejo v kašo. Kašo razporedijo po situ, skozi katero odteče del vode. Mokro plast položijo med krpi in jo stisnejo, da odstranijo še več vode. List nato posušijo na zraku. Suh papir uporabijo za voščilnice. Tako star papir dobi novo nalogo.\n\nZakaj mokro plast stisnejo med krpama? Odgovori v celi povedi v zvezek.",
+          "solution": "Mokro plast stisnejo, da odstranijo še več vode. Znam: pravilna vsebina in cela poved z veliko začetnico in ločilom; besede so lahko drugačne.",
+          "topic": "2026-11-24-alan-slovenscina-branje",
+          "points": 1
+        },
+        {
+          "id": "m-uporaba",
+          "skill": "podatki",
+          "kind": "open",
+          "prompt": "NOV LIST IZ STAREGA PAPIRJA\nV papirni delavnici uporabljajo star časopisni papir. Najprej ga natrgajo in namočijo v vodi, da se zmehča. Nato ga zmeljejo v kašo. Kašo razporedijo po situ, skozi katero odteče del vode. Mokro plast položijo med krpi in jo stisnejo, da odstranijo še več vode. List nato posušijo na zraku. Suh papir uporabijo za voščilnice. Tako star papir dobi novo nalogo.\n\nZa kaj uporabijo suh papir? Odgovori v celi povedi v zvezek.",
+          "solution": "Suh papir uporabijo za voščilnice. Znam: pravilna vsebina in cela poved z veliko začetnico in ločilom; besede so lahko drugačne.",
+          "topic": "2026-11-24-alan-slovenscina-branje",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "2. Zaporedje, načrt in obnova",
+      "tasks": [
+        {
+          "id": "m-vrstni-red",
+          "skill": "zaporedje",
+          "kind": "open",
+          "prompt": "Uredi pet korakov v zvezek: A – kašo razporedijo po situ; B – list posušijo; C – papir natrgajo in namočijo; D – mokro plast stisnejo med krpama; E – zmehčan papir zmeljejo.",
+          "solution": "C, E, A, D, B. Znam: vseh pet korakov je v pravilnem zaporedju.",
+          "topic": "2026-11-24-alan-slovenscina-branje",
+          "points": 1
+        },
+        {
+          "id": "m-nacrt",
+          "skill": "obnova",
+          "kind": "open",
+          "prompt": "NOV LIST IZ STAREGA PAPIRJA\nV papirni delavnici uporabljajo star časopisni papir. Najprej ga natrgajo in namočijo v vodi, da se zmehča. Nato ga zmeljejo v kašo. Kašo razporedijo po situ, skozi katero odteče del vode. Mokro plast položijo med krpi in jo stisnejo, da odstranijo še več vode. List nato posušijo na zraku. Suh papir uporabijo za voščilnice. Tako star papir dobi novo nalogo.\n\nV zvezek napiši načrt s štirimi ključnimi podatki.",
+          "solution": "Primer: 1. Trganje in namakanje. 2. Mletje. 3. Oblikovanje na situ in stiskanje. 4. Sušenje in uporaba. Znam: štiri smiselne točke pokrijejo celoten postopek po vrsti.",
+          "topic": "2026-11-24-alan-slovenscina-branje",
+          "points": 1
+        },
+        {
+          "id": "m-obnova",
+          "skill": "obnova",
+          "kind": "open",
+          "prompt": "NOV LIST IZ STAREGA PAPIRJA\nV papirni delavnici uporabljajo star časopisni papir. Najprej ga natrgajo in namočijo v vodi, da se zmehča. Nato ga zmeljejo v kašo. Kašo razporedijo po situ, skozi katero odteče del vode. Mokro plast položijo med krpi in jo stisnejo, da odstranijo še več vode. List nato posušijo na zraku. Suh papir uporabijo za voščilnice. Tako star papir dobi novo nalogo.\n\nV zvezek napiši obnovo s sedmimi povedmi brez osebnega mnenja.",
+          "solution": "Primer: V delavnici iz starega časopisnega papirja izdelajo nov papir. Papir najprej natrgajo in namočijo, da se zmehča. Nato ga zmeljejo v kašo. Kašo razporedijo po situ, da odteče del vode. Mokro plast stisnejo med krpama in odstranijo še več vode. List posušijo na zraku. Suh papir uporabijo za voščilnice.\nZnam: sedem celih povedi, bistveni koraki po vrsti, uporaba, brez mnenja in izmišljenih dodatkov, ustrezne začetnice in ločila. Dovoljene so druge besede.",
+          "topic": "2026-11-24-alan-slovenscina-branje",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "3. Vrsta in namen besedila",
+      "tasks": [
+        {
+          "id": "m-vrsta",
+          "skill": "vrsta",
+          "kind": "choice",
+          "prompt": "Besedilo »Nov list iz starega papirja« opisuje resničen postopek izdelave papirja. Izberi vrsto.",
+          "solution": "Neumetnostno besedilo, ker sporoča stvarne podatke.",
+          "options": [
+            "Neumetnostno besedilo.",
+            "Pravljica.",
+            "Pesem."
+          ],
+          "answer": 0,
+          "topic": "2026-11-24-alan-slovenscina-branje",
+          "points": 1
+        },
+        {
+          "id": "m-razloga",
+          "skill": "vrsta",
+          "kind": "open",
+          "prompt": "Navedi dva razloga, zakaj je besedilo »Nov list iz starega papirja« neumetnostno. Piši v zvezek.",
+          "solution": "Sporoča stvarne podatke o papirju. Pojasnjuje resničen postopek izdelave, ne izmišljene zgodbe. Znam: dva smiselna razloga; sprejmi drugačno ubeseditev.",
+          "topic": "2026-11-24-alan-slovenscina-branje",
+          "points": 1
+        },
+        {
+          "id": "m-namen",
+          "skill": "vrsta",
+          "kind": "open",
+          "prompt": "Kaj je glavni namen besedila »Nov list iz starega papirja«? Odgovori v zvezek.",
+          "solution": "Namen je poučiti bralca, kako iz starega papirja nastane nov list in za kaj ga uporabimo. Znam: odgovor jasno izraža poučevanje o opisanem postopku.",
+          "topic": "2026-11-24-alan-slovenscina-branje",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "4. Velika in mala začetnica",
+      "tasks": [
+        {
+          "id": "m-odstavek",
+          "skill": "zacetnice",
+          "kind": "open",
+          "prompt": "V zvezek prepiši s pravilnimi začetnicami: »v četrtek gre marko z nino v koper. vzame andrejev zvezek. decembra pričakuje božič, februarja pa prešernov dan.«",
+          "solution": "V četrtek gre Marko z Nino v Koper. Vzame Andrejev zvezek. Decembra pričakuje božič, februarja pa Prešernov dan. Znam: vse začetnice so pravilne.",
+          "topic": "2026-11-24-alan-slovenscina-pravopis",
+          "points": 1
+        },
+        {
+          "id": "m-dnevi",
+          "skill": "zacetnice",
+          "kind": "choice",
+          "prompt": "Izberi pravilno pravilo za dneve in mesece sredi povedi.",
+          "solution": "Dneve in mesece sredi povedi pišemo z malo začetnico; začetek povedi ima veliko.",
+          "options": [
+            "Pišemo jih z malo začetnico.",
+            "Vedno jih pišemo z veliko začetnico."
+          ],
+          "answer": 0,
+          "topic": "2026-11-24-alan-slovenscina-pravopis",
+          "points": 1
+        },
+        {
+          "id": "m-narodi-jeziki",
+          "skill": "narodi",
+          "kind": "choice",
+          "prompt": "Izberi pravilno zapisano poved.",
+          "solution": "Pripadnika naroda Hrvat pišemo z veliko, jezik hrvaščina z malo.",
+          "options": [
+            "Hrvat govori hrvaščino.",
+            "hrvat govori Hrvaščino.",
+            "Hrvat govori Hrvaščino."
+          ],
+          "answer": 0,
+          "topic": "2026-11-24-alan-slovenscina-pravopis",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "5. Države, pripadniki narodov, jeziki",
+      "tasks": [
+        {
+          "id": "m-vrstica-0",
+          "skill": "narodi",
+          "kind": "open",
+          "prompt": "V zvezek dopolni vrstico za državo Anglija: država – pripadnik – pripadnica – jezik. Pazi na začetnice.",
+          "solution": "Anglija – Anglež – Angležinja – angleščina. Znam: vse štiri besede in začetnice so pravilne.",
+          "topic": "2026-11-24-alan-slovenscina-pravopis",
+          "points": 1
+        },
+        {
+          "id": "m-vrstica-1",
+          "skill": "narodi",
+          "kind": "open",
+          "prompt": "V zvezek dopolni vrstico za državo Hrvaška: država – pripadnik – pripadnica – jezik. Pazi na začetnice.",
+          "solution": "Hrvaška – Hrvat – Hrvatica – hrvaščina. Znam: vse štiri besede in začetnice so pravilne.",
+          "topic": "2026-11-24-alan-slovenscina-pravopis",
+          "points": 1
+        },
+        {
+          "id": "m-vrstica-2",
+          "skill": "narodi",
+          "kind": "open",
+          "prompt": "V zvezek dopolni vrstico za državo Španija: država – pripadnik – pripadnica – jezik. Pazi na začetnice.",
+          "solution": "Španija – Španec – Španka – španščina. Znam: vse štiri besede in začetnice so pravilne.",
+          "topic": "2026-11-24-alan-slovenscina-pravopis",
+          "points": 1
+        },
+        {
+          "id": "m-vrstica-3",
+          "skill": "narodi",
+          "kind": "open",
+          "prompt": "V zvezek dopolni vrstico za državo Avstrija: država – pripadnik – pripadnica – jezik. Pazi na začetnice.",
+          "solution": "Avstrija – Avstrijec – Avstrijka – nemščina. Znam: vse štiri besede in začetnice so pravilne.",
+          "topic": "2026-11-24-alan-slovenscina-pravopis",
+          "points": 1
+        },
+        {
+          "id": "m-vrstica-4",
+          "skill": "narodi",
+          "kind": "open",
+          "prompt": "V zvezek dopolni vrstico za državo Grčija: država – pripadnik – pripadnica – jezik. Pazi na začetnice.",
+          "solution": "Grčija – Grk – Grkinja – grščina. Znam: vse štiri besede in začetnice so pravilne.",
+          "topic": "2026-11-24-alan-slovenscina-pravopis",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "6. Svojilni pridevniki",
+      "tasks": [
+        {
+          "id": "m-marko-nina",
+          "skill": "svojilni",
+          "kind": "open",
+          "prompt": "V zvezek dopolni: To sta ___ copat (Marko) in ___ skodelica (Nina).",
+          "solution": "To sta Markov copat in Ninina skodelica. Znam: obe obliki in obe veliki začetnici sta pravilni.",
+          "topic": "2026-11-24-alan-slovenscina-pravopis",
+          "points": 1
+        },
+        {
+          "id": "m-andrej-matej",
+          "skill": "svojilni",
+          "kind": "open",
+          "prompt": "V zvezek dopolni: To sta ___ klobuk (Andrej) in ___ igrača (Matej).",
+          "solution": "To sta Andrejev klobuk in Matejeva igrača. Znam: obe obliki in obe veliki začetnici sta pravilni.",
+          "topic": "2026-11-24-alan-slovenscina-pravopis",
+          "points": 1
+        },
+        {
+          "id": "m-miha-lisica",
+          "skill": "svojilni",
+          "kind": "open",
+          "prompt": "V zvezek dopolni: To je ___ fotoaparat (Miha). Na sliki je ___ gobček (lisica).",
+          "solution": "To je Mihov fotoaparat. Na sliki je lisičin gobček. Znam: Mihov z veliko in lisičin z malo; obe obliki sta pravilni.",
+          "topic": "2026-11-24-alan-slovenscina-pravopis",
+          "points": 1
+        },
+        {
+          "id": "m-mihov",
+          "skill": "svojilni",
+          "kind": "choice",
+          "prompt": "Izberi pravilno zapisano poved.",
+          "solution": "Miha → Mihovo. Oblika se ujema s srednjim spolom besede kolo; pridevnik iz osebnega imena ima veliko začetnico.",
+          "options": [
+            "Pred hišo je Mihovo kolo.",
+            "Pred hišo je Mihino kolo.",
+            "Pred hišo je mihovo kolo."
+          ],
+          "answer": 0,
+          "topic": "2026-11-24-alan-slovenscina-pravopis",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}

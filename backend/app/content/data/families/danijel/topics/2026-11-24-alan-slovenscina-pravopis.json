@@ -1,0 +1,820 @@
+{
+  "id": "2026-11-24-alan-slovenscina-pravopis",
+  "version": 1,
+  "format": 2,
+  "subject": "slovene",
+  "grade": 4,
+  "title": "Slovenščina: začetnice in svojilni pridevniki",
+  "intro": "Ponovi države, pripadnike narodov, jezike, praznike in oblike na -ov, -ev, -in. Pri izbiri preveri tudi začetnice. Pri vpisu besede pazi na č, š in ž; daljše zapise preveri v zvezku.",
+  "source": "Po posredovanem preverjanju »Od cveta do medu«, 4. razred. Nova besedila in naloge preverjajo iste spretnosti.",
+  "for": [
+    "Alan"
+  ],
+  "skills": [
+    {
+      "id": "zacetnice",
+      "title": "Velika in mala začetnica"
+    },
+    {
+      "id": "narodi",
+      "title": "Države, pripadniki narodov in jeziki"
+    },
+    {
+      "id": "svojilni",
+      "title": "Svojilni pridevniki"
+    }
+  ],
+  "learn": [],
+  "study": {
+    "goals": [
+      {
+        "id": "velika",
+        "text": "Prepoznam osebna in zemljepisna imena ter jih pišem z veliko začetnico.",
+        "skill": "zacetnice"
+      },
+      {
+        "id": "mala",
+        "text": "Pravilno zapišem dneve, mesece, jezike in praznike.",
+        "skill": "zacetnice"
+      },
+      {
+        "id": "preglednica",
+        "text": "Povežem pet držav s pripadniki narodov in jeziki.",
+        "skill": "narodi"
+      },
+      {
+        "id": "cigav",
+        "text": "Tvorim svojilne pridevnike in jih povežem s čigav, čigava, čigavo.",
+        "skill": "svojilni"
+      },
+      {
+        "id": "mihov",
+        "text": "Razlikujem Mihov, Andrejev, Ninin in lisičin.",
+        "skill": "svojilni"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Velika začetnica",
+        "text": "Z veliko začetnico pišemo prvo besedo povedi, osebna imena, imena držav in krajev ter imena pripadnikov narodov. Z veliko pišemo tudi svojilne pridevnike iz osebnih imen na -ov, -ev in -in.",
+        "skill": "zacetnice",
+        "examples": [
+          "V petek gre Nina v Celje.",
+          "Na izlet pridejo Grk, Španka in Hrvat.",
+          "Na stolu sta Mihov šal in Ninina kapa."
+        ]
+      },
+      {
+        "title": "Mala začetnica in prazniki",
+        "text": "Dneve, mesece in jezike sredi povedi pišemo z malo začetnico. Tako pišemo tudi praznik božič. V imenu Prešernov dan ostane Prešernov z veliko, ker pridevnik izhaja iz priimka. Na začetku povedi velja pravilo o veliki začetnici.",
+        "skill": "zacetnice",
+        "examples": [
+          "V ponedeljek ponavljamo slovenščino.",
+          "Decembra praznujemo božič, februarja pa Prešernov dan."
+        ],
+        "watch_out": [
+          {
+            "wrong": "V Petek vadimo Angleščino.",
+            "right": "V petek vadimo angleščino.",
+            "why": "Dan in jezik sredi povedi pišemo z malo začetnico."
+          }
+        ]
+      },
+      {
+        "title": "Država, pripadnik, pripadnica, jezik",
+        "text": "Državo in pripadnika ali pripadnico naroda pišemo z veliko začetnico. Jezik pišemo z malo. Pri Avstriji je v tej preglednici jezik nemščina.",
+        "skill": "narodi",
+        "table": {
+          "head": [
+            "Država",
+            "Pripadnik",
+            "Pripadnica",
+            "Jezik"
+          ],
+          "rows": [
+            [
+              "Anglija",
+              "Anglež",
+              "Angležinja",
+              "angleščina"
+            ],
+            [
+              "Hrvaška",
+              "Hrvat",
+              "Hrvatica",
+              "hrvaščina"
+            ],
+            [
+              "Španija",
+              "Španec",
+              "Španka",
+              "španščina"
+            ],
+            [
+              "Avstrija",
+              "Avstrijec",
+              "Avstrijka",
+              "nemščina"
+            ],
+            [
+              "Grčija",
+              "Grk",
+              "Grkinja",
+              "grščina"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Čigav? Čigava? Čigavo?",
+        "text": "Svojilni pridevnik pove, komu kaj pripada. Oblika se ujema z besedo ob njem: čigav šal, čigava kapa, čigavo kolo. Pri osebnih imenih ohrani veliko začetnico.",
+        "skill": "svojilni",
+        "table": {
+          "head": [
+            "Ime",
+            "Čigav?",
+            "Čigava?",
+            "Čigavo?"
+          ],
+          "rows": [
+            [
+              "Marko",
+              "Markov šal",
+              "Markova kapa",
+              "Markovo kolo"
+            ],
+            [
+              "Andrej",
+              "Andrejev šal",
+              "Andrejeva kapa",
+              "Andrejevo kolo"
+            ],
+            [
+              "Nina",
+              "Ninin šal",
+              "Ninina kapa",
+              "Ninino kolo"
+            ],
+            [
+              "Miha",
+              "Mihov šal",
+              "Mihova kapa",
+              "Mihovo kolo"
+            ],
+            [
+              "Matej",
+              "Matejev šal",
+              "Matejeva kapa",
+              "Matejevo kolo"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Pazi: Miha in lisica",
+        "text": "Miha → Mihov, Mihova, Mihovo. Končni -a pri moškem imenu Miha ne pomeni, da tvorimo Mihin. Lisica je občno ime živali, zato pišemo lisičin z malo začetnico, kadar ni na začetku povedi.",
+        "skill": "svojilni",
+        "watch_out": [
+          {
+            "wrong": "Mihin šal",
+            "right": "Mihov šal",
+            "why": "Iz moškega imena Miha tvorimo svojilni pridevnik Mihov."
+          },
+          {
+            "wrong": "Lisičin brlog sredi povedi",
+            "right": "To je lisičin brlog.",
+            "why": "Beseda lisica ni osebno ime. Pridevnik sredi povedi pišemo z malo."
+          }
+        ]
+      }
+    ],
+    "cards": [
+      {
+        "front": "Kako pišemo imena jezikov sredi povedi?",
+        "back": "Z malo začetnico: angleščina, grščina.",
+        "skill": "zacetnice"
+      },
+      {
+        "front": "Kako pišemo imena pripadnikov narodov?",
+        "back": "Z veliko začetnico: Anglež, Grkinja.",
+        "skill": "narodi"
+      },
+      {
+        "front": "Kateri jezik v preglednici povežemo z Avstrijo?",
+        "back": "nemščina",
+        "skill": "narodi"
+      },
+      {
+        "front": "Miha: čigav, čigava, čigavo?",
+        "back": "Mihov, Mihova, Mihovo",
+        "skill": "svojilni"
+      },
+      {
+        "front": "Andrej: čigav?",
+        "back": "Andrejev",
+        "skill": "svojilni"
+      },
+      {
+        "front": "Nina: čigav?",
+        "back": "Ninin",
+        "skill": "svojilni"
+      },
+      {
+        "front": "lisica: čigav?",
+        "back": "lisičin",
+        "skill": "svojilni"
+      },
+      {
+        "front": "Praznika decembra in februarja",
+        "back": "božič; Prešernov dan",
+        "skill": "zacetnice"
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "ime-kraj",
+      "skill": "zacetnice",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Izberi pravilno zapisano poved.",
+      "solution": "Tina je osebno ime, Kranj pa ime kraja. Obe pišemo z veliko začetnico.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Tina obišče Kranj.",
+        "tina obišče Kranj.",
+        "Tina obišče kranj."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "dan",
+      "skill": "zacetnice",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Izberi pravilni zapis.",
+      "solution": "Ime dneva torek sredi povedi pišemo z malo začetnico.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "V torek imamo vajo.",
+        "V Torek imamo vajo."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "mesec",
+      "skill": "zacetnice",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Izberi pravilni zapis.",
+      "solution": "Ime meseca marca sredi povedi pišemo z malo začetnico.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Izlet bo marca.",
+        "Izlet bo Marca."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "jezik",
+      "skill": "zacetnice",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Izberi pravilni zapis.",
+      "solution": "Imena jezikov sredi povedi pišemo z malo začetnico.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Učim se španščino.",
+        "Učim se Španščino."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "bozic",
+      "skill": "zacetnice",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Izberi pravilni zapis.",
+      "solution": "Ime praznika božič sredi povedi pišemo z malo začetnico.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Doma praznujemo božič.",
+        "Doma praznujemo Božič."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "presernov",
+      "skill": "zacetnice",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Izberi pravilni zapis.",
+      "solution": "Februarja začne poved. Prešernov izhaja iz priimka, zato ima veliko začetnico. Dan pišemo z malo.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Februarja je Prešernov dan.",
+        "Februarja je prešernov dan.",
+        "Februarja je Prešernov Dan."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "zacetek-povedi",
+      "skill": "zacetnice",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Izberi pravilni zapis začetka povedi.",
+      "solution": "Na začetku povedi tudi ime meseca pišemo z veliko začetnico.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "December je zadnji mesec v letu.",
+        "december je zadnji mesec v letu."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "narod-jezik",
+      "skill": "narodi",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Izberi pravilni zapis.",
+      "solution": "Pripadnik naroda Anglež ima veliko začetnico; angleško ima malo.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Anglež govori angleško.",
+        "anglež govori angleško.",
+        "Anglež govori Angleško."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "drzava-0",
+      "skill": "narodi",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Izberi pravilno celotno vrstico za državo Anglija.",
+      "solution": "Pravilno: Anglija – Anglež – Angležinja – angleščina. Država in pripadnika naroda imajo veliko začetnico, jezik malo.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Anglija – Anglež – Angležinja – angleščina",
+        "Anglija – anglež – angležinja – angleščina",
+        "Anglija – Anglež – Angležinja – Angleščina"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "pripadnica-0",
+      "skill": "narodi",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni obliko za pripadnico naroda: Anglija → Anglež → ___. Vpiši eno besedo.",
+      "solution": "Angležinja. Pri zapisu v zvezek preveri tudi veliko začetnico; vpisna vaja preverja obliko besede.",
+      "hints": [
+        "Spomni se ustrezne vrstice v preglednici."
+      ],
+      "answer": "Angležinja",
+      "exact": true
+    },
+    {
+      "id": "drzava-1",
+      "skill": "narodi",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Izberi pravilno celotno vrstico za državo Hrvaška.",
+      "solution": "Pravilno: Hrvaška – Hrvat – Hrvatica – hrvaščina. Država in pripadnika naroda imajo veliko začetnico, jezik malo.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Hrvaška – Hrvat – Hrvatica – hrvaščina",
+        "Hrvaška – hrvat – hrvatica – hrvaščina",
+        "Hrvaška – Hrvat – Hrvatica – Hrvaščina"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "pripadnica-1",
+      "skill": "narodi",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni obliko za pripadnico naroda: Hrvaška → Hrvat → ___. Vpiši eno besedo.",
+      "solution": "Hrvatica. Pri zapisu v zvezek preveri tudi veliko začetnico; vpisna vaja preverja obliko besede.",
+      "hints": [
+        "Spomni se ustrezne vrstice v preglednici."
+      ],
+      "answer": "Hrvatica",
+      "exact": true
+    },
+    {
+      "id": "drzava-2",
+      "skill": "narodi",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Izberi pravilno celotno vrstico za državo Španija.",
+      "solution": "Pravilno: Španija – Španec – Španka – španščina. Država in pripadnika naroda imajo veliko začetnico, jezik malo.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Španija – Španec – Španka – španščina",
+        "Španija – španec – španka – španščina",
+        "Španija – Španec – Španka – Španščina"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "pripadnica-2",
+      "skill": "narodi",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni obliko za pripadnico naroda: Španija → Španec → ___. Vpiši eno besedo.",
+      "solution": "Španka. Pri zapisu v zvezek preveri tudi veliko začetnico; vpisna vaja preverja obliko besede.",
+      "hints": [
+        "Spomni se ustrezne vrstice v preglednici."
+      ],
+      "answer": "Španka",
+      "exact": true
+    },
+    {
+      "id": "drzava-3",
+      "skill": "narodi",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Izberi pravilno celotno vrstico za državo Avstrija.",
+      "solution": "Pravilno: Avstrija – Avstrijec – Avstrijka – nemščina. Država in pripadnika naroda imajo veliko začetnico, jezik malo.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Avstrija – Avstrijec – Avstrijka – nemščina",
+        "Avstrija – avstrijec – avstrijka – nemščina",
+        "Avstrija – Avstrijec – Avstrijka – Nemščina"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "pripadnica-3",
+      "skill": "narodi",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni obliko za pripadnico naroda: Avstrija → Avstrijec → ___. Vpiši eno besedo.",
+      "solution": "Avstrijka. Pri zapisu v zvezek preveri tudi veliko začetnico; vpisna vaja preverja obliko besede.",
+      "hints": [
+        "Spomni se ustrezne vrstice v preglednici."
+      ],
+      "answer": "Avstrijka",
+      "exact": true
+    },
+    {
+      "id": "drzava-4",
+      "skill": "narodi",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Izberi pravilno celotno vrstico za državo Grčija.",
+      "solution": "Pravilno: Grčija – Grk – Grkinja – grščina. Država in pripadnika naroda imajo veliko začetnico, jezik malo.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Grčija – Grk – Grkinja – grščina",
+        "Grčija – grk – grkinja – grščina",
+        "Grčija – Grk – Grkinja – Grščina"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "pripadnica-4",
+      "skill": "narodi",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni obliko za pripadnico naroda: Grčija → Grk → ___. Vpiši eno besedo.",
+      "solution": "Grkinja. Pri zapisu v zvezek preveri tudi veliko začetnico; vpisna vaja preverja obliko besede.",
+      "hints": [
+        "Spomni se ustrezne vrstice v preglednici."
+      ],
+      "answer": "Grkinja",
+      "exact": true
+    },
+    {
+      "id": "avstrija-jezik",
+      "skill": "narodi",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Kateri jezik v preglednici spada k Avstriji? Vpiši ime jezika.",
+      "solution": "Nemščina je jezik, ki ga v preglednici povežemo z Avstrijo. Sredi povedi zapišemo nemščina.",
+      "hints": [
+        "Ime jezika ni tvorjeno iz besede Avstrija."
+      ],
+      "answer": "nemščina",
+      "exact": true
+    },
+    {
+      "id": "hrvaska-moski",
+      "skill": "narodi",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni: Hrvaška → ___ → Hrvatica. Vpiši pripadnika naroda.",
+      "solution": "Hrvat. Pravilno obliko sestavljajo črke H-r-v-a-t; v zvezku preveri tudi veliko začetnico.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "answer": "Hrvat",
+      "exact": true
+    },
+    {
+      "id": "grcija-jezik",
+      "skill": "narodi",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni: Grčija → Grk → Grkinja → ___. Vpiši jezik.",
+      "solution": "grščina; pri tej besedi pazi na š in č.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "answer": "grščina",
+      "exact": true
+    },
+    {
+      "id": "markov",
+      "skill": "svojilni",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni svojilni pridevnik: To je ___ svinčnik. (Marko)",
+      "solution": "To je Markov svinčnik. Pridevnik iz imena Marko pišemo z veliko začetnico. Vpisna vaja preverja obliko; začetnico preveri še v zvezku.",
+      "hints": [
+        "Vprašaj se čigav, čigava ali čigavo."
+      ],
+      "answer": "Markov",
+      "exact": true
+    },
+    {
+      "id": "ninina",
+      "skill": "svojilni",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni svojilni pridevnik: To je ___ torba. (Nina)",
+      "solution": "To je Ninina torba. Pridevnik iz imena Nina pišemo z veliko začetnico. Vpisna vaja preverja obliko; začetnico preveri še v zvezku.",
+      "hints": [
+        "Vprašaj se čigav, čigava ali čigavo."
+      ],
+      "answer": "Ninina",
+      "exact": true
+    },
+    {
+      "id": "andrejev",
+      "skill": "svojilni",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni svojilni pridevnik: To je ___ dežnik. (Andrej)",
+      "solution": "To je Andrejev dežnik. Pridevnik iz imena Andrej pišemo z veliko začetnico. Vpisna vaja preverja obliko; začetnico preveri še v zvezku.",
+      "hints": [
+        "Vprašaj se čigav, čigava ali čigavo."
+      ],
+      "answer": "Andrejev",
+      "exact": true
+    },
+    {
+      "id": "lisicin",
+      "skill": "svojilni",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni svojilni pridevnik: To je ___ brlog. (lisica)",
+      "solution": "To je lisičin brlog. Lisica je občno ime, zato je lisičin sredi povedi z malo začetnico.",
+      "hints": [
+        "Vprašaj se čigav, čigava ali čigavo."
+      ],
+      "answer": "lisičin",
+      "exact": true
+    },
+    {
+      "id": "mihov",
+      "skill": "svojilni",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni svojilni pridevnik: To je ___ šal. (Miha)",
+      "solution": "To je Mihov šal. Pridevnik iz imena Miha pišemo z veliko začetnico. Vpisna vaja preverja obliko; začetnico preveri še v zvezku.",
+      "hints": [
+        "Vprašaj se čigav, čigava ali čigavo."
+      ],
+      "answer": "Mihov",
+      "exact": true
+    },
+    {
+      "id": "matejeva",
+      "skill": "svojilni",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni svojilni pridevnik: To je ___ mapa. (Matej)",
+      "solution": "To je Matejeva mapa. Pridevnik iz imena Matej pišemo z veliko začetnico. Vpisna vaja preverja obliko; začetnico preveri še v zvezku.",
+      "hints": [
+        "Vprašaj se čigav, čigava ali čigavo."
+      ],
+      "answer": "Matejeva",
+      "exact": true
+    },
+    {
+      "id": "mihovo",
+      "skill": "svojilni",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni svojilni pridevnik: To je ___ kolo. (Miha)",
+      "solution": "To je Mihovo kolo. Pridevnik iz imena Miha pišemo z veliko začetnico. Vpisna vaja preverja obliko; začetnico preveri še v zvezku.",
+      "hints": [
+        "Vprašaj se čigav, čigava ali čigavo."
+      ],
+      "answer": "Mihovo",
+      "exact": true
+    },
+    {
+      "id": "ninino",
+      "skill": "svojilni",
+      "level": 2,
+      "kind": "text",
+      "prompt": "Dopolni svojilni pridevnik: To je ___ ravnilo. (Nina)",
+      "solution": "To je Ninino ravnilo. Pridevnik iz imena Nina pišemo z veliko začetnico. Vpisna vaja preverja obliko; začetnico preveri še v zvezku.",
+      "hints": [
+        "Vprašaj se čigav, čigava ali čigavo."
+      ],
+      "answer": "Ninino",
+      "exact": true
+    },
+    {
+      "id": "mihov-ne-mihin",
+      "skill": "svojilni",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Izberi pravilni zapis.",
+      "solution": "Iz imena Miha tvorimo Mihov, ne Mihin. Pridevnik iz osebnega imena pišemo z veliko začetnico.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "To je Mihov zmaj.",
+        "To je Mihin zmaj.",
+        "To je mihov zmaj."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "lisicin-zacetnica",
+      "skill": "svojilni",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Izberi pravilni zapis.",
+      "solution": "Pravilno je lisičin: z malo začetnico in s č.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Ob poti opazimo lisičin brlog.",
+        "Ob poti opazimo Lisičin brlog.",
+        "Ob poti opazimo lisicin brlog."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "lukov",
+      "skill": "svojilni",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Izberi pravilni zapis svojine za ime Luka.",
+      "solution": "Luka → Lukov, z veliko začetnico.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "To je Lukov čopič.",
+        "To je lukov čopič.",
+        "To je Lukin čopič."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "odstavek",
+      "skill": "zacetnice",
+      "level": 3,
+      "kind": "open",
+      "prompt": "V zvezek prepiši s pravilnimi začetnicami: »v petek bo tina v celju obiskala andreja. s seboj bo vzela mihovo mapo. decembra bo praznovala božič, februarja pa prešernov dan.«",
+      "solution": "V petek bo Tina v Celju obiskala Andreja. S seboj bo vzela Mihovo mapo. Decembra bo praznovala božič, februarja pa Prešernov dan.\nZnam: vsi začetki povedi, osebna imena, kraj in svojilna pridevnika imajo pravo začetnico; petek, božič in februarja ostanejo z malo.",
+      "hints": [
+        "Najprej označi začetke povedi, nato poišči imena."
+      ]
+    },
+    {
+      "id": "pravila",
+      "skill": "zacetnice",
+      "level": 3,
+      "kind": "open",
+      "prompt": "V zvezek napiši tri pravila: kako sredi povedi pišemo imena dni in mesecev, pripadnikov narodov ter jezikov? Za vsako pravilo dodaj primer.",
+      "solution": "Dneve in mesece pišemo z malo začetnico: petek, april. Pripadnike narodov pišemo z veliko: Grk. Jezike pišemo z malo: grščina. Znam: tri pravilna pravila in po en ustrezen primer.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ]
+    },
+    {
+      "id": "svojilni-razlika",
+      "skill": "svojilni",
+      "level": 3,
+      "kind": "open",
+      "prompt": "V dveh povedih v zvezek pojasni razliko med zapisoma »Ninina torba« in »lisičin brlog«.",
+      "solution": "Ninina pišemo z veliko, ker pridevnik izhaja iz osebnega imena Nina. Lisičin pišemo sredi povedi z malo, ker izhaja iz občnega imena lisica. Znam: oba razloga sta pravilna; drugačne besede so dovoljene.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ]
+    }
+  ],
+  "challenge": [
+    {
+      "id": "liga-preglednica",
+      "skill": "narodi",
+      "level": 3,
+      "kind": "open",
+      "prompt": "V zvezek sestavi preglednico s stolpci država, pripadnik, pripadnica, jezik. Dopolni vseh pet vrstic: Anglija, Hrvaška, Španija, Avstrija, Grčija.",
+      "solution": "Anglija – Anglež – Angležinja – angleščina\nHrvaška – Hrvat – Hrvatica – hrvaščina\nŠpanija – Španec – Španka – španščina\nAvstrija – Avstrijec – Avstrijka – nemščina\nGrčija – Grk – Grkinja – grščina\nPreveri vseh 20 polj, črke č/š/ž in začetnice. Znam: vsa polja so pravilna.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ]
+    },
+    {
+      "id": "liga-tri-oblike",
+      "skill": "svojilni",
+      "level": 3,
+      "kind": "open",
+      "prompt": "V zvezek dopolni tri oblike: ___ zvezek, ___ knjiga, ___ pisalo. Najprej uporabi ime Miha, nato Andrej in nato Nina.",
+      "solution": "Mihov zvezek, Mihova knjiga, Mihovo pisalo. Andrejev zvezek, Andrejeva knjiga, Andrejevo pisalo. Ninin zvezek, Ninina knjiga, Ninino pisalo. Znam: vseh devet oblik in začetnic je pravilnih.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ]
+    },
+    {
+      "id": "liga-popravi",
+      "skill": "zacetnice",
+      "level": 3,
+      "kind": "open",
+      "prompt": "V zvezek popravi začetnice: »v soboto se grkinja elena v mariboru uči slovenščino. prinese matejevo knjigo in ninin zvezek. februarja spoznava prešernov dan.«",
+      "solution": "V soboto se Grkinja Elena v Mariboru uči slovenščino. Prinese Matejevo knjigo in Ninin zvezek. Februarja spoznava Prešernov dan. Preveri vse začetnice in končna ločila.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ]
+    },
+    {
+      "id": "liga-ustvari",
+      "skill": "svojilni",
+      "level": 3,
+      "kind": "open",
+      "prompt": "V zvezek napiši dve povedi: v prvi uporabi pridevnik iz imena Miha, v drugi pridevnik iz besede lisica. Pridevnika naj bosta sredi povedi. Pojasni začetnici.",
+      "solution": "Primer: Na stolu je Mihov pulover. V gozdu opazimo lisičin brlog. Mihov je iz osebnega imena in ima veliko začetnico; lisičin je iz občnega imena in ima malo. Znam: dve smiselni povedi, pravilni obliki in obe razlagi.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ]
+    }
+  ],
+  "parent": {
+    "school_method": "Po posredovanem preverjanju: velika in mala začetnica, pet držav in narodov, svojilni pridevniki na -ov/-ev/-in. Obrazilo ločimo od končne oblike: Ninin šal, Ninina torba, Ninino ravnilo. Izbira preverja tudi začetnice; vpisne naloge preverjajo obliko in šumnike, ker obstoječa aplikacija pri vpisu ne razlikuje velikih in malih črk. Odprte naloge se preverijo v zvezku.",
+    "typical_mistakes": [
+      "Mihin namesto Mihov.",
+      "Avstrijščina namesto nemščina.",
+      "Velika začetnica pri jeziku ali mesecu sredi povedi.",
+      "Mala začetnica pri pripadniku naroda.",
+      "Lisičin z veliko sredi povedi.",
+      "Neujemanje: Mihov knjiga namesto Mihova knjiga."
+    ],
+    "car_questions": [
+      {
+        "q": "Kako rečemo: kolo od Mihe?",
+        "a": "Mihovo kolo."
+      },
+      {
+        "q": "Zakaj Prešernov dan, vendar božič?",
+        "a": "Prešernov izhaja iz priimka in ohrani veliko začetnico; božič je ime praznika z malo začetnico."
+      },
+      {
+        "q": "Grčija: pripadnik, pripadnica in jezik?",
+        "a": "Grk, Grkinja, grščina."
+      }
+    ],
+    "tips": [
+      "Pri pisanju posebej preglejte obliko besede in posebej začetnico.",
+      "Oblika Mihov je preverjena v Franu, ePravopis, geslo Mihov: https://fran.si/135/epravopis-slovenski-pravopis/4415156/mihov",
+      "Pravilo o praznikih: ZRC SAZU, Jezikovna svetovalnica, »Kako pišemo božič«; osebnoimenski del Prešernov ima veliko začetnico."
+    ]
+  }
+}

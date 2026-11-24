@@ -1,0 +1,553 @@
+{
+  "id": "2026-11-24-alan-slovenscina-branje",
+  "version": 1,
+  "format": 2,
+  "subject": "slovene",
+  "grade": 4,
+  "title": "Slovenščina: berem, razumem in obnovim",
+  "intro": "Vadi spretnosti iz preverjanja o čebelah na novem besedilu. Beri pozorno, odgovarjaj v celih povedih in sestavi obnovo. Daljše odgovore zapiši v zvezek in primerjaj z zgledom.",
+  "source": "Po posredovanem preverjanju »Od cveta do medu«, 4. razred. Nova besedila in naloge preverjajo iste spretnosti.",
+  "for": [
+    "Alan"
+  ],
+  "skills": [
+    {
+      "id": "podatki",
+      "title": "Podatki in cele povedi"
+    },
+    {
+      "id": "razlogi",
+      "title": "Vzroki in razlaga postopka"
+    },
+    {
+      "id": "zaporedje",
+      "title": "Zaporedje dogodkov"
+    },
+    {
+      "id": "obnova",
+      "title": "Načrt in obnova"
+    },
+    {
+      "id": "vrsta",
+      "title": "Vrsta in namen besedila"
+    }
+  ],
+  "learn": [],
+  "study": {
+    "goals": [
+      {
+        "id": "cele-povedi",
+        "text": "Na vprašanje odgovorim v celi povedi s podatkom iz besedila.",
+        "skill": "podatki"
+      },
+      {
+        "id": "razlozim",
+        "text": "Pojasnim, zakaj in kako poteka posamezen korak.",
+        "skill": "razlogi"
+      },
+      {
+        "id": "uredim",
+        "text": "Uredim pet korakov v pravilno zaporedje.",
+        "skill": "zaporedje"
+      },
+      {
+        "id": "nacrt",
+        "text": "Izberem štiri ključne podatke za načrt obnove.",
+        "skill": "obnova"
+      },
+      {
+        "id": "obnovim",
+        "text": "Napišem sedem povezanih povedi brez svojega mnenja.",
+        "skill": "obnova"
+      },
+      {
+        "id": "vrsta-namen",
+        "text": "Utemeljim vrsto besedila in povem njegov namen.",
+        "skill": "vrsta"
+      }
+    ],
+    "sections": [
+      {
+        "title": "Besedilo za vajo",
+        "text": "OD JABOLK DO SOKA\nJeseni sadjar obere zrela jabolka. Poškodovane plodove izloči, zdrave pa opere. Nato jabolka zmelje, da jih lažje stisne. Zmleto sadje da v stiskalnico, iz katere priteče sok. Sok precedi skozi gosto cedilo, ki zadrži večje koščke sadja. Svež sok nalije v čisto posodo in ga shrani v hladilnik. Ker se tudi na hladnem hitro pokvari, ga porabi v nekaj dneh.",
+        "skill": "podatki"
+      },
+      {
+        "title": "Od vprašanja do cele povedi",
+        "text": "Najprej poišči podatek. Del vprašanja uporabi za začetek odgovora. Dodaj veliko začetnico in končno ločilo. Odgovor mora biti smiseln tudi brez vprašanja.",
+        "skill": "podatki",
+        "examples": [
+          "Vprašanje: Kam sadjar shrani sok? Odgovor: Sadjar shrani sok v hladilnik."
+        ],
+        "watch_out": [
+          {
+            "wrong": "V hladilnik.",
+            "right": "Sadjar shrani sok v hladilnik.",
+            "why": "Podatek je pravi, vendar naloga zahteva celo poved."
+          }
+        ]
+      },
+      {
+        "title": "Kako? Zakaj? Kdaj?",
+        "text": "Kako sprašuje po načinu. Zakaj sprašuje po vzroku; pomaga beseda ker. Kdaj sprašuje po času ali pogoju; pogosto pomaga beseda ko. Ne dodajaj podatkov, ki jih besedilo ne pove.",
+        "skill": "razlogi",
+        "examples": [
+          "Zakaj zmelje jabolka? Jabolka zmelje, ker jih tako lažje stisne.",
+          "Kaj zadrži cedilo? Cedilo zadrži večje koščke sadja."
+        ]
+      },
+      {
+        "title": "Postopek ima zaporedje",
+        "text": "Vprašaj se, kaj mora biti prej. Jabolka opereš pred mletjem, sok pa precediš šele po stiskanju. Pomagajo besede najprej, nato, potem in nazadnje.",
+        "skill": "zaporedje"
+      },
+      {
+        "title": "Načrt s štirimi točkami",
+        "text": "Načrt vsebuje kratke ključne podatke, ne vseh povedi. Sorodne korake združi.",
+        "skill": "obnova",
+        "table": {
+          "head": [
+            "Točka",
+            "Ključni podatek"
+          ],
+          "rows": [
+            [
+              "1",
+              "Obiranje in izbira zdravih jabolk"
+            ],
+            [
+              "2",
+              "Pranje in mletje"
+            ],
+            [
+              "3",
+              "Stiskanje in precejanje soka"
+            ],
+            [
+              "4",
+              "Shranjevanje in hitra poraba"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Obnova s sedmimi povedmi",
+        "text": "Obnova sledi besedilu. Povej bistvo s svojimi besedami, v pravem zaporedju in brez lastnega mnenja. Ne izmišljaj si novih dogodkov. Sedem povedi pomeni sedem smiselnih celot s končnimi ločili.",
+        "skill": "obnova",
+        "examples": [
+          "Zgled začetka: Sadjar jeseni obere zrela jabolka. Izbere zdrave plodove in jih opere."
+        ],
+        "watch_out": [
+          {
+            "wrong": "Jabolčni sok je po mojem najboljša pijača.",
+            "right": "Svež sok hrani v hladilniku in ga hitro porabi.",
+            "why": "V obnovi povemo podatke iz besedila, ne osebnega mnenja."
+          }
+        ]
+      },
+      {
+        "title": "Neumetnostno besedilo in njegov namen",
+        "text": "Besedilo o soku je neumetnostno: sporoča stvarne podatke in pojasnjuje resničen postopek. Njegov glavni namen je poučiti bralca. Umetnostno besedilo ustvarja literarno doživetje, na primer v pesmi ali pripovedi. Že sam nastop živali ne določa vrste besedila.",
+        "skill": "vrsta",
+        "examples": [
+          "Poučno: Čebela obiskuje cvetove in nabira medičino.",
+          "Pravljično: Čebela si nadene krono in nagovori sonce."
+        ]
+      }
+    ],
+    "cards": [
+      {
+        "front": "Kako začnem celo poved?",
+        "back": "Z veliko začetnico; na koncu dodam ločilo.",
+        "skill": "podatki"
+      },
+      {
+        "front": "Kaj pojasnim z besedo ker?",
+        "back": "Vzrok oziroma razlog.",
+        "skill": "razlogi"
+      },
+      {
+        "front": "Kaj vsebuje načrt obnove?",
+        "back": "Ključne podatke v pravilnem zaporedju.",
+        "skill": "obnova"
+      },
+      {
+        "front": "Kaj izpustim iz obnove?",
+        "back": "Osebno mnenje in izmišljene dodatke.",
+        "skill": "obnova"
+      },
+      {
+        "front": "Kaj je namen poučnega besedila?",
+        "back": "Poučiti bralca o določeni temi.",
+        "skill": "vrsta"
+      },
+      {
+        "front": "Kaj preverim pri zaporedju?",
+        "back": "Kaj se zgodi prej in kaj potem.",
+        "skill": "zaporedje"
+      }
+    ]
+  },
+  "tasks": [
+    {
+      "id": "predmet",
+      "skill": "podatki",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "OD JABOLK DO SOKA\nJeseni sadjar obere zrela jabolka. Poškodovane plodove izloči, zdrave pa opere. Nato jabolka zmelje, da jih lažje stisne. Zmleto sadje da v stiskalnico, iz katere priteče sok. Sok precedi skozi gosto cedilo, ki zadrži večje koščke sadja. Svež sok nalije v čisto posodo in ga shrani v hladilnik. Ker se tudi na hladnem hitro pokvari, ga porabi v nekaj dneh.\n\nO čem predvsem govori besedilo?",
+      "solution": "Besedilo opisuje pot od jabolk do svežega soka.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "O pridobivanju svežega jabolčnega soka.",
+        "O sajenju jablan.",
+        "O prodaji jabolk."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "cela-poved",
+      "skill": "podatki",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Vprašanje: Kam sadjar shrani sok? Izberi odgovor v celi povedi.",
+      "solution": "Celo poved začnemo z veliko začetnico in končamo s piko. Izbrani odgovor pove, kdo kaj naredi.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Sadjar shrani sok v hladilnik.",
+        "V hladilnik.",
+        "Hladilnik."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "resnicni-podatki",
+      "skill": "vrsta",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Besedilo pojasnjuje, kako iz jabolk pridobivamo sok. Katera vrsta besedila je to?",
+      "solution": "Besedilo pojasnjuje resničen postopek in sporoča podatke.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Neumetnostno besedilo.",
+        "Pravljica.",
+        "Pesem."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "veznik",
+      "skill": "razlogi",
+      "level": 1,
+      "kind": "choice",
+      "prompt": "Dopolni: Jabolka zmelje, ___ jih tako lažje stisne.",
+      "solution": "Beseda ker poveže dejanje z njegovim razlogom.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "ker",
+        "ampak",
+        "ali"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kdaj",
+      "skill": "podatki",
+      "level": 2,
+      "kind": "open",
+      "prompt": "OD JABOLK DO SOKA\nJeseni sadjar obere zrela jabolka. Poškodovane plodove izloči, zdrave pa opere. Nato jabolka zmelje, da jih lažje stisne. Zmleto sadje da v stiskalnico, iz katere priteče sok. Sok precedi skozi gosto cedilo, ki zadrži večje koščke sadja. Svež sok nalije v čisto posodo in ga shrani v hladilnik. Ker se tudi na hladnem hitro pokvari, ga porabi v nekaj dneh.\n\nKdaj sadjar obere zrela jabolka? Odgovori v celih povedih v zvezek.",
+      "solution": "Sadjar obere zrela jabolka jeseni. Preveri vsebino, veliko začetnico in piko. Enako smiseln odgovor je pravilen.",
+      "hints": [
+        "Poišči časovni podatek na začetku besedila."
+      ]
+    },
+    {
+      "id": "kateri-plodovi",
+      "skill": "podatki",
+      "level": 2,
+      "kind": "open",
+      "prompt": "OD JABOLK DO SOKA\nJeseni sadjar obere zrela jabolka. Poškodovane plodove izloči, zdrave pa opere. Nato jabolka zmelje, da jih lažje stisne. Zmleto sadje da v stiskalnico, iz katere priteče sok. Sok precedi skozi gosto cedilo, ki zadrži večje koščke sadja. Svež sok nalije v čisto posodo in ga shrani v hladilnik. Ker se tudi na hladnem hitro pokvari, ga porabi v nekaj dneh.\n\nKatere plodove sadjar izloči? Odgovori v celih povedih v zvezek.",
+      "solution": "Sadjar izloči poškodovane plodove. Preveri vsebino, veliko začetnico in piko. Enako smiseln odgovor je pravilen.",
+      "hints": [
+        "Preberi drugo poved."
+      ]
+    },
+    {
+      "id": "stiskalnica",
+      "skill": "podatki",
+      "level": 2,
+      "kind": "open",
+      "prompt": "OD JABOLK DO SOKA\nJeseni sadjar obere zrela jabolka. Poškodovane plodove izloči, zdrave pa opere. Nato jabolka zmelje, da jih lažje stisne. Zmleto sadje da v stiskalnico, iz katere priteče sok. Sok precedi skozi gosto cedilo, ki zadrži večje koščke sadja. Svež sok nalije v čisto posodo in ga shrani v hladilnik. Ker se tudi na hladnem hitro pokvari, ga porabi v nekaj dneh.\n\nKam sadjar da zmleto sadje? Odgovori v celih povedih v zvezek.",
+      "solution": "Sadjar da zmleto sadje v stiskalnico. Preveri vsebino, veliko začetnico in piko. Enako smiseln odgovor je pravilen.",
+      "hints": [
+        "Poišči napravo, iz katere priteče sok."
+      ]
+    },
+    {
+      "id": "cedilo",
+      "skill": "podatki",
+      "level": 2,
+      "kind": "open",
+      "prompt": "OD JABOLK DO SOKA\nJeseni sadjar obere zrela jabolka. Poškodovane plodove izloči, zdrave pa opere. Nato jabolka zmelje, da jih lažje stisne. Zmleto sadje da v stiskalnico, iz katere priteče sok. Sok precedi skozi gosto cedilo, ki zadrži večje koščke sadja. Svež sok nalije v čisto posodo in ga shrani v hladilnik. Ker se tudi na hladnem hitro pokvari, ga porabi v nekaj dneh.\n\nKaj zadrži gosto cedilo? Odgovori v celih povedih v zvezek.",
+      "solution": "Gosto cedilo zadrži večje koščke sadja. Preveri vsebino, veliko začetnico in piko. Enako smiseln odgovor je pravilen.",
+      "hints": [
+        "Poišči poved s precejeno tekočino in koščki."
+      ]
+    },
+    {
+      "id": "zakaj-mletje",
+      "skill": "razlogi",
+      "level": 2,
+      "kind": "open",
+      "prompt": "OD JABOLK DO SOKA\nJeseni sadjar obere zrela jabolka. Poškodovane plodove izloči, zdrave pa opere. Nato jabolka zmelje, da jih lažje stisne. Zmleto sadje da v stiskalnico, iz katere priteče sok. Sok precedi skozi gosto cedilo, ki zadrži večje koščke sadja. Svež sok nalije v čisto posodo in ga shrani v hladilnik. Ker se tudi na hladnem hitro pokvari, ga porabi v nekaj dneh.\n\nZakaj sadjar jabolka zmelje? Odgovori v celih povedih v zvezek.",
+      "solution": "Sadjar jabolka zmelje, ker jih tako lažje stisne. Preveri vsebino, veliko začetnico in piko. Enako smiseln odgovor je pravilen.",
+      "hints": [
+        "Pojasni korist mletja."
+      ]
+    },
+    {
+      "id": "zakaj-hitro",
+      "skill": "razlogi",
+      "level": 2,
+      "kind": "open",
+      "prompt": "OD JABOLK DO SOKA\nJeseni sadjar obere zrela jabolka. Poškodovane plodove izloči, zdrave pa opere. Nato jabolka zmelje, da jih lažje stisne. Zmleto sadje da v stiskalnico, iz katere priteče sok. Sok precedi skozi gosto cedilo, ki zadrži večje koščke sadja. Svež sok nalije v čisto posodo in ga shrani v hladilnik. Ker se tudi na hladnem hitro pokvari, ga porabi v nekaj dneh.\n\nZakaj svež sok porabi v nekaj dneh? Odgovori v celih povedih v zvezek.",
+      "solution": "Svež sok porabi v nekaj dneh, ker se tudi na hladnem hitro pokvari. Preveri vsebino, veliko začetnico in piko. Enako smiseln odgovor je pravilen.",
+      "hints": [
+        "Zadnja poved vsebuje razlog."
+      ]
+    },
+    {
+      "id": "pred-hranjenjem",
+      "skill": "zaporedje",
+      "level": 2,
+      "kind": "open",
+      "prompt": "OD JABOLK DO SOKA\nJeseni sadjar obere zrela jabolka. Poškodovane plodove izloči, zdrave pa opere. Nato jabolka zmelje, da jih lažje stisne. Zmleto sadje da v stiskalnico, iz katere priteče sok. Sok precedi skozi gosto cedilo, ki zadrži večje koščke sadja. Svež sok nalije v čisto posodo in ga shrani v hladilnik. Ker se tudi na hladnem hitro pokvari, ga porabi v nekaj dneh.\n\nKaj naredi s sokom tik pred shranjevanjem v hladilnik? Odgovori v celih povedih v zvezek.",
+      "solution": "Sok nalije v čisto posodo. Preveri vsebino, veliko začetnico in piko. Enako smiseln odgovor je pravilen.",
+      "hints": [
+        "Poišči dejanje neposredno pred shranjevanjem."
+      ]
+    },
+    {
+      "id": "zakaj-vrsta",
+      "skill": "vrsta",
+      "level": 2,
+      "kind": "open",
+      "prompt": "OD JABOLK DO SOKA\nJeseni sadjar obere zrela jabolka. Poškodovane plodove izloči, zdrave pa opere. Nato jabolka zmelje, da jih lažje stisne. Zmleto sadje da v stiskalnico, iz katere priteče sok. Sok precedi skozi gosto cedilo, ki zadrži večje koščke sadja. Svež sok nalije v čisto posodo in ga shrani v hladilnik. Ker se tudi na hladnem hitro pokvari, ga porabi v nekaj dneh.\n\nZapiši dva razloga, zakaj je besedilo neumetnostno. Odgovori v celih povedih v zvezek.",
+      "solution": "Sporoča stvarne podatke o pridobivanju soka. Opisuje resničen postopek, ne izmišljene pustolovščine. Sprejmi tudi drugačno smiselno ubeseditev obeh razlogov. Preveri vsebino, veliko začetnico in piko. Enako smiseln odgovor je pravilen.",
+      "hints": [
+        "Razmisli o podatkih in o postopku."
+      ]
+    },
+    {
+      "id": "namen",
+      "skill": "vrsta",
+      "level": 2,
+      "kind": "open",
+      "prompt": "OD JABOLK DO SOKA\nJeseni sadjar obere zrela jabolka. Poškodovane plodove izloči, zdrave pa opere. Nato jabolka zmelje, da jih lažje stisne. Zmleto sadje da v stiskalnico, iz katere priteče sok. Sok precedi skozi gosto cedilo, ki zadrži večje koščke sadja. Svež sok nalije v čisto posodo in ga shrani v hladilnik. Ker se tudi na hladnem hitro pokvari, ga porabi v nekaj dneh.\n\nKaj je glavni namen besedila? Odgovori v celih povedih v zvezek.",
+      "solution": "Glavni namen besedila je poučiti bralca, kako iz jabolk pridobivamo svež sok in kako ga hranimo. Preveri vsebino, veliko začetnico in piko. Enako smiseln odgovor je pravilen.",
+      "hints": [
+        "Povej, kaj bralec izve."
+      ]
+    },
+    {
+      "id": "neizreceno",
+      "skill": "podatki",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "OD JABOLK DO SOKA\nJeseni sadjar obere zrela jabolka. Poškodovane plodove izloči, zdrave pa opere. Nato jabolka zmelje, da jih lažje stisne. Zmleto sadje da v stiskalnico, iz katere priteče sok. Sok precedi skozi gosto cedilo, ki zadrži večje koščke sadja. Svež sok nalije v čisto posodo in ga shrani v hladilnik. Ker se tudi na hladnem hitro pokvari, ga porabi v nekaj dneh.\n\nKaterega podatka ni v besedilu?",
+      "solution": "Besedilo ne pove količine soka. Podatka ne ugibamo.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Koliko litrov soka priteče iz stiskalnice.",
+        "Kje hranijo svež sok.",
+        "Kaj zadrži cedilo."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "pet-korakov",
+      "skill": "zaporedje",
+      "level": 2,
+      "kind": "open",
+      "prompt": "V zvezek uredi korake od 1 do 5: A – precedi sok; B – opere zdrava jabolka; C – shrani sok v hladilnik; D – zmelje jabolka; E – stisne zmleto sadje.",
+      "solution": "Pravilno zaporedje: B, D, E, A, C. Najprej opere jabolka, nato jih zmelje in stisne. Sok precedi in shrani v hladilnik.",
+      "hints": [
+        "Soka ne moreš precediti, dokler ga ne iztisneš."
+      ]
+    },
+    {
+      "id": "zaporedje-vzrok",
+      "skill": "zaporedje",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Zakaj v opisanem postopku precedimo sok šele po stiskanju?",
+      "solution": "Stiskanje da sok, iz katerega nato s cedilom odstranimo večje koščke.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Ker šele s stiskanjem dobimo sok za precejanje.",
+        "Ker se jabolka operejo v cedilu po stiskanju.",
+        "Ker mora sok najprej zmrzniti."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "bistvo",
+      "skill": "obnova",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Katera točka sodi v načrt obnove besedila o soku?",
+      "solution": "Načrt vsebuje bistvene podatke iz besedila.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Stiskanje in precejanje soka.",
+        "Moja najljubša barva jabolk.",
+        "Izmišljeni obisk sadjarja na Luni."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "mnenje",
+      "skill": "obnova",
+      "level": 2,
+      "kind": "choice",
+      "prompt": "Katera poved izraža osebno mnenje in jo izpustimo iz obnove?",
+      "solution": "»Meni je ... najokusnejši« izraža osebno mnenje. Drugi povedi povzemata podatka.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ],
+      "options": [
+        "Meni je jabolčni sok najokusnejši.",
+        "Sadjar izloči poškodovane plodove.",
+        "Cedilo zadrži večje koščke."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "nacrt-stiri",
+      "skill": "obnova",
+      "level": 2,
+      "kind": "open",
+      "prompt": "OD JABOLK DO SOKA\nJeseni sadjar obere zrela jabolka. Poškodovane plodove izloči, zdrave pa opere. Nato jabolka zmelje, da jih lažje stisne. Zmleto sadje da v stiskalnico, iz katere priteče sok. Sok precedi skozi gosto cedilo, ki zadrži večje koščke sadja. Svež sok nalije v čisto posodo in ga shrani v hladilnik. Ker se tudi na hladnem hitro pokvari, ga porabi v nekaj dneh.\n\nV zvezek napiši načrt obnove s štirimi ključnimi podatki.",
+      "solution": "Primer: 1. Obiranje in izbira zdravih jabolk. 2. Pranje in mletje. 3. Stiskanje in precejanje. 4. Shranjevanje in hitra poraba. Znam: štiri smiselne točke zajamejo začetek, predelavo in ravnanje s sokom.",
+      "hints": [
+        "Več sorodnih korakov lahko združiš v eno točko."
+      ]
+    },
+    {
+      "id": "obnova-sedem",
+      "skill": "obnova",
+      "level": 3,
+      "kind": "open",
+      "prompt": "OD JABOLK DO SOKA\nJeseni sadjar obere zrela jabolka. Poškodovane plodove izloči, zdrave pa opere. Nato jabolka zmelje, da jih lažje stisne. Zmleto sadje da v stiskalnico, iz katere priteče sok. Sok precedi skozi gosto cedilo, ki zadrži večje koščke sadja. Svež sok nalije v čisto posodo in ga shrani v hladilnik. Ker se tudi na hladnem hitro pokvari, ga porabi v nekaj dneh.\n\nNapiši obnovo s sedmimi povedmi v zvezek. Sledi zaporedju, povej bistvo in izpusti mnenje.",
+      "solution": "Primer: Sadjar jeseni obere zrela jabolka. Izloči poškodovane plodove, zdrave pa opere. Jabolka zmelje, da jih lažje stisne. Zmleto sadje stisne v stiskalnici. Sok precedi, da odstrani večje koščke sadja. Nato ga nalije v čisto posodo in shrani v hladilnik. Porabi ga v nekaj dneh, ker se hitro pokvari.\nPreveri: sedem celih povedi; vsi štirje deli načrta; pravo zaporedje; brez mnenja in novih podatkov; začetnice in ločila. Besede so lahko drugačne.",
+      "hints": [
+        "Uporabi štiri točke načrta. Za daljši korak lahko napišeš dve povedi."
+      ]
+    },
+    {
+      "id": "popravi-obnovo",
+      "skill": "obnova",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Popravi obnovo v zvezek: »Sadjar najprej precedi sok, nato zmelje jabolka. Sok je zagotovo najboljša pijača na svetu.« Popravi zaporedje in odstrani mnenje.",
+      "solution": "Primer: Sadjar najprej zmelje jabolka in jih stisne. Nato sok precedi. Preveri: mletje pred stiskanjem, precejanje po stiskanju, brez mnenja o najboljši pijači.",
+      "hints": [
+        "Najprej mora nastati sok."
+      ]
+    },
+    {
+      "id": "primerjaj-vrsti",
+      "skill": "vrsta",
+      "level": 3,
+      "kind": "open",
+      "prompt": "A: »Čebele prenašajo cvetni prah med cvetovi.« B: »Čebelica odpre zlata vrata v oblak in zapoje luni.« V zvezek napiši, kateri odlomek je neumetnosten, in odločitev pojasni.",
+      "solution": "Odlomek A je neumetnosten, saj pove stvaren podatek o čebelah. Odlomek B opisuje izmišljeno, pravljično dogajanje. Znam: pravilno izberem A in navedem razlog.",
+      "hints": [
+        "Ali odlomek obvešča o stvarnem pojavu ali ustvarja pravljično dogajanje?"
+      ]
+    }
+  ],
+  "challenge": [
+    {
+      "id": "liga-vprasanje",
+      "skill": "podatki",
+      "level": 3,
+      "kind": "open",
+      "prompt": "V zvezek napiši vprašanje za odgovor: »Gosto cedilo zadrži večje koščke sadja.« Vprašanje naj sprašuje po tem, kaj cedilo zadrži.",
+      "solution": "Kaj zadrži gosto cedilo? Sprejmi drugo jasno vprašanje z istim pomenom; na koncu mora biti vprašaj.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ]
+    },
+    {
+      "id": "liga-brez-dodatkov",
+      "skill": "obnova",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Iz prvotnega besedila izvemo, da sok hranimo v hladilniku. V obnovi se pojavi: »Sok zavremo in ga hranimo do pomladi.« V dveh povedih pojasni napako in zapiši ustrezen podatek.",
+      "solution": "Primer: Podatek o vrenju in hranjenju do pomladi ni naveden v besedilu. Svež sok hranimo v hladilniku in ga porabimo v nekaj dneh. Znam: prepoznam dodana podatka in ju nadomestim s pravim.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ]
+    },
+    {
+      "id": "liga-prenos",
+      "skill": "razlogi",
+      "level": 3,
+      "kind": "open",
+      "prompt": "Čebele medičino odložijo v satje. S krili ustvarjajo pretok zraka, zato voda hitreje izhlapeva. Gosti, zreli med pokrijejo z voskom. V zvezek odgovori: Kako pomagajo izhlapevanju? Kaj naredijo z zrelim medom?",
+      "solution": "Čebele s krili ustvarjajo pretok zraka in s tem pospešijo izhlapevanje vode. Zreli med v satju pokrijejo z voskom. Znam: dva vsebinsko pravilna odgovora v celih povedih; sprejmi smiselno drugačno ubeseditev.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ]
+    },
+    {
+      "id": "liga-nacrt",
+      "skill": "obnova",
+      "level": 3,
+      "kind": "open",
+      "prompt": "NOV LIST IZ STAREGA PAPIRJA\nV papirni delavnici uporabljajo star časopisni papir. Najprej ga natrgajo in namočijo v vodi, da se zmehča. Nato ga zmeljejo v kašo. Kašo razporedijo po situ, skozi katero odteče del vode. Mokro plast položijo med krpi in jo stisnejo, da odstranijo še več vode. List nato posušijo na zraku. Suh papir uporabijo za voščilnice. Tako star papir dobi novo nalogo.\n\nV zvezek sestavi načrt s štirimi točkami.",
+      "solution": "Primer: 1. Trganje in namakanje papirja. 2. Mletje v kašo. 3. Oblikovanje in odstranjevanje vode. 4. Sušenje in uporaba. Znam: štiri smiselne točke zajamejo celoten postopek po vrsti.",
+      "hints": [
+        "Poišči podatek ali pravilo, ki ga potrebuješ. Nato preveri svoj zapis."
+      ]
+    }
+  ],
+  "parent": {
+    "school_method": "Vaje sledijo posredovanemu preverjanju, vendar uporabljajo nov postopek. Pri odprtih nalogah otrok piše v zvezek in nato sam preveri po zgledu; aplikacija teh odgovorov ne ocenjuje samodejno. Sprejmite drugačne besede z istim pomenom. Obnova naj ima sedem povedi. Najprej preverite razumevanje, nato začetnice in ločila.",
+    "typical_mistakes": [
+      "Enobesedni odgovor namesto cele povedi.",
+      "Zamenjava vzroka in zaporedja.",
+      "Mnenje ali izmišljeni podatki v obnovi.",
+      "Prepis vseh povedi namesto izbire bistva."
+    ],
+    "car_questions": [
+      {
+        "q": "Kaj sodi v načrt obnove?",
+        "a": "Ključni podatki v pravilnem zaporedju."
+      },
+      {
+        "q": "Zakaj je besedilo o soku neumetnostno?",
+        "a": "Sporoča stvarne podatke in opisuje resničen postopek."
+      }
+    ],
+    "tips": [
+      "Vadi v krajših sklopih: najprej branje in odgovori, nato načrt in obnova.",
+      "Pri odprtem odgovoru izberi Znam šele, ko izpolnjuje merila v rešitvi.",
+      "Pri obnovi ne zahtevajte dobesednega ujemanja z zgledom."
+    ]
+  }
+}
